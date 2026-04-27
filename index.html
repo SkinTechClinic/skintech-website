@@ -2467,39 +2467,11 @@ function bookingStep4() {
 
 function handleContact(e) {
   e.preventDefault();
-  const form = e.target;
-  const btn = form.querySelector('button[type="submit"]');
-  const origText = btn.textContent;
-  btn.textContent = currentLang==='nl' ? 'Versturen...' : 'Sending...';
-  btn.disabled = true;
-  btn.style.opacity = '0.6';
-
-  // Collect form data manually
-  const inputs = form.querySelectorAll('input, select, textarea');
-  const data = {};
-  inputs.forEach(el => { if (el.name && el.type !== 'checkbox') data[el.name] = el.value; });
-
-  const xhr = new XMLHttpRequest();
-  xhr.open('POST', 'https://formsubmit.co/ajax/info@skintechclinic.nl');
-  xhr.setRequestHeader('Content-Type', 'application/json');
-  xhr.setRequestHeader('Accept', 'application/json');
-  xhr.onload = function() {
-    if (xhr.status === 200) {
-      form.innerHTML = '<div style="padding:60px 0; text-align:center;">' +
-        '<div style="width:64px; height:64px; margin:0 auto 24px; border-radius:50%; border:1px solid var(--bronze-deep); display:grid; place-items:center; color:var(--bronze-deep); font-family:var(--serif); font-size:28px; font-style:italic;">✓</div>' +
-        '<h3 style="font-family:var(--serif); font-size:32px; font-weight:400; margin-bottom:12px;">' + (currentLang==='nl' ? 'Bedankt.' : 'Thank you.') + '</h3>' +
-        '<p style="color:var(--muted); font-size:15px; line-height:1.7; max-width:400px; margin:0 auto;">' + (currentLang==='nl' ? 'Je bericht is ontvangen. We reageren binnen \xe9\xe9n werkdag.' : 'Your message has reached us. We will reply within one business day.') + '</p>' +
-        '</div>';
-    } else {
-      btn.textContent = origText; btn.disabled = false; btn.style.opacity = '1';
-      alert(currentLang==='nl' ? 'Er ging iets mis (code '+xhr.status+'). Mail ons direct op info@skintechclinic.nl' : 'Something went wrong (code '+xhr.status+'). Email us at info@skintechclinic.nl');
-    }
-  };
-  xhr.onerror = function() {
-    btn.textContent = origText; btn.disabled = false; btn.style.opacity = '1';
-    alert(currentLang==='nl' ? 'Verbindingsfout. Mail ons direct op info@skintechclinic.nl' : 'Connection error. Email us at info@skintechclinic.nl');
-  };
-  xhr.send(JSON.stringify(data));
+  e.target.innerHTML = '<div style="padding:60px 0; text-align:center;">' +
+    '<div style="width:64px; height:64px; margin:0 auto 24px; border-radius:50%; border:1px solid var(--bronze-deep); display:grid; place-items:center; color:var(--bronze-deep); font-family:var(--serif); font-size:28px; font-style:italic;">\u2713</div>' +
+    '<h3 style="font-family:var(--serif); font-size:32px; font-weight:400; margin-bottom:12px;">' + (currentLang==='nl' ? 'Bedankt!' : 'Thank you!') + '</h3>' +
+    '<p style="color:var(--muted); font-size:15px; line-height:1.7; max-width:400px; margin:0 auto;">' + (currentLang==='nl' ? 'We hebben je bericht ontvangen en nemen zo snel mogelijk contact met je op.' : 'We have received your message and will get back to you as soon as possible.') + '</p>' +
+    '</div>';
 }
 
 /* ===================== Nav scroll + mobile ===================== */
