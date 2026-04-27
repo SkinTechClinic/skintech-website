@@ -1144,7 +1144,7 @@ function navigate(route) {
   const darkOpener = route === 'home' || route === 'results';
   document.getElementById('siteNav').classList.toggle('on-dark', darkOpener);
   window.scrollTo(0, 0);
-  try { localStorage.setItem('sk_route', route); } catch(e){}
+  // route no longer persisted to localStorage
   bindPageInteractions();
 }
 
@@ -2608,8 +2608,9 @@ try { window.parent.postMessage({type:'__edit_mode_available'}, '*'); } catch(e)
 
 /* ===================== Init ===================== */
 applyTweaks();
-const saved = (()=>{ try { return localStorage.getItem('sk_route'); } catch(e){ return null; } })();
-navigate(saved && routes[saved] ? saved : 'home');
+// Always start on home page; use hash only for direct links (e.g. #contact)
+const hashRoute = window.location.hash.replace('#','');
+navigate(hashRoute && routes[hashRoute] ? hashRoute : 'home');
 
 </script>
 
