@@ -2063,30 +2063,33 @@ function renderContact() {
   <section>
     <div class="container">
       <div class="contact-grid">
-        <form class="contact-form" onsubmit="handleContact(event)">
+        <form class="contact-form" id="contactForm" onsubmit="handleContact(event)">
+          <input type="hidden" name="_subject" value="Nieuw contactbericht — SkinTech Clinic">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="box">
           <div class="form-row">
             <div class="form-field">
               <label>${nl ? 'Voornaam' : 'First name'}</label>
-              <input type="text" placeholder="${nl ? 'Jouw naam' : 'Your name'}" required>
+              <input type="text" placeholder="${nl ? 'Jouw naam' : 'Your name'}" name="first_name" required>
             </div>
             <div class="form-field">
               <label>${nl ? 'Achternaam' : 'Last name'}</label>
-              <input type="text" placeholder="${nl ? 'Familienaam' : 'Family name'}" required>
+              <input type="text" placeholder="${nl ? 'Familienaam' : 'Family name'}" name="last_name" required>
             </div>
           </div>
           <div class="form-row">
             <div class="form-field">
               <label>E-mail</label>
-              <input type="email" placeholder="you@example.com" required>
+              <input type="email" placeholder="you@example.com" name="email" required>
             </div>
             <div class="form-field">
               <label>${nl ? 'Telefoon (optioneel)' : 'Phone (optional)'}</label>
-              <input type="tel" placeholder="+31 ...">
+              <input type="tel" placeholder="+31 ..." name="phone">
             </div>
           </div>
           <div class="form-field">
             <label>${nl ? 'Behandeling van interesse' : 'Treatment of interest'}</label>
-            <select>
+            <select name="treatment">
               <option>${nl ? 'Gratis huidscan & consult' : 'Free Skin Scan & Consultation'}</option>
               <option>${nl ? 'Laserontharing' : 'Laser Hair Removal'}</option>
               <option>Deep Cleansing Facial</option>
@@ -2099,7 +2102,7 @@ function renderContact() {
             <label>${nl ? 'Vertel ons iets' : 'Tell us a little'}</label>
             <textarea placeholder="${nl
               ? 'Wat wil je bereiken? Eerdere behandelingen of huidaandoeningen die we moeten weten?'
-              : 'What are you hoping to achieve? Any prior treatments or skin concerns we should know about?'}"></textarea>
+              : 'What are you hoping to achieve? Any prior treatments or skin concerns we should know about?'}" name="message"></textarea>
           </div>
           <div style="margin-top:16px; display:flex; gap:10px; align-items:flex-start;">
             <input type="checkbox" id="consent" required style="margin-top:4px; flex-shrink:0;">
@@ -2467,13 +2470,36 @@ function bookingStep4() {
 
 function handleContact(e) {
   e.preventDefault();
-  e.target.innerHTML = `
-    <div style="padding:60px 0; text-align:center;">
-      <div style="width:64px; height:64px; margin:0 auto 24px; border-radius:50%; border:1px solid var(--bronze-deep); display:grid; place-items:center; color:var(--bronze-deep); font-family:var(--serif); font-size:28px; font-style:italic;">✓</div>
-      <h3 style="font-family:var(--serif); font-size:32px; font-weight:400; margin-bottom:12px;">${currentLang==='nl' ? 'Bedankt.' : 'Thank you.'}</h3>
-      <p style="color:var(--muted); font-size:15px; line-height:1.7; max-width:400px; margin:0 auto;">${currentLang==='nl' ? 'Je bericht is ontvangen. We reageren binnen één werkdag.' : "Your message has reached us. We'll reply within one business day."}</p>
-    </div>
-  `;
+  const form = e.target;
+  const btn = form.querySelector('button[type="submit"]');
+  const origText = btn.textContent;
+  btn.textContent = currentLang==='nl' ? 'Versturen...' : 'Sending...';
+  btn.disabled = true;
+  btn.style.opacity = '0.6';
+
+  const formData = new FormData(form);
+
+  fetch('https://formsubmit.co/ajax/info@skintechclinic.nl', {
+    method: 'POST',
+    headers: { 'Accept': 'application/json' },
+    body: formData
+  })
+  .then(r => r.json())
+  .then(data => {
+    form.innerHTML = `
+      <div style="padding:60px 0; text-align:center;">
+        <div style="width:64px; height:64px; margin:0 auto 24px; border-radius:50%; border:1px solid var(--bronze-deep); display:grid; place-items:center; color:var(--bronze-deep); font-family:var(--serif); font-size:28px; font-style:italic;">✓</div>
+        <h3 style="font-family:var(--serif); font-size:32px; font-weight:400; margin-bottom:12px;">${currentLang==='nl' ? 'Bedankt.' : 'Thank you.'}</h3>
+        <p style="color:var(--muted); font-size:15px; line-height:1.7; max-width:400px; margin:0 auto;">${currentLang==='nl' ? 'Je bericht is ontvangen. We reageren binnen één werkdag.' : "Your message has reached us. We\'ll reply within one business day."}</p>
+      </div>
+    `;
+  })
+  .catch(err => {
+    btn.textContent = origText;
+    btn.disabled = false;
+    btn.style.opacity = '1';
+    alert(currentLang==='nl' ? 'Er ging iets mis. Probeer het opnieuw of mail ons op info@skintechclinic.nl' : 'Something went wrong. Please try again or email us at info@skintechclinic.nl');
+  });
 }
 
 /* ===================== Nav scroll + mobile ===================== */
