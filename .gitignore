@@ -1,0 +1,15 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Working files (not for deployment)
+uploads/
+screenshots/
+*.docx
+
+# Uncompressed originals (compressed versions are tracked)
+assets/founder.png
+assets/ionto.png
+assets/founder-compressed.jpg
+assets/ionto-compressed.jpg
+assets/logo-compressed.png

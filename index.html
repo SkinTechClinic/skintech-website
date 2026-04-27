@@ -1,9 +1,28 @@
-<!DOCTYPE html><html lang="en" style="--bronze: #6E6359; --bronze-deep: #4A423A; --bronze-pale: #B5AA9D;"><head>
+<!DOCTYPE html><html lang="nl" style="--bronze: #6E6359; --bronze-deep: #4A423A; --bronze-pale: #B5AA9D;"><head>
 
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SkinTech Laser Clinic — Amsterdam</title>
+<title>SkinTech Laser Clinic Amsterdam — Laserontharing & Huidbehandelingen</title>
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png">
+<meta name="description" content="SkinTech Laser Clinic — premium laserontharing, gezichtsbehandelingen en gratis huidanalyse in Amsterdam. Geavanceerde technologie, persoonlijke aandacht.">
+<meta name="keywords" content="laserontharing Amsterdam, huidbehandeling Amsterdam, laser clinic Amsterdam, Glacē facial, huidanalyse, SkinTech, gezichtsbehandeling Amsterdam">
+<meta property="og:title" content="SkinTech Laser Clinic — Laserontharing & Huidbehandelingen in Amsterdam">
+<meta property="og:description" content="Premium laserontharing, gezichtsbehandelingen en gratis huidanalyse in Amsterdam. Geavanceerde technologie, persoonlijke aandacht.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://skintechclinic.nl">
+<meta property="og:locale" content="nl_NL">
+<meta property="og:locale:alternate" content="en_GB">
+<meta property="og:site_name" content="SkinTech Laser Clinic">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SkinTech Laser Clinic — Amsterdam">
+<meta name="twitter:description" content="Premium laserontharing en huidbehandelingen in Amsterdam.">
+<link rel="canonical" href="https://skintechclinic.nl">
+<link rel="alternate" hreflang="nl" href="https://skintechclinic.nl">
+<link rel="alternate" hreflang="en" href="https://skintechclinic.nl?lang=en">
+<link rel="alternate" hreflang="x-default" href="https://skintechclinic.nl">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
@@ -192,7 +211,7 @@
   .result-img { position: relative; display: grid; place-items: center; font-family: monospace; font-size: 10px; letter-spacing: 0.15em; color: rgba(245,239,228,0.3); background: linear-gradient(135deg, #2A2420 0%, #1F1B17 100%); }
   .result-img + .result-img { border-left: 1px solid var(--line-dark); }
   .result-img::before { content: ''; position: absolute; inset: 0; background: repeating-linear-gradient(45deg, transparent 0 18px, rgba(184,149,106,0.06) 18px 19px); }
-  .result-img .tag { position: absolute; top: 16px; left: 16px; font-family: var(--serif); font-style: italic; font-size: 13px; color: var(--bronze-pale); letter-spacing: 0; text-transform: none; }
+  .result-img .tag { position: absolute; top: 16px; left: 16px; font-family: var(--serif); font-style: italic; font-size: 13px; color: #fff; letter-spacing: 0; text-transform: none; background: rgba(26,22,19,0.6); padding: 4px 10px; border-radius: 4px; backdrop-filter: blur(4px); z-index: 2; }
   .result-card .caption { padding: 24px 28px; display: flex; justify-content: space-between; align-items: center; font-size: 13px; }
   .result-card .caption .treatment { color: var(--cream); }
   .result-card .caption .time { color: var(--bronze-pale); font-family: var(--serif); font-style: italic; }
@@ -245,8 +264,8 @@
   .founder-sec { padding: 120px 0; background: var(--cream-deep); }
   .founder-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
   .founder-photo { aspect-ratio: 3/4; background: var(--cream); position: relative; overflow: hidden; border-radius: 4px; }
-  .founder-photo::before { content: 'portrait — founder'; position: absolute; inset: 0; display: grid; place-items: center; font-family: monospace; font-size: 11px; letter-spacing: 0.15em; color: var(--muted); }
-  .founder-photo::after { content: ''; position: absolute; inset: 0; background: repeating-linear-gradient(45deg, transparent 0 18px, rgba(184,149,106,0.08) 18px 19px); }
+  .founder-photo img { width: 100%; height: 100%; object-fit: cover; }
+  .founder-photo::after { content: ''; position: absolute; inset: 0; background: linear-gradient(to bottom, transparent 75%, var(--cream-deep) 100%); pointer-events: none; }r(--muted); }
   .founder-text h3 { font-family: var(--serif); font-size: clamp(36px, 4vw, 52px); font-weight: 300; margin-bottom: 28px; line-height: 1.1; letter-spacing: -0.01em; }
   .founder-text h3 i { color: var(--bronze-deep); }
   .founder-text p { font-size: 15px; line-height: 1.8; color: var(--muted); margin-bottom: 18px; }
@@ -386,13 +405,107 @@
   .swatch { width: 28px; height: 28px; border-radius: 50%; cursor: pointer; border: 2px solid transparent; transition: border-color .2s; }
   .swatch.active { border-color: var(--cream); }
 
+
+  /* ---------- Mobile menu overlay ---------- */
+  .mobile-menu-overlay {
+    display: none; position: fixed; inset: 0; z-index: 99;
+    background: var(--cream); padding: 100px 24px 40px;
+    flex-direction: column; gap: 0;
+    overflow-y: auto;
+  }
+  .mobile-menu-overlay.open { display: flex; }
+  .mobile-menu-overlay a {
+    font-family: var(--serif); font-size: 32px; font-weight: 300;
+    padding: 20px 0; border-bottom: 1px solid var(--line);
+    color: var(--ink); display: block;
+  }
+  .mobile-menu-overlay a:last-of-type { border-bottom: none; }
+  .mobile-menu-overlay .mobile-ctas {
+    margin-top: 32px; display: flex; flex-direction: column; gap: 12px;
+  }
+  .mobile-menu-overlay .mobile-ctas button {
+    width: 100%; justify-content: center; font-size: 14px; padding: 16px 24px;
+  }
+  .mobile-menu-close {
+    position: absolute; top: 20px; right: 22px;
+    width: 32px; height: 32px; display: grid; place-items: center;
+    font-size: 20px; cursor: pointer; background: none; border: none; color: var(--ink);
+  }
+  .mobile-lang-switch {
+    margin-top: 24px; display: flex; gap: 12px; font-size: 14px;
+  }
+  .mobile-lang-switch a { font-family: var(--sans); font-size: 14px; padding: 0; border: none; }
+
+  /* ---------- Sticky mobile CTA ---------- */
+  .mobile-sticky-cta {
+    display: none; position: fixed; bottom: 0; left: 0; right: 0; z-index: 98;
+    background: var(--cream); border-top: 1px solid var(--line);
+    padding: 12px 16px; gap: 10px;
+    backdrop-filter: blur(12px); background: rgba(245,239,228,0.95);
+  }
+  @media (max-width: 900px) {
+    .mobile-sticky-cta { display: flex; }
+    body { padding-bottom: 70px; }
+  }
+  .mobile-sticky-cta button { flex: 1; justify-content: center; font-size: 12px; padding: 12px 16px; }
+
+  /* ---------- Fix scan section on mobile ---------- */
+  @media (max-width: 900px) {
+    .scan-split-grid { grid-template-columns: 1fr !important; }
+  }
+
+  /* ---------- Fix testimonials 3-col on mobile ---------- */
+  @media (max-width: 900px) {
+    .testi-home-grid { grid-template-columns: 1fr !important; }
+  }
+
+  /* ---------- Cookie consent ---------- */
+  .cookie-banner {
+    position: fixed; bottom: 0; left: 0; right: 0; z-index: 300;
+    background: var(--ink); color: var(--cream); padding: 20px 24px;
+    display: none; align-items: center; gap: 20px; flex-wrap: wrap;
+    font-size: 13px; line-height: 1.6;
+  }
+  .cookie-banner.visible { display: flex; }
+  .cookie-banner a { color: var(--bronze-pale); text-decoration: underline; }
+  .cookie-banner button { flex-shrink: 0; }
+
 </style>
-<link id="gfont-Inter" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap"></head>
-<body data-cc-id="cc-1" style="font-size: 16px; cursor: crosshair; font-family: Inter;">
+<link id="gfont-Inter" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap"><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BeautySalon",
+  "name": "SkinTech Laser Clinic",
+  "description": "Premium laserontharing, gezichtsbehandelingen en gratis huidanalyse in Amsterdam.",
+  "url": "https://skintechclinic.nl",
+  "email": "info@skintechclinic.nl",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Amsterdam",
+    "addressCountry": "NL"
+  },
+  "areaServed": "Amsterdam",
+  "priceRange": "€€",
+  "image": "https://skintechclinic.nl/assets/logo-optimized.png",
+  "sameAs": [],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Behandelingen",
+    "itemListElement": [
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Laserontharing", "description": "Precisie-laserbehandeling voor blijvend gladde huid"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Deep Cleansing Facial", "description": "Verhelderend ritueel voor verstopte of vermoeide huid"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Glacē Glow Facial", "description": "Cryo-geïnfuseerde behandeling voor direct zichtbare uitstraling"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Gratis Huidanalyse", "description": "Technologie-gedreven huidanalyse met persoonlijk behandelplan"}}
+    ]
+  }
+}
+</script>
+</head>
+<body data-cc-id="cc-1" style="font-size: 16px;">
 
 <nav class="site on-dark" id="siteNav">
   <a href="#" class="logo" data-route="home">
-    <img class="logo-img" src="assets/logo.png" alt="SkinTech Laser Clinic · Amsterdam">
+    <img class="logo-img" src="assets/logo-optimized.png" alt="SkinTech Laser Clinic · Amsterdam">
   </a>
   <div class="nav-links">
     <a href="#" data-route="home" class="active" id="nl-home">Home</a>
@@ -432,25 +545,25 @@
         <span style="color:var(--bronze-pale); letter-spacing:0.22em; text-transform:uppercase; font-size:11px;">Amsterdam · Est. 2026</span>
       </div>
       <div class="hero-grid">
-        <h1>Skin, read<br>with <i>precision.</i><br>Treated with<br><i>intention.</i></h1>
+        <h1>Premium laser- en<br>huidbehandelingen<br>in <i>Amsterdam.</i></h1>
         <div class="hero-meta">
-          <p class="hero-intro">A boutique laser and aesthetic clinic in Amsterdam. We combine clinical-grade technology with the calm of a considered space — so every visit feels unhurried, and every result, earned.</p>
+          <p class="hero-intro">Voor een gladdere huid, meer comfort en zichtbaar verzorgde resultaten — met geavanceerde technologie, persoonlijke aandacht en een rustige kliniekervaring.</p>
           <div class="hero-cta">
-            <button class="btn btn-primary" data-book="">Book consultation <span>→</span></button>
-            <button class="btn btn-dark-outline" data-route="services">Explore services</button>
+            <button class="btn btn-primary" data-book="">Boek nu <span>→</span></button>
+            <button class="btn btn-dark-outline" data-route="services">Ontdek behandelingen</button>
           </div>
         </div>
       </div>
     </div>
     <div class="hero-bottom">
       <div class="hero-marquee-stat">
-        <strong>05</strong><span>Signature treatments</span>
+        <strong>04</strong><span>Behandelingen</span>
       </div>
       <div class="hero-marquee-stat">
-        <strong>VI</strong><span>Skin types treated</span>
+        <strong>VI</strong><span>Huidtypes behandeld</span>
       </div>
       <div class="hero-marquee-stat">
-        <strong>1:1</strong><span>Clinician to client</span>
+        <strong>1:1</strong><span>Specialist per cliënt</span>
       </div>
       <div class="hero-marquee-stat" style="text-align:right;">
         <strong>↓</strong><span>Scroll</span>
@@ -462,45 +575,45 @@
     <div class="container">
       <div class="sec-header">
         <div>
-          <span class="eyebrow">— Services</span>
-          <h2 style="margin-top:16px;">A focused menu,<br><i>clinically delivered.</i></h2>
+          <span class="eyebrow">— Behandelingen</span>
+          <h2 style="margin-top:16px;">Onze <i>behandelingen.</i></h2>
         </div>
-        <p>Five treatments. Each protocol calibrated to your skin, your goals, and your calendar — nothing more, nothing less.</p>
+        <p>Gerichte behandelingen voor ontharing, huidverbetering en een frisse, gezonde uitstraling.</p>
       </div>
       <div class="service-list">
         
           <div class="service-row" data-route="services">
             <span class="num">01</span>
-            <h3>Laser Hair <i>Removal</i></h3>
-            <p class="blurb">Precision laser treatment for lasting smoothness across all skin types.</p>
+            <h3>Laser<i>ontharing</i></h3>
+            <p class="blurb">Precisie-laserbehandeling voor blijvend gladde huid, geschikt voor elk huidtype.</p>
             <span class="arrow-circle">→</span>
           </div>
         
           <div class="service-row" data-route="services">
             <span class="num">02</span>
             <h3>Deep <i>Cleansing</i> Facial</h3>
-            <p class="blurb">A clarifying ritual that resets congested, reactive, or tired skin.</p>
+            <p class="blurb">Een verhelderend ritueel dat verstopte, gevoelige of vermoeide huid reset.</p>
             <span class="arrow-circle">→</span>
           </div>
         
           <div class="service-row" data-route="services">
             <span class="num">03</span>
             <h3>Glacē <i>Glow</i> Facial</h3>
-            <p class="blurb">Cryo-infused luminosity with an editorial, lit-from-within finish.</p>
+            <p class="blurb">Cryo-geïnfuseerde lichtheid met een verfijnde, stralende afwerking.</p>
             <span class="arrow-circle">→</span>
           </div>
         
           <div class="service-row" data-route="services">
             <span class="num">04</span>
-            <h3>Skin <i>Analysis</i> &amp; Consultation</h3>
-            <p class="blurb">A technology-led read of your skin, from the surface to the deeper layers.</p>
+            <h3>Huid<i>analyse</i> &amp; Consult</h3>
+            <p class="blurb">Een technologie-gedreven lezing van je huid, van oppervlak tot diepere lagen.</p>
             <span class="arrow-circle">→</span>
           </div>
         
           <div class="service-row" data-route="services">
             <span class="num">05</span>
-            <h3><i>Tailored</i> Treatment Plans</h3>
-            <p class="blurb">Multi-modality programmes shaped to your skin and your calendar.</p>
+            <h3>Behandelplan <i>op maat</i></h3>
+            <p class="blurb">Multidisciplinaire trajecten, afgestemd op jouw huid en agenda.</p>
             <span class="arrow-circle">→</span>
           </div>
         
@@ -512,26 +625,26 @@
     <div class="container">
       <div class="sec-header">
         <div>
-          <span class="eyebrow">— Why Skintech</span>
-          <h2 style="margin-top:16px; color:var(--cream);">Medical-grade work,<br><i>boutique experience.</i></h2>
+          <span class="eyebrow">— Waarom SkinTech</span>
+          <h2 style="margin-top:16px; color:var(--cream);">Medical-grade kwaliteit,<br><i>boutique ervaring.</i></h2>
         </div>
-        <p style="color:rgba(245,239,228,0.55);">We're not a chain. We're not a salon. We sit precisely between: a private Amsterdam clinic built for people who want results without the cold institutional feel.</p>
+        <p style="color:rgba(245,239,228,0.55);">Geen keten. Geen salon. We zitten er precies tussenin: een private Amsterdamse kliniek voor mensen die resultaten willen, zonder het koude institutionele gevoel.</p>
       </div>
       <div class="why-grid">
         <div class="why-card">
           <div class="n">i.</div>
-          <h4>Every session, calibrated.</h4>
-          <p>No default settings. Every laser pulse and every facial is mapped to your skin on the day — informed by scanner data and the clinician's read.</p>
+          <h4>Elke sessie, gekalibreerd.</h4>
+          <p>Geen standaardinstellingen. Elke laserpuls en elke facial wordt afgestemd op jouw huid — op basis van scannerdata en de lezing van de specialist.</p>
         </div>
         <div class="why-card">
           <div class="n">ii.</div>
-          <h4>One clinician, start to finish.</h4>
-          <p>You are not passed between rooms. The clinician who consults with you is the one who treats you — every visit, for every protocol.</p>
+          <h4>Eén specialist, van begin tot eind.</h4>
+          <p>Je wordt niet doorgestuurd. De specialist die met je overlegt, is dezelfde die je behandelt — elke sessie, elk protocol.</p>
         </div>
         <div class="why-card">
           <div class="n">iii.</div>
-          <h4>Technology that earns its place.</h4>
-          <p>GentleMax Pro Plus, Cryo 7, Glacē, IONTO. We buy clinical-grade tools because they deliver — not because they photograph well.</p>
+          <h4>Technologie die zich bewijst.</h4>
+          <p>GentleMax Pro Plus, Cryo 7, Glacē, IONTO. We kiezen clinical-grade apparatuur omdat die resultaat levert — niet omdat die er goed uitziet op foto.</p>
         </div>
       </div>
     </div>
@@ -541,40 +654,40 @@
     <div class="container">
       <div class="sec-header">
         <div>
-          <span class="eyebrow">— Technology</span>
-          <h2 style="margin-top:16px;">The instruments<br>behind the <i>outcome.</i></h2>
+          <span class="eyebrow">— Technologie</span>
+          <h2 style="margin-top:16px;">De apparatuur<br>achter het <i>resultaat.</i></h2>
         </div>
-        <p>We invest in the devices that deliver — and only the devices that deliver. A short, considered stack, fully mastered by our clinicians.</p>
+        <p>We investeren in apparatuur die levert — en alleen apparatuur die levert. Een bewuste selectie, volledig beheerst door onze specialisten.</p>
       </div>
       <div class="tech-grid">
         
           <div class="tech-card" data-route="technology">
-            <div class="meta"><span>Laser hair removal</span><span>→</span></div>
+            <div class="meta"><span>Laserontharing</span><span>→</span></div>
             <h4>GentleMax Pro Plus</h4>
-            <div class="tech-img"><img class="tech-photo" src="assets/gentlemax.webp" alt="" loading="lazy"></div>
+            <div class="tech-img"><img class="tech-photo" src="assets/gentlemax.webp" alt="SkinTech behandelapparatuur" loading="lazy"></div>
           </div>
         
           <div class="tech-card" data-route="technology">
             <div class="meta"><span>Cryo</span><span>→</span></div>
             <h4>Cryo 7</h4>
-            <div class="tech-img"><img class="tech-photo" src="assets/cryo7.webp" alt="" loading="lazy"></div>
+            <div class="tech-img"><img class="tech-photo" src="assets/cryo7.webp" alt="SkinTech behandelapparatuur" loading="lazy"></div>
           </div>
         
           <div class="tech-card" data-route="technology">
             <div class="meta"><span>Signature facial</span><span>→</span></div>
             <h4>Glacē</h4>
-            <div class="tech-img"><img class="tech-photo" src="assets/glace.png" alt="" loading="lazy"></div>
+            <div class="tech-img"><img class="tech-photo" src="assets/glace.png" alt="SkinTech behandelapparatuur" loading="lazy"></div>
           </div>
         
           <div class="tech-card" data-route="technology">
-            <div class="meta"><span>Facial support</span><span>→</span></div>
+            <div class="meta"><span>Gezichtsverzorging</span><span>→</span></div>
             <h4>IONTO Beauty Tower</h4>
-            <div class="tech-img"><img class="tech-photo" src="assets/ionto.avif" alt="" loading="lazy"></div>
+            <div class="tech-img"><img class="tech-photo" src="assets/ionto.avif" alt="SkinTech behandelapparatuur" loading="lazy"></div>
           </div>
         
       </div>
       <div style="margin-top:40px; text-align:right;">
-        <button class="btn btn-outline" data-route="technology">View all technology →</button>
+        <button class="btn btn-outline" data-route="technology">Bekijk onze technologie →</button>
       </div>
     </div>
   </section>
@@ -583,31 +696,31 @@
     <div class="container">
       <div class="sec-header">
         <div>
-          <span class="eyebrow">— The journey</span>
-          <h2 style="margin-top:16px;">A treatment rhythm,<br>not a <i>transaction.</i></h2>
+          <span class="eyebrow">— Jouw traject</span>
+          <h2 style="margin-top:16px;">Een behandelritme,<br>geen <i>transactie.</i></h2>
         </div>
-        <p>How a typical Skintech journey unfolds, from first conversation to sustained results.</p>
+        <p>Hoe een typisch SkinTech-traject verloopt, van het eerste gesprek tot duurzaam resultaat.</p>
       </div>
       <div class="journey-steps">
         <div class="journey-step">
           <div class="n">01</div>
           <h4>Consult</h4>
-          <p>A 45-minute conversation and skin analysis. No pressure, no upsell — just a proper read of where you are.</p>
+          <p>Een gratis huidscan van 45 minuten. Geen druk, geen upsell — alleen een goede lezing van waar je huid staat.</p>
         </div>
         <div class="journey-step">
           <div class="n">02</div>
           <h4>Plan</h4>
-          <p>A written protocol calibrated to your skin, goals, and calendar. Delivered before any treatment is booked.</p>
+          <p>Een geschreven protocol afgestemd op jouw huid, doelen en agenda — klaar vóórdat een behandeling wordt gepland.</p>
         </div>
         <div class="journey-step">
           <div class="n">03</div>
-          <h4>Treat</h4>
-          <p>Sessions in our Amsterdam space. Unhurried, single clinician, rooms built for calm — not volume.</p>
+          <h4>Behandeling</h4>
+          <p>Sessies in onze Amsterdamse clinic. Rustig, met één vaste specialist per cliënt.</p>
         </div>
         <div class="journey-step">
           <div class="n">04</div>
-          <h4>Sustain</h4>
-          <p>Quarterly maintenance, annual review, evolving plan. Your skin changes — so does the protocol.</p>
+          <h4>Onderhoud</h4>
+          <p>Kwartaalonderhoud, jaarlijkse evaluatie, evoluerend plan. Jouw huid verandert — het protocol ook.</p>
         </div>
       </div>
     </div>
@@ -617,49 +730,49 @@
     <div class="container">
       <div class="sec-header">
         <div>
-          <span class="eyebrow">— Results</span>
-          <h2 style="color:var(--cream); margin-top:16px;">Honest before,<br><i>earned after.</i></h2>
+          <span class="eyebrow">— Resultaten</span>
+          <h2 style="color:var(--cream); margin-top:16px;">Eerlijke voor,<br><i>verdiende na.</i></h2>
         </div>
-        <p>Real outcomes from our opening cohort. Placeholder imagery shown — client results will replace these at launch, with full consent.</p>
+        <p>Hier tonen we binnenkort echte behandelresultaten, met volledige toestemming en zonder retouche.</p>
       </div>
       <div class="results-grid">
         
           <div class="result-card">
             <div class="result-imgs">
-              <div class="result-img"><span class="tag">before</span>before · placeholder</div>
-              <div class="result-img"><span class="tag">after</span>after · placeholder</div>
+              <div class="result-img"><span class="tag">voor</span></div>
+              <div class="result-img"><span class="tag">na</span></div>
             </div>
             <div class="caption">
-              <span class="treatment">Laser Hair Removal</span>
-              <span class="time">After 6 sessions</span>
+              <span class="treatment">Laserontharing</span>
+              <span class="time">Na 6 sessies</span>
             </div>
           </div>
         
           <div class="result-card">
             <div class="result-imgs">
-              <div class="result-img"><span class="tag">before</span>before · placeholder</div>
-              <div class="result-img"><span class="tag">after</span>after · placeholder</div>
+              <div class="result-img"><span class="tag">voor</span></div>
+              <div class="result-img"><span class="tag">na</span></div>
             </div>
             <div class="caption">
               <span class="treatment">Glacē Glow Facial</span>
-              <span class="time">Same day</span>
+              <span class="time">Zelfde dag</span>
             </div>
           </div>
         
           <div class="result-card">
             <div class="result-imgs">
-              <div class="result-img"><span class="tag">before</span>before · placeholder</div>
-              <div class="result-img"><span class="tag">after</span>after · placeholder</div>
+              <div class="result-img"><span class="tag">voor</span></div>
+              <div class="result-img"><span class="tag">na</span></div>
             </div>
             <div class="caption">
               <span class="treatment">Deep Cleansing</span>
-              <span class="time">After 3 sessions</span>
+              <span class="time">Na 3 sessies</span>
             </div>
           </div>
         
       </div>
       <div style="margin-top:48px; text-align:right;">
-        <button class="btn btn-dark-outline" data-route="results">View full gallery →</button>
+        <button class="btn btn-dark-outline" data-route="results">Bekijk alle resultaten →</button>
       </div>
     </div>
   </section>
@@ -668,88 +781,118 @@
     <div class="container-narrow">
       <div class="sec-header">
         <div>
-          <span class="eyebrow">— Common questions</span>
-          <h2 style="margin-top:16px;">Clarity, <i>first.</i></h2>
+          <span class="eyebrow">— Veelgestelde vragen</span>
+          <h2 style="margin-top:16px;">Veelgestelde <i>vragen.</i></h2>
         </div>
-        <p>A few of the questions we hear most often. If yours isn't here, reach out — we'd rather you ask.</p>
+        <p>Een selectie van de vragen die we het meest horen. Staat jouw vraag er niet bij? Neem contact op.</p>
       </div>
       
         <div class="faq-item">
-          <div class="faq-q"><h4>How many laser hair removal sessions will I need?</h4><div class="faq-plus"></div></div>
-          <div class="faq-a"><p>Most clients require 6–8 sessions spaced 4–6 weeks apart for the face and 6–8 weeks for the body. Hair grows in cycles, and lasers only affect actively growing hair — so patience is part of the protocol. Maintenance sessions once or twice a year help sustain results.</p></div>
+          <div class="faq-q"><h4>Hoeveel laserontharing-sessies heb ik nodig?</h4><div class="faq-plus"></div></div>
+          <div class="faq-a"><p>De meeste cliënten hebben 6 tot 8 sessies nodig, met een tussenpauze van 4–6 weken voor het gezicht en 6–8 weken voor het lichaam. Haar groeit in cycli en de laser werkt alleen in op haar in de actieve groeifase — geduld is onderdeel van het protocol.</p></div>
         </div>
       
         <div class="faq-item">
-          <div class="faq-q"><h4>Is the treatment suitable for my skin type?</h4><div class="faq-plus"></div></div>
-          <div class="faq-a"><p>Yes. The GentleMax Pro Plus platform is calibrated for Fitzpatrick skin types I through VI, including deeper and more reactive tones. Every session begins with a skin read and a customised setting — we do not use a single default protocol.</p></div>
+          <div class="faq-q"><h4>Is de behandeling geschikt voor mijn huidtype?</h4><div class="faq-plus"></div></div>
+          <div class="faq-a"><p>Ja. De GentleMax Pro Plus is gekalibreerd voor Fitzpatrick-huidtypes I tot en met VI, inclusief donkere en reactieve huid. Elke sessie begint met een huidlezing en een instelling op maat.</p></div>
         </div>
       
         <div class="faq-item">
-          <div class="faq-q"><h4>How should I prepare for my first session?</h4><div class="faq-plus"></div></div>
-          <div class="faq-a"><p>Avoid direct sun and self-tanner for two weeks, do not wax or pluck the area for four weeks, and shave 24 hours before your appointment. Come with clean skin — no lotion or deodorant on the treated area. We send a full pre-care note when you book.</p></div>
+          <div class="faq-q"><h4>Hoe bereid ik me voor op mijn eerste sessie?</h4><div class="faq-plus"></div></div>
+          <div class="faq-a"><p>Vermijd directe zon en zelfbruiner twee weken van tevoren. Scheer de zone 24 uur voor je afspraak. Kom met een schone huid — geen crème of deodorant in de zone.</p></div>
         </div>
       
         <div class="faq-item">
-          <div class="faq-q"><h4>What does aftercare look like?</h4><div class="faq-plus"></div></div>
-          <div class="faq-a"><p>Expect mild warmth or redness for a few hours. Apply SPF 50 for at least a week, skip saunas, intense exercise and hot showers for 24 hours, and avoid active ingredients (retinol, acids) for 3–5 days. Hydrate generously, inside and out.</p></div>
+          <div class="faq-q"><h4>Hoe ziet de nazorg eruit?</h4><div class="faq-plus"></div></div>
+          <div class="faq-a"><p>Reken op milde warmte of roodheid gedurende enkele uren. Gebruik de eerste week SPF 50 en vermijd sauna, intensief sporten en hete douches de eerste 24 uur.</p></div>
         </div>
       
       <div style="margin-top:40px; text-align:right;">
-        <button class="btn btn-ghost" data-route="faq">All questions <span class="arrow">→</span></button>
+        <button class="btn btn-ghost" data-route="faq">Alle vragen <span class="arrow">→</span></button>
       </div>
     </div>
   </section>
   </div><footer class="site">
     <div class="container">
       <div class="footer-big">
-        Let's begin<br>with a <i>consultation</i> — <a href="#" data-book="">book here →</a>
+        Begin met een<br><i>gratis huidscan</i> — <a href="#" data-book="">boek hier →</a>
       </div>
       <div class="footer-grid">
         <div>
           <div class="logo" style="color:var(--cream); margin-bottom:24px;">
-            <img class="logo-img" src="assets/logo.png" alt="SkinTech Laser Clinic · Amsterdam">
+            <img class="logo-img" src="assets/logo-optimized.png" alt="SkinTech Laser Clinic · Amsterdam">
           </div>
-          <p class="footer-addr">Keizersgracht 123<br>1015 CJ Amsterdam<br>+31 20 000 0000</p>
+          <p class="footer-addr">Amsterdam<br>Locatie volgt bij boeking<br>info@skintechclinic.nl</p>
         </div>
         <div>
-          <h5>Services</h5>
+          <h5>Behandelingen</h5>
           <ul>
-            <li><a href="#" data-route="services">Laser Hair Removal</a></li>
+            <li><a href="#" data-route="services">Laserontharing</a></li>
             <li><a href="#" data-route="services">Deep Cleansing</a></li>
             <li><a href="#" data-route="services">Glacē Glow</a></li>
-            <li><a href="#" data-route="services">Skin Analysis</a></li>
-            <li><a href="#" data-route="services">Tailored Plans</a></li>
+            <li><a href="#" data-route="services">Gratis huidscan</a></li>
+            <li><a href="#" data-route="services">Behandelplan op maat</a></li>
           </ul>
         </div>
         <div>
-          <h5>Clinic</h5>
+          <h5>Kliniek</h5>
           <ul>
-            <li><a href="#" data-route="about">About</a></li>
-            <li><a href="#" data-route="technology">Technology</a></li>
-            <li><a href="#" data-route="results">Results</a></li>
+            <li><a href="#" data-route="about">Over ons</a></li>
+            <li><a href="#" data-route="technology">Technologie</a></li>
+            <li><a href="#" data-route="results">Resultaten</a></li>
             <li><a href="#" data-route="faq">FAQ</a></li>
             <li><a href="#" data-route="contact">Contact</a></li>
           </ul>
         </div>
         <div>
-          <h5>Follow</h5>
+          <h5>Volg ons</h5>
           <ul>
             <li><a href="#">Instagram</a></li>
             <li><a href="#">WhatsApp</a></li>
-            <li><a href="#">Journal — soon</a></li>
-            <li><a href="#">EN · NL</a></li>
+            <li><a href="#">Journal — binnenkort</a></li>
+            <li><a href="#">NL · EN</a></li>
           </ul>
         </div>
       </div>
       <div class="footer-legal">
         <span>© 2026 SkinTech Laser Clinic · Amsterdam</span>
-        <span>Privacy · Terms · KvK 00000000</span>
+        <span>Privacybeleid · Algemene voorwaarden · KvK 42039525</span>
       </div>
     </div>
   </footer></main>
 
 <div id="modalHost"></div>
-<div class="tweaks-panel" id="tweaksPanel"></div>
+
+<div class="mobile-menu-overlay" id="mobileMenu">
+  <button class="mobile-menu-close" onclick="closeMobileMenu()">✕</button>
+  <a href="#" data-route="home" onclick="closeMobileMenu(); navigate('home')">Home</a>
+  <a href="#" data-route="about" onclick="closeMobileMenu(); navigate('about')">Over ons</a>
+  <a href="#" data-route="services" onclick="closeMobileMenu(); navigate('services')">Behandelingen</a>
+  <a href="#" data-route="technology" onclick="closeMobileMenu(); navigate('technology')">Technologie</a>
+  <a href="#" data-route="faq" onclick="closeMobileMenu(); navigate('faq')">FAQ</a>
+  <a href="#" data-route="contact" onclick="closeMobileMenu(); navigate('contact')">Contact</a>
+  <div class="mobile-ctas">
+    <button class="btn btn-primary" onclick="closeMobileMenu(); openBooking()">Boek nu →</button>
+    <button class="btn btn-outline" onclick="closeMobileMenu(); navigate('contact')">Gratis huidscan</button>
+  </div>
+  <div class="mobile-lang-switch">
+    <a href="#" onclick="event.preventDefault(); setLang('nl'); closeMobileMenu();" style="font-weight:500;">NL</a>
+    <span style="color:var(--muted);">·</span>
+    <a href="#" onclick="event.preventDefault(); setLang('en'); closeMobileMenu();" style="opacity:0.5;">EN</a>
+  </div>
+</div>
+
+<div class="mobile-sticky-cta" id="mobileStickyBar">
+  <button class="btn btn-outline" onclick="navigate('contact')">Gratis huidscan</button>
+  <button class="btn btn-primary" onclick="openBooking()">Boek nu →</button>
+</div>
+
+<div class="cookie-banner" id="cookieBanner">
+  <p>We gebruiken cookies om je ervaring te verbeteren. Door verder te gaan, ga je akkoord met ons <a href="#" onclick="event.preventDefault(); navigate('privacy')">cookiebeleid</a>.</p>
+  <button class="btn btn-primary" style="padding:10px 20px; font-size:12px;" onclick="acceptCookies()">Akkoord</button>
+</div>
+
+<!-- tweaks panel removed for production -->
 
 <script>
 /* ===================== Fingerprint SVG (reusable) ===================== */
@@ -788,6 +931,7 @@ const fingerprintSVG = `
 /* ===================== App data ===================== */
 const SERVICES = [
   { id:'laser', num:'01', name:'Laserontharing', italic:'ontharing', nav:'Laserontharing', duration:'30–60 min', sessions:'6–8 sessies',
+    img:'assets/service-laser.jpg',
     blurb:'Precisie-laserbehandeling voor blijvend gladde huid, geschikt voor elk huidtype.',
     desc:'Ons signature-protocol met de GentleMax Pro Plus zorgt voor duurzame haarreductie met minimaal ongemak. Afgestemd op jouw huidtype en ontworpen voor zichtbaar resultaat vanaf de eerste sessies.',
     forWho:'Voor iedereen die blijvend gladde huid wil, zonder de onderhoudsroutine — veilig voor Fitzpatrick-huidtypes I t/m VI.',
@@ -802,6 +946,7 @@ const SERVICES = [
     priceNote:'Exacte tarieven worden tijdens de gratis huidscan met je besproken, afgestemd op zone en huidtype.'
   },
   { id:'deep', num:'02', name:'Deep Cleansing Facial', italic:'Cleansing', nav:'Deep Cleansing Facial', duration:'60 min', sessions:'Maandelijks ritueel',
+    img:'assets/service-deep.jpg',
     blurb:'Een verhelderend ritueel dat verstopte, gevoelige of vermoeide huid reset.',
     desc:'Een herstellende, clinical-grade gezichtsbehandeling die de huid grondig reinigt zonder haar uit balans te brengen. Opgebouwd rond de actuele staat van jouw huid — nooit volgens een vast script.',
     forWho:'Verstopte, vette, doffe of reactieve huid die toe is aan een professionele reset.',
@@ -815,6 +960,7 @@ const SERVICES = [
     priceNote:'Inclusief huidanalyse en een persoonlijk verzorgingsadvies voor thuis.'
   },
   { id:'glace', num:'03', name:'Glacē Glow Facial', italic:'Glow', nav:'Glacē Glow Facial', duration:'75 min', sessions:'Seizoensgebonden',
+    img:'assets/service-glace.jpg',
     blurb:'Cryo-geïnfuseerde lichtheid met een verfijnde, lit-from-within afwerking.',
     desc:'Onze signature cold-therapy-behandeling combineert cryo-modulatie met een voedende infusie. De huid oogt direct fris, gelift en zichtbaar stralend.',
     forWho:'Voor iedereen die zich voorbereidt op een moment — of gewoon een betere spiegel wenst op een doordeweekse dag.',
@@ -828,6 +974,7 @@ const SERVICES = [
     priceNote:'Aanrader in aanloop naar een event, seizoenswissel of een fotoshoot.'
   },
   { id:'scan', num:'04', name:'Gratis huidscan & consult', italic:'huidscan', nav:'Gratis huidscan', duration:'45 min', sessions:'Jaarlijks',
+    img:'assets/service-scan.webp',
     blurb:'Een technologie-gedreven lezing van je huid, van oppervlak tot diepere lagen.',
     desc:'Een diagnostische sessie met onze Sylton Observ 520x, die pigmentatie, hydratatie, textuur en onderliggende kenmerken in kaart brengt. Je verlaat de kliniek met een geschreven verzorgingsplan — geen verkoopgesprek.',
     forWho:'Voor iedereen die een behandeltraject start, of gewoon helderheid wil over wat de huid werkelijk nodig heeft.',
@@ -841,6 +988,7 @@ const SERVICES = [
     priceNote:'Onze huidscan blijft altijd gratis. We vinden dat kennis over je eigen huid geen drempel mag hebben.'
   },
   { id:'combo', num:'05', name:'Op maat — behandelplan', italic:'op maat', nav:'Behandelplan op maat', duration:'Op maat', sessions:'Traject',
+    img:'assets/service-combo.webp',
     blurb:'Multidisciplinaire trajecten, afgestemd op jouw huid en agenda.',
     desc:'Voor cliënten die streven naar duurzaam resultaat in plaats van losse sessies. We combineren laser, facials en analyse in een kwartaalritme dat bij je leven past.',
     forWho:'Cliënten die zich committeren aan blijvende huidgezondheid en zichtbare verfijning op de lange termijn.',
@@ -905,13 +1053,13 @@ const T = {
     navScan:'Gratis huidscan', navBook:'Boek nu',
     heroEyebrow:'Amsterdam · Est. 2026',
     heroH1:'Premium laser- en<br/>huidbehandelingen<br/>in <i>Amsterdam.</i>',
-    heroIntro:'Voor een gladdere huid, meer comfort en zichtbaar verzorgde resultaten — met geavanceerde technologie, persoonlijke aandacht en een rustige clinic experience.',
+    heroIntro:'Voor een gladdere huid, meer comfort en zichtbaar verzorgde resultaten — met geavanceerde technologie, persoonlijke aandacht en een rustige kliniekervaring.',
     heroBook:'Boek nu', heroScan:'Gratis huidscan',
-    heroSub:'Geavanceerde technologie · Persoonlijke huidanalyse · Rustige clinic-ervaring',
+    heroSub:'Geavanceerde technologie · Persoonlijke huidanalyse · Rustige kliniekervaring',
     stat1:'Behandelingen', stat2:'Huidtypes behandeld', stat3:'Specialist per cliënt',
     footerCta:'Begin met een <i>gratis huidscan</i> — <a href="#" onclick="navigate(\'contact\')">boek hier →</a>',
     footerColTreat:'Behandelingen', footerColClinic:'Kliniek', footerColFollow:'Volg ons',
-    footerJournal:'Journal — binnenkort', footerLegal:'© 2026 SkinTech Laser Clinic · Amsterdam', footerLegal2:'Privacybeleid · Algemene voorwaarden · KvK 00000000',
+    footerJournal:'Journal — binnenkort', footerLegal:'© 2026 SkinTech Laser Clinic · Amsterdam', footerLegal2:'Privacybeleid · Algemene voorwaarden · KvK 42039525',
     bookStep1Title:'Kies een <i>behandeling.</i>', bookStep1Sub:'Eerste bezoek? We raden een gratis huidscan aan.',
     bookStep2Title:'Kies een <i>datum.</i>', bookStep2Sub:'Eerstvolgende beschikbaarheid in onze Amsterdamse clinic.',
     bookStep3Title:'Jouw <i>gegevens.</i>', bookStep3Sub:'We sturen een bevestiging en verzorgingsadvies naar je e-mail.',
@@ -932,9 +1080,9 @@ const T = {
     heroBook:'Book now', heroScan:'Free skin scan',
     heroSub:'Advanced technology · Personal skin analysis · Premium clinic experience',
     stat1:'Treatments', stat2:'Skin types treated', stat3:'Specialist per client',
-    footerCta:'Begin with a <i>free skin scan</i> — <a href="#" onclick="navigate(\'contact\')">book here →</a>',
+    footerCta:'Begin with a <i>free skin scan</i> — <a href="#" onclick="navigate(\'contact\')">boek hier →</a>',
     footerColTreat:'Treatments', footerColClinic:'Clinic', footerColFollow:'Follow',
-    footerJournal:'Journal — coming soon', footerLegal:'© 2026 SkinTech Laser Clinic · Amsterdam', footerLegal2:'Privacy policy · Terms · KvK 00000000',
+    footerJournal:'Journal — coming soon', footerLegal:'© 2026 SkinTech Laser Clinic · Amsterdam', footerLegal2:'Privacy policy · Terms · KvK 42039525',
     bookStep1Title:'Choose a <i>treatment.</i>', bookStep1Sub:'First visit? We recommend starting with a free skin scan.',
     bookStep2Title:'Pick a <i>date.</i>', bookStep2Sub:'Next available openings at our Amsterdam clinic.',
     bookStep3Title:'Your <i>details.</i>', bookStep3Sub:'We\'ll send confirmation and pre-care notes to your email.',
@@ -962,6 +1110,8 @@ const routes = {
   results: renderResults,
   faq: renderFaq,
   contact: renderContact,
+  privacy: renderPrivacy,
+  terms: renderTerms,
 };
 
 function navigate(route) {
@@ -1020,9 +1170,9 @@ function renderHome() {
   const c = nl ? {
     eyebrow: 'Amsterdam · Est. 2026',
     h1: 'Premium laser- en<br/>huidbehandelingen<br/>in <i>Amsterdam.</i>',
-    intro: 'Voor een gladdere huid, meer comfort en zichtbaar verzorgde resultaten — met geavanceerde technologie, persoonlijke aandacht en een rustige clinic experience.',
+    intro: 'Voor een gladdere huid, meer comfort en zichtbaar verzorgde resultaten — met geavanceerde technologie, persoonlijke aandacht en een rustige kliniekervaring.',
     bookBtn: 'Boek nu', scanBtn: 'Gratis huidscan',
-    heroSub: 'Geavanceerde technologie · Persoonlijke huidanalyse · Rustige clinic-ervaring',
+    heroSub: 'Geavanceerde technologie · Persoonlijke huidanalyse · Rustige kliniekervaring',
     stat1: 'Behandelingen', stat2: 'Huidtypes behandeld', stat3: 'Specialist per cliënt',
     aboutEy: 'Over ons',
     aboutH: 'Waar technologie en<br/>huidverzorging <i>samenkomen.</i>',
@@ -1053,8 +1203,11 @@ function renderHome() {
     resEy: 'Resultaten', resH: 'Resultaten die<br/><i>natuurlijk aanvoelen.</i>',
     resP: 'Hier tonen we binnenkort echte behandelresultaten van SkinTech-cliënten, met volledige toestemming en zonder retouche.',
     resBef: 'voor', resAft: 'na', resSoon: 'binnenkort',
+    res1img: true,
     res1t:'Laserontharing', res1d:'Na 6 sessies',
+    res2img: true,
     res2t:'Glacē Glow Facial', res2d:'Zelfde dag',
+    res3img: true,
     res3t:'Deep Cleansing', res3d:'Na 3 sessies',
     resCta: 'Plan je consult →',
     testiEy: 'Ervaringen', testiH: 'Ervaringen van<br/>onze <i>cliënten.</i>',
@@ -1104,8 +1257,11 @@ function renderHome() {
     resEy: 'Results', resH: 'Results that feel<br/><i>naturally yours.</i>',
     resP: 'Real client results coming soon, shared with full consent and no retouching.',
     resBef: 'before', resAft: 'after', resSoon: 'coming soon',
+    res1img: true,
     res1t:'Laser Hair Removal', res1d:'After 6 sessions',
+    res2img: true,
     res2t:'Glacē Glow Facial', res2d:'Same day',
+    res3img: true,
     res3t:'Deep Cleansing', res3d:'After 3 sessions',
     resCta: 'Plan your consultation →',
     testiEy: 'Reviews', testiH: 'Words from<br/>our <i>clients.</i>',
@@ -1260,11 +1416,11 @@ function renderHome() {
         <p>${c.resP}</p>
       </div>
       <div class="results-grid">
-        ${[{t:c.res1t,d:c.res1d},{t:c.res2t,d:c.res2d},{t:c.res3t,d:c.res3d}].map(r=>`
+        ${[{t:c.res1t,d:c.res1d,img:c.res1img,n:1},{t:c.res2t,d:c.res2d,img:c.res2img,n:2},{t:c.res3t,d:c.res3d,img:c.res3img,n:3}].map(r=>`
           <div class="result-card">
             <div class="result-imgs">
-              <div class="result-img"><span class="tag">${c.resBef}</span>${c.resBef} · ${c.resSoon}</div>
-              <div class="result-img"><span class="tag">${c.resAft}</span>${c.resAft} · ${c.resSoon}</div>
+              <div class="result-img">${r.img ? '<img src="assets/result-before-'+r.n+'.jpg" alt="before" style="width:100%;height:100%;object-fit:cover;"/>' : ''}<span class="tag">${c.resBef}</span>${r.img ? '' : c.resBef+' · '+c.resSoon}</div>
+              <div class="result-img">${r.img ? '<img src="assets/result-after-'+r.n+'.jpg" alt="after" style="width:100%;height:100%;object-fit:cover;"/>' : ''}<span class="tag">${c.resAft}</span>${r.img ? '' : c.resAft+' · '+c.resSoon}</div>
             </div>
             <div class="caption"><span class="treatment">${r.t}</span><span class="time">${r.d}</span></div>
           </div>
@@ -1396,7 +1552,7 @@ function renderAbout() {
   <section class="founder-sec">
     <div class="container">
       <div class="founder-grid">
-        <div class="founder-photo"></div>
+        <div class="founder-photo"><img src="assets/founder.jpg" alt="SkinTech clinic"/></div>
         <div class="founder-text">
           <span class="eyebrow">— ${c.founderEyebrow}</span>
           <h3 style="margin-top:20px;">${c.founderH}</h3>
@@ -1468,7 +1624,7 @@ function renderServices() {
       <div class="container">
         <div class="service-detail-grid" style="${i%2?'direction:rtl;':''}">
           <div style="direction:ltr;">
-            <div class="service-detail-visual">${s.name.toLowerCase().replace(/[^a-z0-9]/g,'-')} · ${c.soon}</div>
+            <div class="service-detail-visual">${s.img ? '<img src="'+s.img+'" alt="'+s.name+'" style="width:100%;height:100%;object-fit:cover;"/>' : s.name.toLowerCase().replace(/[^a-z0-9]/g,'-')+' · '+c.soon}</div>
           </div>
           <div class="service-detail-text" style="direction:ltr;">
             <span class="eyebrow">— ${s.num} · ${s.duration}</span>
@@ -1513,6 +1669,7 @@ function renderServices() {
 /* ===================== English data ===================== */
 const SERVICES_EN = [
   { id:'laser', num:'01', name:'Laser Hair Removal', italic:'Removal', nav:'Laser Hair Removal', duration:'30–60 min', sessions:'6–8 sessions',
+    img:'assets/service-laser.jpg',
     blurb:'Precision laser treatment for lasting smoothness, safe for all skin types.',
     desc:'Our GentleMax Pro Plus protocol delivers lasting hair reduction with minimal discomfort. Calibrated to your skin type for visible results from the first sessions.',
     forWho:'Anyone seeking permanent, low-maintenance smoothness — suitable for Fitzpatrick skin types I–VI.',
@@ -1527,7 +1684,8 @@ const SERVICES_EN = [
     priceNote:'Exact pricing is discussed transparently during your free skin scan, tailored to zone and skin type.'
   },
   { id:'deep', num:'02', name:'Deep Cleansing Facial', italic:'Cleansing', nav:'Deep Cleansing Facial', duration:'60 min', sessions:'Monthly ritual',
-    blurb:'A clarifying ritual that resets congested, reactive, or tired skin.',
+    img:'assets/service-deep.jpg',
+    blurb:'Een verhelderend ritueel dat verstopte, gevoelige of vermoeide huid reset.',
     desc:"A restorative, clinical-grade facial that removes impurities without stripping. Built around your skin's current state — never a fixed script.",
     forWho:'Congested, oily, dull or reactive skin in need of a professional reset.',
     benefits:['Deep pore purification','Smoother texture and refined tone','Calming, non-reactive finish','Personalised via skin scan'],
@@ -1540,6 +1698,7 @@ const SERVICES_EN = [
     priceNote:'Includes skin analysis and a personalised at-home care recommendation.'
   },
   { id:'glace', num:'03', name:'Glacē Glow Facial', italic:'Glow', nav:'Glacē Glow Facial', duration:'75 min', sessions:'Seasonal',
+    img:'assets/service-glace.jpg',
     blurb:'Cryo-infused luminosity with a refined, lit-from-within finish.',
     desc:'Our signature cold-therapy facial combines cryo modulation with nutrient infusion. Skin looks immediately fresh, lifted and visibly glowing.',
     forWho:'Anyone preparing for a moment — or simply wanting a better mirror on an ordinary day.',
@@ -1553,6 +1712,7 @@ const SERVICES_EN = [
     priceNote:'Ideal before an event, seasonal change or photoshoot.'
   },
   { id:'scan', num:'04', name:'Free Skin Scan & Consultation', italic:'Skin Scan', nav:'Free skin scan', duration:'45 min', sessions:'Annual',
+    img:'assets/service-scan.webp',
     blurb:'A technology-led reading of your skin, from surface to deeper layers.',
     desc:'A diagnostic session with our Sylton Observ 520x, mapping pigmentation, hydration, texture and underlying concerns. You leave with a written care plan — not a sales pitch.',
     forWho:'Anyone starting a treatment journey or wanting clarity on what their skin actually needs.',
@@ -1566,7 +1726,8 @@ const SERVICES_EN = [
     priceNote:'Our skin scan is always free. We believe knowledge about your skin should have no barrier.'
   },
   { id:'combo', num:'05', name:'Tailored Treatment Plans', italic:'Tailored', nav:'Tailored Treatment Plan', duration:'Bespoke', sessions:'Programme',
-    blurb:'Multi-modality programmes shaped to your skin and your calendar.',
+    img:'assets/service-combo.webp',
+    blurb:'Multidisciplinaire trajecten, afgestemd op jouw huid en agenda.',
     desc:'For clients who want lasting results rather than one-off sessions. We combine laser, facials and analysis in a quarterly rhythm that suits your life.',
     forWho:'Clients committed to long-term skin health and visible, sustained improvement.',
     benefits:['Integrated multi-device protocols','Quarterly rhythm with annual review','Priority booking','Dedicated specialist'],
@@ -1604,11 +1765,11 @@ const TECH_EN = [
 ];
 
 const FAQS_EN = [
-  { q:'How many laser hair removal sessions will I need?', a:'Most clients require 6 to 8 sessions, spaced 4–6 weeks apart for the face and 6–8 weeks for the body. Hair grows in cycles and the laser only targets hair in the active growth phase — patience is part of the protocol. One or two maintenance sessions per year sustain results.' },
-  { q:'Is the treatment suitable for my skin type?', a:'Yes. The GentleMax Pro Plus is calibrated for Fitzpatrick skin types I through VI, including darker and reactive skin. Every session begins with a skin reading and a customised setting — we do not use a single default protocol.' },
+  { q:'Hoeveel laserontharing-sessies heb ik nodig?', a:'Most clients require 6 to 8 sessions, spaced 4–6 weeks apart for the face and 6–8 weeks for the body. Hair grows in cycles and the laser only targets hair in the active growth phase — patience is part of the protocol. One or two maintenance sessions per year sustain results.' },
+  { q:'Is de behandeling geschikt voor mijn huidtype?', a:'Yes. The GentleMax Pro Plus is calibrated for Fitzpatrick skin types I through VI, including darker and reactive skin. Every session begins with a skin reading and a customised setting — we do not use a single default protocol.' },
   { q:'Will I feel much during treatment?', a:'Laser is typically described as a warm elastic snap, softened by integrated cooling. Facials are calming or refreshingly cool. Numbing cream is not usually needed, and we pause at any point you ask.' },
   { q:'How do I prepare for my first session?', a:"Avoid direct sun and self-tanner for two weeks, do not wax or epilate for four weeks, and shave the zone 24 hours before your appointment. Come with clean skin — no cream or deodorant on the area. You'll receive a full pre-care guide when you book." },
-  { q:'What does aftercare look like?', a:'Expect mild warmth or redness for a few hours. Use SPF 50 for the first week, avoid sauna, intense exercise and hot showers for 24 hours, and leave active ingredients (retinol, acids) aside for 3–5 days. Hydrate generously, inside and out.' },
+  { q:'Hoe ziet de nazorg eruit?', a:'Expect mild warmth or redness for a few hours. Use SPF 50 for the first week, avoid sauna, intense exercise and hot showers for 24 hours, and leave active ingredients (retinol, acids) aside for 3–5 days. Hydrate generously, inside and out.' },
   { q:"What's the difference between Deep Cleansing and Glacē Glow?", a:'Deep Cleansing is a clarifying reset built around extractions and rebalancing — ideal when skin feels congested or reactive. Glacē Glow is a cold-therapy ritual that lifts, depuffs and brightens on the day. Many clients alternate between the two seasonally.' },
   { q:'Do I need a consultation before treatment?', a:'Yes — every new client begins with a skin scan and consultation. We read your skin, understand your goals and write a plan. The skin scan is always free and completely no-obligation.' },
   { q:'What does a treatment cost?', a:"Our pricing is in line with what you'd expect from a boutique laser clinic. Exact prices vary by zone, skin type and treatment goal and are discussed transparently during the free skin scan. Courses are always more affordable than individual sessions." },
@@ -1620,14 +1781,14 @@ const FAQS_EN = [
 const TECH_IMG = {
   gentlemax: 'assets/gentlemax.webp',
   cryo7: 'assets/cryo7.webp',
-  glace: 'assets/glace.png',
-  ionto: 'assets/ionto.png',
+  glace: 'assets/glace.webp',
+  ionto: 'assets/ionto-optimized.jpg',
   scanner: 'assets/scanner.png',
 };
 function techIllus(id) {
   const src = TECH_IMG[id];
   if (!src) return '';
-  return `<img class="tech-photo" src="${src}" alt="" loading="lazy"/>`;
+  return `<img class="tech-photo" src="${src}" alt="SkinTech behandelapparatuur" loading="lazy"/>`;
 }
 
 function renderTechnology() {
@@ -1940,9 +2101,18 @@ function renderContact() {
               ? 'Wat wil je bereiken? Eerdere behandelingen of huidaandoeningen die we moeten weten?'
               : 'What are you hoping to achieve? Any prior treatments or skin concerns we should know about?'}"></textarea>
           </div>
+          <div style="margin-top:16px; display:flex; gap:10px; align-items:flex-start;">
+            <input type="checkbox" id="consent" required style="margin-top:4px; flex-shrink:0;">
+            <label for="consent" style="font-size:12px; color:var(--muted); line-height:1.5; letter-spacing:0; text-transform:none;">
+              ${nl ? 'Ik ga akkoord met het <a href="#" onclick="event.preventDefault(); navigate(\'privacy\')" style="color:var(--bronze-deep); text-decoration:underline;">privacybeleid</a> en geef toestemming voor het verwerken van mijn gegevens.' : 'I agree to the <a href="#" onclick="event.preventDefault(); navigate(\'privacy\')" style="color:var(--bronze-deep); text-decoration:underline;">privacy policy</a> and consent to the processing of my data.'}
+            </label>
+          </div>
           <div style="margin-top:12px;">
             <button class="btn btn-primary" type="submit">${nl ? 'Verstuur →' : 'Send enquiry →'}</button>
           </div>
+          <p style="font-size:11px; color:var(--muted); margin-top:12px; line-height:1.5;">
+            ${nl ? 'SkinTech Laser Clinic biedt esthetische behandelingen en geen medische zorg. Resultaten kunnen per persoon verschillen.' : 'SkinTech Laser Clinic offers aesthetic treatments, not medical care. Results may vary.'}
+          </p>
         </form>
 
         <aside class="contact-info">
@@ -1991,6 +2161,143 @@ function renderContact() {
 }
 
 
+
+/* ===================== Privacy Policy ===================== */
+function renderPrivacy() {
+  const nl = currentLang === 'nl';
+  return `
+  <section class="page-head">
+    <div class="container">
+      <span class="eyebrow">— ${nl ? 'Privacybeleid' : 'Privacy Policy'}</span>
+      <h1>${nl ? 'Privacy<i>beleid.</i>' : 'Privacy <i>Policy.</i>'}</h1>
+    </div>
+  </section>
+  <section style="padding:80px 0;">
+    <div class="container-narrow" style="font-size:14px; line-height:1.8; color:var(--muted);">
+      ${nl ? `
+      <h3 style="font-family:var(--serif); font-size:24px; color:var(--ink); margin-bottom:16px; font-weight:400;">1. Wie zijn wij</h3>
+      <p>SkinTech Laser Clinic B.V., gevestigd te Amsterdam, is verantwoordelijk voor de verwerking van persoonsgegevens zoals beschreven in dit privacybeleid. KvK: 42039525. E-mail: info@skintechclinic.nl.</p>
+      
+      <h3 style="font-family:var(--serif); font-size:24px; color:var(--ink); margin:32px 0 16px; font-weight:400;">2. Welke gegevens verzamelen wij</h3>
+      <p>Wij verwerken persoonsgegevens doordat je gebruikmaakt van onze diensten en/of deze gegevens zelf aan ons verstrekt. Dit betreft: naam, e-mailadres, telefoonnummer, behandelvoorkeuren en eventuele huidgerelateerde informatie die je met ons deelt via het contactformulier of boekingssysteem.</p>
+      
+      <h3 style="font-family:var(--serif); font-size:24px; color:var(--ink); margin:32px 0 16px; font-weight:400;">3. Waarom verzamelen wij gegevens</h3>
+      <p>Wij verwerken jouw gegevens voor: het afhandelen van je boeking of aanvraag, het sturen van bevestigingen en herinneringen, het bieden van persoonlijk behandeladvies, en het verbeteren van onze dienstverlening.</p>
+      
+      <h3 style="font-family:var(--serif); font-size:24px; color:var(--ink); margin:32px 0 16px; font-weight:400;">4. Bewaartermijn</h3>
+      <p>Wij bewaren je gegevens niet langer dan strikt noodzakelijk is voor de doeleinden waarvoor ze zijn verzameld, tenzij een wettelijke bewaartermijn van toepassing is.</p>
+      
+      <h3 style="font-family:var(--serif); font-size:24px; color:var(--ink); margin:32px 0 16px; font-weight:400;">5. Delen met derden</h3>
+      <p>Wij delen jouw persoonsgegevens niet met derden, tenzij dit noodzakelijk is voor de uitvoering van onze diensten (bijvoorbeeld een boekingsplatform) of wij hiertoe wettelijk verplicht zijn.</p>
+      
+      <h3 style="font-family:var(--serif); font-size:24px; color:var(--ink); margin:32px 0 16px; font-weight:400;">6. Cookies</h3>
+      <p>Deze website maakt gebruik van functionele cookies om je taalvoorkeur op te slaan. Wij plaatsen geen tracking- of marketingcookies zonder jouw toestemming.</p>
+      
+      <h3 style="font-family:var(--serif); font-size:24px; color:var(--ink); margin:32px 0 16px; font-weight:400;">7. Jouw rechten</h3>
+      <p>Je hebt het recht om je gegevens in te zien, te corrigeren of te laten verwijderen. Neem hiervoor contact op via info@skintechclinic.nl. Je hebt ook het recht om een klacht in te dienen bij de Autoriteit Persoonsgegevens.</p>
+      
+      <h3 style="font-family:var(--serif); font-size:24px; color:var(--ink); margin:32px 0 16px; font-weight:400;">8. Contact</h3>
+      <p>SkinTech Laser Clinic B.V.<br/>Amsterdam<br/>info@skintechclinic.nl</p>
+      <p style="margin-top:24px; font-style:italic;">Laatst bijgewerkt: april 2026.</p>
+      ` : `
+      <h3 style="font-family:var(--serif); font-size:24px; color:var(--ink); margin-bottom:16px; font-weight:400;">1. Who we are</h3>
+      <p>SkinTech Laser Clinic B.V., based in Amsterdam, is responsible for the processing of personal data as described in this privacy policy. KvK: 42039525. Email: info@skintechclinic.nl.</p>
+      
+      <h3 style="font-family:var(--serif); font-size:24px; color:var(--ink); margin:32px 0 16px; font-weight:400;">2. What data we collect</h3>
+      <p>We process personal data because you use our services and/or provide this data to us. This includes: name, email address, phone number, treatment preferences and any skin-related information you share with us via the contact form or booking system.</p>
+      
+      <h3 style="font-family:var(--serif); font-size:24px; color:var(--ink); margin:32px 0 16px; font-weight:400;">3. Why we collect data</h3>
+      <p>We process your data for: handling your booking or enquiry, sending confirmations and reminders, providing personalised treatment advice, and improving our services.</p>
+      
+      <h3 style="font-family:var(--serif); font-size:24px; color:var(--ink); margin:32px 0 16px; font-weight:400;">4. Retention period</h3>
+      <p>We do not retain your data longer than strictly necessary for the purposes for which it was collected, unless a statutory retention period applies.</p>
+      
+      <h3 style="font-family:var(--serif); font-size:24px; color:var(--ink); margin:32px 0 16px; font-weight:400;">5. Sharing with third parties</h3>
+      <p>We do not share your personal data with third parties unless necessary for the performance of our services (e.g. a booking platform) or we are legally obliged to do so.</p>
+      
+      <h3 style="font-family:var(--serif); font-size:24px; color:var(--ink); margin:32px 0 16px; font-weight:400;">6. Cookies</h3>
+      <p>This website uses functional cookies to store your language preference. We do not place tracking or marketing cookies without your consent.</p>
+      
+      <h3 style="font-family:var(--serif); font-size:24px; color:var(--ink); margin:32px 0 16px; font-weight:400;">7. Your rights</h3>
+      <p>You have the right to access, correct or delete your data. Contact us at info@skintechclinic.nl. You also have the right to file a complaint with the Dutch Data Protection Authority (Autoriteit Persoonsgegevens).</p>
+      
+      <h3 style="font-family:var(--serif); font-size:24px; color:var(--ink); margin:32px 0 16px; font-weight:400;">8. Contact</h3>
+      <p>SkinTech Laser Clinic B.V.<br/>Amsterdam<br/>info@skintechclinic.nl</p>
+      <p style="margin-top:24px; font-style:italic;">Last updated: April 2026.</p>
+      `}
+    </div>
+  </section>
+  `;
+}
+
+/* ===================== Terms & Conditions ===================== */
+function renderTerms() {
+  const nl = currentLang === 'nl';
+  return `
+  <section class="page-head">
+    <div class="container">
+      <span class="eyebrow">— ${nl ? 'Algemene voorwaarden' : 'Terms & Conditions'}</span>
+      <h1>${nl ? 'Algemene<br/><i>voorwaarden.</i>' : 'Terms &<br/><i>Conditions.</i>'}</h1>
+    </div>
+  </section>
+  <section style="padding:80px 0;">
+    <div class="container-narrow" style="font-size:14px; line-height:1.8; color:var(--muted);">
+      ${nl ? `
+      <h3 style="font-family:var(--serif); font-size:24px; color:var(--ink); margin-bottom:16px; font-weight:400;">1. Algemeen</h3>
+      <p>Deze voorwaarden zijn van toepassing op alle diensten van SkinTech Laser Clinic B.V., gevestigd te Amsterdam, KvK 42039525.</p>
+      
+      <h3 style="font-family:var(--serif); font-size:24px; color:var(--ink); margin:32px 0 16px; font-weight:400;">2. Boekingen & afspraken</h3>
+      <p>Boekingen zijn bevestigd zodra je een bevestigingsmail ontvangt. Wij vragen een aanbetaling van €25 voor behandelingen (uitgezonderd de gratis huidscan). De aanbetaling wordt verrekend met de behandelprijs.</p>
+      
+      <h3 style="font-family:var(--serif); font-size:24px; color:var(--ink); margin:32px 0 16px; font-weight:400;">3. Annulering & no-show</h3>
+      <p>Kosteloos annuleren kan tot 24 uur voor de afspraak. Bij annulering binnen 24 uur vervalt de aanbetaling. Bij niet-verschijnen (no-show) wordt de volledige behandelprijs in rekening gebracht indien een betaalmethode geregistreerd is, anders vervalt de aanbetaling.</p>
+      
+      <h3 style="font-family:var(--serif); font-size:24px; color:var(--ink); margin:32px 0 16px; font-weight:400;">4. Behandelingen</h3>
+      <p>SkinTech Laser Clinic biedt esthetische behandelingen en geen medische zorg. Resultaten kunnen per persoon verschillen. Wij raden bij twijfel aan contact op te nemen met je huisarts. Alle behandelingen worden uitgevoerd door gekwalificeerde specialisten.</p>
+      
+      <h3 style="font-family:var(--serif); font-size:24px; color:var(--ink); margin:32px 0 16px; font-weight:400;">5. Prijzen & betaling</h3>
+      <p>Alle prijzen op de website zijn inclusief BTW, tenzij anders vermeld. Betaling geschiedt bij de afspraak of via het online boekingssysteem. Wij accepteren iDEAL, creditcard en pinbetaling.</p>
+      
+      <h3 style="font-family:var(--serif); font-size:24px; color:var(--ink); margin:32px 0 16px; font-weight:400;">6. Aansprakelijkheid</h3>
+      <p>SkinTech Laser Clinic is niet aansprakelijk voor schade die voortvloeit uit het niet opvolgen van gegeven adviezen of instructies. Onze aansprakelijkheid is beperkt tot het bedrag van de betreffende behandeling.</p>
+      
+      <h3 style="font-family:var(--serif); font-size:24px; color:var(--ink); margin:32px 0 16px; font-weight:400;">7. Klachten</h3>
+      <p>Klachten kun je richten aan info@skintechclinic.nl. Wij streven ernaar klachten binnen 14 werkdagen te behandelen.</p>
+      
+      <h3 style="font-family:var(--serif); font-size:24px; color:var(--ink); margin:32px 0 16px; font-weight:400;">8. Toepasselijk recht</h3>
+      <p>Op deze voorwaarden is Nederlands recht van toepassing. Geschillen worden voorgelegd aan de bevoegde rechter te Amsterdam.</p>
+      <p style="margin-top:24px; font-style:italic;">Laatst bijgewerkt: april 2026.</p>
+      ` : `
+      <h3 style="font-family:var(--serif); font-size:24px; color:var(--ink); margin-bottom:16px; font-weight:400;">1. General</h3>
+      <p>These terms apply to all services of SkinTech Laser Clinic B.V., based in Amsterdam, KvK 42039525.</p>
+      
+      <h3 style="font-family:var(--serif); font-size:24px; color:var(--ink); margin:32px 0 16px; font-weight:400;">2. Bookings & appointments</h3>
+      <p>Bookings are confirmed upon receipt of a confirmation email. We require a €25 deposit for treatments (excluding the free skin scan). The deposit is deducted from the treatment price.</p>
+      
+      <h3 style="font-family:var(--serif); font-size:24px; color:var(--ink); margin:32px 0 16px; font-weight:400;">3. Cancellation & no-show</h3>
+      <p>Free cancellation up to 24 hours before the appointment. Cancellation within 24 hours forfeits the deposit. No-show: full treatment price is charged if a payment method is on file; otherwise the deposit is forfeited.</p>
+      
+      <h3 style="font-family:var(--serif); font-size:24px; color:var(--ink); margin:32px 0 16px; font-weight:400;">4. Treatments</h3>
+      <p>SkinTech Laser Clinic offers aesthetic treatments, not medical care. Results may vary. We recommend consulting your GP if in doubt. All treatments are performed by qualified specialists.</p>
+      
+      <h3 style="font-family:var(--serif); font-size:24px; color:var(--ink); margin:32px 0 16px; font-weight:400;">5. Pricing & payment</h3>
+      <p>All prices include VAT unless stated otherwise. Payment is due at the appointment or via the online booking system. We accept iDEAL, credit card and debit card.</p>
+      
+      <h3 style="font-family:var(--serif); font-size:24px; color:var(--ink); margin:32px 0 16px; font-weight:400;">6. Liability</h3>
+      <p>SkinTech Laser Clinic is not liable for damage resulting from not following given advice or instructions. Our liability is limited to the amount of the relevant treatment.</p>
+      
+      <h3 style="font-family:var(--serif); font-size:24px; color:var(--ink); margin:32px 0 16px; font-weight:400;">7. Complaints</h3>
+      <p>Complaints can be directed to info@skintechclinic.nl. We aim to handle complaints within 14 business days.</p>
+      
+      <h3 style="font-family:var(--serif); font-size:24px; color:var(--ink); margin:32px 0 16px; font-weight:400;">8. Applicable law</h3>
+      <p>Dutch law applies to these terms. Disputes will be submitted to the competent court in Amsterdam.</p>
+      <p style="margin-top:24px; font-style:italic;">Last updated: April 2026.</p>
+      `}
+    </div>
+  </section>
+  `;
+}
+
 function renderFooter() {
   const nl = currentLang === 'nl';
   return `
@@ -1998,12 +2305,12 @@ function renderFooter() {
       <div class="footer-big">
         ${nl
           ? 'Begin met een <i>gratis huidscan</i> — <a href="#" onclick="navigate(\'contact\')">boek hier →</a>'
-          : 'Start with a <i>free skin scan</i> — <a href="#" onclick="navigate(\'contact\')">book here →</a>'}
+          : 'Start with a <i>free skin scan</i> — <a href="#" onclick="navigate(\'contact\')">boek hier →</a>'}
       </div>
       <div class="footer-grid">
         <div>
           <div class="logo" style="color:var(--cream); margin-bottom:24px;">
-            <img class="logo-img" src="assets/logo.png" alt="SkinTech Laser Clinic · Amsterdam"/>
+            <img class="logo-img" src="assets/logo-optimized.png" alt="SkinTech Laser Clinic · Amsterdam"/>
           </div>
           <p class="footer-addr">${nl
             ? 'Premium laser- en huidbehandelingen<br/>in Amsterdam.<br/><br/>info@skintechclinic.nl<br/>+31 XX XXX XXXX'
@@ -2040,7 +2347,7 @@ function renderFooter() {
       </div>
       <div class="footer-legal">
         <span>© 2026 SkinTech Laser Clinic · Amsterdam</span>
-        <span>${nl ? 'Privacybeleid · Algemene voorwaarden · KvK 00000000' : 'Privacy policy · Terms · KvK 00000000'}</span>
+        <span>${nl ? '<a href="#" onclick="event.preventDefault(); navigate(\'privacy\')" style="color:inherit;">Privacybeleid</a> · <a href="#" onclick="event.preventDefault(); navigate(\'terms\')" style="color:inherit;">Algemene voorwaarden</a> · KvK 42039525' : '<a href="#" onclick="event.preventDefault(); navigate(\'privacy\')" style="color:inherit;">Privacy policy</a> · <a href="#" onclick="event.preventDefault(); navigate(\'terms\')" style="color:inherit;">Terms</a> · KvK 42039525'}</span>
       </div>
     </div>
   `;
@@ -2177,21 +2484,35 @@ function handleScroll() {
 window.addEventListener('scroll', handleScroll);
 
 function toggleMobile() {
-  // simple toggle that reveals links as a dropdown
-  const links = document.querySelector('.nav-links');
-  if (!links) return;
-  if (links.style.display === 'flex') { links.style.display = ''; return; }
-  links.style.display = 'flex';
-  links.style.position = 'absolute';
-  links.style.top = '100%';
-  links.style.left = 0;
-  links.style.right = 0;
-  links.style.flexDirection = 'column';
-  links.style.background = 'var(--cream)';
-  links.style.padding = '28px 24px';
-  links.style.gap = '18px';
-  links.style.borderBottom = '1px solid var(--line)';
+  const menu = document.getElementById('mobileMenu');
+  if (menu.classList.contains('open')) {
+    closeMobileMenu();
+  } else {
+    menu.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
 }
+function closeMobileMenu() {
+  const menu = document.getElementById('mobileMenu');
+  menu.classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+/* Cookie consent */
+function acceptCookies() {
+  document.getElementById('cookieBanner').classList.remove('visible');
+  try { localStorage.setItem('sk_cookies', 'accepted'); } catch(e) {}
+}
+function checkCookies() {
+  try {
+    if (!localStorage.getItem('sk_cookies')) {
+      document.getElementById('cookieBanner').classList.add('visible');
+    }
+  } catch(e) {
+    document.getElementById('cookieBanner').classList.add('visible');
+  }
+}
+setTimeout(checkCookies, 1500);
 
 /* ===================== Tweaks ===================== */
 const TWEAKS = /*EDITMODE-BEGIN*/{
