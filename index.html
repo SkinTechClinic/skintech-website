@@ -2063,10 +2063,11 @@ function renderContact() {
   <section>
     <div class="container">
       <div class="contact-grid">
-        <form class="contact-form" id="contactForm" onsubmit="handleContact(event)">
+        <form class="contact-form" id="contactForm" action="https://formsubmit.co/info@skintechclinic.nl" method="POST">
           <input type="hidden" name="_subject" value="Nieuw contactbericht — SkinTech Clinic">
           <input type="hidden" name="_captcha" value="false">
           <input type="hidden" name="_template" value="box">
+          <input type="hidden" name="_next" value="https://skintechclinic.nl/#contact-thanks">
           <div class="form-row">
             <div class="form-field">
               <label>${nl ? 'Voornaam' : 'First name'}</label>
@@ -2469,37 +2470,7 @@ function bookingStep4() {
 }
 
 function handleContact(e) {
-  e.preventDefault();
-  const form = e.target;
-  const btn = form.querySelector('button[type="submit"]');
-  const origText = btn.textContent;
-  btn.textContent = currentLang==='nl' ? 'Versturen...' : 'Sending...';
-  btn.disabled = true;
-  btn.style.opacity = '0.6';
-
-  const formData = new FormData(form);
-
-  fetch('https://formsubmit.co/ajax/info@skintechclinic.nl', {
-    method: 'POST',
-    headers: { 'Accept': 'application/json' },
-    body: formData
-  })
-  .then(r => r.json())
-  .then(data => {
-    form.innerHTML = `
-      <div style="padding:60px 0; text-align:center;">
-        <div style="width:64px; height:64px; margin:0 auto 24px; border-radius:50%; border:1px solid var(--bronze-deep); display:grid; place-items:center; color:var(--bronze-deep); font-family:var(--serif); font-size:28px; font-style:italic;">✓</div>
-        <h3 style="font-family:var(--serif); font-size:32px; font-weight:400; margin-bottom:12px;">${currentLang==='nl' ? 'Bedankt.' : 'Thank you.'}</h3>
-        <p style="color:var(--muted); font-size:15px; line-height:1.7; max-width:400px; margin:0 auto;">${currentLang==='nl' ? 'Je bericht is ontvangen. We reageren binnen één werkdag.' : "Your message has reached us. We\'ll reply within one business day."}</p>
-      </div>
-    `;
-  })
-  .catch(err => {
-    btn.textContent = origText;
-    btn.disabled = false;
-    btn.style.opacity = '1';
-    alert(currentLang==='nl' ? 'Er ging iets mis. Probeer het opnieuw of mail ons op info@skintechclinic.nl' : 'Something went wrong. Please try again or email us at info@skintechclinic.nl');
-  });
+  // Form submits directly via POST to formsubmit.co — no JS interception needed
 }
 
 /* ===================== Nav scroll + mobile ===================== */
@@ -2608,9 +2579,23 @@ try { window.parent.postMessage({type:'__edit_mode_available'}, '*'); } catch(e)
 
 /* ===================== Init ===================== */
 applyTweaks();
-// Always start on home page; use hash only for direct links (e.g. #contact)
+// Always start on home page; use hash only for direct links
 const hashRoute = window.location.hash.replace('#','');
-navigate(hashRoute && routes[hashRoute] ? hashRoute : 'home');
+if (hashRoute === 'contact-thanks') {
+  navigate('contact');
+  setTimeout(() => {
+    const form = document.getElementById('contactForm');
+    if (form) form.innerHTML = `
+      <div style="padding:60px 0; text-align:center;">
+        <div style="width:64px; height:64px; margin:0 auto 24px; border-radius:50%; border:1px solid var(--bronze-deep); display:grid; place-items:center; color:var(--bronze-deep); font-family:var(--serif); font-size:28px; font-style:italic;">✓</div>
+        <h3 style="font-family:var(--serif); font-size:32px; font-weight:400; margin-bottom:12px;">${currentLang==='nl' ? 'Bedankt.' : 'Thank you.'}</h3>
+        <p style="color:var(--muted); font-size:15px; line-height:1.7; max-width:400px; margin:0 auto;">${currentLang==='nl' ? 'Je bericht is ontvangen. We reageren binnen één werkdag.' : "Your message has reached us. We'll reply within one business day."}</p>
+      </div>
+    `;
+  }, 100);
+} else {
+  navigate(hashRoute && routes[hashRoute] ? hashRoute : 'home');
+}
 
 </script>
 
