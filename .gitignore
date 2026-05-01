@@ -2,12 +2,12 @@
 .DS_Store
 Thumbs.db
 
-# Working files (not for deployment)
+# Working files
 uploads/
 screenshots/
 *.docx
 
-# Uncompressed originals (compressed versions are tracked)
+# Uncompressed originals
 assets/founder.png
 assets/ionto.png
 assets/founder-compressed.jpg
