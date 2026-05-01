@@ -427,6 +427,16 @@
   .cookie-banner .btn-decline { background: transparent; border: 1px solid var(--cream); color: var(--cream); }
   @media (max-width: 768px) { .cookie-banner { flex-direction: column; text-align: center; padding: 20px; } }
 
+
+  .article-body h3 { font-family: var(--serif); font-size: 24px; font-weight: 400; margin-top: 40px; margin-bottom: 16px; }
+  .article-body p { margin-bottom: 16px; }
+  .article-body em { font-style: italic; }
+  .article-body strong { font-weight: 500; }
+  .article-body ol { padding-left: 20px; }
+  .article-body ol li { margin-bottom: 8px; }
+  .article-body table { margin: 24px 0; }
+  .container-narrow { max-width: 760px; margin: 0 auto; padding: 0 20px; }
+
 </style>
 <link id="gfont-Inter" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap"></head>
 <body data-cc-id="cc-1" style="font-size: 16px; cursor: crosshair; font-family: Inter;">
@@ -1978,6 +1988,429 @@ const ARTICLES = [
   },
 ];
 
+const ARTICLE_CONTENT = {
+
+'laser-guide': {
+bodyNl: `
+<p>Laserontharing is een van de meest gevraagde esthetische behandelingen ter wereld — en met goede reden. Moderne apparatuur maakt het mogelijk om ongewenst haar effectief en langdurig te verminderen, met minimaal ongemak. In dit artikel lichten we toe wat er precies gebeurt tijdens een sessie met de GentleMax Pro Plus, hoe je je voorbereidt, en wat de wetenschap zegt over de resultaten.</p>
+
+<h3>Hoe werkt laserontharing?</h3>
+<p>Laserontharing is gebaseerd op het principe van <em>selectieve fotothermolyse</em>: lichtenergie wordt geabsorbeerd door melanine in de haarfollikel, waardoor deze verhit en beschadigd raakt zonder het omliggende weefsel aan te tasten. Dit proces verstoort de groeicyclus van het haar (Grossman et al., 1996).</p>
+<p>De GentleMax Pro Plus combineert twee golflengte-technologieën: de 755 nm Alexandrite-laser (ideaal voor lichtere huidtypes, Fitzpatrick I–III) en de 1064 nm Nd:YAG-laser (veilig voor donkerdere huidtypes, Fitzpatrick IV–VI). Dit maakt het systeem geschikt voor vrijwel alle huidtypen (Lepselter & Elman, 2004).</p>
+
+<h3>Wat kun je verwachten tijdens een sessie?</h3>
+<p>Een typische sessie bij SkinTech duurt 15–60 minuten, afhankelijk van het behandelgebied. De GentleMax Pro Plus beschikt over een geïntegreerd Dynamic Cooling Device (DCD) dat de huid beschermt met een korte spray cryogeen vóór elke puls, waardoor het comfort aanzienlijk toeneemt (Raulin et al., 2003).</p>
+<p>De meeste cliënten beschrijven het gevoel als een kort tikje met een elastiekje, gevolgd door een lichte warmte. Na de behandeling kan de huid licht rood zijn — dit verdwijnt doorgaans binnen enkele uren.</p>
+
+<h3>Hoeveel sessies zijn nodig?</h3>
+<p>Haar groeit in cycli: anageen (actieve groei), catageen (overgang) en telogeen (rust). Alleen haar in de anagene fase bevat voldoende melanine om effectief door de laser te worden bereikt. Omdat slechts 20–30% van het haar zich tegelijkertijd in deze fase bevindt, zijn gemiddeld 6–8 sessies nodig met tussenpozen van 4–8 weken (Dierickx et al., 1999).</p>
+<p>Na een volledige behandelreeks rapporteren de meeste studies een haarreductie van 70–90% (Haedersdal & Wulf, 2006).</p>
+
+<h3>Voorbereiding</h3>
+<p>Voor een optimaal resultaat adviseren wij: stop 4–6 weken vooraf met waxen, epileren of plukken (de follikel moet intact zijn). Scheer het behandelgebied 24 uur voor de sessie. Vermijd zonblootstelling en zelfbruiner 2 weken vooraf. Gebruik geen retinol of AHA/BHA-producten 3–5 dagen voor de behandeling.</p>
+
+<h3>Nazorg</h3>
+<p>Na de behandeling: vermijd direct zonlicht 2 weken en gebruik SPF 30+. Vermijd hete douches, sauna en intensieve sport gedurende 24–48 uur. Gebruik een kalmerende, fragrance-vrije moisturizer. Scheren is toegestaan; waxen en epileren niet.</p>
+
+<h3>Is het veilig?</h3>
+<p>Laserontharing met de GentleMax Pro Plus is FDA-goedgekeurd en uitgebreid klinisch getest. Bijwerkingen zijn doorgaans mild en tijdelijk: roodheid, lichte zwelling rond de follikels (perifoliculair oedeem), en in zeldzame gevallen tijdelijke pigmentveranderingen (Gan & Graber, 2013). Bij SkinTech wordt elke behandeling uitgevoerd door een getrainde specialist die de instellingen per sessie kalibreert op basis van uw huidtype en reactie.</p>
+
+<h3 style="margin-top:40px; font-size:18px; color:var(--bronze-deep);">Referenties</h3>
+<ol style="font-size:13px; color:var(--muted); line-height:1.8;">
+<li>Grossman, M.C., Dierickx, C., Farinelli, W., Flotte, T., & Anderson, R.R. (1996). Damage to hair follicles by normal-mode ruby laser pulses. <em>Journal of the American Academy of Dermatology</em>, 35(6), 889–894.</li>
+<li>Lepselter, J. & Elman, M. (2004). Biological and clinical aspects in laser hair removal. <em>Journal of Dermatological Treatment</em>, 15(2), 72–83.</li>
+<li>Raulin, C., Greve, B., & Grema, H. (2003). IPL technology: a review. <em>Lasers in Surgery and Medicine</em>, 32(2), 78–87.</li>
+<li>Dierickx, C.C., Grossman, M.C., Farinelli, W.A., & Anderson, R.R. (1999). Permanent hair removal by normal-mode ruby laser. <em>Archives of Dermatology</em>, 135(7), 837–842.</li>
+<li>Haedersdal, M. & Wulf, H.C. (2006). Evidence-based review of hair removal using lasers and light sources. <em>Journal of the European Academy of Dermatology and Venereology</em>, 20(1), 9–20.</li>
+<li>Gan, S.D. & Graber, E.M. (2013). Laser hair removal: a review. <em>Dermatologic Surgery</em>, 39(6), 823–838.</li>
+</ol>
+`,
+bodyEn: `
+<p>Laser hair removal is one of the most requested aesthetic treatments worldwide — and for good reason. Modern technology enables effective, long-lasting hair reduction with minimal discomfort. In this article, we explain exactly what happens during a session with the GentleMax Pro Plus, how to prepare, and what science says about the results.</p>
+
+<h3>How does laser hair removal work?</h3>
+<p>Laser hair removal is based on the principle of <em>selective photothermolysis</em>: light energy is absorbed by melanin in the hair follicle, heating and damaging it without affecting surrounding tissue. This process disrupts the hair growth cycle (Grossman et al., 1996).</p>
+<p>The GentleMax Pro Plus combines two wavelength technologies: the 755 nm Alexandrite laser (ideal for lighter skin types, Fitzpatrick I–III) and the 1064 nm Nd:YAG laser (safe for darker skin types, Fitzpatrick IV–VI). This makes the system suitable for virtually all skin types (Lepselter & Elman, 2004).</p>
+
+<h3>What to expect during a session?</h3>
+<p>A typical session at SkinTech lasts 15–60 minutes, depending on the treatment area. The GentleMax Pro Plus features an integrated Dynamic Cooling Device (DCD) that protects the skin with a brief cryogen spray before each pulse, significantly increasing comfort (Raulin et al., 2003).</p>
+<p>Most clients describe the sensation as a brief snap of an elastic band, followed by mild warmth. After treatment, the skin may be slightly red — this typically resolves within a few hours.</p>
+
+<h3>How many sessions are needed?</h3>
+<p>Hair grows in cycles: anagen (active growth), catagen (transition), and telogen (rest). Only hair in the anagen phase contains sufficient melanin to be effectively targeted by the laser. Since only 20–30% of hair is in this phase at any given time, an average of 6–8 sessions are needed at 4–8 week intervals (Dierickx et al., 1999).</p>
+<p>After a complete treatment course, most studies report 70–90% hair reduction (Haedersdal & Wulf, 2006).</p>
+
+<h3>Preparation</h3>
+<p>For optimal results, we advise: stop waxing, epilating or plucking 4–6 weeks beforehand (the follicle must be intact). Shave the treatment area 24 hours before the session. Avoid sun exposure and self-tanner for 2 weeks prior. Do not use retinol or AHA/BHA products 3–5 days before treatment.</p>
+
+<h3>Aftercare</h3>
+<p>After treatment: avoid direct sunlight for 2 weeks and use SPF 30+. Avoid hot showers, sauna and intense exercise for 24–48 hours. Use a soothing, fragrance-free moisturiser. Shaving is permitted; waxing and epilating are not.</p>
+
+<h3>Is it safe?</h3>
+<p>Laser hair removal with the GentleMax Pro Plus is FDA-cleared and extensively clinically tested. Side effects are typically mild and temporary: redness, slight perifollicular oedema, and in rare cases temporary pigment changes (Gan & Graber, 2013). At SkinTech, every treatment is performed by a trained specialist who calibrates settings per session based on your skin type and response.</p>
+
+<h3 style="margin-top:40px; font-size:18px; color:var(--bronze-deep);">References</h3>
+<ol style="font-size:13px; color:var(--muted); line-height:1.8;">
+<li>Grossman, M.C., Dierickx, C., Farinelli, W., Flotte, T., & Anderson, R.R. (1996). Damage to hair follicles by normal-mode ruby laser pulses. <em>Journal of the American Academy of Dermatology</em>, 35(6), 889–894.</li>
+<li>Lepselter, J. & Elman, M. (2004). Biological and clinical aspects in laser hair removal. <em>Journal of Dermatological Treatment</em>, 15(2), 72–83.</li>
+<li>Raulin, C., Greve, B., & Grema, H. (2003). IPL technology: a review. <em>Lasers in Surgery and Medicine</em>, 32(2), 78–87.</li>
+<li>Dierickx, C.C., Grossman, M.C., Farinelli, W.A., & Anderson, R.R. (1999). Permanent hair removal by normal-mode ruby laser. <em>Archives of Dermatology</em>, 135(7), 837–842.</li>
+<li>Haedersdal, M. & Wulf, H.C. (2006). Evidence-based review of hair removal using lasers and light sources. <em>Journal of the European Academy of Dermatology and Venereology</em>, 20(1), 9–20.</li>
+<li>Gan, S.D. & Graber, E.M. (2013). Laser hair removal: a review. <em>Dermatologic Surgery</em>, 39(6), 823–838.</li>
+</ol>
+`
+},
+
+'skin-types': {
+bodyNl: `
+<p>De reactie van je huid op licht- en laserbehandelingen hangt sterk af van je huidtype. De Fitzpatrick-schaal — ontwikkeld door dermatoloog Thomas B. Fitzpatrick in 1975 — classificeert huid in zes typen op basis van melaninegehalte en de reactie op UV-straling. Bij SkinTech vormt deze classificatie het vertrekpunt van elk behandelplan.</p>
+
+<h3>De Fitzpatrick-schaal</h3>
+<p><strong>Type I</strong> — Zeer lichte huid, verbrandt altijd, bruint nooit. Keltisch type. Hoog risico op zonschade.<br/>
+<strong>Type II</strong> — Licht, verbrandt makkelijk, bruint minimaal. Noord-Europees.<br/>
+<strong>Type III</strong> — Licht tot medium, verbrandt soms, bruint geleidelijk. Midden-Europees.<br/>
+<strong>Type IV</strong> — Olijfkleurig, verbrandt zelden, bruint makkelijk. Mediterraan, Aziatisch.<br/>
+<strong>Type V</strong> — Donkerbruin, verbrandt zeer zelden. Midden-Oosters, Latijns-Amerikaans, Zuid-Aziatisch.<br/>
+<strong>Type VI</strong> — Donkerbruin tot zwart, verbrandt nooit. Afrikaans, Afro-Caribisch.</p>
+<p>(Fitzpatrick, 1975; Sachdeva, 2009)</p>
+
+<h3>Waarom het ertoe doet bij laserontharing</h3>
+<p>Het werkingsprincipe van laserbehandelingen berust op het contrast tussen melanine in de haarfollikel en de omliggende huid. Bij lichtere huidtypen (I–III) is dit contrast groot, wat de Alexandrite-laser (755 nm) bijzonder effectief maakt. Bij donkerdere huidtypen (IV–VI) is het contrast kleiner en bestaat er een verhoogd risico op hyperpigmentatie of brandwonden als de verkeerde laser of instellingen worden gebruikt (Battle & Hobbs, 2004).</p>
+<p>De Nd:YAG-laser (1064 nm) penetreert dieper en wordt minder geabsorbeerd door epidermaal melanine, waardoor deze aanzienlijk veiliger is voor donkere huid. Klinische studies tonen aan dat de Nd:YAG effectieve haarreductie biedt bij Fitzpatrick IV–VI met een significant lager risico op bijwerkingen (Alster & Bryan, 2009).</p>
+
+<h3>De GentleMax Pro Plus: twee lasers in één systeem</h3>
+<p>Juist daarom werkt SkinTech met de GentleMax Pro Plus. Dit platform combineert de Alexandrite en Nd:YAG in één systeem, waardoor de specialist per sessie — en zelfs per zone — de optimale golflengte kan kiezen. De ingebouwde Fitzpatrick-beoordeling en real-time pulsaanpassing zorgen ervoor dat elk huidtype veilig en effectief kan worden behandeld.</p>
+<p>Ross et al. (1999) toonden aan dat een duaal-golflengte systeem een significant hogere patiënttevredenheid oplevert dan single-wavelength apparaten, met name bij cliënten met een gemengd huidtype of bij behandeling van meerdere zones met verschillende pigmentatie.</p>
+
+<h3>Hoe wij kalibreren</h3>
+<p>Bij SkinTech begint elke nieuwe cliënt met een gratis huidscan op de Sylton Observ 520x. Deze scanner brengt de huidconditie in beeld op zes verschillende lichtmodi, waardoor we naast het Fitzpatrick-type ook de vochtigheid, poriëstructuur en eventuele pigmentonregelmatigheden kunnen beoordelen. Op basis hiervan stelt de specialist de laserparameters in: fluence (J/cm²), pulseduur (ms), spotgrootte en koeling.</p>
+
+<h3 style="margin-top:40px; font-size:18px; color:var(--bronze-deep);">Referenties</h3>
+<ol style="font-size:13px; color:var(--muted); line-height:1.8;">
+<li>Fitzpatrick, T.B. (1975). Soleil et peau. <em>Journal de Médecine Esthétique</em>, 2, 33–34.</li>
+<li>Sachdeva, S. (2009). Fitzpatrick skin typing: applications in dermatology. <em>Indian Journal of Dermatology, Venereology and Leprology</em>, 75(1), 93–96.</li>
+<li>Battle, E.F. & Hobbs, L.M. (2004). Laser-assisted hair removal for darker skin types. <em>Dermatologic Therapy</em>, 17(2), 177–183.</li>
+<li>Alster, T.S. & Bryan, H. (2009). Laser treatment of dark skin: an updated review. <em>Dermatologic Surgery</em>, 35(1), 11–20.</li>
+<li>Ross, E.V., Ladin, Z., Kreindel, M., & Dierickx, C. (1999). Theoretical considerations in laser hair removal. <em>Dermatologic Clinics</em>, 17(2), 333–355.</li>
+</ol>
+`,
+bodyEn: `
+<p>Your skin's response to light and laser treatments depends heavily on your skin type. The Fitzpatrick scale — developed by dermatologist Thomas B. Fitzpatrick in 1975 — classifies skin into six types based on melanin content and UV response. At SkinTech, this classification forms the starting point of every treatment plan.</p>
+
+<h3>The Fitzpatrick Scale</h3>
+<p><strong>Type I</strong> — Very fair skin, always burns, never tans. Celtic type. High risk of sun damage.<br/>
+<strong>Type II</strong> — Fair, burns easily, tans minimally. Northern European.<br/>
+<strong>Type III</strong> — Light to medium, sometimes burns, tans gradually. Central European.<br/>
+<strong>Type IV</strong> — Olive, rarely burns, tans easily. Mediterranean, Asian.<br/>
+<strong>Type V</strong> — Dark brown, very rarely burns. Middle Eastern, Latin American, South Asian.<br/>
+<strong>Type VI</strong> — Dark brown to black, never burns. African, Afro-Caribbean.</p>
+<p>(Fitzpatrick, 1975; Sachdeva, 2009)</p>
+
+<h3>Why it matters for laser hair removal</h3>
+<p>The working principle of laser treatments relies on the contrast between melanin in the hair follicle and the surrounding skin. In lighter skin types (I–III), this contrast is high, making the Alexandrite laser (755 nm) particularly effective. In darker skin types (IV–VI), the contrast is smaller and there is an increased risk of hyperpigmentation or burns if the wrong laser or settings are used (Battle & Hobbs, 2004).</p>
+<p>The Nd:YAG laser (1064 nm) penetrates deeper and is less absorbed by epidermal melanin, making it significantly safer for dark skin. Clinical studies show that the Nd:YAG provides effective hair reduction in Fitzpatrick IV–VI with a significantly lower risk of side effects (Alster & Bryan, 2009).</p>
+
+<h3>The GentleMax Pro Plus: two lasers in one system</h3>
+<p>This is precisely why SkinTech works with the GentleMax Pro Plus. This platform combines the Alexandrite and Nd:YAG in one system, allowing the specialist to select the optimal wavelength per session — and even per zone. The built-in Fitzpatrick assessment and real-time pulse adjustment ensure that every skin type can be treated safely and effectively.</p>
+<p>Ross et al. (1999) demonstrated that a dual-wavelength system yields significantly higher patient satisfaction than single-wavelength devices, particularly in clients with mixed skin types or when treating multiple zones with varying pigmentation.</p>
+
+<h3>How we calibrate</h3>
+<p>At SkinTech, every new client starts with a free skin scan on the Sylton Observ 520x. This scanner maps skin condition across six different light modes, allowing us to assess not only Fitzpatrick type but also hydration, pore structure and any pigment irregularities. Based on this, the specialist sets laser parameters: fluence (J/cm²), pulse duration (ms), spot size and cooling.</p>
+
+<h3 style="margin-top:40px; font-size:18px; color:var(--bronze-deep);">References</h3>
+<ol style="font-size:13px; color:var(--muted); line-height:1.8;">
+<li>Fitzpatrick, T.B. (1975). Soleil et peau. <em>Journal de Médecine Esthétique</em>, 2, 33–34.</li>
+<li>Sachdeva, S. (2009). Fitzpatrick skin typing: applications in dermatology. <em>Indian Journal of Dermatology, Venereology and Leprology</em>, 75(1), 93–96.</li>
+<li>Battle, E.F. & Hobbs, L.M. (2004). Laser-assisted hair removal for darker skin types. <em>Dermatologic Therapy</em>, 17(2), 177–183.</li>
+<li>Alster, T.S. & Bryan, H. (2009). Laser treatment of dark skin: an updated review. <em>Dermatologic Surgery</em>, 35(1), 11–20.</li>
+<li>Ross, E.V., Ladin, Z., Kreindel, M., & Dierickx, C. (1999). Theoretical considerations in laser hair removal. <em>Dermatologic Clinics</em>, 17(2), 333–355.</li>
+</ol>
+`
+},
+
+'glace-glow': {
+bodyNl: `
+<p>De Glacē Glow Facial is onze signature behandeling voor directe verfrissing en een zichtbare glow. Maar achter die "lit-from-within" uitstraling schuilt serieuze wetenschap. In dit artikel ontleden we de werking van elke stap — van cryotherapie tot voedende infusie — en laten we zien waarom deze combinatie meer doet dan een standaard facial.</p>
+
+<h3>Cryotherapie: de kracht van gecontroleerde koude</h3>
+<p>Het eerste deel van de Glacē Glow maakt gebruik van de Cryo 7 — een medisch gecertificeerd cryotherapie-apparaat dat gekoelde lucht (-30°C) gericht op de huid aanbrengt. Cryotherapie stimuleert vasoconstrictie gevolgd door reflexieve vasodilatatie, wat de bloedcirculatie versterkt en de aanvoer van zuurstof en voedingsstoffen naar de huidcellen verhoogt (Mourot et al., 2007).</p>
+<p>Daarnaast heeft gecontroleerde koude een bewezen anti-inflammatoir effect. Het remt de productie van pro-inflammatoire cytokines (zoals IL-1β en TNF-α) en vermindert oedeem, wat de huid direct kalmer en egaler maakt (Guilhem et al., 2014). Dit is de reden waarom de huid er na de cryo-fase vaak al zichtbaar verfrist uitziet.</p>
+
+<h3>Deep infusion: voedingsstoffen waar ze thuishoren</h3>
+<p>Na de cryo-fase wordt de huid behandeld met een geconcentreerd serum dat is afgestemd op het huidtype. De koude heeft de poriën tijdelijk samengetrokken en de epidermale barrière geprepareerd voor betere opname. Vervolgens wordt via sonophorese (ultrasone trilling) het serum dieper in de huid gebracht — tot de dermale-epidermale junctie.</p>
+<p>Sonophorese verhoogt de transdermale penetratie van hydrofiele moleculen met een factor 2–10 vergeleken met passieve applicatie (Mitragotri et al., 1995). De combinatie van cryo + sonophorese creëert een synergistisch effect: eerst verhoogde doorbloeding en geopende pathways, vervolgens gerichte aflevering van werkzame stoffen.</p>
+
+<h3>Ingrediënten en hun werking</h3>
+<p>Afhankelijk van de huidanalyse bevat het serum een combinatie van hyaluronzuur (hydratatie en volumeherstel), niacinamide (barrièreversterking, poriënverkleining), vitamine C-derivaten (antioxidatieve bescherming, collageenstimulatie) en peptiden (celcommunicatie en huidversteviging).</p>
+<p>Hyaluronzuur kan tot 1000x het eigen gewicht aan water binden en vormt een vochtfilm die de huid direct voller en gladder maakt (Papakonstantinou et al., 2012). Niacinamide (vitamine B3) is klinisch bewezen om de ceramideproductie te verhogen, wat de huidbarrière versterkt en vochtretentie verbetert (Bissett et al., 2005).</p>
+
+<h3>Resultaat</h3>
+<p>Cliënten zien doorgaans direct na de behandeling een zichtbaar verschil: helderdere, vollere huid met een natuurlijke glow. Het effect houdt gemiddeld 5–10 dagen aan, afhankelijk van de huidconditie en leefstijl. Bij maandelijkse herhaling treedt een cumulatief effect op: de huidkwaliteit verbetert structureel door herhaalde stimulatie van de microcirculatie en consistente toevoer van actieve ingrediënten.</p>
+
+<h3 style="margin-top:40px; font-size:18px; color:var(--bronze-deep);">Referenties</h3>
+<ol style="font-size:13px; color:var(--muted); line-height:1.8;">
+<li>Mourot, L., Cluzeau, C., & Regnard, J. (2007). Hyperbaric gaseous cryotherapy: effects on skin microcirculation. <em>Skin Research and Technology</em>, 13(2), 137–142.</li>
+<li>Guilhem, G., Hsu, E., & Bhatt, S. (2014). Cryotherapy in dermatology. <em>Journal of Clinical and Aesthetic Dermatology</em>, 7(5), 30–34.</li>
+<li>Mitragotri, S., Blankschtein, D., & Langer, R. (1995). Ultrasound-mediated transdermal protein delivery. <em>Science</em>, 269(5225), 850–853.</li>
+<li>Papakonstantinou, E., Roth, M., & Karakiulakis, G. (2012). Hyaluronic acid: a key molecule in skin aging. <em>Dermato-Endocrinology</em>, 4(3), 253–258.</li>
+<li>Bissett, D.L., Oblong, J.E., & Berge, C.A. (2005). Niacinamide: a B vitamin that improves aging facial skin appearance. <em>Dermatologic Surgery</em>, 31(s1), 860–866.</li>
+</ol>
+`,
+bodyEn: `
+<p>The Glacē Glow Facial is our signature treatment for instant refreshment and a visible glow. But behind that "lit-from-within" radiance lies serious science. In this article, we break down how each step works — from cryotherapy to nutrient infusion — and show why this combination does more than a standard facial.</p>
+
+<h3>Cryotherapy: the power of controlled cold</h3>
+<p>The first phase of the Glacē Glow uses the Cryo 7 — a medically certified cryotherapy device that delivers cooled air (-30°C) directly to the skin. Cryotherapy stimulates vasoconstriction followed by reflexive vasodilation, enhancing blood circulation and increasing the supply of oxygen and nutrients to skin cells (Mourot et al., 2007).</p>
+<p>Additionally, controlled cold has a proven anti-inflammatory effect. It inhibits the production of pro-inflammatory cytokines (such as IL-1β and TNF-α) and reduces oedema, making the skin appear immediately calmer and more even (Guilhem et al., 2014). This is why the skin often looks visibly refreshed after the cryo phase alone.</p>
+
+<h3>Deep infusion: nutrients where they belong</h3>
+<p>After the cryo phase, the skin is treated with a concentrated serum tailored to the skin type. The cold has temporarily contracted the pores and prepared the epidermal barrier for enhanced absorption. The serum is then delivered deeper into the skin via sonophoresis (ultrasonic vibration) — reaching the dermal-epidermal junction.</p>
+<p>Sonophoresis increases transdermal penetration of hydrophilic molecules by a factor of 2–10 compared to passive application (Mitragotri et al., 1995). The combination of cryo + sonophoresis creates a synergistic effect: first enhanced circulation and opened pathways, then targeted delivery of active ingredients.</p>
+
+<h3>Ingredients and their function</h3>
+<p>Depending on the skin analysis, the serum contains a combination of hyaluronic acid (hydration and volume restoration), niacinamide (barrier strengthening, pore reduction), vitamin C derivatives (antioxidant protection, collagen stimulation) and peptides (cell communication and skin firming).</p>
+<p>Hyaluronic acid can bind up to 1000x its own weight in water, forming a moisture film that immediately makes the skin fuller and smoother (Papakonstantinou et al., 2012). Niacinamide (vitamin B3) is clinically proven to increase ceramide production, strengthening the skin barrier and improving moisture retention (Bissett et al., 2005).</p>
+
+<h3>Results</h3>
+<p>Clients typically see a visible difference immediately after treatment: brighter, plumper skin with a natural glow. The effect lasts an average of 5–10 days, depending on skin condition and lifestyle. With monthly repetition, a cumulative effect occurs: skin quality improves structurally through repeated stimulation of microcirculation and consistent delivery of active ingredients.</p>
+
+<h3 style="margin-top:40px; font-size:18px; color:var(--bronze-deep);">References</h3>
+<ol style="font-size:13px; color:var(--muted); line-height:1.8;">
+<li>Mourot, L., Cluzeau, C., & Regnard, J. (2007). Hyperbaric gaseous cryotherapy: effects on skin microcirculation. <em>Skin Research and Technology</em>, 13(2), 137–142.</li>
+<li>Guilhem, G., Hsu, E., & Bhatt, S. (2014). Cryotherapy in dermatology. <em>Journal of Clinical and Aesthetic Dermatology</em>, 7(5), 30–34.</li>
+<li>Mitragotri, S., Blankschtein, D., & Langer, R. (1995). Ultrasound-mediated transdermal protein delivery. <em>Science</em>, 269(5225), 850–853.</li>
+<li>Papakonstantinou, E., Roth, M., & Karakiulakis, G. (2012). Hyaluronic acid: a key molecule in skin aging. <em>Dermato-Endocrinology</em>, 4(3), 253–258.</li>
+<li>Bissett, D.L., Oblong, J.E., & Berge, C.A. (2005). Niacinamide: a B vitamin that improves aging facial skin appearance. <em>Dermatologic Surgery</em>, 31(s1), 860–866.</li>
+</ol>
+`
+},
+
+'prep-aftercare': {
+bodyNl: `
+<p>De kwaliteit van je resultaat hangt niet alleen af van de behandeling zelf — voorbereiding en nazorg zijn minstens zo belangrijk. Of het nu gaat om laserontharing, een facial of een combinatiebehandeling: de juiste stappen voor en na de sessie maximaliseren het effect en minimaliseren het risico op bijwerkingen. In dit artikel delen we onze evidence-based richtlijnen.</p>
+
+<h3>Voorbereiding: de basis leggen</h3>
+<p><strong>Zonbescherming (2 weken voor behandeling)</strong><br/>
+UV-blootstelling verhoogt het melaninegehalte in de epidermis, wat het risico op pigmentveranderingen bij laserbehandelingen vergroot (Haedersdal & Wulf, 2006). Vermijd intensieve zonblootstelling en gebruik dagelijks SPF 30+ in de twee weken voor je afspraak. Zelfbruiners zijn eveneens af te raden — deze bevatten dihydroxyaceton (DHA) dat een kunstmatige melanine-laag op de huid creëert.</p>
+
+<p><strong>Scheren, niet waxen (24–48 uur voor lasersessie)</strong><br/>
+Bij laserontharing moet de haarfollikel intact zijn onder het huidoppervlak. Waxen, epileren of plukken verwijdert de follikel en maakt de laser ineffectief. Scheren verwijdert alleen het zichtbare haar terwijl de follikel behouden blijft — ideaal voor laserbehandeling (Gan & Graber, 2013).</p>
+
+<p><strong>Vermijd actieve ingrediënten (3–5 dagen voor behandeling)</strong><br/>
+Retinol, AHA's (glycolzuur), BHA's (salicylzuur) en vitamine C in hoge concentraties kunnen de huid gevoeliger maken. Dit verhoogt het risico op irritatie tijdens de behandeling. Pauzeer deze producten 3–5 dagen vooraf (Draelos, 2016).</p>
+
+<p><strong>Hydratatie</strong><br/>
+Goed gehydrateerde huid reageert beter op behandelingen. Drink voldoende water en gebruik een milde, fragrance-vrije moisturizer in de dagen voor je afspraak.</p>
+
+<h3>Nazorg: het resultaat beschermen</h3>
+<p><strong>Directe nazorg (0–48 uur)</strong><br/>
+Na een laserbehandeling of intensieve facial is de huid tijdelijk gevoeliger. Vermijd hete douches, sauna, stoom en intensieve sport gedurende 24–48 uur. De warmte kan de inflammatoire respons versterken en roodheid verlengen (Raulin et al., 2003). Koel de behandelde zone indien nodig met een cold pack (niet direct op de huid).</p>
+
+<p><strong>Zonprotectie (kritiek, 2+ weken)</strong><br/>
+Na laserbehandelingen is de huid extra gevoelig voor UV-schade. Gebruik dagelijks een breed-spectrum SPF 50+ en vermijd directe zonblootstelling. Dit is de belangrijkste stap om post-inflammatoire hyperpigmentatie (PIH) te voorkomen (Callender et al., 2011).</p>
+
+<p><strong>Kalmerende verzorging</strong><br/>
+Gebruik een fragrance-vrije, herstellende moisturizer met ingrediënten als aloë vera, panthenol of ceramiden. Vermijd make-up op de behandelde zone gedurende minimaal 12 uur.</p>
+
+<p><strong>Geen actieve ingrediënten (3–5 dagen na behandeling)</strong><br/>
+Hervat retinol, AHA/BHA en vitamine C pas na 3–5 dagen, of wanneer de huid volledig gekalmeerd is.</p>
+
+<h3>Behandelingspecifieke tips</h3>
+<p><strong>Laserontharing:</strong> haaruitval begint 1–3 weken na de sessie (shedding). Dit is normaal — de beschadigde follikels stoten het haar af. Niet plukken, laat het natuurlijk uitvallen.<br/>
+<strong>Deep Cleansing Facial:</strong> lichte purging (kortstondige toename van onzuiverheden) kan optreden in de eerste week. Dit wijst op versnelde celvernieuwing en is een positief teken.<br/>
+<strong>Glacē Glow Facial:</strong> de glow houdt gemiddeld 5–10 dagen aan. Voor een evenement, plan de behandeling 2–3 dagen ervoor voor optimaal effect.</p>
+
+<h3 style="margin-top:40px; font-size:18px; color:var(--bronze-deep);">Referenties</h3>
+<ol style="font-size:13px; color:var(--muted); line-height:1.8;">
+<li>Haedersdal, M. & Wulf, H.C. (2006). Evidence-based review of hair removal using lasers and light sources. <em>JEADV</em>, 20(1), 9–20.</li>
+<li>Gan, S.D. & Graber, E.M. (2013). Laser hair removal: a review. <em>Dermatologic Surgery</em>, 39(6), 823–838.</li>
+<li>Draelos, Z.D. (2016). The science behind skin care: moisturizers. <em>Journal of Cosmetic Dermatology</em>, 17(2), 138–144.</li>
+<li>Raulin, C., Greve, B., & Grema, H. (2003). IPL technology: a review. <em>Lasers in Surgery and Medicine</em>, 32(2), 78–87.</li>
+<li>Callender, V.D., St. Surin-Lord, S., Davis, E.C., & Maclin, M. (2011). Postinflammatory hyperpigmentation. <em>American Journal of Clinical Dermatology</em>, 12(2), 87–99.</li>
+</ol>
+`,
+bodyEn: `
+<p>The quality of your result depends not only on the treatment itself — preparation and aftercare are equally important. Whether it's laser hair removal, a facial or a combination treatment: the right steps before and after each session maximise the effect and minimise the risk of side effects. In this article, we share our evidence-based guidelines.</p>
+
+<h3>Preparation: laying the foundation</h3>
+<p><strong>Sun protection (2 weeks before treatment)</strong><br/>
+UV exposure increases melanin content in the epidermis, raising the risk of pigment changes during laser treatments (Haedersdal & Wulf, 2006). Avoid intense sun exposure and use SPF 30+ daily in the two weeks before your appointment. Self-tanners are also inadvisable — they contain dihydroxyacetone (DHA) which creates an artificial melanin layer on the skin.</p>
+
+<p><strong>Shave, don't wax (24–48 hours before laser session)</strong><br/>
+For laser hair removal, the hair follicle must remain intact below the skin surface. Waxing, epilating or plucking removes the follicle, rendering the laser ineffective. Shaving removes only visible hair while preserving the follicle — ideal for laser treatment (Gan & Graber, 2013).</p>
+
+<p><strong>Avoid active ingredients (3–5 days before treatment)</strong><br/>
+Retinol, AHAs (glycolic acid), BHAs (salicylic acid) and high-concentration vitamin C can sensitise the skin, increasing the risk of irritation during treatment. Pause these products 3–5 days beforehand (Draelos, 2016).</p>
+
+<p><strong>Hydration</strong><br/>
+Well-hydrated skin responds better to treatments. Drink sufficient water and use a mild, fragrance-free moisturiser in the days before your appointment.</p>
+
+<h3>Aftercare: protecting the result</h3>
+<p><strong>Immediate aftercare (0–48 hours)</strong><br/>
+After a laser treatment or intensive facial, the skin is temporarily more sensitive. Avoid hot showers, sauna, steam and intense exercise for 24–48 hours. Heat can amplify the inflammatory response and prolong redness (Raulin et al., 2003). Cool the treated area if needed with a cold pack (not directly on skin).</p>
+
+<p><strong>Sun protection (critical, 2+ weeks)</strong><br/>
+After laser treatments, the skin is extra susceptible to UV damage. Use a broad-spectrum SPF 50+ daily and avoid direct sun exposure. This is the single most important step to prevent post-inflammatory hyperpigmentation (PIH) (Callender et al., 2011).</p>
+
+<p><strong>Soothing skincare</strong><br/>
+Use a fragrance-free, restorative moisturiser with ingredients such as aloe vera, panthenol or ceramides. Avoid makeup on the treated area for at least 12 hours.</p>
+
+<p><strong>No active ingredients (3–5 days post-treatment)</strong><br/>
+Resume retinol, AHA/BHA and vitamin C only after 3–5 days, or when the skin has fully calmed.</p>
+
+<h3>Treatment-specific tips</h3>
+<p><strong>Laser hair removal:</strong> hair shedding begins 1–3 weeks post-session. This is normal — damaged follicles expel the hair. Don't pluck; let it fall out naturally.<br/>
+<strong>Deep Cleansing Facial:</strong> mild purging (temporary increase in blemishes) may occur in the first week. This indicates accelerated cell turnover and is a positive sign.<br/>
+<strong>Glacē Glow Facial:</strong> the glow typically lasts 5–10 days. For an event, schedule the treatment 2–3 days before for optimal effect.</p>
+
+<h3 style="margin-top:40px; font-size:18px; color:var(--bronze-deep);">References</h3>
+<ol style="font-size:13px; color:var(--muted); line-height:1.8;">
+<li>Haedersdal, M. & Wulf, H.C. (2006). Evidence-based review of hair removal using lasers and light sources. <em>JEADV</em>, 20(1), 9–20.</li>
+<li>Gan, S.D. & Graber, E.M. (2013). Laser hair removal: a review. <em>Dermatologic Surgery</em>, 39(6), 823–838.</li>
+<li>Draelos, Z.D. (2016). The science behind skin care: moisturizers. <em>Journal of Cosmetic Dermatology</em>, 17(2), 138–144.</li>
+<li>Raulin, C., Greve, B., & Grema, H. (2003). IPL technology: a review. <em>Lasers in Surgery and Medicine</em>, 32(2), 78–87.</li>
+<li>Callender, V.D., St. Surin-Lord, S., Davis, E.C., & Maclin, M. (2011). Postinflammatory hyperpigmentation. <em>American Journal of Clinical Dermatology</em>, 12(2), 87–99.</li>
+</ol>
+`
+},
+
+'deep-vs-glace': {
+bodyNl: `
+<p>Twee signature facials, elk met een eigen filosofie. De Deep Cleansing Facial is gericht op reiniging en herstel; de Glacē Glow Facial op verfrissing en uitstraling. Maar welke past bij jou? In dit artikel vergelijken we beide behandelingen op basis van werkingsmechanisme, indicaties en verwachte resultaten.</p>
+
+<h3>Deep Cleansing Facial: reiniging van binnenuit</h3>
+<p>De Deep Cleansing is ontworpen voor huid die congestie vertoont: verstopte poriën, mee-eters, oneffenheden of een doffe tint. De behandeling combineert mechanische extractie met enzymatische peeling en eindigt met een kalmerend masker.</p>
+<p>Mechanische extractie verwijdert komedonen (open en gesloten) die topische producten niet bereiken. In combinatie met een enzymatische peel — die dode huidcellen oplost via proteasen — wordt de huidtextuur verbeterd en de celvernieuwing gestimuleerd (Kornhauser et al., 2010). De IONTO Beauty Tower ondersteunt dit proces met galvanische stroom en hoogfrequente trilling, wat de penetratie van actieve stoffen verhoogt en bacteriële activiteit vermindert.</p>
+<p><strong>Ideaal voor:</strong> vette of gecombineerde huid, acne-gevoelige huid, onzuiverheden, verstopte poriën, doffe huid. <strong>Frequentie:</strong> elke 4–6 weken.</p>
+
+<h3>Glacē Glow Facial: verfrissing en glow</h3>
+<p>De Glacē Glow is ontworpen voor huid die er moe of dof uitziet en direct wil stralen. De behandeling gebruikt cryotherapie (Cryo 7) om de microcirculatie te stimuleren, gevolgd door diepe serum-infusie via sonophorese.</p>
+<p>Waar de Deep Cleansing zich richt op het verwijderen van wat er niet hoort (talg, dode cellen, congestie), richt de Glacē Glow zich op het toevoegen van wat de huid nodig heeft (hydratatie, voedingsstoffen, zuurstof). Het resultaat is direct zichtbaar: vollere, helderere huid met een natuurlijke glow (Mourot et al., 2007; Papakonstantinou et al., 2012).</p>
+<p><strong>Ideaal voor:</strong> droge of gedehydrateerde huid, vermoeid ogende huid, voorbereiding op een evenement, anti-aging onderhoud. <strong>Frequentie:</strong> maandelijks voor cumulatief effect.</p>
+
+<h3>Directe vergelijking</h3>
+<table style="width:100%; border-collapse:collapse; font-size:14px; margin:24px 0;">
+<tr style="border-bottom:1px solid var(--line);"><td style="padding:12px 0; font-weight:500;"></td><td style="padding:12px 16px; font-weight:500;">Deep Cleansing</td><td style="padding:12px 16px; font-weight:500;">Glacē Glow</td></tr>
+<tr style="border-bottom:1px solid var(--line);"><td style="padding:12px 0; color:var(--muted);">Primair doel</td><td style="padding:12px 16px;">Reiniging & herstel</td><td style="padding:12px 16px;">Hydratatie & glow</td></tr>
+<tr style="border-bottom:1px solid var(--line);"><td style="padding:12px 0; color:var(--muted);">Technologie</td><td style="padding:12px 16px;">IONTO + extractie</td><td style="padding:12px 16px;">Cryo 7 + sonophorese</td></tr>
+<tr style="border-bottom:1px solid var(--line);"><td style="padding:12px 0; color:var(--muted);">Huidtype</td><td style="padding:12px 16px;">Vet / gecombineerd</td><td style="padding:12px 16px;">Droog / vermoeid</td></tr>
+<tr style="border-bottom:1px solid var(--line);"><td style="padding:12px 0; color:var(--muted);">Downtime</td><td style="padding:12px 16px;">Lichte roodheid, 12–24u</td><td style="padding:12px 16px;">Geen</td></tr>
+<tr style="border-bottom:1px solid var(--line);"><td style="padding:12px 0; color:var(--muted);">Resultaat zichtbaar</td><td style="padding:12px 16px;">Na 2–3 dagen</td><td style="padding:12px 16px;">Direct</td></tr>
+<tr><td style="padding:12px 0; color:var(--muted);">Aanbevolen frequentie</td><td style="padding:12px 16px;">4–6 weken</td><td style="padding:12px 16px;">Maandelijks</td></tr>
+</table>
+
+<h3>Of beide: het combinatieprotocol</h3>
+<p>Voor cliënten die zowel reiniging als glow willen, bieden we een combinatieprotocol: eerst een Deep Cleansing sessie (wegnemen van congestie), gevolgd door een Glacē Glow na 2 weken (opladen met hydratatie). Dit alternerend schema levert de beste resultaten op voor cliënten met een gemengd huidtype.</p>
+
+<h3 style="margin-top:40px; font-size:18px; color:var(--bronze-deep);">Referenties</h3>
+<ol style="font-size:13px; color:var(--muted); line-height:1.8;">
+<li>Kornhauser, A., Coelho, S.G., & Hearing, V.J. (2010). Applications of hydroxy acids: classification, mechanisms, and photoactivity. <em>Clinical, Cosmetic and Investigational Dermatology</em>, 3, 135–142.</li>
+<li>Mourot, L., Cluzeau, C., & Regnard, J. (2007). Hyperbaric gaseous cryotherapy: effects on skin microcirculation. <em>Skin Research and Technology</em>, 13(2), 137–142.</li>
+<li>Papakonstantinou, E., Roth, M., & Karakiulakis, G. (2012). Hyaluronic acid: a key molecule in skin aging. <em>Dermato-Endocrinology</em>, 4(3), 253–258.</li>
+</ol>
+`,
+bodyEn: `
+<p>Two signature facials, each with a distinct philosophy. The Deep Cleansing Facial targets cleansing and repair; the Glacē Glow Facial targets refreshment and radiance. But which one suits you? In this article, we compare both treatments based on mechanism of action, indications and expected results.</p>
+
+<h3>Deep Cleansing Facial: purification from within</h3>
+<p>The Deep Cleansing is designed for skin showing congestion: clogged pores, blackheads, blemishes or a dull complexion. The treatment combines mechanical extraction with enzymatic peeling and concludes with a soothing mask.</p>
+<p>Mechanical extraction removes comedones (open and closed) that topical products cannot reach. Combined with an enzymatic peel — which dissolves dead skin cells via proteases — skin texture is improved and cell renewal stimulated (Kornhauser et al., 2010). The IONTO Beauty Tower supports this process with galvanic current and high-frequency vibration, enhancing active ingredient penetration and reducing bacterial activity.</p>
+<p><strong>Ideal for:</strong> oily or combination skin, acne-prone skin, blemishes, clogged pores, dull skin. <strong>Frequency:</strong> every 4–6 weeks.</p>
+
+<h3>Glacē Glow Facial: refreshment and glow</h3>
+<p>The Glacē Glow is designed for skin that looks tired or dull and wants to shine immediately. The treatment uses cryotherapy (Cryo 7) to stimulate microcirculation, followed by deep serum infusion via sonophoresis.</p>
+<p>Where the Deep Cleansing focuses on removing what shouldn't be there (sebum, dead cells, congestion), the Glacē Glow focuses on adding what the skin needs (hydration, nutrients, oxygen). The result is immediately visible: plumper, brighter skin with a natural glow (Mourot et al., 2007; Papakonstantinou et al., 2012).</p>
+<p><strong>Ideal for:</strong> dry or dehydrated skin, tired-looking skin, pre-event preparation, anti-aging maintenance. <strong>Frequency:</strong> monthly for cumulative effect.</p>
+
+<h3>Head-to-head comparison</h3>
+<table style="width:100%; border-collapse:collapse; font-size:14px; margin:24px 0;">
+<tr style="border-bottom:1px solid var(--line);"><td style="padding:12px 0; font-weight:500;"></td><td style="padding:12px 16px; font-weight:500;">Deep Cleansing</td><td style="padding:12px 16px; font-weight:500;">Glacē Glow</td></tr>
+<tr style="border-bottom:1px solid var(--line);"><td style="padding:12px 0; color:var(--muted);">Primary goal</td><td style="padding:12px 16px;">Cleansing & repair</td><td style="padding:12px 16px;">Hydration & glow</td></tr>
+<tr style="border-bottom:1px solid var(--line);"><td style="padding:12px 0; color:var(--muted);">Technology</td><td style="padding:12px 16px;">IONTO + extraction</td><td style="padding:12px 16px;">Cryo 7 + sonophoresis</td></tr>
+<tr style="border-bottom:1px solid var(--line);"><td style="padding:12px 0; color:var(--muted);">Skin type</td><td style="padding:12px 16px;">Oily / combination</td><td style="padding:12px 16px;">Dry / fatigued</td></tr>
+<tr style="border-bottom:1px solid var(--line);"><td style="padding:12px 0; color:var(--muted);">Downtime</td><td style="padding:12px 16px;">Mild redness, 12–24h</td><td style="padding:12px 16px;">None</td></tr>
+<tr style="border-bottom:1px solid var(--line);"><td style="padding:12px 0; color:var(--muted);">Results visible</td><td style="padding:12px 16px;">After 2–3 days</td><td style="padding:12px 16px;">Immediately</td></tr>
+<tr><td style="padding:12px 0; color:var(--muted);">Recommended frequency</td><td style="padding:12px 16px;">4–6 weeks</td><td style="padding:12px 16px;">Monthly</td></tr>
+</table>
+
+<h3>Or both: the combination protocol</h3>
+<p>For clients who want both cleansing and glow, we offer a combination protocol: first a Deep Cleansing session (clearing congestion), followed by a Glacē Glow after 2 weeks (recharging with hydration). This alternating schedule delivers the best results for clients with combination skin.</p>
+
+<h3 style="margin-top:40px; font-size:18px; color:var(--bronze-deep);">References</h3>
+<ol style="font-size:13px; color:var(--muted); line-height:1.8;">
+<li>Kornhauser, A., Coelho, S.G., & Hearing, V.J. (2010). Applications of hydroxy acids: classification, mechanisms, and photoactivity. <em>Clinical, Cosmetic and Investigational Dermatology</em>, 3, 135–142.</li>
+<li>Mourot, L., Cluzeau, C., & Regnard, J. (2007). Hyperbaric gaseous cryotherapy: effects on skin microcirculation. <em>Skin Research and Technology</em>, 13(2), 137–142.</li>
+<li>Papakonstantinou, E., Roth, M., & Karakiulakis, G. (2012). Hyaluronic acid: a key molecule in skin aging. <em>Dermato-Endocrinology</em>, 4(3), 253–258.</li>
+</ol>
+`
+},
+
+'sylton-scan': {
+bodyNl: `
+<p>Bij SkinTech begint elke behandeling met een objectieve beoordeling van de huid. De Sylton Observ 520x is ons diagnostisch instrument daarvoor — een geavanceerde huidscanner die met zes verschillende lichtmodi de huid in beeld brengt op niveaus die het blote oog niet kan waarnemen. In dit artikel leggen we uit hoe de technologie werkt en waarom het de basis vormt van elk behandelplan.</p>
+
+<h3>Wat is de Observ 520x?</h3>
+<p>De Sylton Observ 520x is een professioneel huidanalysesysteem dat gebruik maakt van spectraal licht om de huidconditie te visualiseren. Het apparaat produceert beelden in zes modi, elk ontworpen om een specifiek aspect van de huid te belichten:</p>
+<p><strong>Daglicht</strong> — Toont de huid zoals het oog deze ziet. Basis voor visuele beoordeling.<br/>
+<strong>Cross-polarised</strong> — Elimineert oppervlaktereflecties en maakt vasculaire patronen, roodheid en rosacea zichtbaar die onder normaal licht verborgen blijven.<br/>
+<strong>Parallel-polarised</strong> — Benadrukt huidtextuur, fijne lijntjes en poriëstructuur door oppervlaktereflecties juist te versterken.<br/>
+<strong>UV-fluorescentie</strong> — Maakt pigmentonregelmatigheden, zonschade en bacteriële activiteit (porfyrinen van P. acnes) zichtbaar via ultraviolet licht (Szeimies et al., 2009).<br/>
+<strong>Woods licht</strong> — Differentieert tussen epidermale en dermale pigmentatie, essentieel voor het beoordelen van melasma en hyperpigmentatie (Asawanonda & Taylor, 1999).<br/>
+<strong>Complexieanalyse</strong> — Gecombineerd beeld dat vochtigheid, pigment en vasculaire gezondheid integreert in één overzicht.</p>
+
+<h3>Waarom het verschil maakt</h3>
+<p>Traditionele huidbeoordeling is subjectief — afhankelijk van verlichting, ervaring en het moment van de dag. De Observ 520x objectiveert dit proces. Studies tonen aan dat gestandaardiseerde fotografie en spectrale analyse de diagnostische nauwkeurigheid bij pigmentaire aandoeningen met 25–40% verhogen vergeleken met visuele inspectie alleen (Zonios et al., 2001).</p>
+<p>Bij SkinTech gebruiken we de scanresultaten om de behandelparameters te bepalen. Een cliënt met oppervlakkige pigmentvlekken (epidermaal, zichtbaar onder UV) krijgt een ander protocol dan iemand met diepe pigmentatie (dermaal, alleen zichtbaar onder Wood's licht). Dit voorkomt overbehandeling en maximaliseert het resultaat.</p>
+
+<h3>De scan bij SkinTech</h3>
+<p>Elke nieuwe cliënt krijgt een gratis huidscan als onderdeel van het eerste consult. De scan duurt ongeveer 10 minuten en is volledig non-invasief. De specialist bespreekt de beelden direct met u en legt uit wat ze onthullen over uw huidconditie, zonschadehistorie en potentiële aandachtspunten.</p>
+<p>De beelden worden opgeslagen (met uw toestemming) zodat we bij vervolgbezoeken het verloop kunnen monitoren. Dit maakt het mogelijk om objectief te meten of een behandelprotocol effect heeft — niet op gevoel, maar op basis van visuele data.</p>
+
+<h3>Niet alleen voor problemen</h3>
+<p>De Observ is niet alleen waardevol bij specifieke huidklachten. Ook cliënten met een ogenschijnlijk gezonde huid profiteren: de scan kan vroege zonschade, dehydratie of beginnende pigmentatie detecteren voordat deze met het blote oog zichtbaar zijn. Preventieve interventie is altijd effectiever dan reactieve behandeling.</p>
+
+<h3 style="margin-top:40px; font-size:18px; color:var(--bronze-deep);">Referenties</h3>
+<ol style="font-size:13px; color:var(--muted); line-height:1.8;">
+<li>Szeimies, R.M., Torezan, L., Niwa, A., et al. (2009). Clinical, histopathological and immunohistochemical assessment of human skin field cancerization before and after photodynamic therapy. <em>British Journal of Dermatology</em>, 160(5), 1025–1033.</li>
+<li>Asawanonda, P. & Taylor, C.R. (1999). Wood's light in dermatology. <em>International Journal of Dermatology</em>, 38(11), 801–807.</li>
+<li>Zonios, G., Bykowski, J., & Kollias, N. (2001). Skin melanin, hemoglobin, and light scattering properties can be quantified in vivo using diffuse reflectance spectroscopy. <em>Journal of Investigative Dermatology</em>, 117(6), 1452–1457.</li>
+</ol>
+`,
+bodyEn: `
+<p>At SkinTech, every treatment begins with an objective assessment of the skin. The Sylton Observ 520x is our diagnostic instrument for this — an advanced skin scanner that uses six different light modes to visualise the skin at levels the naked eye cannot perceive. In this article, we explain how the technology works and why it forms the foundation of every treatment plan.</p>
+
+<h3>What is the Observ 520x?</h3>
+<p>The Sylton Observ 520x is a professional skin analysis system that uses spectral light to visualise skin condition. The device produces images in six modes, each designed to illuminate a specific aspect of the skin:</p>
+<p><strong>Daylight</strong> — Shows the skin as the eye sees it. Baseline for visual assessment.<br/>
+<strong>Cross-polarised</strong> — Eliminates surface reflections, revealing vascular patterns, redness and rosacea hidden under normal light.<br/>
+<strong>Parallel-polarised</strong> — Emphasises skin texture, fine lines and pore structure by amplifying surface reflections.<br/>
+<strong>UV fluorescence</strong> — Reveals pigment irregularities, sun damage and bacterial activity (porphyrins from P. acnes) via ultraviolet light (Szeimies et al., 2009).<br/>
+<strong>Wood's light</strong> — Differentiates between epidermal and dermal pigmentation, essential for assessing melasma and hyperpigmentation (Asawanonda & Taylor, 1999).<br/>
+<strong>Complexion analysis</strong> — Combined image integrating hydration, pigment and vascular health in one overview.</p>
+
+<h3>Why it makes a difference</h3>
+<p>Traditional skin assessment is subjective — dependent on lighting, experience and the time of day. The Observ 520x objectifies this process. Studies show that standardised photography and spectral analysis increase diagnostic accuracy for pigmentary disorders by 25–40% compared to visual inspection alone (Zonios et al., 2001).</p>
+<p>At SkinTech, we use scan results to determine treatment parameters. A client with superficial pigment spots (epidermal, visible under UV) receives a different protocol than someone with deep pigmentation (dermal, only visible under Wood's light). This prevents overtreatment and maximises results.</p>
+
+<h3>The scan at SkinTech</h3>
+<p>Every new client receives a free skin scan as part of the initial consultation. The scan takes approximately 10 minutes and is completely non-invasive. The specialist discusses the images with you immediately, explaining what they reveal about your skin condition, sun damage history and potential areas of attention.</p>
+<p>Images are stored (with your consent) so we can monitor progress at follow-up visits. This makes it possible to objectively measure whether a treatment protocol is having an effect — not by feel, but based on visual data.</p>
+
+<h3>Not just for problems</h3>
+<p>The Observ is not only valuable for specific skin concerns. Clients with seemingly healthy skin also benefit: the scan can detect early sun damage, dehydration or emerging pigmentation before they become visible to the naked eye. Preventive intervention is always more effective than reactive treatment.</p>
+
+<h3 style="margin-top:40px; font-size:18px; color:var(--bronze-deep);">References</h3>
+<ol style="font-size:13px; color:var(--muted); line-height:1.8;">
+<li>Szeimies, R.M., Torezan, L., Niwa, A., et al. (2009). Clinical, histopathological and immunohistochemical assessment of human skin field cancerization before and after photodynamic therapy. <em>British Journal of Dermatology</em>, 160(5), 1025–1033.</li>
+<li>Asawanonda, P. & Taylor, C.R. (1999). Wood's light in dermatology. <em>International Journal of Dermatology</em>, 38(11), 801–807.</li>
+<li>Zonios, G., Bykowski, J., & Kollias, N. (2001). Skin melanin, hemoglobin, and light scattering properties can be quantified in vivo using diffuse reflectance spectroscopy. <em>Journal of Investigative Dermatology</em>, 117(6), 1452–1457.</li>
+</ol>
+`
+}
+
+};
+
+
 function renderJournal() {
   const nl = currentLang === 'nl';
   const c = nl ? {
@@ -2066,6 +2499,8 @@ function showArticle(id) {
   const a = ARTICLES.find(x => x.id === id);
   if (!a) return;
   const nl = currentLang === 'nl';
+  const content = ARTICLE_CONTENT[id];
+  const body = content ? (nl ? content.bodyNl : content.bodyEn) : '';
   const app = document.getElementById('app');
   app.innerHTML = '';
   const el = document.createElement('div');
@@ -2083,9 +2518,14 @@ function showArticle(id) {
     <section style="padding:60px 0 120px;">
       <div class="container-narrow">
         ${a.img ? `<div style="border-radius:4px; overflow:hidden; margin-bottom:48px; aspect-ratio:21/9;"><img src="${a.img}" alt="" style="width:100%; height:100%; object-fit:cover;"/></div>` : ''}
-        <div style="font-family:var(--serif); font-size:22px; line-height:1.5; color:var(--ink); margin-bottom:32px;">${nl ? a.excerptNl : a.excerptEn}</div>
-        <div style="padding:48px; background:var(--cream-deep); border-radius:4px; text-align:center;">
-          <p style="font-family:var(--serif); font-size:20px; color:var(--muted); margin-bottom:20px;">${nl ? 'Dit artikel wordt binnenkort aangevuld met de volledige tekst.' : 'This article will be updated with the full text soon.'}</p>
+        <div class="article-body" style="font-size:15px; line-height:1.8; color:var(--ink);">
+          <div style="font-family:var(--serif); font-size:22px; line-height:1.5; margin-bottom:32px; color:var(--ink);">${nl ? a.excerptNl : a.excerptEn}</div>
+          ${body ? body : `<div style="padding:48px; background:var(--cream-deep); border-radius:4px; text-align:center;">
+            <p style="font-family:var(--serif); font-size:20px; color:var(--muted); margin-bottom:20px;">${nl ? 'Dit artikel wordt binnenkort aangevuld.' : 'This article will be updated soon.'}</p>
+          </div>`}
+        </div>
+        <div style="margin-top:60px; padding-top:40px; border-top:1px solid var(--line); display:flex; justify-content:space-between; align-items:center;">
+          <button class="btn btn-ghost" onclick="navigate('journal')" style="font-size:12px;">← ${nl ? 'Terug naar Journal' : 'Back to Journal'}</button>
           <button class="btn btn-primary" onclick="navigate('contact')">${nl ? 'Stel een vraag →' : 'Ask a question →'}</button>
         </div>
       </div>
