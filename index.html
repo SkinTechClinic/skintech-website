@@ -3810,40 +3810,334 @@ function renderContact() {
 
 
 function renderPrivacy() {
-  return '<section class="page-head"><div class="container">' +
-    '<span class="eyebrow">— Juridisch</span>' +
-    '<h1>Privacy<br/><i>beleid.</i></h1></div></section>' +
-    '<section><div class="container" style="max-width:800px; padding:60px 20px; line-height:1.8; font-size:15px;">' +
-    '<p><strong>Verwerkingsverantwoordelijke:</strong> SkinTech Laser Clinic, Amsterdam, KvK 42039525.</p>' +
-    '<h3 style="margin-top:32px; font-family:var(--serif); font-size:24px;">Welke gegevens verzamelen wij?</h3>' +
-    '<p>Naam, e-mailadres, telefoonnummer en behandelvoorkeuren die u via het contactformulier verstrekt.</p>' +
-    '<h3 style="margin-top:32px; font-family:var(--serif); font-size:24px;">Waarvoor gebruiken wij uw gegevens?</h3>' +
-    '<p>Uitsluitend om uw afspraakverzoek te verwerken en u te informeren over uw behandeling.</p>' +
-    '<h3 style="margin-top:32px; font-family:var(--serif); font-size:24px;">Cookies</h3>' +
-    '<p>Wij gebruiken alleen functionele cookies (taalvoorkeur) en analytische cookies na toestemming.</p>' +
-    '<h3 style="margin-top:32px; font-family:var(--serif); font-size:24px;">Uw rechten (AVG/GDPR)</h3>' +
-    '<p>U heeft recht op inzage, correctie en verwijdering. Neem contact op via info@skintechclinic.nl.</p>' +
-    '<p style="margin-top:32px; color:var(--muted); font-size:13px;">Laatst bijgewerkt: mei 2026.</p>' +
-    '</div></section>';
+  const nl = currentLang === 'nl';
+  const h3Style = 'margin-top:36px; font-family:var(--serif); font-size:24px; font-weight:400;';
+  const h4Style = 'margin-top:24px; font-size:16px; font-weight:600;';
+  const updated = 'margin-top:40px; color:var(--muted); font-size:13px;';
+  const containerStyle = 'max-width:800px; padding:60px 20px; line-height:1.8; font-size:15px;';
+
+  if (nl) {
+    return `<section class="page-head"><div class="container">
+      <span class="eyebrow">— Juridisch</span>
+      <h1>Privacy<br/><i>beleid.</i></h1></div></section>
+    <section><div class="container" style="${containerStyle}">
+
+    <p><strong>Verwerkingsverantwoordelijke:</strong> SkinTech Laser Clinic B.V., Keizersgracht 241, 1016 EA Amsterdam. KvK 42039525. E-mail: info@skintechclinic.nl</p>
+    <p>SkinTech Laser Clinic B.V. ("SkinTech", "wij", "ons") hecht grote waarde aan de bescherming van uw persoonsgegevens. Dit privacybeleid beschrijft hoe wij uw persoonsgegevens verzamelen, gebruiken, opslaan en beschermen in overeenstemming met de Algemene Verordening Gegevensbescherming (AVG/GDPR), de Uitvoeringswet AVG (UAVG) en overige toepasselijke Nederlandse en Europese wetgeving.</p>
+
+    <h3 style="${h3Style}">1. Welke persoonsgegevens verzamelen wij?</h3>
+
+    <h4 style="${h4Style}">1.1 Contactgegevens</h4>
+    <p>Naam, e-mailadres, telefoonnummer — verstrekt via het contactformulier, bij het boeken van een afspraak of bij telefonisch/WhatsApp-contact.</p>
+
+    <h4 style="${h4Style}">1.2 Behandelgegevens</h4>
+    <p>Huidtype (Fitzpatrick-classificatie), behandelvoorkeuren, behandelgeschiedenis, behandelplannen en voortgangsnotities.</p>
+
+    <h4 style="${h4Style}">1.3 Gezondheidsgegevens (bijzondere categorie)</h4>
+    <p>Informatie over huidcondities, allergieën, medicijngebruik (waaronder isotretinoïne en fotosensibiliserende middelen), zwangerschap en medische voorgeschiedenis relevant voor uw behandeling. Deze gegevens worden uitsluitend verwerkt met uw uitdrukkelijke toestemming (art. 9 lid 2 sub a AVG) en zijn noodzakelijk voor het veilig uitvoeren van uw behandeling.</p>
+
+    <h4 style="${h4Style}">1.4 Beeldmateriaal</h4>
+    <p>Huidscans gemaakt met de Sylton Observ 520x, voor-en-na foto's en behandelfoto's. Deze worden alleen gemaakt en opgeslagen met uw uitdrukkelijke schriftelijke toestemming. Beeldmateriaal dat op de website of sociale media wordt geplaatst, vereist aanvullende afzonderlijke toestemming.</p>
+
+    <h4 style="${h4Style}">1.5 Technische gegevens</h4>
+    <p>IP-adres (geanonimiseerd), browsertype, apparaatgegevens, pagina's bezocht, verwijzende URL — uitsluitend via analytische cookies waarvoor u toestemming heeft gegeven.</p>
+
+    <h3 style="${h3Style}">2. Rechtsgronden voor verwerking</h3>
+    <p>Wij verwerken uw gegevens op basis van de volgende rechtsgronden:</p>
+    <p><strong>Toestemming (art. 6 lid 1 sub a AVG):</strong> Voor gezondheidsgegevens, beeldmateriaal en analytische cookies. U kunt uw toestemming te allen tijde intrekken.<br/>
+    <strong>Uitvoering van een overeenkomst (art. 6 lid 1 sub b AVG):</strong> Voor het verwerken van afspraken, behandelingen en facturering.<br/>
+    <strong>Wettelijke verplichting (art. 6 lid 1 sub c AVG):</strong> Voor belastingadministratie en wettelijk vereiste bewaarplicht.<br/>
+    <strong>Gerechtvaardigd belang (art. 6 lid 1 sub f AVG):</strong> Voor websitebeveiliging, fraudepreventie en verbetering van onze dienstverlening.</p>
+
+    <h3 style="${h3Style}">3. Waarvoor gebruiken wij uw gegevens?</h3>
+    <p>Uw afspraak inplannen, bevestigen en herinneren.<br/>
+    Uw behandeling veilig en effectief uitvoeren, inclusief het bepalen van de juiste laserinstellingen op basis van uw huidtype.<br/>
+    Behandelvoortgang bijhouden en behandelplannen optimaliseren.<br/>
+    Facturering en financiële administratie.<br/>
+    Communicatie over uw behandeling of afspraak.<br/>
+    Verbetering van onze website en dienstverlening (uitsluitend met geanonimiseerde gegevens).</p>
+
+    <h3 style="${h3Style}">4. Cookies</h3>
+
+    <h4 style="${h4Style}">4.1 Functionele cookies (geen toestemming vereist)</h4>
+    <p>Taalvoorkeur (NL/EN) en cookiebannervoorkeur. Deze cookies zijn strikt noodzakelijk voor het functioneren van de website.</p>
+
+    <h4 style="${h4Style}">4.2 Analytische cookies (toestemming vereist)</h4>
+    <p>Wij gebruiken analytische cookies uitsluitend na uw uitdrukkelijke toestemming via de cookiebanner. IP-adressen worden geanonimiseerd. U kunt uw toestemming te allen tijde intrekken door uw browserinstellingen aan te passen of door contact met ons op te nemen.</p>
+
+    <h4 style="${h4Style}">4.3 Marketing/tracking cookies</h4>
+    <p>Wij gebruiken geen marketing- of trackingcookies en delen geen gegevens met advertentienetwerken.</p>
+
+    <h3 style="${h3Style}">5. Delen met derden</h3>
+    <p>Wij delen uw persoonsgegevens niet met derden, behalve:</p>
+    <p><strong>Hostingprovider:</strong> Vercel Inc. (VS) — voor het hosten van onze website. Verwerking op basis van EU-VS Data Privacy Framework.<br/>
+    <strong>Boekhouding:</strong> Onze boekhouder voor belastingdoeleinden (wettelijke verplichting).<br/>
+    <strong>Betalingsverwerker:</strong> Uw betaalgegevens worden verwerkt door uw bank of betaalprovider; wij slaan geen creditcard- of betaalgegevens op.</p>
+    <p>Wij verkopen, verhuren of verhandelen uw persoonsgegevens nooit aan derden.</p>
+
+    <h3 style="${h3Style}">6. Bewaartermijnen</h3>
+    <p><strong>Contactgegevens en afspraakgegevens:</strong> 2 jaar na laatste contact of behandeling.<br/>
+    <strong>Behandelgegevens en gezondheidsgegevens:</strong> 5 jaar na laatste behandeling, conform de richtlijn voor esthetische behandelingen.<br/>
+    <strong>Beeldmateriaal (huidscans, foto's):</strong> 5 jaar na laatste behandeling, tenzij u eerder om verwijdering verzoekt.<br/>
+    <strong>Financiële gegevens:</strong> 7 jaar (wettelijke bewaarplicht belastingdienst).<br/>
+    <strong>Websiteloggegevens:</strong> 26 maanden (geanonimiseerd).</p>
+
+    <h3 style="${h3Style}">7. Beveiliging</h3>
+    <p>Wij treffen passende technische en organisatorische maatregelen om uw persoonsgegevens te beschermen tegen ongeautoriseerde toegang, verlies of wijziging. Dit omvat SSL/TLS-versleuteling op onze website, toegangsbeperking tot persoonsgegevens op need-to-know-basis, en beveiligde opslag van gezondheidsgegevens en beeldmateriaal.</p>
+
+    <h3 style="${h3Style}">8. Uw rechten onder de AVG/GDPR</h3>
+    <p>U heeft de volgende rechten met betrekking tot uw persoonsgegevens:</p>
+    <p><strong>Recht op inzage (art. 15 AVG):</strong> U kunt opvragen welke gegevens wij van u verwerken.<br/>
+    <strong>Recht op rectificatie (art. 16 AVG):</strong> U kunt onjuiste gegevens laten corrigeren.<br/>
+    <strong>Recht op verwijdering (art. 17 AVG):</strong> U kunt verzoeken uw gegevens te wissen ("recht op vergetelheid"), tenzij wettelijke bewaarplicht van toepassing is.<br/>
+    <strong>Recht op beperking (art. 18 AVG):</strong> U kunt de verwerking van uw gegevens laten beperken.<br/>
+    <strong>Recht op overdraagbaarheid (art. 20 AVG):</strong> U kunt uw gegevens in een gestructureerd, gangbaar formaat opvragen.<br/>
+    <strong>Recht van bezwaar (art. 21 AVG):</strong> U kunt bezwaar maken tegen verwerking op basis van gerechtvaardigd belang.<br/>
+    <strong>Recht op intrekking toestemming:</strong> Voor verwerkingen op basis van toestemming kunt u deze te allen tijde intrekken, zonder dat dit afbreuk doet aan de rechtmatigheid van eerdere verwerking.</p>
+    <p>U kunt uw rechten uitoefenen door een e-mail te sturen naar <strong>info@skintechclinic.nl</strong>. Wij reageren binnen 30 dagen.</p>
+
+    <h3 style="${h3Style}">9. Klachten</h3>
+    <p>Indien u een klacht heeft over de verwerking van uw persoonsgegevens, kunt u contact met ons opnemen via info@skintechclinic.nl. U heeft ook het recht om een klacht in te dienen bij de Autoriteit Persoonsgegevens (AP), de Nederlandse toezichthouder voor gegevensbescherming:</p>
+    <p>Autoriteit Persoonsgegevens<br/>Postbus 93374, 2509 AJ Den Haag<br/>www.autoriteitpersoonsgegevens.nl</p>
+
+    <h3 style="${h3Style}">10. Minderjarigen</h3>
+    <p>Onze diensten zijn niet gericht op personen jonger dan 18 jaar. Wij behandelen geen minderjarigen zonder schriftelijke toestemming van een ouder of wettelijk vertegenwoordiger. Wij verzamelen niet bewust persoonsgegevens van personen jonger dan 16 jaar.</p>
+
+    <h3 style="${h3Style}">11. Wijzigingen</h3>
+    <p>Wij behouden ons het recht voor dit privacybeleid te wijzigen. De meest recente versie is altijd beschikbaar op deze pagina. Bij substantiële wijzigingen informeren wij u via de website.</p>
+
+    <p style="${updated}">Laatst bijgewerkt: mei 2026. Versie 2.0.</p>
+    </div></section>`;
+  } else {
+    return `<section class="page-head"><div class="container">
+      <span class="eyebrow">— Legal</span>
+      <h1>Privacy<br/><i>policy.</i></h1></div></section>
+    <section><div class="container" style="${containerStyle}">
+
+    <p><strong>Data controller:</strong> SkinTech Laser Clinic B.V., Keizersgracht 241, 1016 EA Amsterdam, The Netherlands. KvK (Chamber of Commerce) 42039525. Email: info@skintechclinic.nl</p>
+    <p>SkinTech Laser Clinic B.V. ("SkinTech", "we", "us") is committed to protecting your personal data. This privacy policy describes how we collect, use, store, and protect your personal data in accordance with the General Data Protection Regulation (GDPR), the Dutch GDPR Implementation Act (UAVG), and other applicable Dutch and European legislation.</p>
+
+    <h3 style="${h3Style}">1. What personal data do we collect?</h3>
+
+    <h4 style="${h4Style}">1.1 Contact details</h4>
+    <p>Name, email address, phone number — provided via the contact form, when booking an appointment, or through phone/WhatsApp communication.</p>
+
+    <h4 style="${h4Style}">1.2 Treatment data</h4>
+    <p>Skin type (Fitzpatrick classification), treatment preferences, treatment history, treatment plans, and progress notes.</p>
+
+    <h4 style="${h4Style}">1.3 Health data (special category)</h4>
+    <p>Information about skin conditions, allergies, medication use (including isotretinoin and photosensitising agents), pregnancy, and medical history relevant to your treatment. This data is processed exclusively with your explicit consent (Art. 9(2)(a) GDPR) and is necessary for the safe delivery of your treatment.</p>
+
+    <h4 style="${h4Style}">1.4 Visual records</h4>
+    <p>Skin scans taken with the Sylton Observ 520x, before-and-after photographs, and treatment photographs. These are only taken and stored with your explicit written consent. Any visual material published on the website or social media requires additional, separate consent.</p>
+
+    <h4 style="${h4Style}">1.5 Technical data</h4>
+    <p>IP address (anonymised), browser type, device information, pages visited, referring URL — collected solely via analytics cookies for which you have given consent.</p>
+
+    <h3 style="${h3Style}">2. Legal bases for processing</h3>
+    <p>We process your data on the following legal bases:</p>
+    <p><strong>Consent (Art. 6(1)(a) GDPR):</strong> For health data, visual records, and analytics cookies. You may withdraw your consent at any time.<br/>
+    <strong>Performance of a contract (Art. 6(1)(b) GDPR):</strong> For processing appointments, treatments, and invoicing.<br/>
+    <strong>Legal obligation (Art. 6(1)(c) GDPR):</strong> For tax administration and legally required retention periods.<br/>
+    <strong>Legitimate interest (Art. 6(1)(f) GDPR):</strong> For website security, fraud prevention, and improvement of our services.</p>
+
+    <h3 style="${h3Style}">3. How do we use your data?</h3>
+    <p>To schedule, confirm, and remind you of your appointments.<br/>
+    To deliver your treatment safely and effectively, including determining the correct laser settings for your skin type.<br/>
+    To track treatment progress and optimise treatment plans.<br/>
+    Invoicing and financial administration.<br/>
+    Communication regarding your treatment or appointment.<br/>
+    Improvement of our website and services (using anonymised data only).</p>
+
+    <h3 style="${h3Style}">4. Cookies</h3>
+
+    <h4 style="${h4Style}">4.1 Functional cookies (no consent required)</h4>
+    <p>Language preference (NL/EN) and cookie banner preference. These cookies are strictly necessary for the operation of the website.</p>
+
+    <h4 style="${h4Style}">4.2 Analytics cookies (consent required)</h4>
+    <p>We use analytics cookies only after your explicit consent via the cookie banner. IP addresses are anonymised. You may withdraw your consent at any time by adjusting your browser settings or by contacting us.</p>
+
+    <h4 style="${h4Style}">4.3 Marketing/tracking cookies</h4>
+    <p>We do not use marketing or tracking cookies and do not share data with advertising networks.</p>
+
+    <h3 style="${h3Style}">5. Sharing with third parties</h3>
+    <p>We do not share your personal data with third parties, except:</p>
+    <p><strong>Hosting provider:</strong> Vercel Inc. (US) — for hosting our website. Processing based on the EU-US Data Privacy Framework.<br/>
+    <strong>Accounting:</strong> Our accountant for tax purposes (legal obligation).<br/>
+    <strong>Payment processor:</strong> Your payment data is processed by your bank or payment provider; we do not store credit card or payment details.</p>
+    <p>We never sell, rent, or trade your personal data to third parties.</p>
+
+    <h3 style="${h3Style}">6. Retention periods</h3>
+    <p><strong>Contact details and appointment data:</strong> 2 years after last contact or treatment.<br/>
+    <strong>Treatment data and health data:</strong> 5 years after last treatment, in accordance with aesthetic treatment guidelines.<br/>
+    <strong>Visual records (skin scans, photographs):</strong> 5 years after last treatment, unless you request earlier deletion.<br/>
+    <strong>Financial data:</strong> 7 years (statutory retention requirement by the Dutch Tax Authority).<br/>
+    <strong>Website log data:</strong> 26 months (anonymised).</p>
+
+    <h3 style="${h3Style}">7. Security</h3>
+    <p>We implement appropriate technical and organisational measures to protect your personal data against unauthorised access, loss, or alteration. This includes SSL/TLS encryption on our website, restricting access to personal data on a need-to-know basis, and secured storage of health data and visual records.</p>
+
+    <h3 style="${h3Style}">8. Your rights under the GDPR</h3>
+    <p>You have the following rights regarding your personal data:</p>
+    <p><strong>Right of access (Art. 15 GDPR):</strong> You may request which data we process about you.<br/>
+    <strong>Right to rectification (Art. 16 GDPR):</strong> You may have incorrect data corrected.<br/>
+    <strong>Right to erasure (Art. 17 GDPR):</strong> You may request deletion of your data ("right to be forgotten"), unless a statutory retention obligation applies.<br/>
+    <strong>Right to restriction (Art. 18 GDPR):</strong> You may request restriction of processing of your data.<br/>
+    <strong>Right to data portability (Art. 20 GDPR):</strong> You may request your data in a structured, commonly used format.<br/>
+    <strong>Right to object (Art. 21 GDPR):</strong> You may object to processing based on legitimate interest.<br/>
+    <strong>Right to withdraw consent:</strong> For processing based on consent, you may withdraw your consent at any time, without affecting the lawfulness of prior processing.</p>
+    <p>You may exercise your rights by sending an email to <strong>info@skintechclinic.nl</strong>. We will respond within 30 days.</p>
+
+    <h3 style="${h3Style}">9. Complaints</h3>
+    <p>If you have a complaint about the processing of your personal data, please contact us at info@skintechclinic.nl. You also have the right to file a complaint with the Autoriteit Persoonsgegevens (AP), the Dutch data protection authority:</p>
+    <p>Autoriteit Persoonsgegevens<br/>P.O. Box 93374, 2509 AJ The Hague<br/>www.autoriteitpersoonsgegevens.nl</p>
+
+    <h3 style="${h3Style}">10. Minors</h3>
+    <p>Our services are not directed at persons under the age of 18. We do not treat minors without written consent from a parent or legal guardian. We do not knowingly collect personal data from persons under the age of 16.</p>
+
+    <h3 style="${h3Style}">11. Changes</h3>
+    <p>We reserve the right to amend this privacy policy. The most recent version is always available on this page. In the event of substantial changes, we will inform you via the website.</p>
+
+    <p style="${updated}">Last updated: May 2026. Version 2.0.</p>
+    </div></section>`;
+  }
 }
 
 function renderTerms() {
-  return '<section class="page-head"><div class="container">' +
-    '<span class="eyebrow">— Juridisch</span>' +
-    '<h1>Algemene<br/><i>voorwaarden.</i></h1></div></section>' +
-    '<section><div class="container" style="max-width:800px; padding:60px 20px; line-height:1.8; font-size:15px;">' +
-    '<p><strong>SkinTech Laser Clinic</strong> — Amsterdam, KvK 42039525.</p>' +
-    '<h3 style="margin-top:32px; font-family:var(--serif); font-size:24px;">Afspraken</h3>' +
-    '<p>Annulering is kosteloos tot 24 uur voor de afspraak.</p>' +
-    '<h3 style="margin-top:32px; font-family:var(--serif); font-size:24px;">Behandelingen</h3>' +
-    '<p>SkinTech biedt esthetische behandelingen en geen medische zorg. Resultaten kunnen per persoon verschillen.</p>' +
-    '<h3 style="margin-top:32px; font-family:var(--serif); font-size:24px;">Betaling</h3>' +
-    '<p>Betaling geschiedt direct na de behandeling. Wij accepteren pin, creditcard en iDEAL.</p>' +
-    '<h3 style="margin-top:32px; font-family:var(--serif); font-size:24px;">Klachten</h3>' +
-    '<p>Klachten kunt u richten aan info@skintechclinic.nl. Wij reageren binnen 14 dagen.</p>' +
-    '<p style="margin-top:32px; color:var(--muted); font-size:13px;">Laatst bijgewerkt: mei 2026.</p>' +
-    '</div></section>';
+  const nl = currentLang === 'nl';
+  const h3Style = 'margin-top:36px; font-family:var(--serif); font-size:24px; font-weight:400;';
+  const updated = 'margin-top:40px; color:var(--muted); font-size:13px;';
+  const containerStyle = 'max-width:800px; padding:60px 20px; line-height:1.8; font-size:15px;';
+
+  if (nl) {
+    return `<section class="page-head"><div class="container">
+      <span class="eyebrow">— Juridisch</span>
+      <h1>Algemene<br/><i>voorwaarden.</i></h1></div></section>
+    <section><div class="container" style="${containerStyle}">
+
+    <p>Deze algemene voorwaarden zijn van toepassing op alle diensten en overeenkomsten van <strong>SkinTech Laser Clinic B.V.</strong>, gevestigd aan de Keizersgracht 241, 1016 EA Amsterdam, ingeschreven bij de Kamer van Koophandel onder nummer 42039525 ("SkinTech", "wij", "ons").</p>
+
+    <h3 style="${h3Style}">1. Definities</h3>
+    <p><strong>Cliënt:</strong> De natuurlijke persoon die een afspraak maakt of een behandeling ondergaat bij SkinTech.<br/>
+    <strong>Behandeling:</strong> Elke dienst die door SkinTech wordt aangeboden, waaronder laserontharing, gezichtsbehandelingen, huidscans en consulten.<br/>
+    <strong>Overeenkomst:</strong> De afspraak tussen de cliënt en SkinTech voor het uitvoeren van een of meerdere behandelingen.</p>
+
+    <h3 style="${h3Style}">2. Toepasselijkheid</h3>
+    <p>Deze voorwaarden zijn van toepassing op alle offertes, afspraken, behandelingen en overige overeenkomsten tussen SkinTech en de cliënt. Door het maken van een afspraak of het ondergaan van een behandeling accepteert de cliënt deze voorwaarden. Afwijkingen zijn alleen geldig indien schriftelijk overeengekomen.</p>
+
+    <h3 style="${h3Style}">3. Afspraken en annulering</h3>
+    <p><strong>Boeken:</strong> Afspraken kunnen online, telefonisch of via WhatsApp worden gemaakt.<br/>
+    <strong>Bevestiging:</strong> U ontvangt een bevestiging per e-mail of SMS.<br/>
+    <strong>Annulering:</strong> Annulering is kosteloos tot 24 uur voor de geplande afspraak. Bij annulering binnen 24 uur of het niet verschijnen zonder bericht ("no-show") behouden wij ons het recht voor om 50% van de behandelprijs in rekening te brengen.<br/>
+    <strong>Verplaatsen:</strong> U kunt uw afspraak kosteloos verplaatsen tot 24 uur van tevoren.<br/>
+    <strong>Te laat komen:</strong> Bij meer dan 15 minuten vertraging behouden wij ons het recht voor de afspraak in te korten of te annuleren. De behandelprijs blijft verschuldigd.</p>
+
+    <h3 style="${h3Style}">4. Behandelingen</h3>
+    <p><strong>Aard van dienstverlening:</strong> SkinTech biedt esthetische huidbehandelingen en geen medische zorg in de zin van de Wet BIG. Onze behandelingen zijn cosmetisch van aard.<br/>
+    <strong>Intake en consult:</strong> Voor een eerste laserbehandeling vindt altijd een intakeconsult plaats, inclusief huidanalyse met de Sylton Observ 520x. De specialist beoordeelt of de behandeling geschikt en veilig is voor uw huidtype.<br/>
+    <strong>Resultaten:</strong> Resultaten variëren per persoon en zijn afhankelijk van onder meer huidtype, haarkleur, hormoonhuishouding, behandelfrequentie en naleving van voor- en nazorginstructies. SkinTech garandeert geen specifiek resultaat.<br/>
+    <strong>Contra-indicaties:</strong> De cliënt is verplicht relevante medische informatie te delen, waaronder medicijngebruik (isotretinoïne, antibiotica, bloedverdunners), huidaandoeningen, zwangerschap en recente zonblootstelling. Bij verzwijging van relevante informatie aanvaardt SkinTech geen aansprakelijkheid.<br/>
+    <strong>Weigering:</strong> SkinTech behoudt zich het recht voor een behandeling te weigeren indien deze naar professioneel oordeel niet veilig of geschikt is.</p>
+
+    <h3 style="${h3Style}">5. Prijzen en betaling</h3>
+    <p><strong>Prijzen:</strong> Alle prijzen zijn in euro's en inclusief btw, tenzij anders vermeld. De actuele prijslijst is beschikbaar in de clinic en op verzoek.<br/>
+    <strong>Betaling:</strong> Betaling geschiedt direct na de behandeling, tenzij anders overeengekomen. Wij accepteren pin (Maestro/V-Pay), creditcard (Visa/Mastercard), iDEAL en contant.<br/>
+    <strong>Pakketten:</strong> Bij aankoop van een behandelpakket is het gehele bedrag direct verschuldigd. Pakketten zijn persoonsgebonden en niet overdraagbaar. Restitutie van ongebruikte sessies geschiedt uitsluitend op basis van een medische contra-indicatie.<br/>
+    <strong>Prijswijzigingen:</strong> SkinTech behoudt zich het recht voor prijzen aan te passen. Lopende pakketten worden niet beïnvloed door prijswijzigingen.</p>
+
+    <h3 style="${h3Style}">6. Aansprakelijkheid</h3>
+    <p>SkinTech is uitsluitend aansprakelijk voor directe schade die het gevolg is van aantoonbare nalatigheid van SkinTech, tot maximaal het bedrag van de betreffende behandeling. SkinTech is niet aansprakelijk voor indirecte schade, gevolgschade, verwachte resultaten die niet zijn behaald, of schade als gevolg van het niet naleven van voor- en nazorginstructies door de cliënt.</p>
+    <p>SkinTech is niet aansprakelijk voor bijwerkingen die binnen het normale spectrum van laserbehandelingen en gezichtsbehandelingen vallen, waaronder tijdelijke roodheid, zwelling, pigmentveranderingen en gevoeligheid, mits de behandeling conform protocol is uitgevoerd.</p>
+
+    <h3 style="${h3Style}">7. Klachten</h3>
+    <p>Wij nemen klachten serieus. Klachten kunt u richten aan info@skintechclinic.nl of mondeling aan de behandelaar. Wij streven ernaar klachten binnen 14 dagen inhoudelijk te beantwoorden. Indien wij er samen niet uitkomen, kunt u zich wenden tot een onafhankelijke geschillencommissie of de rechter.</p>
+
+    <h3 style="${h3Style}">8. Intellectueel eigendom</h3>
+    <p>Alle content op de website van SkinTech — waaronder teksten, afbeeldingen, logo's, ontwerpen en software — is eigendom van SkinTech Laser Clinic B.V. of wordt onder licentie gebruikt. Gebruik, reproductie of verspreiding zonder schriftelijke toestemming is niet toegestaan.</p>
+
+    <h3 style="${h3Style}">9. Cadeaubonnen</h3>
+    <p>Cadeaubonnen zijn 12 maanden geldig na aankoopdatum, niet inwisselbaar voor geld en niet overdraagbaar. Bij verlies of diefstal vindt geen vervanging plaats.</p>
+
+    <h3 style="${h3Style}">10. Hygiëne en veiligheid</h3>
+    <p>SkinTech hanteert strikte hygiëneprotocollen. Alle apparatuur wordt na elke behandeling gereinigd en gedesinfecteerd. Wegwerponderdelen worden na eenmalig gebruik vervangen. De cliënt wordt verzocht op tijd aanwezig te zijn en eventuele gezondheidsklachten vooraf te melden.</p>
+
+    <h3 style="${h3Style}">11. Overmacht</h3>
+    <p>In geval van overmacht (waaronder maar niet beperkt tot ziekte, technische storingen, overheidsmaatregelen of pandemie) is SkinTech niet gehouden aan haar verplichtingen. Afspraken worden in dat geval zonder kosten verplaatst.</p>
+
+    <h3 style="${h3Style}">12. Toepasselijk recht</h3>
+    <p>Op deze voorwaarden en alle overeenkomsten tussen SkinTech en de cliënt is Nederlands recht van toepassing. Geschillen worden voorgelegd aan de bevoegde rechter te Amsterdam.</p>
+
+    <h3 style="${h3Style}">13. Wijzigingen</h3>
+    <p>SkinTech behoudt zich het recht voor deze voorwaarden te wijzigen. De meest recente versie is altijd beschikbaar op deze pagina.</p>
+
+    <p style="${updated}">Laatst bijgewerkt: mei 2026. Versie 2.0.</p>
+    </div></section>`;
+  } else {
+    return `<section class="page-head"><div class="container">
+      <span class="eyebrow">— Legal</span>
+      <h1>Terms &<br/><i>conditions.</i></h1></div></section>
+    <section><div class="container" style="${containerStyle}">
+
+    <p>These terms and conditions apply to all services and agreements of <strong>SkinTech Laser Clinic B.V.</strong>, located at Keizersgracht 241, 1016 EA Amsterdam, The Netherlands, registered with the Dutch Chamber of Commerce (KvK) under number 42039525 ("SkinTech", "we", "us").</p>
+
+    <h3 style="${h3Style}">1. Definitions</h3>
+    <p><strong>Client:</strong> The natural person who makes an appointment or undergoes a treatment at SkinTech.<br/>
+    <strong>Treatment:</strong> Any service offered by SkinTech, including laser hair removal, facial treatments, skin scans, and consultations.<br/>
+    <strong>Agreement:</strong> The arrangement between the client and SkinTech for the delivery of one or more treatments.</p>
+
+    <h3 style="${h3Style}">2. Applicability</h3>
+    <p>These terms apply to all quotes, appointments, treatments, and other agreements between SkinTech and the client. By making an appointment or undergoing a treatment, the client accepts these terms. Deviations are only valid if agreed in writing.</p>
+
+    <h3 style="${h3Style}">3. Appointments and cancellation</h3>
+    <p><strong>Booking:</strong> Appointments can be made online, by phone, or via WhatsApp.<br/>
+    <strong>Confirmation:</strong> You will receive a confirmation by email or SMS.<br/>
+    <strong>Cancellation:</strong> Cancellation is free of charge up to 24 hours before the scheduled appointment. For cancellations within 24 hours or failure to attend without notice ("no-show"), we reserve the right to charge 50% of the treatment price.<br/>
+    <strong>Rescheduling:</strong> You may reschedule your appointment free of charge up to 24 hours in advance.<br/>
+    <strong>Late arrival:</strong> If you arrive more than 15 minutes late, we reserve the right to shorten or cancel the appointment. The treatment price remains due.</p>
+
+    <h3 style="${h3Style}">4. Treatments</h3>
+    <p><strong>Nature of services:</strong> SkinTech provides aesthetic skin treatments and not medical care within the meaning of the Dutch Healthcare Professions Act (Wet BIG). Our treatments are cosmetic in nature.<br/>
+    <strong>Intake and consultation:</strong> A first laser treatment is always preceded by an intake consultation, including skin analysis with the Sylton Observ 520x. The specialist assesses whether the treatment is suitable and safe for your skin type.<br/>
+    <strong>Results:</strong> Results vary per individual and depend on factors including skin type, hair colour, hormonal balance, treatment frequency, and adherence to pre- and aftercare instructions. SkinTech does not guarantee specific results.<br/>
+    <strong>Contraindications:</strong> The client is obliged to disclose relevant medical information, including medication use (isotretinoin, antibiotics, blood thinners), skin conditions, pregnancy, and recent sun exposure. SkinTech accepts no liability if relevant information is withheld.<br/>
+    <strong>Refusal of treatment:</strong> SkinTech reserves the right to decline a treatment if, in our professional judgement, it is not safe or suitable.</p>
+
+    <h3 style="${h3Style}">5. Prices and payment</h3>
+    <p><strong>Prices:</strong> All prices are in euros and include VAT, unless stated otherwise. The current price list is available at the clinic and upon request.<br/>
+    <strong>Payment:</strong> Payment is due immediately after the treatment, unless otherwise agreed. We accept debit cards (Maestro/V-Pay), credit cards (Visa/Mastercard), iDEAL, and cash.<br/>
+    <strong>Packages:</strong> The full amount of a treatment package is due upon purchase. Packages are personal and non-transferable. Refunds for unused sessions are only issued on the basis of a medical contraindication.<br/>
+    <strong>Price changes:</strong> SkinTech reserves the right to adjust prices. Existing packages are not affected by price changes.</p>
+
+    <h3 style="${h3Style}">6. Liability</h3>
+    <p>SkinTech is only liable for direct damage resulting from demonstrable negligence on the part of SkinTech, up to a maximum of the value of the treatment concerned. SkinTech is not liable for indirect damage, consequential damage, expected results not achieved, or damage resulting from the client's failure to follow pre- and aftercare instructions.</p>
+    <p>SkinTech is not liable for side effects that fall within the normal spectrum of laser and facial treatments, including temporary redness, swelling, pigmentation changes, and sensitivity, provided the treatment was performed according to protocol.</p>
+
+    <h3 style="${h3Style}">7. Complaints</h3>
+    <p>We take complaints seriously. Complaints can be directed to info@skintechclinic.nl or communicated verbally to the practitioner. We aim to respond to complaints substantively within 14 days. If we are unable to resolve the matter together, you may refer to an independent dispute resolution committee or the courts.</p>
+
+    <h3 style="${h3Style}">8. Intellectual property</h3>
+    <p>All content on the SkinTech website — including text, images, logos, designs, and software — is the property of SkinTech Laser Clinic B.V. or is used under licence. Use, reproduction, or distribution without written permission is prohibited.</p>
+
+    <h3 style="${h3Style}">9. Gift vouchers</h3>
+    <p>Gift vouchers are valid for 12 months from the date of purchase, non-redeemable for cash, and non-transferable. No replacement is provided in case of loss or theft.</p>
+
+    <h3 style="${h3Style}">10. Hygiene and safety</h3>
+    <p>SkinTech maintains strict hygiene protocols. All equipment is cleaned and disinfected after each treatment. Disposable components are replaced after single use. Clients are requested to arrive on time and to report any health concerns in advance.</p>
+
+    <h3 style="${h3Style}">11. Force majeure</h3>
+    <p>In the event of force majeure (including but not limited to illness, technical failures, government measures, or pandemic), SkinTech is not bound by its obligations. Appointments will be rescheduled at no cost.</p>
+
+    <h3 style="${h3Style}">12. Governing law</h3>
+    <p>These terms and all agreements between SkinTech and the client are governed by Dutch law. Disputes shall be submitted to the competent court in Amsterdam.</p>
+
+    <h3 style="${h3Style}">13. Changes</h3>
+    <p>SkinTech reserves the right to amend these terms. The most recent version is always available on this page.</p>
+
+    <p style="${updated}">Last updated: May 2026. Version 2.0.</p>
+    </div></section>`;
+  }
 }
+
 
 function renderFooter() {
   const nl = currentLang === 'nl';
