@@ -4,31 +4,21 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>SkinTech Laser Clinic — Amsterdam</title>
-<meta name="description" content="SkinTech Laser Clinic Amsterdam — Premium laserontharing, huidverbetering en gezichtsbehandelingen. GentleMax Pro Plus, Cryo 7 & meer. Boek uw gratis huidscan.">
-<meta name="keywords" content="laserontharing Amsterdam, huidkliniek, gezichtsbehandeling, SkinTech, laser clinic, huidverbetering">
-<meta name="author" content="SkinTech Laser Clinic">
+<meta name="description" content="SkinTech Laser Clinic Amsterdam — Premium laserontharing, huidverbetering en gezichtsbehandelingen. Boek uw gratis huidscan.">
 <meta name="robots" content="index, follow">
-
-<!-- Open Graph -->
 <meta property="og:type" content="website">
 <meta property="og:title" content="SkinTech Laser Clinic — Amsterdam">
-<meta property="og:description" content="Premium laserontharing, huidverbetering en gezichtsbehandelingen in Amsterdam. Boek uw gratis huidscan.">
+<meta property="og:description" content="Premium laserontharing, huidverbetering en gezichtsbehandelingen in Amsterdam.">
 <meta property="og:url" content="https://skintechclinic.nl">
 <meta property="og:site_name" content="SkinTech Laser Clinic">
-<meta property="og:image" content="https://skintechclinic.nl/assets/logo-optimized.png">
+<meta property="og:image" content="https://skintechclinic.nl/assets/logo.png">
 <meta property="og:locale" content="nl_NL">
-
-<!-- Hreflang -->
 <link rel="alternate" hreflang="nl" href="https://skintechclinic.nl">
 <link rel="alternate" hreflang="en" href="https://skintechclinic.nl?lang=en">
 <link rel="alternate" hreflang="x-default" href="https://skintechclinic.nl">
-
-<!-- Favicon -->
 <link rel="icon" href="favicon.ico" sizes="any">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
-
-<!-- Canonical -->
 <link rel="canonical" href="https://skintechclinic.nl">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -39,23 +29,13 @@
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "@id": "https://skintechclinic.nl",
   "name": "SkinTech Laser Clinic",
   "description": "Premium laserontharing, huidverbetering en gezichtsbehandelingen in Amsterdam.",
   "url": "https://skintechclinic.nl",
-  "telephone": "+31-XX-XXX-XXXX",
   "email": "info@skintechclinic.nl",
-  "image": "https://skintechclinic.nl/assets/logo-optimized.png",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Amsterdam",
-    "addressCountry": "NL"
-  },
+  "image": "https://skintechclinic.nl/assets/logo.png",
+  "address": { "@type": "PostalAddress", "addressLocality": "Amsterdam", "addressCountry": "NL" },
   "priceRange": "€€€",
-  "openingHoursSpecification": [
-    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "09:00", "closes": "18:00" }
-  ],
-  "sameAs": [],
   "areaServed": { "@type": "City", "name": "Amsterdam" }
 }
 </script>
@@ -440,27 +420,8 @@
   .swatch.active { border-color: var(--cream); }
 
 
-  /* ---------- Mobile menu overlay ---------- */
-  .mobile-menu-overlay { position: fixed; inset: 0; background: var(--ink); z-index: 150; display: flex; flex-direction: column; padding: 100px 40px 40px; transform: translateX(100%); transition: transform .35s ease; }
-  .mobile-menu-overlay.open { transform: translateX(0); }
-  .mobile-menu-overlay a { font-family: var(--serif); font-size: 32px; color: var(--cream); padding: 16px 0; border-bottom: 1px solid var(--line-dark); display: block; }
-  .mobile-menu-overlay a:last-child { border-bottom: none; }
-  .mobile-menu-close { position: absolute; top: 24px; right: 24px; width: 40px; height: 40px; display: grid; place-items: center; color: var(--cream); font-size: 24px; border: 1px solid var(--line-dark); border-radius: 50%; }
-
-  /* ---------- Mobile sticky CTA ---------- */
-  .mobile-sticky-cta { display: none; }
-  @media (max-width: 768px) {
-    .mobile-sticky-cta { display: flex; position: fixed; bottom: 0; left: 0; right: 0; z-index: 90; background: var(--ink); padding: 12px 20px; gap: 10px; }
-    .mobile-sticky-cta .btn { flex: 1; text-align: center; font-size: 13px; padding: 14px 16px; border-radius: 999px; }
-    .mobile-sticky-cta .btn-scan { background: transparent; border: 1px solid var(--cream); color: var(--cream); }
-    .mobile-sticky-cta .btn-book { background: var(--cream); color: var(--ink); }
-  }
-
-
-  /* ---------- Cookie banner ---------- */
   .cookie-banner { position: fixed; bottom: 0; left: 0; right: 0; z-index: 180; background: var(--ink); color: var(--cream); padding: 20px 40px; display: flex; align-items: center; justify-content: space-between; gap: 20px; font-size: 13px; line-height: 1.6; }
   .cookie-banner.hidden { display: none; }
-  .cookie-banner a { color: var(--bronze-pale); text-decoration: underline; }
   .cookie-banner button { padding: 10px 24px; border-radius: 999px; font-size: 12px; letter-spacing: 0.06em; white-space: nowrap; }
   .cookie-banner .btn-accept { background: var(--cream); color: var(--ink); }
   .cookie-banner .btn-decline { background: transparent; border: 1px solid var(--cream); color: var(--cream); }
@@ -472,7 +433,7 @@
 
 <nav class="site on-dark" id="siteNav">
   <a href="#" class="logo" data-route="home">
-    <img class="logo-img" src="assets/logo-optimized.png" alt="SkinTech Laser Clinic · Amsterdam">
+    <img class="logo-img" src="assets/logo.png" alt="SkinTech Laser Clinic · Amsterdam">
   </a>
   <div class="nav-links">
     <a href="#" data-route="home" class="active" id="nl-home">Home</a>
@@ -489,23 +450,6 @@
     <button class="mobile-toggle" onclick="toggleMobile()"><span></span><span></span></button>
   </div>
 </nav>
-
-
-<div class="mobile-menu-overlay" id="mobileMenu">
-  <button class="mobile-menu-close" onclick="closeMobileMenu()">✕</button>
-  <a href="#" data-route="home" onclick="closeMobileMenu(); navigate('home')">Home</a>
-  <a href="#" data-route="about" onclick="closeMobileMenu(); navigate('about')">Over ons</a>
-  <a href="#" data-route="services" onclick="closeMobileMenu(); navigate('services')">Behandelingen</a>
-  <a href="#" data-route="technology" onclick="closeMobileMenu(); navigate('technology')">Technologie</a>
-  <a href="#" data-route="results" onclick="closeMobileMenu(); navigate('results')">Resultaten</a>
-  <a href="#" data-route="faq" onclick="closeMobileMenu(); navigate('faq')">FAQ</a>
-  <a href="#" data-route="contact" onclick="closeMobileMenu(); navigate('contact')">Contact</a>
-</div>
-
-<div class="mobile-sticky-cta">
-  <button class="btn btn-scan" onclick="navigate('contact')">Gratis huidscan</button>
-  <button class="btn btn-book" onclick="openBooking()">Boek nu</button>
-</div>
 
 <main id="app"><div class="page-enter">
   <section class="hero">
@@ -584,7 +528,7 @@ ${fingerprintSVG}</div>
           <div class="service-row" data-route="services">
             <span class="num">05</span>
             <h3><i>Tailored</i> Treatment Plans</h3>
-            <p class="blurb">Multimodale programma's afgestemd op jouw huid en jouw agenda.</p>
+            <p class="blurb">Multi-modality programmes shaped to your skin and your calendar.</p>
             <span class="arrow-circle">→</span>
           </div>
         
@@ -596,26 +540,26 @@ ${fingerprintSVG}</div>
     <div class="container">
       <div class="sec-header">
         <div>
-          <span class="eyebrow">— Waarom SkinTech</span>
-          <h2 style="margin-top:16px; color:var(--cream);">Medische kwaliteit,<br><i>boutique ervaring.</i></h2>
+          <span class="eyebrow">— Why Skintech</span>
+          <h2 style="margin-top:16px; color:var(--cream);">Medical-grade work,<br><i>boutique experience.</i></h2>
         </div>
-        <p style="color:rgba(245,239,228,0.55);">Wij zijn geen keten. Wij zijn geen salon. Wij zitten er precies tussenin: een privékliniek in Amsterdam voor mensen die resultaat willen zonder de koude, klinische sfeer.</p>
+        <p style="color:rgba(245,239,228,0.55);">We're not a chain. We're not a salon. We sit precisely between: a private Amsterdam clinic built for people who want results without the cold institutional feel.</p>
       </div>
       <div class="why-grid">
         <div class="why-card">
           <div class="n">i.</div>
-          <h4>Elke sessie, afgestemd.</h4>
-          <p>Geen standaardinstellingen. Elke laserpuls en gezichtsbehandeling wordt afgestemd op jouw huid — op basis van scannerdata en de beoordeling van de specialist.</p>
+          <h4>Every session, calibrated.</h4>
+          <p>No default settings. Every laser pulse and every facial is mapped to your skin on the day — informed by scanner data and the clinician's read.</p>
         </div>
         <div class="why-card">
           <div class="n">ii.</div>
-          <h4>Eén specialist, van begin tot eind.</h4>
-          <p>Je wordt niet doorgestuurd. De specialist die jou adviseert, is dezelfde die je behandelt — bij elk bezoek, voor elk protocol.</p>
+          <h4>One clinician, start to finish.</h4>
+          <p>You are not passed between rooms. The clinician who consults with you is the one who treats you — every visit, for every protocol.</p>
         </div>
         <div class="why-card">
           <div class="n">iii.</div>
-          <h4>Technologie die zich bewijst.</h4>
-          <p>GentleMax Pro Plus, Cryo 7, Glacē, IONTO. Wij kopen klinische apparatuur omdat het werkt — niet omdat het er goed uitziet op foto's.</p>
+          <h4>Technology that earns its place.</h4>
+          <p>GentleMax Pro Plus, Cryo 7, Glacē, IONTO. We buy clinical-grade tools because they deliver — not because they photograph well.</p>
         </div>
       </div>
     </div>
@@ -791,7 +735,7 @@ ${fingerprintSVG}</div>
       <div class="footer-grid">
         <div>
           <div class="logo" style="color:var(--cream); margin-bottom:24px;">
-            <img class="logo-img" src="assets/logo-optimized.png" alt="SkinTech Laser Clinic · Amsterdam">
+            <img class="logo-img" src="assets/logo.png" alt="SkinTech Laser Clinic · Amsterdam">
           </div>
           <p class="footer-addr">Keizersgracht 123<br>1015 CJ Amsterdam<br>+31 20 000 0000</p>
         </div>
@@ -1086,7 +1030,7 @@ function navigate(route) {
   const darkOpener = route === 'home' || route === 'results';
   document.getElementById('siteNav').classList.toggle('on-dark', darkOpener);
   window.scrollTo(0, 0);
-  // route no longer persisted to localStorage
+  // route no longer persisted
   bindPageInteractions();
 }
 
@@ -1494,7 +1438,7 @@ function renderAbout() {
   <section class="founder-sec">
     <div class="container">
       <div class="founder-grid">
-        <div class="founder-photo"><img src="assets/founder.jpg" alt="SkinTech clinic"/></div>
+        <div class="founder-photo"><img src="assets/founder.png" alt="SkinTech clinic"/></div>
         <div class="founder-text">
           <span class="eyebrow">— ${c.founderEyebrow}</span>
           <h3 style="margin-top:20px;">${c.founderH}</h3>
@@ -1669,7 +1613,7 @@ const SERVICES_EN = [
   },
   { id:'combo', num:'05', name:'Tailored Treatment Plans', italic:'Tailored', nav:'Tailored Treatment Plan', duration:'Bespoke', sessions:'Programme',
     img:'assets/service-combo.webp',
-    blurb:'Multimodale programma's afgestemd op jouw huid en jouw agenda.',
+    blurb:'Multi-modality programmes shaped to your skin and your calendar.',
     desc:'For clients who want lasting results rather than one-off sessions. We combine laser, facials and analysis in a quarterly rhythm that suits your life.',
     forWho:'Clients committed to long-term skin health and visible, sustained improvement.',
     benefits:['Integrated multi-device protocols','Quarterly rhythm with annual review','Priority booking','Dedicated specialist'],
@@ -1724,7 +1668,7 @@ const TECH_IMG = {
   gentlemax: 'assets/gentlemax.webp',
   cryo7: 'assets/cryo7.webp',
   glace: 'assets/glace.webp',
-  ionto: 'assets/ionto-optimized.jpg',
+  ionto: 'assets/ionto.png',
   scanner: 'assets/scanner.png',
 };
 function techIllus(id) {
@@ -2214,7 +2158,7 @@ function renderContact() {
           <div style="margin-top:16px; display:flex; gap:10px; align-items:flex-start;">
             <input type="checkbox" id="consent" required style="margin-top:4px; flex-shrink:0;">
             <label for="consent" style="font-size:12px; color:var(--muted); line-height:1.5; letter-spacing:0; text-transform:none;">
-              ${nl ? 'Ik ga akkoord met het <a href="#" onclick="event.preventDefault(); navigate(\'privacy\')" style="color:var(--bronze-deep); text-decoration:underline;">privacybeleid</a> en geef toestemming voor het verwerken van mijn gegevens.' : 'I agree to the <a href="#" onclick="event.preventDefault(); navigate(\'privacy\')" style="color:var(--bronze-deep); text-decoration:underline;">privacy policy</a> and consent to the processing of my data.'}
+              ' + (nl ? 'Ik ga akkoord met het <a href="#" onclick="event.preventDefault(); navigate(\'privacy\')" style="color:var(--bronze-deep); text-decoration:underline;">privacybeleid</a> en geef toestemming voor het verwerken van mijn gegevens.' : 'I agree to the <a href="#" onclick="event.preventDefault(); navigate(\'privacy\')" style="color:var(--bronze-deep); text-decoration:underline;">privacy policy</a> and consent to the processing of my data.') + '
             </label>
           </div>
           <div style="margin-top:12px;">
@@ -2270,48 +2214,41 @@ function renderContact() {
 
 
 function renderPrivacy() {
-  return `
-  <section class="page-head"><div class="container">
-    <span class="eyebrow">— Juridisch</span>
-    <h1>Privacy<br/><i>beleid.</i></h1>
-  </div></section>
-  <section><div class="container" style="max-width:800px; padding:60px 20px; line-height:1.8; font-size:15px;">
-    <p><strong>Verwerkingsverantwoordelijke:</strong> SkinTech Laser Clinic, Amsterdam, KvK 42039525.</p>
-    <h3 style="margin-top:32px; font-family:var(--serif); font-size:24px;">Welke gegevens verzamelen wij?</h3>
-    <p>Naam, e-mailadres, telefoonnummer en behandelvoorkeuren die u via het contactformulier verstrekt.</p>
-    <h3 style="margin-top:32px; font-family:var(--serif); font-size:24px;">Waarvoor gebruiken wij uw gegevens?</h3>
-    <p>Uitsluitend om uw afspraakverzoek te verwerken en u te informeren over uw behandeling. Wij delen uw gegevens niet met derden.</p>
-    <h3 style="margin-top:32px; font-family:var(--serif); font-size:24px;">Cookies</h3>
-    <p>Wij gebruiken alleen functionele cookies (taalvoorkeur) en analytische cookies na toestemming.</p>
-    <h3 style="margin-top:32px; font-family:var(--serif); font-size:24px;">Uw rechten</h3>
-    <p>U heeft recht op inzage, correctie en verwijdering van uw gegevens (AVG/GDPR). Neem contact op via info@skintechclinic.nl.</p>
-    <h3 style="margin-top:32px; font-family:var(--serif); font-size:24px;">Bewaartermijn</h3>
-    <p>Wij bewaren uw gegevens niet langer dan noodzakelijk, maximaal 24 maanden na laatste contact.</p>
-    <p style="margin-top:32px; color:var(--muted); font-size:13px;">Laatst bijgewerkt: mei 2026.</p>
-  </div></section>`;
+  return '<section class="page-head"><div class="container">' +
+    '<span class="eyebrow">— Juridisch</span>' +
+    '<h1>Privacy<br/><i>beleid.</i></h1></div></section>' +
+    '<section><div class="container" style="max-width:800px; padding:60px 20px; line-height:1.8; font-size:15px;">' +
+    '<p><strong>Verwerkingsverantwoordelijke:</strong> SkinTech Laser Clinic, Amsterdam, KvK 42039525.</p>' +
+    '<h3 style="margin-top:32px; font-family:var(--serif); font-size:24px;">Welke gegevens verzamelen wij?</h3>' +
+    '<p>Naam, e-mailadres, telefoonnummer en behandelvoorkeuren die u via het contactformulier verstrekt.</p>' +
+    '<h3 style="margin-top:32px; font-family:var(--serif); font-size:24px;">Waarvoor gebruiken wij uw gegevens?</h3>' +
+    '<p>Uitsluitend om uw afspraakverzoek te verwerken en u te informeren over uw behandeling.</p>' +
+    '<h3 style="margin-top:32px; font-family:var(--serif); font-size:24px;">Cookies</h3>' +
+    '<p>Wij gebruiken alleen functionele cookies (taalvoorkeur) en analytische cookies na toestemming.</p>' +
+    '<h3 style="margin-top:32px; font-family:var(--serif); font-size:24px;">Uw rechten (AVG/GDPR)</h3>' +
+    '<p>U heeft recht op inzage, correctie en verwijdering. Neem contact op via info@skintechclinic.nl.</p>' +
+    '<p style="margin-top:32px; color:var(--muted); font-size:13px;">Laatst bijgewerkt: mei 2026.</p>' +
+    '</div></section>';
 }
 
 function renderTerms() {
-  return `
-  <section class="page-head"><div class="container">
-    <span class="eyebrow">— Juridisch</span>
-    <h1>Algemene<br/><i>voorwaarden.</i></h1>
-  </div></section>
-  <section><div class="container" style="max-width:800px; padding:60px 20px; line-height:1.8; font-size:15px;">
-    <p><strong>SkinTech Laser Clinic</strong> — Amsterdam, KvK 42039525.</p>
-    <h3 style="margin-top:32px; font-family:var(--serif); font-size:24px;">Afspraken</h3>
-    <p>Annulering is kosteloos tot 24 uur voor de afspraak. Bij niet-verschijnen of late annulering kunnen wij kosten in rekening brengen.</p>
-    <h3 style="margin-top:32px; font-family:var(--serif); font-size:24px;">Behandelingen</h3>
-    <p>SkinTech biedt esthetische behandelingen en geen medische zorg. Resultaten kunnen per persoon verschillen.</p>
-    <h3 style="margin-top:32px; font-family:var(--serif); font-size:24px;">Aansprakelijkheid</h3>
-    <p>SkinTech is niet aansprakelijk voor schade die voortvloeit uit het niet opvolgen van nazorginstructies.</p>
-    <h3 style="margin-top:32px; font-family:var(--serif); font-size:24px;">Betaling</h3>
-    <p>Betaling geschiedt direct na de behandeling, tenzij anders overeengekomen. Wij accepteren pin, creditcard en iDEAL.</p>
-    <h3 style="margin-top:32px; font-family:var(--serif); font-size:24px;">Klachten</h3>
-    <p>Klachten kunt u richten aan info@skintechclinic.nl. Wij streven ernaar binnen 14 dagen te reageren.</p>
-    <p style="margin-top:32px; color:var(--muted); font-size:13px;">Laatst bijgewerkt: mei 2026.</p>
-  </div></section>`;
+  return '<section class="page-head"><div class="container">' +
+    '<span class="eyebrow">— Juridisch</span>' +
+    '<h1>Algemene<br/><i>voorwaarden.</i></h1></div></section>' +
+    '<section><div class="container" style="max-width:800px; padding:60px 20px; line-height:1.8; font-size:15px;">' +
+    '<p><strong>SkinTech Laser Clinic</strong> — Amsterdam, KvK 42039525.</p>' +
+    '<h3 style="margin-top:32px; font-family:var(--serif); font-size:24px;">Afspraken</h3>' +
+    '<p>Annulering is kosteloos tot 24 uur voor de afspraak.</p>' +
+    '<h3 style="margin-top:32px; font-family:var(--serif); font-size:24px;">Behandelingen</h3>' +
+    '<p>SkinTech biedt esthetische behandelingen en geen medische zorg. Resultaten kunnen per persoon verschillen.</p>' +
+    '<h3 style="margin-top:32px; font-family:var(--serif); font-size:24px;">Betaling</h3>' +
+    '<p>Betaling geschiedt direct na de behandeling. Wij accepteren pin, creditcard en iDEAL.</p>' +
+    '<h3 style="margin-top:32px; font-family:var(--serif); font-size:24px;">Klachten</h3>' +
+    '<p>Klachten kunt u richten aan info@skintechclinic.nl. Wij reageren binnen 14 dagen.</p>' +
+    '<p style="margin-top:32px; color:var(--muted); font-size:13px;">Laatst bijgewerkt: mei 2026.</p>' +
+    '</div></section>';
 }
+
 function renderFooter() {
   const nl = currentLang === 'nl';
   return `
@@ -2324,7 +2261,7 @@ function renderFooter() {
       <div class="footer-grid">
         <div>
           <div class="logo" style="color:var(--cream); margin-bottom:24px;">
-            <img class="logo-img" src="assets/logo-optimized.png" alt="SkinTech Laser Clinic · Amsterdam"/>
+            <img class="logo-img" src="assets/logo.png" alt="SkinTech Laser Clinic · Amsterdam"/>
           </div>
           <p class="footer-addr">${nl
             ? 'Premium laser- en huidbehandelingen<br/>in Amsterdam.<br/><br/>info@skintechclinic.nl<br/>+31 XX XXX XXXX'
@@ -2496,21 +2433,8 @@ function handleScroll() {
 }
 window.addEventListener('scroll', handleScroll);
 
-function closeMobileMenu() {
-  const menu = document.getElementById('mobileMenu');
-  menu.classList.remove('open');
-  document.body.style.overflow = '';
-}
-
 function toggleMobile() {
-  const menu = document.getElementById('mobileMenu');
-  if (menu.classList.contains('open')) {
-    closeMobileMenu();
-  } else {
-    menu.classList.add('open');
-    document.body.style.overflow = 'hidden';
-  }
-  return; // below is old dropdown code
+  // simple toggle that reveals links as a dropdown
   const links = document.querySelector('.nav-links');
   if (!links) return;
   if (links.style.display === 'flex') { links.style.display = ''; return; }
@@ -2593,37 +2517,21 @@ window.addEventListener('message', (e) => {
 try { window.parent.postMessage({type:'__edit_mode_available'}, '*'); } catch(e){}
 
 
-function acceptCookies() {
-  try { localStorage.setItem('sk_cookies', 'accepted'); } catch(e){}
-  document.getElementById('cookieBanner').classList.add('hidden');
-}
-function declineCookies() {
-  try { localStorage.setItem('sk_cookies', 'declined'); } catch(e){}
-  document.getElementById('cookieBanner').classList.add('hidden');
-}
-(function() {
-  try {
-    const consent = localStorage.getItem('sk_cookies');
-    if (consent) document.getElementById('cookieBanner').classList.add('hidden');
-  } catch(e){}
-})();
-
+try { if(localStorage.getItem('sk_cookies')) document.getElementById('cookieBanner').classList.add('hidden'); } catch(e){}
 /* ===================== Init ===================== */
 applyTweaks();
-// Always start on home page; use hash only for direct links
+// Always start on home page
 const hashRoute = window.location.hash.replace('#','');
 navigate(hashRoute && routes[hashRoute] ? hashRoute : 'home');
 
 </script>
 
 
-
 <div class="cookie-banner" id="cookieBanner">
-  <p>Wij gebruiken cookies om uw ervaring te verbeteren. Door verder te gaan gaat u akkoord met ons <a href="#" onclick="event.preventDefault(); navigate('privacy')">cookiebeleid</a>.</p>
+  <p>Wij gebruiken cookies om uw ervaring te verbeteren. Door verder te gaan gaat u akkoord met ons <a href="#" onclick="event.preventDefault(); navigate('privacy')" style="color:var(--bronze-pale); text-decoration:underline;">cookiebeleid</a>.</p>
   <div style="display:flex; gap:10px;">
-    <button class="btn-accept" onclick="acceptCookies()">Accepteren</button>
-    <button class="btn-decline" onclick="declineCookies()">Weigeren</button>
+    <button class="btn-accept" onclick="document.getElementById('cookieBanner').classList.add('hidden'); try{localStorage.setItem('sk_cookies','ok')}catch(e){}">Accepteren</button>
+    <button class="btn-decline" onclick="document.getElementById('cookieBanner').classList.add('hidden'); try{localStorage.setItem('sk_cookies','no')}catch(e){}">Weigeren</button>
   </div>
 </div>
-
 </body></html>
