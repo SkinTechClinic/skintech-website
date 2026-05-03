@@ -14,7 +14,7 @@
 <meta property="og:description" content="Premium laserontharing, huidverbetering en gezichtsbehandelingen in Amsterdam.">
 <meta property="og:url" content="https://skintechclinic.nl">
 <meta property="og:site_name" content="SkinTech Laser Clinic">
-<meta property="og:image" content="https://skintechclinic.nl/assets/logo.png">
+<meta property="og:image" content="https://skintechclinic.nl/assets/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:locale" content="nl_NL">
@@ -85,7 +85,7 @@
     { "@type": "Question", "name": "Hoeveel sessies zijn er nodig?", "acceptedAnswer": { "@type": "Answer", "text": "Gemiddeld zijn 6-8 sessies nodig, met intervallen van 4-8 weken afhankelijk van het behandelgebied. Alleen haren in de anagene groeifase reageren op de laser." } },
     { "@type": "Question", "name": "Is het geschikt voor donkere huid?", "acceptedAnswer": { "@type": "Answer", "text": "Ja. De GentleMax Pro Plus beschikt over een 1064nm Nd:YAG laser die veilig is voor alle huidtypen, inclusief Fitzpatrick IV-VI. De langere golflengte wordt minder geabsorbeerd door epidermaal melanine." } },
     { "@type": "Question", "name": "Wat is het verschil tussen IPL en laser?", "acceptedAnswer": { "@type": "Answer", "text": "IPL (Intense Pulsed Light) gebruikt breed-spectrum licht, terwijl een laser één specifieke golflengte gebruikt. Laser is preciezer, effectiever en veiliger voor donkere huid. IPL vereist meer sessies." } },
-    { "@type": "Question", "name": "Wat kost een behandeling?", "acceptedAnswer": { "@type": "Answer", "text": "De kosten variëren per behandelgebied en type behandeling. Neem contact op voor een persoonlijke prijsopgave of boek een gratis huidscan en consult." } }
+    { "@type": "Question", "name": "Wat kost een behandeling?", "acceptedAnswer": { "@type": "Answer", "text": "Laserontharing vanaf €35 per sessie (kleine zones) tot €465 (full body premium). Deep Cleansing Facial €95, Glacē Glow Facial €125. Kuren zijn altijd voordeliger. Alle prijzen incl. 21% btw. Boek een gratis huidscan voor een persoonlijke prijsopgave." } }
   ]
 }
 </script>
@@ -143,9 +143,20 @@
 </script>
 <script defer src="/_vercel/insights/script.js"></script>
 <script defer src="/_vercel/speed-insights/script.js"></script>
+<!-- Error tracking: log JS errors to console and optionally to endpoint -->
+<script>
+window.addEventListener('error', function(e) {
+  var err = { msg: e.message, src: e.filename, line: e.lineno, col: e.colno, ts: new Date().toISOString() };
+  try { var errs = JSON.parse(sessionStorage.getItem('sk_errors') || '[]'); errs.push(err); if (errs.length > 10) errs.shift(); sessionStorage.setItem('sk_errors', JSON.stringify(errs)); } catch(x) {}
+});
+window.addEventListener('unhandledrejection', function(e) {
+  var err = { msg: 'Promise: ' + (e.reason && e.reason.message || String(e.reason)), ts: new Date().toISOString() };
+  try { var errs = JSON.parse(sessionStorage.getItem('sk_errors') || '[]'); errs.push(err); if (errs.length > 10) errs.shift(); sessionStorage.setItem('sk_errors', JSON.stringify(errs)); } catch(x) {}
+});
+</script>
 
 </head>
-<body data-cc-id="cc-1" style="font-size: 16px; cursor: crosshair; font-family: Inter;">
+<body>
 <a href="#app" class="skip-nav" style="position:absolute;top:-100px;left:16px;background:var(--ink);color:var(--cream);padding:12px 24px;z-index:9999;border-radius:0 0 8px 8px;font-size:14px;transition:top 0.2s;" onfocus="this.style.top='0'" onblur="this.style.top='-100px'">Ga naar inhoud</a>
 
 
@@ -178,25 +189,25 @@
         <span style="color:var(--bronze-pale); letter-spacing:0.22em; text-transform:uppercase; font-size:11px;">Amsterdam · Est. 2026</span>
       </div>
       <div class="hero-grid">
-        <h1>Skin, read<br>with <i>precision.</i><br>Treated with<br><i>intention.</i></h1>
+        <h1>Premium laser- en<br/><i>huidbehandelingen</i><br/>in <i>Amsterdam.</i></h1>
         <div class="hero-meta">
-          <p class="hero-intro">A boutique laser and aesthetic clinic in Amsterdam. We combine clinical-grade technology with the calm of a considered space — so every visit feels unhurried, and every result, earned.</p>
+          <p class="hero-intro">Voor een gladdere huid, meer comfort en zichtbaar verzorgde resultaten — met geavanceerde technologie, persoonlijke aandacht en een rustige clinic experience.</p>
           <div class="hero-cta">
-            <button class="btn btn-primary" data-book="">Book consultation <span>→</span></button>
-            <button class="btn btn-dark-outline" data-route="services">Explore services</button>
+            <button class="btn btn-primary" data-book="">Boek nu <span>→</span></button>
+            <button class="btn btn-dark-outline" data-route="services">Behandelingen</button>
           </div>
         </div>
       </div>
     </div>
     <div class="hero-bottom">
       <div class="hero-marquee-stat">
-        <strong>05</strong><span>Signature treatments</span>
+        <strong>05</strong><span>Behandelingen</span>
       </div>
       <div class="hero-marquee-stat">
-        <strong>VI</strong><span>Skin types treated</span>
+        <strong>VI</strong><span>Huidtypes behandeld</span>
       </div>
       <div class="hero-marquee-stat">
-        <strong>1:1</strong><span>Clinician to client</span>
+        <strong>1:1</strong><span>Specialist per cliënt</span>
       </div>
       <div class="hero-marquee-stat" style="text-align:right;">
         <strong>↓</strong><span>Scroll</span>
@@ -208,45 +219,45 @@
     <div class="container">
       <div class="sec-header">
         <div>
-          <span class="eyebrow">— Services</span>
-          <h2 style="margin-top:16px;">A focused menu,<br><i>clinically delivered.</i></h2>
+          <span class="eyebrow">— Behandelingen</span>
+          <h2 style="margin-top:16px;">Een gericht menu,<br><i>klinisch geleverd.</i></h2>
         </div>
-        <p>Five treatments. Each protocol calibrated to your skin, your goals, and your calendar — nothing more, nothing less.</p>
+        <p>Vijf behandelingen. Elk protocol afgestemd op jouw huid, jouw doelen en jouw agenda — niet meer, niet minder.</p>
       </div>
       <div class="service-list">
         
           <div class="service-row" data-route="services">
             <span class="num">01</span>
-            <h3>Laser Hair <i>Removal</i></h3>
-            <p class="blurb">Precision laser treatment for lasting smoothness across all skin types.</p>
+            <h3>Laser<i>ontharing</i></h3>
+            <p class="blurb">Precisie-laserbehandeling voor blijvend gladde huid, geschikt voor elk huidtype.</p>
             <span class="arrow-circle">→</span>
           </div>
         
           <div class="service-row" data-route="services">
             <span class="num">02</span>
             <h3>Deep <i>Cleansing</i> Facial</h3>
-            <p class="blurb">A clarifying ritual that resets congested, reactive, or tired skin.</p>
+            <p class="blurb">Een verhelderend ritueel dat verstopte, gevoelige of vermoeide huid reset.</p>
             <span class="arrow-circle">→</span>
           </div>
         
           <div class="service-row" data-route="services">
             <span class="num">03</span>
             <h3>Glacē <i>Glow</i> Facial</h3>
-            <p class="blurb">Cryo-infused luminosity with an editorial, lit-from-within finish.</p>
+            <p class="blurb">Cryo-geïnfuseerde lichtheid met een verfijnde, lit-from-within afwerking.</p>
             <span class="arrow-circle">→</span>
           </div>
         
           <div class="service-row" data-route="services">
             <span class="num">04</span>
-            <h3>Skin <i>Analysis</i> &amp; Consultation</h3>
-            <p class="blurb">A technology-led read of your skin, from the surface to the deeper layers.</p>
+            <h3>Gratis <i>huidscan</i> &amp; consult</h3>
+            <p class="blurb">Een technologie-gedreven lezing van je huid, van oppervlak tot diepere lagen.</p>
             <span class="arrow-circle">→</span>
           </div>
         
           <div class="service-row" data-route="services">
             <span class="num">05</span>
-            <h3><i>Tailored</i> Treatment Plans</h3>
-            <p class="blurb">Multi-modality programmes shaped to your skin and your calendar.</p>
+            <h3>Op maat — <i>behandelplan</i></h3>
+            <p class="blurb">Multidisciplinaire trajecten, afgestemd op jouw huid en agenda.</p>
             <span class="arrow-circle">→</span>
           </div>
         
@@ -258,26 +269,26 @@
     <div class="container">
       <div class="sec-header">
         <div>
-          <span class="eyebrow">— Why Skintech</span>
-          <h2 style="margin-top:16px; color:var(--cream);">Medical-grade work,<br><i>boutique experience.</i></h2>
+          <span class="eyebrow">— Waarom SkinTech</span>
+          <h2 style="margin-top:16px; color:var(--cream);">Medische kwaliteit,<br><i>boutique ervaring.</i></h2>
         </div>
-        <p style="color:rgba(245,239,228,0.55);">We're not a chain. We're not a salon. We sit precisely between: a private Amsterdam clinic built for people who want results without the cold institutional feel.</p>
+        <p style="color:rgba(245,239,228,0.55);">Geen keten. Geen salon. Precies daartussenin: een privékliniek in Amsterdam voor mensen die resultaat willen zonder het koude, klinische gevoel.</p>
       </div>
       <div class="why-grid">
         <div class="why-card">
           <div class="n">i.</div>
-          <h4>Every session, calibrated.</h4>
-          <p>No default settings. Every laser pulse and every facial is mapped to your skin on the day — informed by scanner data and the clinician's read.</p>
+          <h4>Elke sessie, gekalibreerd.</h4>
+          <p>Geen standaardinstellingen. Elke laserpuls en elke facial wordt afgestemd op jouw huid — op basis van scannerdata en de lezing van de specialist.</p>
         </div>
         <div class="why-card">
           <div class="n">ii.</div>
-          <h4>One clinician, start to finish.</h4>
-          <p>You are not passed between rooms. The clinician who consults with you is the one who treats you — every visit, for every protocol.</p>
+          <h4>Eén specialist, van begin tot eind.</h4>
+          <p>Je wordt niet doorgegeven. De specialist die met je overlegt, is dezelfde die je behandelt — elk bezoek, elk protocol.</p>
         </div>
         <div class="why-card">
           <div class="n">iii.</div>
-          <h4>Technology that earns its place.</h4>
-          <p>GentleMax Pro Plus, Cryo 7, Glacē, IONTO. We buy clinical-grade tools because they deliver — not because they photograph well.</p>
+          <h4>Technologie die zich bewijst.</h4>
+          <p>GentleMax Pro Plus, Cryo 7, Glacē, IONTO. We kiezen voor clinical-grade apparatuur omdat het werkt — niet omdat het er goed uitziet.</p>
         </div>
       </div>
     </div>
@@ -287,15 +298,15 @@
     <div class="container">
       <div class="sec-header">
         <div>
-          <span class="eyebrow">— Technology</span>
-          <h2 style="margin-top:16px;">The instruments<br>behind the <i>outcome.</i></h2>
+          <span class="eyebrow">— Technologie</span>
+          <h2 style="margin-top:16px;">De instrumenten<br>achter het <i>resultaat.</i></h2>
         </div>
-        <p>We invest in the devices that deliver — and only the devices that deliver. A short, considered stack, fully mastered by our clinicians.</p>
+        <p>We investeren in de apparaten die resultaat leveren — en alleen die apparaten. Een kort, doordacht arsenaal, volledig beheerst door onze specialisten.</p>
       </div>
       <div class="tech-grid">
         
           <div class="tech-card" data-route="technology">
-            <div class="meta"><span>Laser hair removal</span><span>→</span></div>
+            <div class="meta"><span>Laserontharing</span><span>→</span></div>
             <h4>GentleMax Pro Plus</h4>
             <div class="tech-img"><img class="tech-photo" src="assets/gentlemax.webp" alt="" loading="lazy"></div>
           </div>
@@ -320,7 +331,7 @@
         
       </div>
       <div style="margin-top:40px; text-align:right;">
-        <button class="btn btn-outline" data-route="technology">View all technology →</button>
+        <button class="btn btn-outline" data-route="technology">Bekijk alle technologie →</button>
       </div>
     </div>
   </section>
@@ -329,31 +340,31 @@
     <div class="container">
       <div class="sec-header">
         <div>
-          <span class="eyebrow">— The journey</span>
-          <h2 style="margin-top:16px;">A treatment rhythm,<br>not a <i>transaction.</i></h2>
+          <span class="eyebrow">— Het traject</span>
+          <h2 style="margin-top:16px;">Een behandelritme,<br>geen <i>transactie.</i></h2>
         </div>
-        <p>How a typical Skintech journey unfolds, from first conversation to sustained results.</p>
+        <p>Hoe een typisch SkinTech-traject verloopt, van eerste gesprek tot duurzaam resultaat.</p>
       </div>
       <div class="journey-steps">
         <div class="journey-step">
           <div class="n">01</div>
           <h4>Consult</h4>
-          <p>A 45-minute conversation and skin analysis. No pressure, no upsell — just a proper read of where you are.</p>
+          <p>Een gesprek van 45 minuten en een huidanalyse. Geen druk, geen upsell — gewoon een eerlijke lezing van waar je staat.</p>
         </div>
         <div class="journey-step">
           <div class="n">02</div>
           <h4>Plan</h4>
-          <p>A written protocol calibrated to your skin, goals, and calendar. Delivered before any treatment is booked.</p>
+          <p>Een geschreven protocol afgestemd op jouw huid, doelen en agenda. Ontvangen vóór je eerste behandeling.</p>
         </div>
         <div class="journey-step">
           <div class="n">03</div>
-          <h4>Treat</h4>
-          <p>Sessions in our Amsterdam space. Unhurried, single clinician, rooms built for calm — not volume.</p>
+          <h4>Behandel</h4>
+          <p>Sessies in onze Amsterdamse kliniek. Ongehaast, één specialist, ruimtes gebouwd voor rust — niet voor volume.</p>
         </div>
         <div class="journey-step">
           <div class="n">04</div>
-          <h4>Sustain</h4>
-          <p>Quarterly maintenance, annual review, evolving plan. Your skin changes — so does the protocol.</p>
+          <h4>Onderhoud</h4>
+          <p>Kwartaalonderhoud, jaarlijkse evaluatie, evoluerend plan. Jouw huid verandert — het protocol ook.</p>
         </div>
       </div>
     </div>
@@ -363,10 +374,10 @@
     <div class="container">
       <div class="sec-header">
         <div>
-          <span class="eyebrow">— Results</span>
-          <h2 style="color:var(--cream); margin-top:16px;">Honest before,<br><i>earned after.</i></h2>
+          <span class="eyebrow">— Resultaten</span>
+          <h2 style="color:var(--cream); margin-top:16px;">Eerlijke voor,<br><i>verdiende na.</i></h2>
         </div>
-        <p>Real outcomes from our opening cohort. Placeholder imagery shown — client results will replace these at launch, with full consent.</p>
+        <p>Echte resultaten van onze eerste cliënten. Voorbeeldbeelden getoond — cliëntresultaten vervangen deze bij lancering, met volledige toestemming.</p>
       </div>
       <div class="results-grid">
         
@@ -376,8 +387,8 @@
               <div class="result-img"><span class="tag">after</span>after · placeholder</div>
             </div>
             <div class="caption">
-              <span class="treatment">Laser Hair Removal</span>
-              <span class="time">After 6 sessions</span>
+              <span class="treatment">Laserontharing</span>
+              <span class="time">Na 6 sessies</span>
             </div>
           </div>
         
@@ -388,7 +399,7 @@
             </div>
             <div class="caption">
               <span class="treatment">Glacē Glow Facial</span>
-              <span class="time">Same day</span>
+              <span class="time">Dezelfde dag</span>
             </div>
           </div>
         
@@ -399,13 +410,13 @@
             </div>
             <div class="caption">
               <span class="treatment">Deep Cleansing</span>
-              <span class="time">After 3 sessions</span>
+              <span class="time">Na 3 sessies</span>
             </div>
           </div>
         
       </div>
       <div style="margin-top:48px; text-align:right;">
-        <button class="btn btn-dark-outline" data-route="results">View full gallery →</button>
+        <button class="btn btn-dark-outline" data-route="results">Bekijk volledige galerij →</button>
       </div>
     </div>
   </section>
@@ -414,41 +425,41 @@
     <div class="container-narrow">
       <div class="sec-header">
         <div>
-          <span class="eyebrow">— Common questions</span>
-          <h2 style="margin-top:16px;">Clarity, <i>first.</i></h2>
+          <span class="eyebrow">— Veelgestelde vragen</span>
+          <h2 style="margin-top:16px;">Helderheid, <i>eerst.</i></h2>
         </div>
-        <p>A few of the questions we hear most often. If yours isn't here, reach out — we'd rather you ask.</p>
+        <p>Een paar vragen die we het vaakst horen. Staat jouw vraag er niet bij? Neem contact op — we beantwoorden ze graag.</p>
       </div>
       
         <div class="faq-item">
-          <div class="faq-q"><h4>How many laser hair removal sessions will I need?</h4><div class="faq-plus"></div></div>
-          <div class="faq-a"><p>Most clients require 6–8 sessions spaced 4–6 weeks apart for the face and 6–8 weeks for the body. Hair grows in cycles, and lasers only affect actively growing hair — so patience is part of the protocol. Maintenance sessions once or twice a year help sustain results.</p></div>
+          <div class="faq-q"><h4>Hoeveel laserontharing-sessies heb ik nodig?</h4><div class="faq-plus"></div></div>
+          <div class="faq-a"><p>De meeste cliënten hebben 6 tot 8 sessies nodig, met een tussenpauze van 4–6 weken voor het gezicht en 6–8 weken voor het lichaam. Haar groeit in cycli en de laser werkt alleen in op haar in de actieve groeifase — geduld is onderdeel van het protocol.</p></div>
         </div>
       
         <div class="faq-item">
-          <div class="faq-q"><h4>Is the treatment suitable for my skin type?</h4><div class="faq-plus"></div></div>
-          <div class="faq-a"><p>Yes. The GentleMax Pro Plus platform is calibrated for Fitzpatrick skin types I through VI, including deeper and more reactive tones. Every session begins with a skin read and a customised setting — we do not use a single default protocol.</p></div>
+          <div class="faq-q"><h4>Is de behandeling geschikt voor mijn huidtype?</h4><div class="faq-plus"></div></div>
+          <div class="faq-a"><p>Ja. De GentleMax Pro Plus is gekalibreerd voor Fitzpatrick-huidtypes I tot en met VI, inclusief donkere en reactieve huid. Elke sessie begint met een huidlezing en een instelling op maat.</p></div>
         </div>
       
         <div class="faq-item">
-          <div class="faq-q"><h4>How should I prepare for my first session?</h4><div class="faq-plus"></div></div>
-          <div class="faq-a"><p>Avoid direct sun and self-tanner for two weeks, do not wax or pluck the area for four weeks, and shave 24 hours before your appointment. Come with clean skin — no lotion or deodorant on the treated area. We send a full pre-care note when you book.</p></div>
+          <div class="faq-q"><h4>Hoe bereid ik me voor op mijn eerste sessie?</h4><div class="faq-plus"></div></div>
+          <div class="faq-a"><p>Vermijd directe zon en zelfbruiner twee weken van tevoren, en laat de behandelzone vier weken met rust. Scheer de zone 24 uur voor je afspraak. Kom met een schone huid — geen crème of deodorant in de zone.</p></div>
         </div>
       
         <div class="faq-item">
-          <div class="faq-q"><h4>What does aftercare look like?</h4><div class="faq-plus"></div></div>
-          <div class="faq-a"><p>Expect mild warmth or redness for a few hours. Apply SPF 50 for at least a week, skip saunas, intense exercise and hot showers for 24 hours, and avoid active ingredients (retinol, acids) for 3–5 days. Hydrate generously, inside and out.</p></div>
+          <div class="faq-q"><h4>Hoe ziet de nazorg eruit?</h4><div class="faq-plus"></div></div>
+          <div class="faq-a"><p>Reken op milde warmte of roodheid gedurende enkele uren. Gebruik de eerste week SPF 50, vermijd sauna, intensief sporten en hete douches de eerste 24 uur, en laat actieve ingrediënten 3 tot 5 dagen achterwege.</p></div>
         </div>
       
       <div style="margin-top:40px; text-align:right;">
-        <button class="btn btn-ghost" data-route="faq">All questions <span class="arrow">→</span></button>
+        <button class="btn btn-ghost" data-route="faq">Alle vragen <span class="arrow">→</span></button>
       </div>
     </div>
   </section>
   </div><footer class="site">
     <div class="container">
       <div class="footer-big">
-        Let's begin<br>with a <i>consultation</i> — <a href="#" data-book="">book here →</a>
+        Begin<br>met een <i>consult</i> — <a href="#" data-book="">boek hier →</a>
       </div>
       <div class="footer-grid">
         <div>
@@ -458,31 +469,31 @@
           <p class="footer-addr">Keizersgracht 241<br>1016 EA Amsterdam</p>
         </div>
         <div>
-          <h5>Services</h5>
+          <h5>Behandelingen</h5>
           <ul>
-            <li><a href="#" data-route="services">Laser Hair Removal</a></li>
+            <li><a href="#" data-route="services">Laserontharing</a></li>
             <li><a href="#" data-route="services">Deep Cleansing</a></li>
             <li><a href="#" data-route="services">Glacē Glow</a></li>
-            <li><a href="#" data-route="services">Skin Analysis</a></li>
-            <li><a href="#" data-route="services">Tailored Plans</a></li>
+            <li><a href="#" data-route="services">Huidanalyse</a></li>
+            <li><a href="#" data-route="services">Behandelplan op maat</a></li>
           </ul>
         </div>
         <div>
-          <h5>Clinic</h5>
+          <h5>Kliniek</h5>
           <ul>
-            <li><a href="#" data-route="about">About</a></li>
-            <li><a href="#" data-route="technology">Technology</a></li>
-            <li><a href="#" data-route="results">Results</a></li>
+            <li><a href="#" data-route="about">Over ons</a></li>
+            <li><a href="#" data-route="technology">Technologie</a></li>
+            <li><a href="#" data-route="results">Resultaten</a></li>
             <li><a href="#" data-route="faq">FAQ</a></li>
             <li><a href="#" data-route="contact">Contact</a></li>
           </ul>
         </div>
         <div>
-          <h5>Follow</h5>
+          <h5>Volg ons</h5>
           <ul>
             <li><a href="https://instagram.com/skintech_nl" target="_blank" rel="noopener">Instagram</a></li>
             <li><a href="https://wa.me/31619826664" target="_blank" rel="noopener">WhatsApp</a></li>
-            <li><a href="#">Journal — soon</a></li>
+            <li><a href="#">Journal — binnenkort</a></li>
             <li><a href="#">EN · NL</a></li>
           </ul>
         </div>

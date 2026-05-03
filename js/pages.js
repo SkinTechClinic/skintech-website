@@ -861,6 +861,14 @@ function filterJournal(cat) {
 function showArticle(id) {
   const a = ARTICLES.find(x => x.id === id);
   if (!a) return;
+  // Lazy-load article content if not yet loaded
+  if (!_articlesLoaded) {
+    loadArticleContent().then(function() { showArticle(id); });
+    // Show loading state
+    const app = document.getElementById('app');
+    app.innerHTML = '<div style="padding:120px 0;text-align:center;"><p style="color:var(--muted);font-size:14px;">' + (currentLang==='nl'?'Artikel laden...':'Loading article...') + '</p></div>';
+    return;
+  }
   const nl = currentLang === 'nl';
   const content = ARTICLE_CONTENT[id];
   const body = content ? (nl ? content.bodyNl : content.bodyEn) : '';

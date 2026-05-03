@@ -49,3 +49,22 @@ assets/result-before-3.jpg
 assets/result-after-1.jpg
 assets/result-after-2.jpg
 assets/result-after-3.jpg
+
+# Orphaned files (not loaded by any script)
+i18n/
+articles/
+
+# Original JPGs replaced by WebP
+assets/founder-web.jpg
+assets/result-before-*.jpg
+assets/result-after-*.jpg
+assets/glace.png
+assets/scanner.png
+
+# Old ionto formats (using .avif)
+assets/ionto.png
+assets/ionto-compressed.jpg
+assets/ionto-optimized.jpg
+
+# SkinTech audit
+SkinTech_Website_Audit_Report.docx
