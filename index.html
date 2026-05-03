@@ -34,6 +34,8 @@
 
 <!-- Fonts -->
 <link rel="preload" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" as="style">
+<link rel="preload" href="https://fonts.gstatic.com/s/inter/v18/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfAZ9hiJ-Ek-_EeA.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://fonts.gstatic.com/s/cormorantgaramond/v16/co3YmX5slCNuHLi8bLeY9MK7whWMhyjYrEtFmSe5LhBicw.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -162,7 +164,7 @@ window.addEventListener('unhandledrejection', function(e) {
 
 <nav class="site on-dark" id="siteNav" role="navigation" aria-label="Hoofdnavigatie">
   <a href="#" class="logo" data-route="home">
-    <img class="logo-img" src="assets/logo.png" alt="SkinTech Laser Clinic · Amsterdam">
+    <img class="logo-img" src="assets/logo.png" alt="SkinTech Laser Clinic · Amsterdam" width="1944" height="957">
   </a>
   <div class="nav-links">
     <a href="#" data-route="home" class="active" id="nl-home">Home</a>
@@ -308,25 +310,25 @@ window.addEventListener('unhandledrejection', function(e) {
           <div class="tech-card" data-route="technology">
             <div class="meta"><span>Laserontharing</span><span>→</span></div>
             <h4>GentleMax Pro Plus</h4>
-            <div class="tech-img"><img class="tech-photo" src="assets/gentlemax.webp" alt="" loading="lazy"></div>
+            <div class="tech-img"><img class="tech-photo" src="assets/gentlemax.webp" alt="GentleMax Pro Plus" loading="lazy" width="1181" height="1181"></div>
           </div>
         
           <div class="tech-card" data-route="technology">
             <div class="meta"><span>Cryo</span><span>→</span></div>
             <h4>Cryo 7</h4>
-            <div class="tech-img"><img class="tech-photo" src="assets/cryo7.webp" alt="" loading="lazy"></div>
+            <div class="tech-img"><img class="tech-photo" src="assets/cryo7.webp" alt="Cryo 7" loading="lazy" width="583" height="1024"></div>
           </div>
         
           <div class="tech-card" data-route="technology">
             <div class="meta"><span>Signature facial</span><span>→</span></div>
             <h4>Glacē</h4>
-            <div class="tech-img"><img class="tech-photo" src="assets/glace.png" alt="" loading="lazy"></div>
+            <div class="tech-img"><img class="tech-photo" src="assets/glace.webp" alt="Glacē" loading="lazy" width="785" height="720"></div>
           </div>
         
           <div class="tech-card" data-route="technology">
             <div class="meta"><span>Facial support</span><span>→</span></div>
             <h4>IONTO Beauty Tower</h4>
-            <div class="tech-img"><img class="tech-photo" src="assets/ionto.avif" alt="" loading="lazy"></div>
+            <div class="tech-img"><img class="tech-photo" src="assets/ionto.avif" alt="IONTO Beauty Tower" loading="lazy" width="480" height="522"></div>
           </div>
         
       </div>
@@ -464,7 +466,7 @@ window.addEventListener('unhandledrejection', function(e) {
       <div class="footer-grid">
         <div>
           <div class="logo" style="color:var(--cream); margin-bottom:24px;">
-            <img class="logo-img" src="assets/logo.png" alt="SkinTech Laser Clinic · Amsterdam">
+            <img class="logo-img" src="assets/logo.png" alt="SkinTech Laser Clinic · Amsterdam" width="1944" height="957">
           </div>
           <p class="footer-addr">Keizersgracht 241<br>1016 EA Amsterdam</p>
         </div>
@@ -500,7 +502,7 @@ window.addEventListener('unhandledrejection', function(e) {
       </div>
       <div class="footer-legal">
         <span>© 2026 SkinTech Laser Clinic · Amsterdam</span>
-        <span>Privacy · Terms · KvK 42039525</span>
+        <span><a href="#" onclick="event.preventDefault(); navigate('privacy')" style="color:inherit;">Privacy</a> · <a href="#" onclick="event.preventDefault(); navigate('terms')" style="color:inherit;">Algemene voorwaarden</a> · KvK 42039525</span>
       </div>
     </div>
   </footer></main>
@@ -580,5 +582,10 @@ setTimeout(function() {
 <script src="js/app.min.js"></script>
 
 
+
+<!-- Service Worker registration -->
+<script>
+if ('serviceWorker' in navigator) { navigator.serviceWorker.register('/sw.js').catch(function(){}); }
+</script>
 </body>
 </html>
