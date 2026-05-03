@@ -929,7 +929,7 @@ function renderContact() {
     <div class="container">
       <div class="contact-grid">
         <form class="contact-form" onsubmit="handleContact(event)">
-          <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+          <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off"><input type="hidden" name="_form_type" value="contact">
           <div class="form-row">
             <div class="form-field">
               <label>${nl ? 'Voornaam' : 'First name'}</label>

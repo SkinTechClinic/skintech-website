@@ -18,6 +18,8 @@ const routes = {
 let _isInitialLoad = true;
 function navigate(route) {
   currentRoute = route;
+  // Close mobile nav if open
+  var navLinks = document.querySelector('.nav-links'); if (navLinks) { navLinks.style.display = ''; navLinks.style.position = ''; navLinks.style.top = ''; navLinks.style.left = ''; navLinks.style.right = ''; navLinks.style.flexDirection = ''; navLinks.style.background = ''; navLinks.style.padding = ''; navLinks.style.gap = ''; navLinks.style.borderBottom = ''; } var toggle = document.querySelector('.mobile-toggle'); if (toggle) toggle.setAttribute('aria-expanded', 'false');
   const app = document.getElementById('app');
   app.innerHTML = '';
   const el = document.createElement('div');
@@ -272,10 +274,17 @@ function bookingStep3() {
 function updateBookingBtn() {
   var btn = document.getElementById('b-confirm-btn');
   if (!btn) return;
-  var ok = bookingData.firstName && bookingData.lastName && bookingData.email && bookingData.phone;
+  var emailValid = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(bookingData.email);
+  var phoneValid = /^[+]?[\d\s()-]{7,}$/.test(bookingData.phone);
+  var ok = bookingData.firstName && bookingData.lastName && bookingData.email && emailValid && bookingData.phone && phoneValid;
   btn.disabled = !ok;
   btn.style.opacity = ok ? '1' : '0.4';
   btn.style.cursor = ok ? 'pointer' : 'not-allowed';
+  // Show inline validation hints
+  var emailEl = document.getElementById('b-email');
+  var phoneEl = document.getElementById('b-phone');
+  if (emailEl) emailEl.style.borderColor = bookingData.email && !emailValid ? '#c44' : '';
+  if (phoneEl) phoneEl.style.borderColor = bookingData.phone && !phoneValid ? '#c44' : '';
 }
 function bookingStep4() {
   const svcs = currentLang==='en' ? SERVICES_EN : SERVICES;
@@ -292,6 +301,7 @@ function bookingStep4() {
     dateDisplay = dp.getDate() + ' ' + monthNames[dp.getMonth()] + ' ' + dp.getFullYear();
   } catch(e){}
   var fd = new FormData();
+  fd.append('_form_type', 'booking');
   fd.append('_subject', 'Boekingsverzoek — ' + (svc ? svc.name : bookingData.service));
   fd.append('service', svc ? svc.name : bookingData.service);
   fd.append('preferred_date', bookingData.date);
