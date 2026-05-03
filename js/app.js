@@ -198,6 +198,32 @@ function bookingStep4() {
 function handleContact(e) {
   e.preventDefault();
   var form = e.target;
+  // Client-side validation
+  var email = form.querySelector('input[name="email"]');
+  var phone = form.querySelector('input[name="phone"]');
+  var errors = [];
+  if (email && email.value && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.value)) {
+    errors.push(currentLang === 'nl' ? 'Voer een geldig e-mailadres in.' : 'Please enter a valid email address.');
+  }
+  if (phone && phone.value && !/^[+]?[\d\s()-]{7,}$/.test(phone.value)) {
+    errors.push(currentLang === 'nl' ? 'Voer een geldig telefoonnummer in.' : 'Please enter a valid phone number.');
+  }
+  // Check honeypot
+  var honeypot = form.querySelector('input[name="_gotcha"]');
+  if (honeypot && honeypot.value) { return; }
+  if (errors.length) {
+    var existing = form.querySelector('.form-errors');
+    if (existing) existing.remove();
+    var errDiv = document.createElement('div');
+    errDiv.className = 'form-errors';
+    errDiv.style.cssText = 'background:var(--cream);border:1px solid #c44;border-radius:8px;padding:12px 16px;margin-bottom:16px;font-size:13px;color:#a33;line-height:1.6;';
+    errDiv.innerHTML = errors.join('<br>');
+    form.insertBefore(errDiv, form.firstChild);
+    return;
+  }
+  // Clear any previous errors
+  var prevErr = form.querySelector('.form-errors');
+  if (prevErr) prevErr.remove();
   var btn = form.querySelector('button[type="submit"]');
   var origText = btn.textContent;
   btn.textContent = currentLang === 'nl' ? 'Verzenden...' : 'Sending...';
@@ -355,6 +381,11 @@ let hashRaw = window.location.hash.replace('#','');
 // Parse language from initial hash
 if (hashRaw.startsWith('en/')) { currentLang = 'en'; try { localStorage.setItem('sk_lang','en'); } catch(e){} hashRaw = hashRaw.slice(3); }
 else if (hashRaw.startsWith('en')) { currentLang = 'en'; try { localStorage.setItem('sk_lang','en'); } catch(e){} if (hashRaw === 'en') hashRaw = 'home'; }
+// Also support clean URLs (/about, /services, etc.)
+if (!hashRaw) {
+  var path = window.location.pathname.slice(1).split('/')[0];
+  if (path && routes[path]) hashRaw = path;
+}
 const hashRoute = hashRaw;
 const initRoute = hashRoute && routes[hashRoute] ? hashRoute : 'home';
 currentRoute = initRoute;
@@ -362,3 +393,5 @@ navigate(initRoute);
 
 
 
+
+window._jsLoaded = true;

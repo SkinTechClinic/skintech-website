@@ -2233,3 +2233,26 @@ footer.site {
 @media (max-width: 768px) {
   /* Responsive styles already included throughout */
 }
+
+/* ========================================
+   PRINT STYLESHEET
+   ======================================== */
+@media print {
+  .site-nav, .cookie-banner, .tweaks-panel, .mobile-toggle,
+  .hero-fingerprint, .hero-fingerprint-2, .hero-cta,
+  .btn-primary, .btn-outline, .btn-ghost,
+  #modalHost, #tweaksPanel, #cookieBanner,
+  .skip-nav { display: none !important; }
+  body { background: #fff; color: #000; font-size: 12pt; }
+  .hero { min-height: auto; padding: 40px 0; background: #fff; color: #000; }
+  .hero::before { display: none; }
+  .hero h1 { font-size: 28pt; color: #000; }
+  .container { max-width: 100%; padding: 0 20px; }
+  section { page-break-inside: avoid; padding: 20px 0; }
+  a { color: #000; text-decoration: underline; }
+  a[href]::after { content: " (" attr(href) ")"; font-size: 9pt; color: #666; }
+  a[href^="#"]::after, a[href^="javascript"]::after { content: ""; }
+  img { max-width: 100%; }
+  .footer-grid { display: block; }
+  footer.site { border-top: 1px solid #ccc; padding-top: 12px; }
+}

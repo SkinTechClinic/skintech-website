@@ -539,6 +539,26 @@
   </div>
 </div>
 
+
+<!-- Fallback: if JS fails to load, show basic content after 5s -->
+<script>
+window._jsLoaded = false;
+setTimeout(function() {
+  if (!window._jsLoaded && document.getElementById('app')) {
+    var app = document.getElementById('app');
+    if (app.children.length <= 1) {
+      app.innerHTML = '<div style="padding:80px 24px;text-align:center;font-family:Inter,sans-serif;">' +
+        '<img src="assets/logo.png" alt="SkinTech" style="height:48px;margin-bottom:32px;">' +
+        '<h1 style="font-family:Cormorant Garamond,serif;font-size:36px;font-weight:400;margin-bottom:16px;">SkinTech Laser Clinic</h1>' +
+        '<p style="color:#6E6359;font-size:15px;line-height:1.7;max-width:480px;margin:0 auto 24px;">Premium laserontharing en huidverbetering in Amsterdam.</p>' +
+        '<p style="font-size:14px;"><a href="mailto:info@skintechclinic.nl" style="color:#4A423A;">info@skintechclinic.nl</a> · <a href="tel:+31619826664" style="color:#4A423A;">+31 6 19 82 66 64</a></p>' +
+        '<p style="margin-top:24px;font-size:12px;color:#B5AA9D;">De pagina kon niet volledig laden. Probeer te vernieuwen of neem contact met ons op.</p>' +
+        '</div>';
+    }
+  }
+}, 5000);
+</script>
+
 <!-- JavaScript: Data & Translations -->
 <script src="js/data.min.js"></script>
 
