@@ -837,7 +837,7 @@ function renderJournal() {
       <p style="color:var(--muted); max-width:440px; margin:0 auto 32px; font-size:14px; line-height:1.7;">
         ${nl ? 'Volg ons op Instagram voor tips, nieuws en behind-the-scenes van de clinic.' : 'Follow us on Instagram for tips, news and behind-the-scenes from the clinic.'}
       </p>
-      <a href="#" class="btn btn-primary">Instagram →</a>
+      <a href="https://instagram.com/skintech_nl" target="_blank" rel="noopener" class="btn btn-primary">Instagram →</a>
     </div>
   </section>
   `;
@@ -921,29 +921,30 @@ function renderContact() {
     <div class="container">
       <div class="contact-grid">
         <form class="contact-form" onsubmit="handleContact(event)">
+          <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
           <div class="form-row">
             <div class="form-field">
               <label>${nl ? 'Voornaam' : 'First name'}</label>
-              <input type="text" placeholder="${nl ? 'Jouw naam' : 'Your name'}" required>
+              <input type="text" name="first_name" placeholder="${nl ? 'Jouw naam' : 'Your name'}" required>
             </div>
             <div class="form-field">
               <label>${nl ? 'Achternaam' : 'Last name'}</label>
-              <input type="text" placeholder="${nl ? 'Familienaam' : 'Family name'}" required>
+              <input type="text" name="last_name" placeholder="${nl ? 'Familienaam' : 'Family name'}" required>
             </div>
           </div>
           <div class="form-row">
             <div class="form-field">
               <label>E-mail</label>
-              <input type="email" placeholder="you@example.com" required>
+              <input type="email" name="email" placeholder="you@example.com" required>
             </div>
             <div class="form-field">
               <label>${nl ? 'Telefoon (optioneel)' : 'Phone (optional)'}</label>
-              <input type="tel" placeholder="+31 ...">
+              <input type="tel" name="phone" placeholder="+31 6 ...">
             </div>
           </div>
           <div class="form-field">
             <label>${nl ? 'Behandeling van interesse' : 'Treatment of interest'}</label>
-            <select>
+            <select name="treatment">
               <option>${nl ? 'Gratis huidscan & consult' : 'Free Skin Scan & Consultation'}</option>
               <option>${nl ? 'Laserontharing' : 'Laser Hair Removal'}</option>
               <option>Deep Cleansing Facial</option>
@@ -954,7 +955,7 @@ function renderContact() {
           </div>
           <div class="form-field">
             <label>${nl ? 'Vertel ons iets' : 'Tell us a little'}</label>
-            <textarea placeholder="${nl
+            <textarea name="message" placeholder="${nl
               ? 'Wat wil je bereiken? Eerdere behandelingen of huidaandoeningen die we moeten weten?'
               : 'What are you hoping to achieve? Any prior treatments or skin concerns we should know about?'}"></textarea>
           </div>
@@ -987,8 +988,8 @@ function renderContact() {
           <div class="contact-block">
             <div class="label">${nl ? 'Direct contact' : 'Direct'}</div>
             <div class="val" style="font-size:16px;">
-              <a href="#">+31 XX XXX XXXX</a><br/>
-              <a href="#">WhatsApp</a><br/>
+              <a href="tel:+31619826664">+31 6 19 82 66 64</a><br/>
+              <a href="https://wa.me/31619826664" target="_blank" rel="noopener">WhatsApp</a><br/>
               <a href="#">info@skintechclinic.nl</a>
             </div>
           </div>
@@ -1359,8 +1360,8 @@ function renderFooter() {
             <img class="logo-img" src="assets/logo.png" alt="SkinTech Laser Clinic · Amsterdam"/>
           </div>
           <p class="footer-addr">${nl
-            ? 'Premium laser- en huidbehandelingen<br/>in Amsterdam.<br/><br/>info@skintechclinic.nl<br/>+31 XX XXX XXXX'
-            : 'Premium laser and skin treatments<br/>in Amsterdam.<br/><br/>info@skintechclinic.nl<br/>+31 XX XXX XXXX'}</p>
+            ? 'Premium laser- en huidbehandelingen<br/>in Amsterdam.<br/><br/>info@skintechclinic.nl<br/>+31 6 19 82 66 64'
+            : 'Premium laser and skin treatments<br/>in Amsterdam.<br/><br/>info@skintechclinic.nl<br/>+31 6 19 82 66 64'}</p>
         </div>
         <div>
           <h5>${nl ? 'Behandelingen' : 'Treatments'}</h5>
@@ -1385,8 +1386,8 @@ function renderFooter() {
         <div>
           <h5>${nl ? 'Volg ons' : 'Follow'}</h5>
           <ul>
-            <li><a href="#">Instagram</a></li>
-            <li><a href="#">WhatsApp</a></li>
+            <li><a href="https://instagram.com/skintech_nl" target="_blank" rel="noopener">Instagram</a></li>
+            <li><a href="https://wa.me/31619826664" target="_blank" rel="noopener">WhatsApp</a></li>
             <li><a href="#">Journal — ${nl ? 'binnenkort' : 'coming soon'}</a></li>
             <li><a href="#" onclick="event.preventDefault(); setLang('nl')" style="${currentLang==='nl'?'font-weight:500; color:var(--cream);':'opacity:0.5;'}">NL</a> · <a href="#" onclick="event.preventDefault(); setLang('en')" style="${currentLang==='en'?'font-weight:500; color:var(--cream);':'opacity:0.5;'}">EN</a></li>
           </ul>

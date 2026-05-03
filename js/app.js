@@ -180,11 +180,33 @@ function bookingStep4() {
 
 function handleContact(e) {
   e.preventDefault();
-  e.target.innerHTML = '<div style="padding:60px 0; text-align:center;">' +
-    '<div style="width:64px; height:64px; margin:0 auto 24px; border-radius:50%; border:1px solid var(--bronze-deep); display:grid; place-items:center; color:var(--bronze-deep); font-family:var(--serif); font-size:28px; font-style:italic;">\u2713</div>' +
-    '<h3 style="font-family:var(--serif); font-size:32px; font-weight:400; margin-bottom:12px;">' + (currentLang==='nl' ? 'Bedankt!' : 'Thank you!') + '</h3>' +
-    '<p style="color:var(--muted); font-size:15px; line-height:1.7; max-width:400px; margin:0 auto;">' + (currentLang==='nl' ? 'We hebben je bericht ontvangen en nemen zo snel mogelijk contact met je op.' : 'We have received your message and will get back to you as soon as possible.') + '</p>' +
-    '</div>';
+  var form = e.target;
+  var btn = form.querySelector('button[type="submit"]');
+  var origText = btn.textContent;
+  btn.textContent = currentLang === 'nl' ? 'Verzenden...' : 'Sending...';
+  btn.disabled = true;
+  var data = new FormData(form);
+  fetch('https://formspree.io/f/xzdodkva', {
+    method: 'POST',
+    body: data,
+    headers: { 'Accept': 'application/json' }
+  }).then(function(r) {
+    if (r.ok) {
+      form.innerHTML = '<div style="padding:60px 0; text-align:center;">' +
+        '<div style="width:64px; height:64px; margin:0 auto 24px; border-radius:50%; border:1px solid var(--bronze-deep); display:grid; place-items:center; color:var(--bronze-deep); font-family:var(--serif); font-size:28px; font-style:italic;">\u2713</div>' +
+        '<h3 style="font-family:var(--serif); font-size:32px; font-weight:400; margin-bottom:12px;">' + (currentLang==='nl' ? 'Bedankt!' : 'Thank you!') + '</h3>' +
+        '<p style="color:var(--muted); font-size:15px; line-height:1.7; max-width:400px; margin:0 auto;">' + (currentLang==='nl' ? 'We hebben je bericht ontvangen en nemen zo snel mogelijk contact met je op.' : 'We have received your message and will get back to you as soon as possible.') + '</p>' +
+        '</div>';
+    } else {
+      btn.textContent = origText;
+      btn.disabled = false;
+      alert(currentLang === 'nl' ? 'Er ging iets mis. Probeer het opnieuw of mail info@skintechclinic.nl.' : 'Something went wrong. Please try again or email info@skintechclinic.nl.');
+    }
+  }).catch(function() {
+    btn.textContent = origText;
+    btn.disabled = false;
+    alert(currentLang === 'nl' ? 'Geen verbinding. Controleer je internet en probeer opnieuw.' : 'No connection. Check your internet and try again.');
+  });
 }
 
 /* ===================== Nav scroll + mobile ===================== */
