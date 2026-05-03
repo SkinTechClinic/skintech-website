@@ -15,6 +15,7 @@ const routes = {
   terms: renderTerms,
 };
 
+let _isInitialLoad = true;
 function navigate(route) {
   currentRoute = route;
   const app = document.getElementById('app');
@@ -45,7 +46,8 @@ function navigate(route) {
   const darkOpener = route === 'home' || route === 'results';
   document.getElementById('siteNav').classList.toggle('on-dark', darkOpener);
   window.scrollTo(0, 0);
-  // route no longer persisted
+  // Update URL hash (skip for home to keep clean root URL)
+  if (_isInitialLoad) { _isInitialLoad = false; } else if (route === "home") { history.pushState(null, "", window.location.pathname); } else { history.pushState(null, "", "#" + route); }
   bindPageInteractions();
 }
 
@@ -277,11 +279,36 @@ try { window.parent.postMessage({type:'__edit_mode_available'}, '*'); } catch(e)
 
 
 try { if(localStorage.getItem('sk_cookies')) document.getElementById('cookieBanner').classList.add('hidden'); } catch(e){}
+// Handle browser back/forward buttons
+window.addEventListener('popstate', function() {
+  const h = window.location.hash.replace('#','');
+  const target = h && routes[h] ? h : 'home';
+  if (target !== currentRoute) {
+    currentRoute = target;
+    const app = document.getElementById('app');
+    app.innerHTML = '';
+    const el = document.createElement('div');
+    el.className = 'page-enter';
+    el.innerHTML = routes[target] ? routes[target]() : renderHome();
+    app.appendChild(el);
+    const footer = document.createElement('footer');
+    footer.className = 'site';
+    footer.innerHTML = renderFooter();
+    app.appendChild(footer);
+    const darkOpener = target === 'home' || target === 'results';
+    document.getElementById('siteNav').classList.toggle('on-dark', darkOpener);
+    window.scrollTo(0, 0);
+    bindPageInteractions();
+  }
+});
+
 /* ===================== Init ===================== */
 applyTweaks();
 // Always start on home page
 const hashRoute = window.location.hash.replace('#','');
-navigate(hashRoute && routes[hashRoute] ? hashRoute : 'home');
+const initRoute = hashRoute && routes[hashRoute] ? hashRoute : 'home';
+currentRoute = initRoute;
+navigate(initRoute);
 
 
 
