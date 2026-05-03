@@ -7,9 +7,21 @@ uploads/
 screenshots/
 *.docx
 
+# Backup
+index-original.html
+
 # Uncompressed originals
 assets/founder.png
 assets/ionto.png
 assets/founder-compressed.jpg
 assets/ionto-compressed.jpg
 assets/logo-compressed.png
+
+# Unused files from restructure
+index-new.html
+index-original.html
+ARCHITECTURE.md
+js/components.js
+js/i18n.js
+js/articles.js
+js/router.js

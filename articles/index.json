@@ -1,0 +1,101 @@
+[
+  {
+    "id": "laser-guide",
+    "cat": "Behandelingen",
+    "catEn": "Treatments",
+    "date": "2026-05-01",
+    "titleNl": "Laserontharing: alles wat je moet weten voor je eerste sessie",
+    "titleEn": "Laser hair removal: everything you need to know before your first session",
+    "excerptNl": "Van voorbereiding tot nazorg — een compleet overzicht van wat je kunt verwachten bij laserontharing met de GentleMax Pro Plus.",
+    "excerptEn": "From preparation to aftercare — a complete overview of what to expect from laser hair removal with the GentleMax Pro Plus.",
+    "img": "assets/service-laser.jpg"
+  },
+  {
+    "id": "skin-types",
+    "cat": "Huidverzorging",
+    "catEn": "Skin Care",
+    "date": "2026-04-28",
+    "titleNl": "Huidtype I t/m VI: waarom het uitmaakt voor jouw behandeling",
+    "titleEn": "Skin type I to VI: why it matters for your treatment",
+    "excerptNl": "Niet elke huid reageert hetzelfde. We leggen uit hoe we de GentleMax Pro Plus kalibreren voor elk Fitzpatrick-huidtype.",
+    "excerptEn": "Not every skin responds the same way. We explain how we calibrate the GentleMax Pro Plus for every Fitzpatrick skin type.",
+    "img": "assets/service-scan.webp"
+  },
+  {
+    "id": "glace-glow",
+    "cat": "Behandelingen",
+    "catEn": "Treatments",
+    "date": "2026-04-20",
+    "titleNl": "Glacē Glow Facial: de wetenschap achter de glow",
+    "titleEn": "Glacē Glow Facial: the science behind the glow",
+    "excerptNl": "Hoe de Candela Glacē met vortex-technologie jouw huid reinigt, exfolieert en laat stralen.",
+    "excerptEn": "How the Candela Glacē uses vortex technology to cleanse, exfoliate, and make your skin glow.",
+    "img": "assets/service-glace.jpg"
+  },
+  {
+    "id": "prep-aftercare",
+    "cat": "Tips",
+    "catEn": "Tips",
+    "date": "2026-04-15",
+    "titleNl": "Voorbereiding en nazorg: zo haal je het meeste uit je behandeling",
+    "titleEn": "Preparation and aftercare: how to get the most from your treatment",
+    "excerptNl": "De juiste voorbereiding en nazorg maken het verschil. Onze checklist voor voor en na elke sessie.",
+    "excerptEn": "The right preparation and aftercare make all the difference. Our checklist for before and after every session.",
+    "img": "assets/service-deep.jpg"
+  },
+  {
+    "id": "deep-vs-glace",
+    "cat": "Vergelijking",
+    "catEn": "Comparison",
+    "date": "2026-04-10",
+    "titleNl": "Deep Cleansing vs. Glacē Glow: welke facial past bij jou?",
+    "titleEn": "Deep Cleansing vs. Glacē Glow: which facial suits you?",
+    "excerptNl": "Twee signature facials, elk met een eigen doel. We helpen je kiezen op basis van jouw huidtype en wensen.",
+    "excerptEn": "Two signature facials, each with a distinct purpose. We help you choose based on your skin type and goals.",
+    "img": "assets/service-combo.webp"
+  },
+  {
+    "id": "sylton-scan",
+    "cat": "Technologie",
+    "catEn": "Technology",
+    "date": "2026-04-05",
+    "titleNl": "De Sylton Observ 520x: jouw huid in beeld",
+    "titleEn": "The Sylton Observ 520x: your skin in focus",
+    "excerptNl": "Wat onze huidscanner ziet dat het blote oog mist — en waarom dat de basis vormt van elk behandelplan.",
+    "excerptEn": "What our skin scanner sees that the naked eye misses — and why that forms the foundation of every treatment plan.",
+    "img": "assets/sylton-scan.png"
+  },
+  {
+    "id": "ipl-vs-laser",
+    "cat": "Vergelijking",
+    "catEn": "Comparison",
+    "date": "2026-05-01",
+    "titleNl": "IPL vs. laser: wat is het verschil en wat werkt beter?",
+    "titleEn": "IPL vs. laser: what\\",
+    "excerptNl": "Intense Pulsed Light en echte laser worden vaak door elkaar gehaald. We leggen de wetenschappelijke verschillen uit.",
+    "excerptEn": "Intense Pulsed Light and true laser are often confused. We explain the scientific differences.",
+    "img": "assets/service-laser.jpg"
+  },
+  {
+    "id": "laser-donkere-huid",
+    "cat": "Huidverzorging",
+    "catEn": "Skin Care",
+    "date": "2026-04-30",
+    "titleNl": "Laserontharing bij donkere huid: veilig, effectief en inclusief",
+    "titleEn": "Laser hair removal for dark skin: safe, effective, and inclusive",
+    "excerptNl": "Veel klinieken kunnen donkere huidtypen niet veilig behandelen. Onze dual-wavelength laser wel.",
+    "excerptEn": "Many clinics can\\",
+    "img": "assets/service-laser.jpg"
+  },
+  {
+    "id": "huidverbetering-amsterdam",
+    "cat": "Huidverzorging",
+    "catEn": "Skin Care",
+    "date": "2026-04-25",
+    "titleNl": "Huidverbetering in Amsterdam: jouw complete gids",
+    "titleEn": "Skin improvement in Amsterdam: your complete guide",
+    "excerptNl": "Van huidanalyse tot behandelplan — ontdek hoe professionele huidverzorging jouw huid transformeert.",
+    "excerptEn": "From skin analysis to treatment plan — discover how professional skincare transforms your skin.",
+    "img": "assets/service-glace.jpg"
+  }
+]
