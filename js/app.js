@@ -47,7 +47,7 @@ function navigate(route) {
   document.getElementById('siteNav').classList.toggle('on-dark', darkOpener);
   window.scrollTo(0, 0);
   // Update URL hash (skip for home to keep clean root URL)
-  if (_isInitialLoad) { _isInitialLoad = false; } else if (route === "home") { history.pushState(null, "", window.location.pathname); } else { history.pushState(null, "", "#" + route); }
+  if (_isInitialLoad) { _isInitialLoad = false; } else { const langPrefix = currentLang === "en" ? "en/" : ""; if (route === "home" && currentLang === "nl") { history.pushState(null, "", window.location.pathname); } else { history.pushState(null, "", "#" + langPrefix + route); } }
   bindPageInteractions();
 }
 
@@ -281,7 +281,11 @@ try { window.parent.postMessage({type:'__edit_mode_available'}, '*'); } catch(e)
 try { if(localStorage.getItem('sk_cookies')) document.getElementById('cookieBanner').classList.add('hidden'); } catch(e){}
 // Handle browser back/forward buttons
 window.addEventListener('popstate', function() {
-  const h = window.location.hash.replace('#','');
+  let h = window.location.hash.replace('#','');
+  // Parse language from hash: #en/about or #about
+  if (h.startsWith('en/')) { if (currentLang !== 'en') setLang('en'); h = h.slice(3); }
+  else if (h.startsWith('nl/')) { if (currentLang !== 'nl') setLang('nl'); h = h.slice(3); }
+  else if (currentLang === 'en' && !h.startsWith('en')) { setLang('nl'); }
   const target = h && routes[h] ? h : 'home';
   if (target !== currentRoute) {
     currentRoute = target;
@@ -305,7 +309,11 @@ window.addEventListener('popstate', function() {
 /* ===================== Init ===================== */
 applyTweaks();
 // Always start on home page
-const hashRoute = window.location.hash.replace('#','');
+let hashRaw = window.location.hash.replace('#','');
+// Parse language from initial hash
+if (hashRaw.startsWith('en/')) { currentLang = 'en'; try { localStorage.setItem('sk_lang','en'); } catch(e){} hashRaw = hashRaw.slice(3); }
+else if (hashRaw.startsWith('en')) { currentLang = 'en'; try { localStorage.setItem('sk_lang','en'); } catch(e){} if (hashRaw === 'en') hashRaw = 'home'; }
+const hashRoute = hashRaw;
 const initRoute = hashRoute && routes[hashRoute] ? hashRoute : 'home';
 currentRoute = initRoute;
 navigate(initRoute);
