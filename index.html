@@ -520,8 +520,8 @@
 <div id="cookieBanner" class="cookie-banner">
   <span>Wij gebruiken cookies om uw ervaring te verbeteren. Door verder te gaan gaat u akkoord met ons <a href="#" onclick="event.preventDefault(); navigate('privacy')" style="color:inherit; text-decoration:underline;">cookiebeleid</a>.</span>
   <div class="cookie-actions">
-    <button onclick="document.getElementById('cookieBanner').classList.add('hidden'); try{localStorage.setItem('sk_cookies','ok')}catch(e){}" class="btn btn-outline" style="padding:6px 18px; font-size:12px;">Accepteren</button>
-    <button onclick="document.getElementById('cookieBanner').classList.add('hidden'); try{localStorage.setItem('sk_cookies','no')}catch(e){}" class="btn" style="padding:6px 18px; font-size:12px; opacity:0.7;">Weigeren</button>
+    <button onclick="document.getElementById('cookieBanner').classList.add('hidden'); try{localStorage.setItem('sk_cookies','ok')}catch(e){}" class="btn-accept">Accepteren</button>
+    <button onclick="document.getElementById('cookieBanner').classList.add('hidden'); try{localStorage.setItem('sk_cookies','no')}catch(e){}" class="btn-decline">Weigeren</button>
   </div>
 </div>
 
