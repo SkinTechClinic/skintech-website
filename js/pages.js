@@ -266,8 +266,8 @@ function renderHome() {
         ${[{t:c.res1t,d:c.res1d,img:c.res1img,n:1},{t:c.res2t,d:c.res2d,img:c.res2img,n:2},{t:c.res3t,d:c.res3d,img:c.res3img,n:3}].map(r=>`
           <div class="result-card">
             <div class="result-imgs">
-              <div class="result-img">${r.img ? '<img src="assets/result-before-'+r.n+'.jpg" alt="before" style="width:100%;height:100%;object-fit:cover;"/>' : ''}<span class="tag">${c.resBef}</span>${r.img ? '' : c.resBef+' · '+c.resSoon}</div>
-              <div class="result-img">${r.img ? '<img src="assets/result-after-'+r.n+'.jpg" alt="after" style="width:100%;height:100%;object-fit:cover;"/>' : ''}<span class="tag">${c.resAft}</span>${r.img ? '' : c.resAft+' · '+c.resSoon}</div>
+              <div class="result-img">${r.img ? '<img src="assets/result-before-'+r.n+'.webp" alt="Resultaat voor behandeling" style="width:100%;height:100%;object-fit:cover;"/>' : ''}<span class="tag">${c.resBef}</span>${r.img ? '' : c.resBef+' · '+c.resSoon}</div>
+              <div class="result-img">${r.img ? '<img src="assets/result-after-'+r.n+'.webp" alt="Resultaat na behandeling" style="width:100%;height:100%;object-fit:cover;"/>' : ''}<span class="tag">${c.resAft}</span>${r.img ? '' : c.resAft+' · '+c.resSoon}</div>
             </div>
             <div class="caption"><span class="treatment">${r.t}</span><span class="time">${r.d}</span></div>
           </div>
@@ -399,7 +399,7 @@ function renderAbout() {
   <section class="founder-sec">
     <div class="container">
       <div class="founder-grid">
-        <div class="founder-photo"><img src="assets/founder-web.jpg" alt="SkinTech clinic"/></div>
+        <div class="founder-photo"><img src="assets/founder-web.webp" alt="SkinTech clinic"/></div>
         <div class="founder-text">
           <span class="eyebrow">— ${c.founderEyebrow}</span>
           <h3 style="margin-top:20px;">${c.founderH}</h3>

@@ -25,3 +25,27 @@ js/components.js
 js/i18n.js
 js/articles.js
 js/router.js
+
+# Unused images
+assets/about-approach.png
+assets/founder-compressed.jpg
+assets/founder.jpg
+assets/hero-pattern.svg
+assets/ionto-optimized.jpg
+assets/logo-optimized.png
+assets/s-mark-ref.png
+assets/s-mark-refV2.png
+assets/scanner.webp
+
+# Replaced by WebP versions
+assets/service-deep.jpg
+assets/service-glace.jpg
+assets/service-laser.jpg
+assets/hero-pattern.jpg
+assets/founder-web.jpg
+assets/result-before-1.jpg
+assets/result-before-2.jpg
+assets/result-before-3.jpg
+assets/result-after-1.jpg
+assets/result-after-2.jpg
+assets/result-after-3.jpg

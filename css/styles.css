@@ -390,7 +390,7 @@ nav.site.on-dark .logo-sub {
   inset: 0;
   pointer-events: none;
   opacity: 0.35;
-  background-image: url("../assets/hero-pattern.jpg");
+  background-image: url("../assets/hero-pattern.webp");
   background-size: cover;
   background-position: right center;
   background-repeat: no-repeat;

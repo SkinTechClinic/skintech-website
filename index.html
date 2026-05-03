@@ -34,7 +34,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 
 <!-- Stylesheet -->
-<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/styles.min.css">
 
 <!-- Structured Data: LocalBusiness -->
 <script type="application/ld+json">
@@ -141,8 +141,10 @@
 
 </head>
 <body data-cc-id="cc-1" style="font-size: 16px; cursor: crosshair; font-family: Inter;">
+<a href="#app" class="skip-nav" style="position:absolute;top:-100px;left:16px;background:var(--ink);color:var(--cream);padding:12px 24px;z-index:9999;border-radius:0 0 8px 8px;font-size:14px;transition:top 0.2s;" onfocus="this.style.top='0'" onblur="this.style.top='-100px'">Ga naar inhoud</a>
 
-<nav class="site on-dark" id="siteNav">
+
+<nav class="site on-dark" id="siteNav" role="navigation" aria-label="Hoofdnavigatie">
   <a href="#" class="logo" data-route="home">
     <img class="logo-img" src="assets/logo.png" alt="SkinTech Laser Clinic · Amsterdam">
   </a>
@@ -158,11 +160,11 @@
   <div class="nav-right">
     <button class="nav-book" style="background:transparent; border:1px solid currentColor; color:currentColor;" onclick="navigate('contact')" id="nl-scan">Gratis huidscan</button>
     <button class="nav-book" onclick="openBooking()" id="nl-book">Boek nu</button>
-    <button class="mobile-toggle" onclick="toggleMobile()"><span></span><span></span></button>
+    <button class="mobile-toggle" onclick="toggleMobile()" aria-label="Menu openen" aria-expanded="false"><span></span><span></span></button>
   </div>
 </nav>
 
-<main id="app"><div class="page-enter">
+<main id="app" role="main" tabindex="-1"><div class="page-enter">
   <section class="hero">
     <div class="hero-fingerprint">
 <!-- SVG loaded by JavaScript --></div>
@@ -524,7 +526,7 @@
 <div id="modalHost"></div>
 <div id="tweaksPanel" class="tweaks-panel"></div>
 
-<div id="cookieBanner" class="cookie-banner">
+<div id="cookieBanner" class="cookie-banner" role="dialog" aria-label="Cookie instellingen">
   <span>Wij gebruiken cookies om uw ervaring te verbeteren. Door verder te gaan gaat u akkoord met ons <a href="#" onclick="event.preventDefault(); navigate('privacy')" style="color:inherit; text-decoration:underline;">cookiebeleid</a>.</span>
   <div class="cookie-actions">
     <button onclick="document.getElementById('cookieBanner').classList.add('hidden'); try{localStorage.setItem('sk_cookies','ok')}catch(e){}" class="btn-accept">Accepteren</button>
@@ -533,13 +535,13 @@
 </div>
 
 <!-- JavaScript: Data & Translations -->
-<script src="js/data.js"></script>
+<script src="js/data.min.js"></script>
 
 <!-- JavaScript: Page Render Functions -->
-<script src="js/pages.js"></script>
+<script src="js/pages.min.js"></script>
 
 <!-- JavaScript: Router, Booking & Initialization -->
-<script src="js/app.js"></script>
+<script src="js/app.min.js"></script>
 
 
 </body>

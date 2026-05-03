@@ -46,6 +46,7 @@ function navigate(route) {
   const darkOpener = route === 'home' || route === 'results';
   document.getElementById('siteNav').classList.toggle('on-dark', darkOpener);
   window.scrollTo(0, 0);
+  document.getElementById('app').focus({preventScroll: true});
   // Update URL hash (skip for home to keep clean root URL)
   if (_isInitialLoad) { _isInitialLoad = false; } else { const langPrefix = currentLang === "en" ? "en/" : ""; if (route === "home" && currentLang === "nl") { history.pushState(null, "", window.location.pathname); } else { history.pushState(null, "", "#" + langPrefix + route); } }
   bindPageInteractions();
@@ -152,8 +153,8 @@ function bookingStep3() {
     <p class="sub">${t('bookStep3Sub')}</p>
     <div class="form-field"><label>${t('bookNameLabel')}</label><input type="text" id="b-name" value="${bookingData.name}" oninput="bookingData.name=this.value" placeholder="${t('bookNamePh')}"></div>
     <div class="form-field"><label>${t('bookEmailLabel')}</label><input type="email" id="b-email" value="${bookingData.email}" oninput="bookingData.email=this.value" placeholder="you@example.com"></div>
-    <div class="form-field"><label>${t('bookPhoneLabel')}</label><input type="tel" placeholder="+31 ..."></div>
-    <div class="form-field"><label>${t('bookNoteLabel')}</label><textarea placeholder="${t('bookNotePh')}"></textarea></div>
+    <div class="form-field"><label>${t('bookPhoneLabel')}</label><input type="tel" id="b-phone" placeholder="+31 ..."></div>
+    <div class="form-field"><label>${t('bookNoteLabel')}</label><textarea id="b-note" placeholder="${t('bookNotePh')}"></textarea></div>
     <div style="margin-top:12px; display:flex; justify-content:space-between;">
       <button class="btn btn-ghost" onclick="bookingStep=2; renderBooking();">${t('bookBack')}</button>
       <button class="btn btn-primary" ${(!bookingData.name||!bookingData.email)?'disabled style="opacity:0.4; cursor:not-allowed;"':''} onclick="if(bookingData.name&&bookingData.email){bookingStep=4; renderBooking();}">${t('bookConfirm')}</button>
@@ -163,17 +164,30 @@ function bookingStep3() {
 function bookingStep4() {
   const svcs = currentLang==='en' ? SERVICES_EN : SERVICES;
   const svc = svcs.find(s => s.id === bookingData.service);
+  var phone = document.querySelector('#b-phone') ? document.querySelector('#b-phone').value : '';
+  var note = document.querySelector('#b-note') ? document.querySelector('#b-note').value : '';
+  var fd = new FormData();
+  fd.append('_subject', 'Boekingsverzoek — ' + (svc ? svc.name : bookingData.service));
+  fd.append('service', svc ? svc.name : bookingData.service);
+  fd.append('preferred_date', bookingData.date);
+  fd.append('preferred_time', bookingData.slot);
+  fd.append('name', bookingData.name);
+  fd.append('email', bookingData.email);
+  fd.append('phone', phone);
+  fd.append('note', note);
+  fetch('https://formspree.io/f/xzdodkva', { method: 'POST', body: fd, headers: { 'Accept': 'application/json' } }).catch(function(){});
   return `
     <div style="text-align:center; padding:20px 0 12px;">
-      <div style="width:64px; height:64px; margin:0 auto 24px; border-radius:50%; border:1px solid var(--bronze-deep); display:grid; place-items:center; color:var(--bronze-deep); font-family:var(--serif); font-size:28px; font-style:italic;">✓</div>
+      <div style="width:64px; height:64px; margin:0 auto 24px; border-radius:50%; border:1px solid var(--bronze-deep); display:grid; place-items:center; color:var(--bronze-deep); font-family:var(--serif); font-size:28px; font-style:italic;">\u2713</div>
       <h3 style="text-align:center;">${t('bookStep4Title')}</h3>
-      <p class="sub" style="text-align:center;">${currentLang==='nl'?'Er is een bevestiging onderweg naar':'A confirmation is on its way to'} ${bookingData.email}.</p>
+      <p class="sub" style="text-align:center;">${currentLang==='nl'?'Wij hebben je voorkeur ontvangen en nemen zo snel mogelijk contact met je op via':'We have received your preference and will contact you as soon as possible at'} ${bookingData.email}.</p>
     </div>
     <div style="background:var(--cream-deep); padding:24px; border-radius:4px; margin-bottom:24px;">
-      <div style="display:flex; justify-content:space-between; padding:8px 0; border-bottom:1px solid var(--line);"><span style="color:var(--muted); font-size:12px; letter-spacing:0.1em; text-transform:uppercase;">${t('bookServiceLabel')}</span><span style="font-family:var(--serif); font-size:16px;">${svc?svc.name:'—'}</span></div>
-      <div style="display:flex; justify-content:space-between; padding:8px 0; border-bottom:1px solid var(--line);"><span style="color:var(--muted); font-size:12px; letter-spacing:0.1em; text-transform:uppercase;">${t('bookDateLabel')}</span><span style="font-family:var(--serif); font-size:16px;">${bookingData.date} April 2026</span></div>
+      <div style="display:flex; justify-content:space-between; padding:8px 0; border-bottom:1px solid var(--line);"><span style="color:var(--muted); font-size:12px; letter-spacing:0.1em; text-transform:uppercase;">${t('bookServiceLabel')}</span><span style="font-family:var(--serif); font-size:16px;">${svc?svc.name:'\u2014'}</span></div>
+      <div style="display:flex; justify-content:space-between; padding:8px 0; border-bottom:1px solid var(--line);"><span style="color:var(--muted); font-size:12px; letter-spacing:0.1em; text-transform:uppercase;">${t('bookDateLabel')}</span><span style="font-family:var(--serif); font-size:16px;">${bookingData.date}</span></div>
       <div style="display:flex; justify-content:space-between; padding:8px 0;"><span style="color:var(--muted); font-size:12px; letter-spacing:0.1em; text-transform:uppercase;">${t('bookTimeLabel')}</span><span style="font-family:var(--serif); font-size:16px;">${bookingData.slot}</span></div>
     </div>
+    <p style="font-size:12px; color:var(--muted); text-align:center; margin-bottom:20px; line-height:1.6;">${currentLang==='nl'?'Dit is een voorkeur, geen definitieve afspraak. Wij bevestigen je boeking per e-mail.':'This is a preference, not a confirmed appointment. We will confirm your booking by email.'}</p>
     <button class="btn btn-primary" style="width:100%; justify-content:center;" onclick="closeBooking()">${t('bookClose')}</button>
   `;
 }
@@ -217,6 +231,8 @@ function handleScroll() {
 window.addEventListener('scroll', handleScroll);
 
 function toggleMobile() {
+  var toggle = document.querySelector('.mobile-toggle');
+  if (toggle) toggle.setAttribute('aria-expanded', toggle.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');
   // simple toggle that reveals links as a dropdown
   const links = document.querySelector('.nav-links');
   if (!links) return;
@@ -324,6 +340,7 @@ window.addEventListener('popstate', function() {
     const darkOpener = target === 'home' || target === 'results';
     document.getElementById('siteNav').classList.toggle('on-dark', darkOpener);
     window.scrollTo(0, 0);
+  document.getElementById('app').focus({preventScroll: true});
     bindPageInteractions();
   }
 });
