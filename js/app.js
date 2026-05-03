@@ -72,12 +72,12 @@ function bindPageInteractions() {
 
 /* ===================== Booking modal ===================== */
 let bookingStep = 1;
-let bookingData = { service: null, date: null, slot: null, firstName: '', lastName: '', email: '', phone: '' };
+let bookingData = { service: null, gender: 'women', date: null, slot: null, firstName: '', lastName: '', email: '', phone: '' };
 
 function openBooking() {
   bookingOpen = true;
   bookingStep = 1;
-  bookingData = { service: null, date: null, slot: null, firstName: '', lastName: '', email: '', phone: '' };
+  bookingData = { service: null, gender: 'women', date: null, slot: null, firstName: '', lastName: '', email: '', phone: '' };
   renderBooking();
 }
 function closeBooking() { bookingOpen = false; document.getElementById('modalHost').innerHTML = ''; }
@@ -108,37 +108,81 @@ function bookingStep1() {
   const svcs = currentLang==='en' ? SERVICES_EN : SERVICES;
   const selectedSvc = bookingData.service ? svcs.find(s=>s.id===bookingData.service) : null;
   const recLabel = currentLang==='nl' ? 'Aanbevolen bij een eerste bezoek' : 'Recommended for first-time visitors';
-  return `
-    <h3>${t('bookStep1Title')}</h3>
-    <p class="sub">${t('bookStep1Sub')}</p>
-    <div class="svc-radio">
-      ${svcs.map(s => `
-        <div class="svc-opt ${bookingData.service===s.id?'selected':''}" onclick="bookingData.service='${s.id}'; renderBooking();">
-          <div style="flex:1;">
-            <div class="name">${s.name}</div>
-            <div style="font-size:12px; color:var(--muted); margin-top:4px;">${s.duration}</div>
-            ${s.id==='scan' ? '<div style="font-size:11px; color:var(--bronze-deep); margin-top:4px; font-style:italic;">'+recLabel+'</div>' : ''}
-          </div>
-          <div class="price" style="text-align:right; font-size:13px;">${s.pricing && s.pricing[0] ? s.pricing[0].value : s.sessions}</div>
-        </div>
-      `).join('')}
-    </div>
-    ${selectedSvc && selectedSvc.pricing ? `
-      <div style="margin-top:16px; background:var(--cream-deep); border-radius:4px; padding:16px;">
-        <div style="font-size:11px; text-transform:uppercase; letter-spacing:0.12em; color:var(--muted); margin-bottom:10px;">${currentLang==='nl'?'Tarieven':'Pricing'} — ${selectedSvc.name}</div>
-        ${selectedSvc.pricing.map(p => `
-          <div style="display:flex; justify-content:space-between; padding:6px 0; font-size:13px; border-bottom:1px solid var(--line);">
-            <span style="color:var(--charcoal);">${p.label}</span>
-            <span style="font-family:var(--serif); color:var(--bronze-deep);">${p.value}</span>
-          </div>
-        `).join('')}
-        ${selectedSvc.priceNote ? '<div style="font-size:11px; color:var(--muted); margin-top:8px; line-height:1.5;">'+selectedSvc.priceNote+'</div>' : ''}
-      </div>
-    ` : ''}
-    <div style="margin-top:28px; display:flex; justify-content:flex-end;">
-      <button class="btn btn-primary" ${!bookingData.service?'disabled style="opacity:0.4; cursor:not-allowed;"':''} onclick="if(bookingData.service){bookingStep=2; renderBooking();}">${t('bookDateNext')}</button>
-    </div>
-  `;
+  const vatNote = currentLang==='nl' ? 'Alle prijzen incl. 21% btw' : 'All prices include 21% VAT';
+  const wLabel = currentLang==='nl' ? 'Dames' : 'Women';
+  const mLabel = currentLang==='nl' ? 'Heren' : 'Men';
+  const singleH = currentLang==='nl' ? 'Per sessie' : 'Single';
+  const pkg6H = '6x';
+  const pkg8H = '8x';
+
+  // Build laser pricing table if laser is selected
+  var laserTable = '';
+  if (selectedSvc && selectedSvc.laserPricing) {
+    var lp = selectedSvc.laserPricing[bookingData.gender] || selectedSvc.laserPricing.women;
+    var catLabels = currentLang==='nl'
+      ? {face:'Gezicht',upperBody:'Bovenlichaam',bikini:'Bikini / intiem',legs:'Benen',lowerBody:'Onderlichaam',combos:'Combipakketten'}
+      : {face:'Face',upperBody:'Upper body',bikini:'Bikini / intimate',legs:'Legs',lowerBody:'Lower body',combos:'Combination packages'};
+    var rows = '';
+    Object.keys(lp).forEach(function(cat) {
+      rows += '<tr><td colspan="4" style="padding:10px 0 4px; font-size:11px; text-transform:uppercase; letter-spacing:0.1em; color:var(--bronze-deep); font-weight:600; border-bottom:1px solid var(--line);">'+(catLabels[cat]||cat)+'</td></tr>';
+      lp[cat].forEach(function(r) {
+        rows += '<tr style="border-bottom:1px solid var(--line);">' +
+          '<td style="padding:5px 0; font-size:12px;">'+r.area+'</td>' +
+          '<td style="padding:5px 4px; font-size:12px; text-align:right; font-family:var(--serif);">'+r.single+'</td>' +
+          '<td style="padding:5px 4px; font-size:12px; text-align:right; color:var(--muted);">'+r.pkg6+'</td>' +
+          '<td style="padding:5px 4px; font-size:12px; text-align:right; color:var(--muted);">'+r.pkg8+'</td>' +
+          '</tr>';
+      });
+    });
+    laserTable = '<div style="margin-top:16px; background:var(--cream-deep); border-radius:4px; padding:16px;">' +
+      '<div style="display:flex; gap:8px; margin-bottom:12px;">' +
+        '<button class="btn '+(bookingData.gender==='women'?'btn-primary':'btn-ghost')+'" style="font-size:12px; padding:6px 16px;" onclick="bookingData.gender=\'women\'; renderBooking();">'+wLabel+'</button>' +
+        '<button class="btn '+(bookingData.gender==='men'?'btn-primary':'btn-ghost')+'" style="font-size:12px; padding:6px 16px;" onclick="bookingData.gender=\'men\'; renderBooking();">'+mLabel+'</button>' +
+      '</div>' +
+      '<div style="max-height:220px; overflow-y:auto;">' +
+      '<table style="width:100%; border-collapse:collapse;">' +
+        '<thead><tr style="border-bottom:1px solid var(--line);">' +
+          '<th style="text-align:left; font-size:10px; text-transform:uppercase; letter-spacing:0.1em; color:var(--muted); padding-bottom:6px;"></th>' +
+          '<th style="text-align:right; font-size:10px; text-transform:uppercase; letter-spacing:0.1em; color:var(--muted); padding-bottom:6px;">'+singleH+'</th>' +
+          '<th style="text-align:right; font-size:10px; text-transform:uppercase; letter-spacing:0.1em; color:var(--muted); padding-bottom:6px;">'+pkg6H+'</th>' +
+          '<th style="text-align:right; font-size:10px; text-transform:uppercase; letter-spacing:0.1em; color:var(--muted); padding-bottom:6px;">'+pkg8H+'</th>' +
+        '</tr></thead><tbody>' + rows + '</tbody></table></div>' +
+      '<div style="font-size:10px; color:var(--muted); margin-top:8px;">'+vatNote+'</div>' +
+      '</div>';
+  }
+
+  // Build standard pricing panel for non-laser services
+  var stdPricing = '';
+  if (selectedSvc && selectedSvc.pricing && !selectedSvc.laserPricing) {
+    stdPricing = '<div style="margin-top:16px; background:var(--cream-deep); border-radius:4px; padding:16px;">' +
+      '<div style="font-size:11px; text-transform:uppercase; letter-spacing:0.12em; color:var(--muted); margin-bottom:10px;">'+(currentLang==='nl'?'Tarieven':'Pricing')+' — '+selectedSvc.name+'</div>';
+    selectedSvc.pricing.forEach(function(p) {
+      stdPricing += '<div style="display:flex; justify-content:space-between; padding:6px 0; font-size:13px; border-bottom:1px solid var(--line);">' +
+        '<span style="color:var(--charcoal);">'+p.label+'</span>' +
+        '<span style="font-family:var(--serif); color:var(--bronze-deep);">'+p.value+'</span></div>';
+    });
+    if (selectedSvc.priceNote) stdPricing += '<div style="font-size:11px; color:var(--muted); margin-top:8px; line-height:1.5;">'+selectedSvc.priceNote+'</div>';
+    stdPricing += '</div>';
+  }
+
+  return '<h3>'+t('bookStep1Title')+'</h3>' +
+    '<p class="sub">'+t('bookStep1Sub')+'</p>' +
+    '<div class="svc-radio">' +
+      svcs.map(function(s) {
+        return '<div class="svc-opt '+(bookingData.service===s.id?'selected':'')+'" onclick="bookingData.service=\''+s.id+'\'; renderBooking();">' +
+          '<div style="flex:1;">' +
+            '<div class="name">'+s.name+'</div>' +
+            '<div style="font-size:12px; color:var(--muted); margin-top:4px;">'+s.duration+'</div>' +
+            (s.id==='scan' ? '<div style="font-size:11px; color:var(--bronze-deep); margin-top:4px; font-style:italic;">'+recLabel+'</div>' : '') +
+          '</div>' +
+          '<div class="price" style="text-align:right; font-size:13px;">'+(s.pricing && s.pricing[0] ? s.pricing[0].value : s.sessions)+'</div>' +
+        '</div>';
+      }).join('') +
+    '</div>' +
+    laserTable + stdPricing +
+    '<div style="margin-top:28px; display:flex; justify-content:flex-end;">' +
+      '<button class="btn btn-primary" '+(!bookingData.service?'disabled style="opacity:0.4; cursor:not-allowed;"':'')+' onclick="if(bookingData.service){bookingStep=2; renderBooking();}">'+t('bookDateNext')+'</button>' +
+    '</div>';
 }
 function bookingStep2() {
   // Generate next 14 available dates (skip Sundays)
