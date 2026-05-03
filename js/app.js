@@ -72,12 +72,12 @@ function bindPageInteractions() {
 
 /* ===================== Booking modal ===================== */
 let bookingStep = 1;
-let bookingData = { service: null, date: null, slot: null, name: '', email: '' };
+let bookingData = { service: null, date: null, slot: null, firstName: '', lastName: '', email: '', phone: '' };
 
 function openBooking() {
   bookingOpen = true;
   bookingStep = 1;
-  bookingData = { service: null, date: null, slot: null, name: '', email: '' };
+  bookingData = { service: null, date: null, slot: null, firstName: '', lastName: '', email: '', phone: '' };
   renderBooking();
 }
 function closeBooking() { bookingOpen = false; document.getElementById('modalHost').innerHTML = ''; }
@@ -105,44 +105,95 @@ function renderBooking() {
 }
 
 function bookingStep1() {
+  const svcs = currentLang==='en' ? SERVICES_EN : SERVICES;
+  const selectedSvc = bookingData.service ? svcs.find(s=>s.id===bookingData.service) : null;
+  const recLabel = currentLang==='nl' ? 'Aanbevolen bij een eerste bezoek' : 'Recommended for first-time visitors';
   return `
     <h3>${t('bookStep1Title')}</h3>
     <p class="sub">${t('bookStep1Sub')}</p>
     <div class="svc-radio">
-      ${(currentLang==='en'?SERVICES_EN:SERVICES).map(s => `
+      ${svcs.map(s => `
         <div class="svc-opt ${bookingData.service===s.id?'selected':''}" onclick="bookingData.service='${s.id}'; renderBooking();">
-          <div>
+          <div style="flex:1;">
             <div class="name">${s.name}</div>
             <div style="font-size:12px; color:var(--muted); margin-top:4px;">${s.duration}</div>
+            ${s.id==='scan' ? '<div style="font-size:11px; color:var(--bronze-deep); margin-top:4px; font-style:italic;">'+recLabel+'</div>' : ''}
           </div>
-          <div class="price">${s.sessions}</div>
+          <div class="price" style="text-align:right; font-size:13px;">${s.pricing && s.pricing[0] ? s.pricing[0].value : s.sessions}</div>
         </div>
       `).join('')}
     </div>
+    ${selectedSvc && selectedSvc.pricing ? `
+      <div style="margin-top:16px; background:var(--cream-deep); border-radius:4px; padding:16px;">
+        <div style="font-size:11px; text-transform:uppercase; letter-spacing:0.12em; color:var(--muted); margin-bottom:10px;">${currentLang==='nl'?'Tarieven':'Pricing'} — ${selectedSvc.name}</div>
+        ${selectedSvc.pricing.map(p => `
+          <div style="display:flex; justify-content:space-between; padding:6px 0; font-size:13px; border-bottom:1px solid var(--line);">
+            <span style="color:var(--charcoal);">${p.label}</span>
+            <span style="font-family:var(--serif); color:var(--bronze-deep);">${p.value}</span>
+          </div>
+        `).join('')}
+        ${selectedSvc.priceNote ? '<div style="font-size:11px; color:var(--muted); margin-top:8px; line-height:1.5;">'+selectedSvc.priceNote+'</div>' : ''}
+      </div>
+    ` : ''}
     <div style="margin-top:28px; display:flex; justify-content:flex-end;">
       <button class="btn btn-primary" ${!bookingData.service?'disabled style="opacity:0.4; cursor:not-allowed;"':''} onclick="if(bookingData.service){bookingStep=2; renderBooking();}">${t('bookDateNext')}</button>
     </div>
   `;
 }
 function bookingStep2() {
-  const days = t('days');
-  const dates = [21,22,23,24,25,27,28];
+  // Generate next 14 available dates (skip Sundays)
+  var upcoming = [];
+  var d = new Date();
+  d.setDate(d.getDate() + 1); // start from tomorrow
+  while (upcoming.length < 14) {
+    if (d.getDay() !== 0) { // skip Sunday
+      upcoming.push(new Date(d));
+    }
+    d.setDate(d.getDate() + 1);
+  }
+  var monthNames = currentLang==='nl'
+    ? ['januari','februari','maart','april','mei','juni','juli','augustus','september','oktober','november','december']
+    : ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  var dayNames = currentLang==='nl'
+    ? ['Zo','Ma','Di','Wo','Do','Vr','Za']
+    : ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+  // Group dates by month
+  var currentMonth = upcoming[0].getMonth();
+  var currentYear = upcoming[0].getFullYear();
+  var monthLabel = monthNames[currentMonth] + ' ' + currentYear;
+  var endMonth = upcoming[upcoming.length-1].getMonth();
+  if (endMonth !== currentMonth) {
+    monthLabel += ' / ' + monthNames[endMonth] + ' ' + upcoming[upcoming.length-1].getFullYear();
+  }
+  // Time slots every 15 min from 09:00 to 18:00
+  var timeSlots = [];
+  for (var h = 9; h <= 18; h++) {
+    for (var m = 0; m < 60; m += 15) {
+      if (h === 18 && m > 0) break;
+      timeSlots.push((h < 10 ? '0' : '') + h + ':' + (m < 10 ? '0' : '') + m);
+    }
+  }
+  var customLabel = currentLang==='nl' ? 'Ander tijdstip...' : 'Other time...';
   return `
     <h3>${t('bookStep2Title')}</h3>
     <p class="sub">${t('bookStep2Sub')}</p>
+    <div style="font-size:13px; color:var(--bronze-deep); font-family:var(--serif); margin-bottom:12px; font-style:italic;">${monthLabel}</div>
     <div style="display:grid; grid-template-columns:repeat(7, 1fr); gap:8px; margin-bottom:24px;">
-      ${days.map((d,i)=>`
-        <div class="slot ${bookingData.date===dates[i]?'selected':''}" onclick="bookingData.date=${dates[i]}; renderBooking();">
-          <div style="font-size:10px; letter-spacing:0.15em; text-transform:uppercase; color:var(--muted); margin-bottom:4px;">${d}</div>
-          <div>${dates[i]}</div>
-        </div>
-      `).join('')}
+      ${upcoming.map(dt => {
+        var key = dt.toISOString().slice(0,10);
+        return '<div class="slot '+(bookingData.date===key?'selected':'')+'" onclick="bookingData.date=\''+key+'\'; renderBooking();">' +
+          '<div style="font-size:10px; letter-spacing:0.15em; text-transform:uppercase; color:var(--muted); margin-bottom:4px;">'+dayNames[dt.getDay()]+'</div>' +
+          '<div>'+dt.getDate()+'</div>' +
+        '</div>';
+      }).join('')}
     </div>
     <span class="eyebrow" style="display:block; margin-bottom:12px;">${t('timeLabel')}</span>
-    <div class="slot-grid">
-      ${['09:30','11:00','13:00','14:30','16:00','18:00'].map(tt => `
-        <div class="slot ${bookingData.slot===tt?'selected':''}" onclick="bookingData.slot='${tt}'; renderBooking();">${tt}</div>
-      `).join('')}
+    <div class="slot-grid" style="max-height:160px; overflow-y:auto; padding-right:4px;">
+      ${timeSlots.map(tt => '<div class="slot '+(bookingData.slot===tt?'selected':'')+'" onclick="bookingData.slot=\''+tt+'\'; renderBooking();">'+tt+'</div>').join('')}
+    </div>
+    <div style="margin-top:12px;">
+      <input type="time" id="b-custom-time" style="font-size:14px; padding:8px 12px; border:1px solid var(--line); border-radius:4px; font-family:var(--sans);" onchange="bookingData.slot=this.value; renderBooking();" placeholder="${customLabel}" value="${bookingData.slot && !timeSlots.includes(bookingData.slot) ? bookingData.slot : ''}">
+      <span style="font-size:12px; color:var(--muted); margin-left:8px;">${customLabel}</span>
     </div>
     <div style="margin-top:28px; display:flex; justify-content:space-between;">
       <button class="btn btn-ghost" onclick="bookingStep=1; renderBooking();">${t('bookBack')}</button>
@@ -151,43 +202,72 @@ function bookingStep2() {
   `;
 }
 function bookingStep3() {
+  var fnLabel = currentLang==='nl' ? 'Voornaam' : 'First name';
+  var lnLabel = currentLang==='nl' ? 'Achternaam' : 'Last name';
+  var fnPh = currentLang==='nl' ? 'Voornaam' : 'First name';
+  var lnPh = currentLang==='nl' ? 'Achternaam' : 'Last name';
+  var reqNote = currentLang==='nl' ? '* Verplicht' : '* Required';
   return `
     <h3>${t('bookStep3Title')}</h3>
     <p class="sub">${t('bookStep3Sub')}</p>
-    <div class="form-field"><label>${t('bookNameLabel')}</label><input type="text" id="b-name" value="${bookingData.name}" oninput="bookingData.name=this.value" placeholder="${t('bookNamePh')}"></div>
-    <div class="form-field"><label>${t('bookEmailLabel')}</label><input type="email" id="b-email" value="${bookingData.email}" oninput="bookingData.email=this.value" placeholder="you@example.com"></div>
-    <div class="form-field"><label>${t('bookPhoneLabel')}</label><input type="tel" id="b-phone" placeholder="+31 ..."></div>
+    <div style="font-size:11px; color:var(--muted); margin-bottom:12px;">${reqNote}</div>
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px;">
+      <div class="form-field"><label>${fnLabel} *</label><input type="text" id="b-fname" value="${bookingData.firstName}" oninput="bookingData.firstName=this.value; updateBookingBtn();" placeholder="${fnPh}"></div>
+      <div class="form-field"><label>${lnLabel} *</label><input type="text" id="b-lname" value="${bookingData.lastName}" oninput="bookingData.lastName=this.value; updateBookingBtn();" placeholder="${lnPh}"></div>
+    </div>
+    <div class="form-field"><label>${t('bookEmailLabel')} *</label><input type="email" id="b-email" value="${bookingData.email}" oninput="bookingData.email=this.value; updateBookingBtn();" placeholder="you@example.com"></div>
+    <div class="form-field"><label>${t('bookPhoneLabel')} *</label><input type="tel" id="b-phone" value="${bookingData.phone}" oninput="bookingData.phone=this.value; updateBookingBtn();" placeholder="+31 6 ..."></div>
     <div class="form-field"><label>${t('bookNoteLabel')}</label><textarea id="b-note" placeholder="${t('bookNotePh')}"></textarea></div>
     <div style="margin-top:12px; display:flex; justify-content:space-between;">
       <button class="btn btn-ghost" onclick="bookingStep=2; renderBooking();">${t('bookBack')}</button>
-      <button class="btn btn-primary" ${(!bookingData.name||!bookingData.email)?'disabled style="opacity:0.4; cursor:not-allowed;"':''} onclick="if(bookingData.name&&bookingData.email){bookingStep=4; renderBooking();}">${t('bookConfirm')}</button>
+      <button class="btn btn-primary" id="b-confirm-btn" disabled style="opacity:0.4; cursor:not-allowed;" onclick="if(bookingData.firstName&&bookingData.lastName&&bookingData.email&&bookingData.phone){bookingStep=4; renderBooking();}">${t('bookConfirm')}</button>
     </div>
   `;
+}
+
+function updateBookingBtn() {
+  var btn = document.getElementById('b-confirm-btn');
+  if (!btn) return;
+  var ok = bookingData.firstName && bookingData.lastName && bookingData.email && bookingData.phone;
+  btn.disabled = !ok;
+  btn.style.opacity = ok ? '1' : '0.4';
+  btn.style.cursor = ok ? 'pointer' : 'not-allowed';
 }
 function bookingStep4() {
   const svcs = currentLang==='en' ? SERVICES_EN : SERVICES;
   const svc = svcs.find(s => s.id === bookingData.service);
-  var phone = document.querySelector('#b-phone') ? document.querySelector('#b-phone').value : '';
   var note = document.querySelector('#b-note') ? document.querySelector('#b-note').value : '';
+  var fullName = (bookingData.firstName + ' ' + bookingData.lastName).trim();
+  // Format date nicely
+  var dateDisplay = bookingData.date;
+  try {
+    var dp = new Date(bookingData.date + 'T12:00:00');
+    var monthNames = currentLang==='nl'
+      ? ['jan','feb','mrt','apr','mei','jun','jul','aug','sep','okt','nov','dec']
+      : ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    dateDisplay = dp.getDate() + ' ' + monthNames[dp.getMonth()] + ' ' + dp.getFullYear();
+  } catch(e){}
   var fd = new FormData();
   fd.append('_subject', 'Boekingsverzoek — ' + (svc ? svc.name : bookingData.service));
   fd.append('service', svc ? svc.name : bookingData.service);
   fd.append('preferred_date', bookingData.date);
   fd.append('preferred_time', bookingData.slot);
-  fd.append('name', bookingData.name);
+  fd.append('name', fullName);
+  fd.append('first_name', bookingData.firstName);
+  fd.append('last_name', bookingData.lastName);
   fd.append('email', bookingData.email);
-  fd.append('phone', phone);
+  fd.append('phone', bookingData.phone);
   fd.append('note', note);
   fetch('https://formspree.io/f/xzdodkva', { method: 'POST', body: fd, headers: { 'Accept': 'application/json' } }).catch(function(){});
   return `
     <div style="text-align:center; padding:20px 0 12px;">
-      <div style="width:64px; height:64px; margin:0 auto 24px; border-radius:50%; border:1px solid var(--bronze-deep); display:grid; place-items:center; color:var(--bronze-deep); font-family:var(--serif); font-size:28px; font-style:italic;">\u2713</div>
+      <div style="width:64px; height:64px; margin:0 auto 24px; border-radius:50%; border:1px solid var(--bronze-deep); display:grid; place-items:center; color:var(--bronze-deep); font-family:var(--serif); font-size:28px; font-style:italic;">✓</div>
       <h3 style="text-align:center;">${t('bookStep4Title')}</h3>
       <p class="sub" style="text-align:center;">${currentLang==='nl'?'Wij hebben je voorkeur ontvangen en nemen zo snel mogelijk contact met je op via':'We have received your preference and will contact you as soon as possible at'} ${bookingData.email}.</p>
     </div>
     <div style="background:var(--cream-deep); padding:24px; border-radius:4px; margin-bottom:24px;">
-      <div style="display:flex; justify-content:space-between; padding:8px 0; border-bottom:1px solid var(--line);"><span style="color:var(--muted); font-size:12px; letter-spacing:0.1em; text-transform:uppercase;">${t('bookServiceLabel')}</span><span style="font-family:var(--serif); font-size:16px;">${svc?svc.name:'\u2014'}</span></div>
-      <div style="display:flex; justify-content:space-between; padding:8px 0; border-bottom:1px solid var(--line);"><span style="color:var(--muted); font-size:12px; letter-spacing:0.1em; text-transform:uppercase;">${t('bookDateLabel')}</span><span style="font-family:var(--serif); font-size:16px;">${bookingData.date}</span></div>
+      <div style="display:flex; justify-content:space-between; padding:8px 0; border-bottom:1px solid var(--line);"><span style="color:var(--muted); font-size:12px; letter-spacing:0.1em; text-transform:uppercase;">${t('bookServiceLabel')}</span><span style="font-family:var(--serif); font-size:16px;">${svc?svc.name:'—'}</span></div>
+      <div style="display:flex; justify-content:space-between; padding:8px 0; border-bottom:1px solid var(--line);"><span style="color:var(--muted); font-size:12px; letter-spacing:0.1em; text-transform:uppercase;">${t('bookDateLabel')}</span><span style="font-family:var(--serif); font-size:16px;">${dateDisplay}</span></div>
       <div style="display:flex; justify-content:space-between; padding:8px 0;"><span style="color:var(--muted); font-size:12px; letter-spacing:0.1em; text-transform:uppercase;">${t('bookTimeLabel')}</span><span style="font-family:var(--serif); font-size:16px;">${bookingData.slot}</span></div>
     </div>
     <p style="font-size:12px; color:var(--muted); text-align:center; margin-bottom:20px; line-height:1.6;">${currentLang==='nl'?'Dit is een voorkeur, geen definitieve afspraak. Wij bevestigen je boeking per e-mail.':'This is a preference, not a confirmed appointment. We will confirm your booking by email.'}</p>
