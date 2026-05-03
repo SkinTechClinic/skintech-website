@@ -231,7 +231,7 @@ function renderHome() {
           </div>
         </div>
         <div style="border-radius:4px; aspect-ratio:4/5; position:relative; overflow:hidden; background:var(--cream-deep);">
-          <img src="assets/sylton-scan.png" alt="Sylton Observ 520x huidscan" style="width:100%; height:100%; object-fit:cover; mix-blend-mode:multiply; filter:brightness(1.05) contrast(1.05) saturate(0.85);"/>
+          <img loading="lazy" src="assets/sylton-scan.png" alt="Sylton Observ 520x huidscan" style="width:100%; height:100%; object-fit:cover; mix-blend-mode:multiply; filter:brightness(1.05) contrast(1.05) saturate(0.85);"/>
           <div style="position:absolute; bottom:20px; left:20px; background:rgba(245,239,228,0.92); backdrop-filter:blur(8px); padding:10px 16px; border-radius:4px; border:1px solid var(--line);">
             <div style="font-size:9px; letter-spacing:0.2em; text-transform:uppercase; color:var(--bronze-deep); margin-bottom:2px;">Sylton Observ 520x</div>
             <div style="font-family:var(--serif); font-size:16px; color:var(--ink);">${c.scanFree}</div>
@@ -266,8 +266,8 @@ function renderHome() {
         ${[{t:c.res1t,d:c.res1d,img:c.res1img,n:1},{t:c.res2t,d:c.res2d,img:c.res2img,n:2},{t:c.res3t,d:c.res3d,img:c.res3img,n:3}].map(r=>`
           <div class="result-card">
             <div class="result-imgs">
-              <div class="result-img">${r.img ? '<img src="assets/result-before-'+r.n+'.webp" alt="Resultaat voor behandeling" style="width:100%;height:100%;object-fit:cover;"/>' : ''}<span class="tag">${c.resBef}</span>${r.img ? '' : c.resBef+' · '+c.resSoon}</div>
-              <div class="result-img">${r.img ? '<img src="assets/result-after-'+r.n+'.webp" alt="Resultaat na behandeling" style="width:100%;height:100%;object-fit:cover;"/>' : ''}<span class="tag">${c.resAft}</span>${r.img ? '' : c.resAft+' · '+c.resSoon}</div>
+              <div class="result-img">${r.img ? '<img loading="lazy" src="assets/result-before-'+r.n+'.webp" alt="Resultaat voor behandeling" style="width:100%;height:100%;object-fit:cover;"/>' : ''}<span class="tag">${c.resBef}</span>${r.img ? '' : c.resBef+' · '+c.resSoon}</div>
+              <div class="result-img">${r.img ? '<img loading="lazy" src="assets/result-after-'+r.n+'.webp" alt="Resultaat na behandeling" style="width:100%;height:100%;object-fit:cover;"/>' : ''}<span class="tag">${c.resAft}</span>${r.img ? '' : c.resAft+' · '+c.resSoon}</div>
             </div>
             <div class="caption"><span class="treatment">${r.t}</span><span class="time">${r.d}</span></div>
           </div>
@@ -399,7 +399,7 @@ function renderAbout() {
   <section class="founder-sec">
     <div class="container">
       <div class="founder-grid">
-        <div class="founder-photo"><img src="assets/founder-web.webp" alt="SkinTech clinic"/></div>
+        <div class="founder-photo"><img loading="lazy" src="assets/founder-web.webp" alt="SkinTech clinic"/></div>
         <div class="founder-text">
           <span class="eyebrow">— ${c.founderEyebrow}</span>
           <h3 style="margin-top:20px;">${c.founderH}</h3>
@@ -471,7 +471,7 @@ function renderServices() {
       <div class="container">
         <div class="service-detail-grid" style="${i%2?'direction:rtl;':''}">
           <div style="direction:ltr;">
-            <div class="service-detail-visual">${s.img ? '<img src="'+s.img+'" alt="'+s.name+'" style="width:100%;height:100%;object-fit:cover;"/>' : s.name.toLowerCase().replace(/[^a-z0-9]/g,'-')+' · '+c.soon}</div>
+            <div class="service-detail-visual">${s.img ? '<img loading="lazy" src="'+s.img+'" alt="'+s.name+'" style="width:100%;height:100%;object-fit:cover;"/>' : s.name.toLowerCase().replace(/[^a-z0-9]/g,'-')+' · '+c.soon}</div>
           </div>
           <div class="service-detail-text" style="direction:ltr;">
             <span class="eyebrow">— ${s.num} · ${s.duration}</span>
@@ -880,7 +880,7 @@ function showArticle(id) {
     </section>
     <section style="padding:60px 0 120px;">
       <div class="container-narrow">
-        ${a.img ? `<div style="border-radius:4px; overflow:hidden; margin-bottom:48px; aspect-ratio:21/9;"><img src="${a.img}" alt="" style="width:100%; height:100%; object-fit:cover;"/></div>` : ''}
+        ${a.img ? `<div style="border-radius:4px; overflow:hidden; margin-bottom:48px; aspect-ratio:21/9;"><img loading="lazy" src="${a.img}" alt="" style="width:100%; height:100%; object-fit:cover;"/></div>` : ''}
         <div class="article-body" style="font-size:15px; line-height:1.8; color:var(--ink);">
           <div style="font-family:var(--serif); font-size:22px; line-height:1.5; margin-bottom:32px; color:var(--ink);">${nl ? a.excerptNl : a.excerptEn}</div>
           ${body ? body : `<div style="padding:48px; background:var(--cream-deep); border-radius:4px; text-align:center;">

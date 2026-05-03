@@ -54,7 +54,10 @@ function navigate(route) {
 
 function bindPageInteractions() {
   document.querySelectorAll('[data-route]').forEach(el => {
-    el.onclick = (e) => { e.preventDefault(); navigate(el.dataset.route); };
+    if (!el._routeBound) {
+      el._routeBound = true;
+      el.onclick = (e) => { e.preventDefault(); navigate(el.dataset.route); };
+    }
   });
   document.querySelectorAll('.faq-item').forEach(it => {
     it.onclick = () => it.classList.toggle('open');
