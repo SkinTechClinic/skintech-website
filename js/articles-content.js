@@ -1,4 +1,4 @@
-const ARTICLE_CONTENT = {
+ARTICLE_CONTENT = {
 // ============================================================
 // ARTICLE 1: LASER HAIR REMOVAL GUIDE
 // SEO targets: laserontharing amsterdam, laser ontharing, gentlemax pro plus

@@ -996,8 +996,8 @@ function renderContact() {
           <div class="contact-block">
             <div class="label">${nl ? 'Direct contact' : 'Direct'}</div>
             <div class="val" style="font-size:16px;">
-              <a href="tel:+31619826664">+31 6 19 82 66 64</a><br/>
-              <a href="https://wa.me/31619826664" target="_blank" rel="noopener">WhatsApp</a><br/>
+              <a href="tel:+31628258286">+31 6 28 25 82 86</a><br/>
+              <a href="https://wa.me/31628258286" target="_blank" rel="noopener">WhatsApp</a><br/>
               <a href="#">info@skintechclinic.nl</a>
             </div>
           </div>
@@ -1368,8 +1368,8 @@ function renderFooter() {
             <img class="logo-img" src="assets/logo.png" alt="SkinTech Laser Clinic · Amsterdam" width="1944" height="957"/>
           </div>
           <p class="footer-addr">${nl
-            ? 'Premium laser- en huidbehandelingen<br/>in Amsterdam.<br/><br/>info@skintechclinic.nl<br/>+31 6 19 82 66 64'
-            : 'Premium laser and skin treatments<br/>in Amsterdam.<br/><br/>info@skintechclinic.nl<br/>+31 6 19 82 66 64'}</p>
+            ? 'Premium laser- en huidbehandelingen<br/>in Amsterdam.<br/><br/>info@skintechclinic.nl<br/>+31 6 28 25 82 86'
+            : 'Premium laser and skin treatments<br/>in Amsterdam.<br/><br/>info@skintechclinic.nl<br/>+31 6 28 25 82 86'}</p>
         </div>
         <div>
           <h5>${nl ? 'Behandelingen' : 'Treatments'}</h5>
@@ -1395,7 +1395,7 @@ function renderFooter() {
           <h5>${nl ? 'Volg ons' : 'Follow'}</h5>
           <ul>
             <li><a href="https://instagram.com/skintech_nl" target="_blank" rel="noopener">Instagram</a></li>
-            <li><a href="https://wa.me/31619826664" target="_blank" rel="noopener">WhatsApp</a></li>
+            <li><a href="https://wa.me/31628258286" target="_blank" rel="noopener">WhatsApp</a></li>
             <li><a href="#">Journal — ${nl ? 'binnenkort' : 'coming soon'}</a></li>
             <li><a href="#" onclick="event.preventDefault(); setLang('nl')" style="${currentLang==='nl'?'font-weight:500; color:var(--cream);':'opacity:0.5;'}">NL</a> · <a href="#" onclick="event.preventDefault(); setLang('en')" style="${currentLang==='en'?'font-weight:500; color:var(--cream);':'opacity:0.5;'}">EN</a></li>
           </ul>
