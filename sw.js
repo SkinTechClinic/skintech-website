@@ -1,4 +1,4 @@
-const CACHE = 'skintech-v1';
+const CACHE = 'skintech-v2';
 const PRECACHE = ['/', '/css/styles.min.css', '/js/data.min.js', '/js/pages.min.js', '/js/app.min.js', '/assets/logo.png'];
 
 self.addEventListener('install', function(e) {
