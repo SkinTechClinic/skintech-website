@@ -889,7 +889,7 @@ function showArticle(id) {
     <section style="padding:60px 0 120px;">
       <div class="container-narrow">
         ${a.img ? `<div style="border-radius:4px; overflow:hidden; margin-bottom:48px; aspect-ratio:21/9;"><img loading="lazy" src="${a.img}" alt="" style="width:100%; height:100%; object-fit:cover;"/></div>` : ''}
-        <div class="article-body" style="font-size:15px; line-height:1.8; color:var(--ink);">
+        <div class="article-body">
           <div style="font-family:var(--serif); font-size:22px; line-height:1.5; margin-bottom:32px; color:var(--ink);">${nl ? a.excerptNl : a.excerptEn}</div>
           ${body ? body : `<div style="padding:48px; background:var(--cream-deep); border-radius:4px; text-align:center;">
             <p style="font-family:var(--serif); font-size:20px; color:var(--muted); margin-bottom:20px;">${nl ? 'Dit artikel wordt binnenkort aangevuld.' : 'This article will be updated soon.'}</p>
