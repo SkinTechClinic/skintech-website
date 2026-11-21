@@ -57,20 +57,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://skintechclinic.nl/contact"/>
   </url>
   <url>
-    <loc>https://skintechclinic.nl/privacy</loc>
-    <lastmod>2026-11-21</lastmod>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://skintechclinic.nl/privacy"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://skintechclinic.nl/en/privacy"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://skintechclinic.nl/privacy"/>
-  </url>
-  <url>
-    <loc>https://skintechclinic.nl/terms</loc>
-    <lastmod>2026-11-21</lastmod>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://skintechclinic.nl/terms"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://skintechclinic.nl/en/terms"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://skintechclinic.nl/terms"/>
-  </url>
-  <url>
     <loc>https://skintechclinic.nl/journal/laser-guide</loc>
     <lastmod>2026-11-21</lastmod>
     <xhtml:link rel="alternate" hreflang="nl" href="https://skintechclinic.nl/journal/laser-guide"/>
@@ -188,20 +174,6 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://skintechclinic.nl/contact"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://skintechclinic.nl/en/contact"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://skintechclinic.nl/contact"/>
-  </url>
-  <url>
-    <loc>https://skintechclinic.nl/en/privacy</loc>
-    <lastmod>2026-11-21</lastmod>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://skintechclinic.nl/privacy"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://skintechclinic.nl/en/privacy"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://skintechclinic.nl/privacy"/>
-  </url>
-  <url>
-    <loc>https://skintechclinic.nl/en/terms</loc>
-    <lastmod>2026-11-21</lastmod>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://skintechclinic.nl/terms"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://skintechclinic.nl/en/terms"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://skintechclinic.nl/terms"/>
   </url>
   <url>
     <loc>https://skintechclinic.nl/en/journal/laser-guide</loc>

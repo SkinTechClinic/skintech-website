@@ -52,11 +52,11 @@ function renderHome() {
     resBef: 'voor', resAft: 'na', resSoon: 'binnenkort',
     resNote: 'Voorbeeldresultaten van de technologie waarmee wij werken. Dit zijn geen cliënten van SkinTech. Resultaten verschillen per persoon.',
     res1img: true,
-    res1t:'Laserontharing', res1d:'Na 6 sessies',
+    res1t:'Laserontharing', res1d:'Alexandrite-laser',
     res2img: true,
-    res2t:'Glacē Glow Facial', res2d:'Zelfde dag',
+    res2t:'Egalere huidteint', res2d:'Alexandrite-laser',
     res3img: true,
-    res3t:'Deep Cleansing', res3d:'Na 3 sessies',
+    res3t:'Rustiger, egaler huidbeeld', res3d:'Alexandrite-laser',
     resCta: 'Plan je consult →',
     faqEy: 'Veelgestelde vragen', faqH: 'Veelgestelde<br/><i>vragen.</i>',
     faqP: 'Een selectie van de vragen die we het meest horen. Staat jouw vraag er niet bij? Neem contact op.',
@@ -102,11 +102,11 @@ function renderHome() {
     resBef: 'before', resAft: 'after', resSoon: 'coming soon',
     resNote: 'Example results of the technology we work with. These are not SkinTech clients. Results vary from person to person.',
     res1img: true,
-    res1t:'Laser Hair Removal', res1d:'After 6 sessions',
+    res1t:'Laser Hair Removal', res1d:'Alexandrite laser',
     res2img: true,
-    res2t:'Glacē Glow Facial', res2d:'Same day',
+    res2t:'More even skin tone', res2d:'Alexandrite laser',
     res3img: true,
-    res3t:'Deep Cleansing', res3d:'After 3 sessions',
+    res3t:'Calmer, more even skin', res3d:'Alexandrite laser',
     resCta: 'Plan your consultation →',
     faqEy: 'Common questions', faqH: 'Frequently<br/><i>asked.</i>',
     faqP: 'A selection of the questions we hear most often. Not here? Get in touch.',
@@ -310,7 +310,7 @@ function renderAbout() {
   const c = nl ? {
     eyebrow: 'Over SkinTech',
     h1: 'Een premium clinic<br/>voor de <i>bewuste</i> cliënt.',
-    lede: 'We openden SkinTech omdat Amsterdam een ander soort esthetisch adres nodig had — een plek waar medische precisie en boutique zorg niet elkaars tegenpolen zijn, maar elkaars verlengstuk.',
+    lede: 'We openen SkinTech omdat Amsterdam een ander soort esthetisch adres nodig heeft — een plek waar medische precisie en boutique zorg niet elkaars tegenpolen zijn, maar elkaars verlengstuk.',
     visieLabel: 'Onze visie',
     p1: 'Huid is specifiek. Een scan, een protocol en een specialist die jouw naam kent — dat is het minimum. Al het andere is decoratie.',
     p2: 'We behandelen één persoon tegelijk, in ruimtes die dichter bij een atelier voelen dan bij een wachtkamer. We zeggen nee tegen behandelingen die je niet nodig hebt. We meten, plannen en blijven betrokken.',
@@ -332,7 +332,7 @@ function renderAbout() {
   } : {
     eyebrow: 'About SkinTech',
     h1: 'A premium clinic<br/>for the <i>considered</i> client.',
-    lede: 'We opened SkinTech because Amsterdam needed a different kind of aesthetic address — one where medical precision and boutique care are not in competition, but in conversation.',
+    lede: 'We are opening SkinTech because Amsterdam needs a different kind of aesthetic address — one where medical precision and boutique care are not in competition, but in conversation.',
     visieLabel: 'Our philosophy',
     p1: 'Skin is specific. A scan, a protocol and a specialist who knows your name — that is the baseline. Everything else is decoration.',
     p2: 'We treat one person at a time, in rooms that feel closer to an atelier than a waiting room. We say no to treatments you do not need. We measure, plan, and stay involved.',
@@ -571,14 +571,14 @@ function renderResults() {
     <div class="container">
       <div class="results-page-grid" style="grid-template-columns:repeat(2,1fr);">
         ${(nl
-          ? [{t:'Laserontharing · Oksels', d:'6 sessies · 8 maanden'},
-             {t:'Glacē Glow Facial', d:'Resultaat zelfde dag'},
-             {t:'Deep Cleansing · Verstopte huid', d:'3 sessies · 8 weken'},
-             {t:'Combinatie · Gezichtsprogramma', d:'Per kwartaal · 12 maanden'}]
-          : [{t:'Laser Hair Removal · Underarm', d:'6 sessions · 8 months'},
-             {t:'Glacē Glow Facial', d:'Same-day result'},
-             {t:'Deep Cleansing · Congested skin', d:'3 sessions · 8 weeks'},
-             {t:'Combination · Face programme', d:'Quarterly · 12 months'}]
+          ? [{t:'Laserontharing · Oksels'},
+             {t:'Glacē Glow Facial'},
+             {t:'Deep Cleansing · Verstopte huid'},
+             {t:'Combinatie · Gezichtsprogramma'}]
+          : [{t:'Laser Hair Removal · Underarm'},
+             {t:'Glacē Glow Facial'},
+             {t:'Deep Cleansing · Congested skin'},
+             {t:'Combination · Face programme'}]
         ).map(r => `
           <div class="result-big" style="background:#2A2420;">
             <div class="ba-split">
@@ -587,7 +587,6 @@ function renderResults() {
             </div>
             <div class="caption" style="color:var(--cream);">
               <span>${r.t}</span>
-              <span class="time" style="color:var(--bronze-pale);">${r.d}</span>
             </div>
           </div>
         `).join('')}
@@ -655,7 +654,7 @@ function renderResults() {
       <div style="margin-top:80px; padding:48px; background:var(--cream-deep); border-radius:4px; display:flex; justify-content:space-between; align-items:center; gap:40px; flex-wrap:wrap;">
         <div>
           <h4 style="font-family:var(--serif); font-size:26px; font-weight:400; margin-bottom:6px;">${nl ? 'Nog vragen?' : 'Still unsure?'}</h4>
-          <p style="color:var(--muted); font-size:14px;">${nl ? 'Stuur ons een WhatsApp — we reageren doorgaans binnen het uur.' : 'Message us on WhatsApp — we usually reply within the hour.'}</p>
+          <p style="color:var(--muted); font-size:14px;">${nl ? 'Stuur ons een WhatsApp — we reageren tussen 08:00 en 22:00 doorgaans binnen een uur.' : 'Message us on WhatsApp — between 08:00 and 22:00 Amsterdam time we usually reply within an hour.'}</p>
         </div>
         <button class="btn btn-primary" data-route="contact">${nl ? 'Neem contact op →' : 'Get in touch →'}</button>
       </div>
@@ -707,7 +706,7 @@ function renderFaq() {
       <div style="margin-top:80px; padding:48px; background:var(--cream-deep); border-radius:4px; display:flex; justify-content:space-between; align-items:center; gap:40px; flex-wrap:wrap;">
         <div>
           <h4 style="font-family:var(--serif); font-size:26px; font-weight:400; margin-bottom:6px;">${nl ? 'Nog vragen?' : 'Still unsure?'}</h4>
-          <p style="color:var(--muted); font-size:14px;">${nl ? 'Stuur ons een WhatsApp — we reageren doorgaans binnen het uur.' : 'Message us on WhatsApp — we usually reply within the hour.'}</p>
+          <p style="color:var(--muted); font-size:14px;">${nl ? 'Stuur ons een WhatsApp — we reageren tussen 08:00 en 22:00 doorgaans binnen een uur.' : 'Message us on WhatsApp — between 08:00 and 22:00 Amsterdam time we usually reply within an hour.'}</p>
         </div>
         <button class="btn btn-primary" data-route="contact">${nl ? 'Neem contact op →' : 'Get in touch →'}</button>
       </div>

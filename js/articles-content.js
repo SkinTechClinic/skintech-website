@@ -31,7 +31,7 @@ De diodelaser zit qua golflengte tussen de Alexandrite en Nd:YAG. Het is de mees
 
 <h3>De haargroeicyclus en behandelfrequentie</h3>
 <p>Menselijk haar groeit in drie fasen: <strong>anageen</strong> (actieve groei, 2–7 jaar op de hoofdhuid, korter elders), <strong>catageen</strong> (overgang, 2–3 weken) en <strong>telogeen</strong> (rust, 2–4 maanden). Alleen haar in de anagene fase bevat voldoende melanine en is fysiek verbonden met de papil om effectief door de laser te worden bereikt.</p>
-<p>Omdat slechts 20–30% van het haar zich tegelijkertijd in de anagene fase bevindt, zijn gemiddeld 6–8 sessies nodig met tussenpozen van 4–8 weken, afhankelijk van het lichaamsdeel. Na een volledige behandelreeks rapporteren meta-analyses een permanente haarreductie van 70–90% (<a href="https://doi.org/10.1111/j.1468-3083.2006.01499.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Haedersdal & Wulf, 2006, <em>JEADV</em></a>).</p>
+<p>Omdat slechts 20–30% van het haar zich tegelijkertijd in de anagene fase bevindt, zijn gemiddeld 6–8 sessies nodig met tussenpozen van 4–8 weken, afhankelijk van het lichaamsdeel. Na een volledige behandelreeks rapporteren meta-analyses een langdurige haarreductie van 70–90% (<a href="https://doi.org/10.1111/j.1468-3083.2006.01499.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Haedersdal & Wulf, 2006, <em>JEADV</em></a>).</p>
 
 <h3>Voorbereiding op uw sessie</h3>
 <p>Voor optimale resultaten bij laserontharing in onze Amsterdam-kliniek adviseren wij: scheer het behandelgebied 24 uur voor de sessie (de follikel moet intact blijven onder het oppervlak). Stop minimaal 4–6 weken vooraf met waxen, epileren of plukken. Vermijd intensieve zonblootstelling en zelfbruiners 2 weken vooraf. Pauzeer retinol en AHA/BHA-producten 3–5 dagen voor de behandeling.</p>
@@ -80,7 +80,7 @@ The diode laser sits between the Alexandrite and Nd:YAG in wavelength. It is the
 
 <h3>The hair growth cycle and treatment frequency</h3>
 <p>Human hair grows in three phases: <strong>anagen</strong> (active growth), <strong>catagen</strong> (transition) and <strong>telogen</strong> (rest). Only hair in the anagen phase contains sufficient melanin and is physically connected to the papilla to be effectively targeted by the laser.</p>
-<p>Since only 20–30% of hair is in the anagen phase at any given time, an average of 6–8 sessions are needed at 4–8 week intervals. After a complete treatment course, meta-analyses report permanent hair reduction of 70–90% (<a href="https://doi.org/10.1111/j.1468-3083.2006.01499.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Haedersdal & Wulf, 2006, <em>JEADV</em></a>).</p>
+<p>Since only 20–30% of hair is in the anagen phase at any given time, an average of 6–8 sessions are needed at 4–8 week intervals. After a complete treatment course, meta-analyses report long-term hair reduction of 70–90% (<a href="https://doi.org/10.1111/j.1468-3083.2006.01499.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Haedersdal & Wulf, 2006, <em>JEADV</em></a>).</p>
 
 <h3>Preparation</h3>
 <p>For optimal results at our Amsterdam clinic: shave the treatment area 24 hours before the session. Stop waxing, epilating or plucking at least 4–6 weeks beforehand. Avoid intense sun exposure and self-tanners for 2 weeks prior. Pause retinol and AHA/BHA products 3–5 days before treatment.</p>
@@ -344,7 +344,7 @@ bodyEn: `
 
 <h3>Wetenschappelijke ondersteuning</h3>
 
-<p>Langdurige haarverwijdering door lasergebruik is gedocumenteerd door <a href="https://doi.org/10.1001/archderm.135.6.637" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Dierickx et al., 1999, Archives of Dermatology</a>, waaruit blijkt dat alexandriet-lasers aanzienlijke permanente haarvermindering veroorzaken. <a href="https://doi.org/10.1046/j.1440-0960.2002.00580.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Liew, 2002, Australasian Journal of Dermatology</a> benadrukt het belang van correcte nazorg ter voorkoming van bijwerkingen. Een uitgebreide review door <a href="https://doi.org/10.1111/j.1600-0625.2006.00437.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Haedersdal & Wulf, 2006, Experimental Dermatology</a> beveelt evidence-based voorbereiding en nazorg aan. Voor moderne technologie raadplegen wij <a href="https://doi.org/10.1111/dsu.12290" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Gan & Graber, 2013, Dermatologic Surgery</a> over kwaliteitsgestandaardiseerde lasersystemen.</p>
+<p>Langdurige haarverwijdering door lasergebruik is gedocumenteerd door <a href="https://doi.org/10.1001/archderm.135.6.637" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Dierickx et al., 1999, Archives of Dermatology</a>, waaruit blijkt dat alexandriet-lasers aanzienlijke langdurige haarvermindering veroorzaken. <a href="https://doi.org/10.1046/j.1440-0960.2002.00580.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Liew, 2002, Australasian Journal of Dermatology</a> benadrukt het belang van correcte nazorg ter voorkoming van bijwerkingen. Een uitgebreide review door <a href="https://doi.org/10.1111/j.1600-0625.2006.00437.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Haedersdal & Wulf, 2006, Experimental Dermatology</a> beveelt evidence-based voorbereiding en nazorg aan. Voor moderne technologie raadplegen wij <a href="https://doi.org/10.1111/dsu.12290" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Gan & Graber, 2013, Dermatologic Surgery</a> over kwaliteitsgestandaardiseerde lasersystemen.</p>
 
 <p>Correct protocol gevolgd, voelt u vertrouwen in uw laserbehandeling bij SkinTech Laser Clinic Amsterdam.</p>`,
 
@@ -427,7 +427,7 @@ bodyEn: `
 
 <h3>Scientific Foundation</h3>
 
-<p>Long-term laser hair removal efficacy is established by <a href="https://doi.org/10.1001/archderm.135.6.637" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Dierickx et al., 1999, Archives of Dermatology</a>, demonstrating significant permanent hair reduction using alexandrite lasers. <a href="https://doi.org/10.1046/j.1440-0960.2002.00580.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Liew, 2002, Australasian Journal of Dermatology</a> emphasizes proper aftercare protocols for complication prevention. A comprehensive evidence review by <a href="https://doi.org/10.1111/j.1600-0625.2006.00437.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Haedersdal & Wulf, 2006, Experimental Dermatology</a> recommends evidence-based preparation and aftercare. For contemporary systems, we reference <a href="https://doi.org/10.1111/dsu.12290" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Gan & Graber, 2013, Dermatologic Surgery</a> on quality-switched laser technologies.</p>
+<p>Long-term laser hair removal efficacy is established by <a href="https://doi.org/10.1001/archderm.135.6.637" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Dierickx et al., 1999, Archives of Dermatology</a>, demonstrating significant long-term hair reduction using alexandrite lasers. <a href="https://doi.org/10.1046/j.1440-0960.2002.00580.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Liew, 2002, Australasian Journal of Dermatology</a> emphasizes proper aftercare protocols for complication prevention. A comprehensive evidence review by <a href="https://doi.org/10.1111/j.1600-0625.2006.00437.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Haedersdal & Wulf, 2006, Experimental Dermatology</a> recommends evidence-based preparation and aftercare. For contemporary systems, we reference <a href="https://doi.org/10.1111/dsu.12290" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Gan & Graber, 2013, Dermatologic Surgery</a> on quality-switched laser technologies.</p>
 
 <p>Following proper protocols, you can proceed with confidence in your laser treatments at SkinTech Laser Clinic Amsterdam.</p>`
   },
@@ -457,7 +457,7 @@ bodyEn: `
 
 <p><strong>4. Infuse:</strong> Terwijl de zuigkracht aanwezig blijft, vochtinbrengende serums (hyaluronzuur, peptiden, antioxidanten) dringen diep in porien in. Dit is veel effectiever dan oppervlakkige aanbrenging.</p>
 
-<p>Voordeel: geen downtime, pijnloos, onmiddellijke zichtbaarheid (gloed), en blijvende hydratatie. Serum-selectie is aanpasbaar op uw huidtype.</p>
+<p>Voordeel: geen downtime, pijnloos, onmiddellijke zichtbaarheid (gloed), en langdurige hydratatie. Serum-selectie is aanpasbaar op uw huidtype.</p>
 
 <h3>Glacē versus HydraFacial: Medische versus consumententechnologie</h3>
 
@@ -520,7 +520,7 @@ bodyEn: `
 
 <p><strong>Glacē Glow:</strong> Kies dit voor hydratatie, doffe huid, pre-event gloed (bruiloft, feest), of als u gevoelige huid hebt die handmatige extractie niet aankan. Dit is ook perfect voor onderhoud na Deep Cleansing.</p>
 
-<p><strong>Combinatie-protocol:</strong> Velen van onze Amsterdamse cliënten kiezen voor een Deep Cleansing elke 8-12 weken, gevolgd door Glacē-onderhoud elke 2-4 weken. Deze benadering biedt grondige reinigheid en blijvende hydratatie zonder overbelasting van de huid.</p>
+<p><strong>Combinatie-protocol:</strong> Velen van onze Amsterdamse cliënten kiezen voor een Deep Cleansing elke 8-12 weken, gevolgd door Glacē-onderhoud elke 2-4 weken. Deze benadering biedt grondige reinigheid en langdurige hydratatie zonder overbelasting van de huid.</p>
 
 <h3>Huidtype aanbevelingen</h3>
 
@@ -936,7 +936,7 @@ bodyEn: `
 
 <h4>IPL: Intense Pulsed Light</h4>
 
-<p>IPL (Intense Pulsed Light) is not a true laser. It is a broad-spectrum light source emitting wavelengths from 500 to 1200 nanometers (nm) — spanning visible and infrared light. This spectrum is filtered to select wavelength ranges, but the light remains incoherent: photons are not in phase with one another, and energy distribution across the treated area is uneven. Home IPL devices deliver approximately 5–7 J/cm² (joules per square centimeter); professional IPL systems reach 20–40 J/cm². This broad spectrum and modest energy levels make IPL suitable for pigmentation and vascular concerns, but less optimal for permanent hair reduction.</p>
+<p>IPL (Intense Pulsed Light) is not a true laser. It is a broad-spectrum light source emitting wavelengths from 500 to 1200 nanometers (nm) — spanning visible and infrared light. This spectrum is filtered to select wavelength ranges, but the light remains incoherent: photons are not in phase with one another, and energy distribution across the treated area is uneven. Home IPL devices deliver approximately 5–7 J/cm² (joules per square centimeter); professional IPL systems reach 20–40 J/cm². This broad spectrum and modest energy levels make IPL suitable for pigmentation and vascular concerns, but less optimal for long-term hair reduction.</p>
 
 <h4>Medical Lasers: Coherent, Focused Energy</h4>
 
@@ -952,7 +952,7 @@ bodyEn: `
 
 <h4>Clinical Differences: Sessions, Efficacy, and Safety</h4>
 
-<p><strong>Number of Sessions</strong> — Published literature consistently shows that laser systems achieve superior results in fewer treatments. Expect 6–8 sessions for 80–90% permanent hair reduction with laser; IPL typically requires 8–12 sessions with less complete results. This gap widens for fine and light hair.</p>
+<p><strong>Number of Sessions</strong> — Published literature consistently shows that laser systems achieve superior results in fewer treatments. Expect 6–8 sessions for 80–90% long-term hair reduction with laser; IPL typically requires 8–12 sessions with less complete results. This gap widens for fine and light hair.</p>
 
 <p><strong>Efficacy on Fine Hair</strong> — Fine hairs contain less melanin. Lasers still target them effectively due to wavelength selectivity. IPL's broad spectrum is less sensitive to fine hair pigments, yielding suboptimal results on body and facial vellus hair.</p>
 
@@ -1157,7 +1157,7 @@ bodyEn: `
 
 <h3>Volgende stappen: uw laserontharing-reis beginnen</h3>
 
-<p>Bent u bereid om permanent van lichaamshaar af te komen, ongeacht uw huidtype? SkinTech Laser Clinic Amsterdam biedt persoonlijke consultaties met huidanalyse, patchtest en volledig transparante uitleggen van uw behandelplan. Alle ons team spreekt Nederlands en Engels vloeiend.</p>
+<p>Bent u klaar voor langdurige haarreductie, ongeacht uw huidtype? SkinTech Laser Clinic Amsterdam biedt persoonlijke consultaties met huidanalyse, patchtest en volledig transparante uitleggen van uw behandelplan. Alle ons team spreekt Nederlands en Engels vloeiend.</p>
 
 <p>Veel patiënten met donkere huid zijn aangenaam verrast door hoe veilig en effectief moderne Nd:YAG-laserontharing is. Het is tijd dat alle Amsterdammers toegang hebben tot deze technologie.</p>
     `,
@@ -1253,7 +1253,7 @@ bodyEn: `
 
 <h3>Next Steps: Begin Your Laser Hair Removal Journey</h3>
 
-<p>Ready to permanently remove body hair regardless of your skin type? SkinTech Laser Clinic Amsterdam offers personal consultations with skin analysis, patch testing, and fully transparent treatment planning. Our entire team speaks Dutch and English fluently.</p>
+<p>Ready for long-term hair reduction, regardless of your skin type? SkinTech Laser Clinic Amsterdam offers personal consultations with skin analysis, patch testing, and fully transparent treatment planning. Our entire team speaks Dutch and English fluently.</p>
 
 <p>Many patients with dark skin are pleasantly surprised by how safe and effective modern Nd:YAG laser hair removal is. It's time every Amsterdammer had access to this technology.</p>
     `

@@ -106,6 +106,10 @@ function nav(route, lang, article) {
 
 /* ---------- one page ---------- */
 const LOCAL_BUSINESS = read('tools/jsonld-localbusiness.json').trim();
+/* The privacy policy and the terms name the company's registered office, as the law asks. They stay readable for visitors
+   but are kept out of search results and out of the sitemap, so that address is not taken for the clinic's location. */
+const NOINDEX = ['privacy', 'terms'];
+const ROBOTS_INDEX = '<meta name="robots" content="index, follow">';
 const OG_ALT = { nl: 'SkinTech Laser Clinic: premium laser- en huidbehandelingen in Amsterdam', en: 'SkinTech Laser Clinic: premium laser and skin treatments in Amsterdam' };
 function page(route, lang, article) {
   run(`currentLang=${q(lang)}; currentRoute=${q(route)}; currentArticle=${q(article)};`);
@@ -170,8 +174,13 @@ function page(route, lang, article) {
     .replace('{{SKIP}}', c.skip).replace('{{COOKIE_LABEL}}', c.cookieLabel).replace('{{COOKIE_TEXT}}', () => c.cookie(pathFor('privacy', lang)))
     .replace('{{COOKIE_ACCEPT}}', c.accept).replace('{{COOKIE_DECLINE}}', c.decline);
   if (/\{\{[A-Z_]+\}\}/.test(html)) throw new Error('unfilled placeholder in ' + fileFor(route, lang, article));
+  const noindex = NOINDEX.includes(route) && !article;
+  if (noindex) {
+    if (!html.includes(ROBOTS_INDEX)) throw new Error('robots tag not found in ' + fileFor(route, lang, article));
+    html = html.replace(ROBOTS_INDEX, '<meta name="robots" content="noindex, follow">');
+  }
   const name = a ? (lang === 'nl' ? a.titleNl : a.titleEn) : nameFor(route, lang);
-  return { file: fileFor(route, lang, article), html: stamp(html), url, title, name, desc, route, lang, article };
+  return { file: fileFor(route, lang, article), html: stamp(html), url, title, name, desc, route, lang, article, noindex };
 }
 
 /* ---------- all pages ---------- */
@@ -211,7 +220,7 @@ for (const p of pages) {
 }
 for (const f of Object.keys(lastmod)) if (!pages.some(p => p.file === f)) delete lastmod[f];
 const sitemap = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">',
-  ...pages.map(p => ['  <url>', `    <loc>${p.url}</loc>`, `    <lastmod>${lastmod[p.file].date}</lastmod>`,
+  ...pages.filter(p => !p.noindex).map(p => ['  <url>', `    <loc>${p.url}</loc>`, `    <lastmod>${lastmod[p.file].date}</lastmod>`,
     ...LANGS.map(l => `    <xhtml:link rel="alternate" hreflang="${l}" href="${ORIGIN + pathFor(p.route, l, p.article)}"/>`),
     `    <xhtml:link rel="alternate" hreflang="x-default" href="${ORIGIN + pathFor(p.route, 'nl', p.article)}"/>`, '  </url>'].join('\n')),
   '</urlset>', ''].join('\n');
