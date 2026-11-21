@@ -349,6 +349,32 @@ nav.site.on-dark .nav-book {
   nav.site.scrolled {
     padding: 10px 22px;
   }
+}
+
+.logo {
+  flex-shrink: 0;
+}
+
+.nav-links a, .nav-book {
+  white-space: nowrap;
+}
+
+.nav-links .nav-m-only {
+  display: none;
+}
+
+/* Small laptops: a more compact bar so nothing wraps or shrinks */
+@media (max-width: 1320px) {
+  .nav-links {
+    gap: 24px;
+  }
+  .nav-right {
+    gap: 12px;
+  }
+}
+
+/* Tablets and phones: the menu button, with the links and both buttons in a readable panel */
+@media (max-width: 1150px) {
   .nav-links {
     display: none;
   }
@@ -357,6 +383,49 @@ nav.site.on-dark .nav-book {
   }
   .mobile-toggle {
     display: block;
+  }
+  .nav-links.open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    gap: 4px;
+    padding: 20px 22px 28px;
+    background: var(--cream);
+    color: var(--ink);
+    border-bottom: 1px solid var(--line);
+    font-size: 15px;
+    max-height: calc(100vh - 90px);
+    overflow-y: auto;
+  }
+  .nav-links.open a {
+    padding: 11px 0;
+    opacity: 1;
+  }
+  .nav-links.open a.active::after {
+    right: auto;
+    width: 28px;
+    bottom: 6px;
+  }
+  .nav-links.open .nav-m-only {
+    display: block;
+  }
+  .nav-links.open .nav-m-cta {
+    margin-top: 10px;
+    padding: 14px 20px;
+    border-radius: 999px;
+    background: var(--ink);
+    color: var(--cream);
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+  }
+  .nav-links.open .nav-m-cta.outline {
+    background: transparent;
+    color: var(--ink);
+    border: 1px solid var(--ink);
   }
 }
 
@@ -394,6 +463,15 @@ footer.site .logo-img {
 
 nav.site.on-dark .logo-img, footer.site .logo-img {
   filter: invert(1);
+}
+
+@media (max-width: 1320px) {
+  nav.site .logo-img {
+    height: 110px;
+  }
+  nav.site.scrolled .logo-img {
+    height: 92px;
+  }
 }
 
 @media (max-width: 900px) {

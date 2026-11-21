@@ -23,6 +23,8 @@ function applyChrome() {
   set('skipLink', nl ? 'Ga naar inhoud' : 'Skip to content');
   set('cookieAccept', nl ? 'Accepteren' : 'Accept');
   set('cookieDecline', nl ? 'Weigeren' : 'Decline');
+  set('nl-m-book', t('navBook'));
+  set('nl-m-scan', t('navScan'));
   var nav = document.getElementById('siteNav'); if (nav) nav.setAttribute('aria-label', nl ? 'Hoofdnavigatie' : 'Main navigation');
   var banner = document.getElementById('cookieBanner'); if (banner) banner.setAttribute('aria-label', nl ? 'Cookie-instellingen' : 'Cookie settings');
   var text = document.getElementById('cookieText');
@@ -37,7 +39,7 @@ function navigate(route) {
   currentRoute = route;
   applyChrome();
   // Close mobile nav if open
-  var navLinks = document.querySelector('.nav-links'); if (navLinks) { navLinks.style.display = ''; navLinks.style.position = ''; navLinks.style.top = ''; navLinks.style.left = ''; navLinks.style.right = ''; navLinks.style.flexDirection = ''; navLinks.style.background = ''; navLinks.style.padding = ''; navLinks.style.gap = ''; navLinks.style.borderBottom = ''; } var toggle = document.querySelector('.mobile-toggle'); if (toggle) toggle.setAttribute('aria-expanded', 'false');
+  closeMobile();
   const app = document.getElementById('app');
   app.innerHTML = '';
   const el = document.createElement('div');
@@ -83,7 +85,7 @@ function bindPageInteractions() {
     it.onclick = () => it.classList.toggle('open');
   });
   document.querySelectorAll('[data-book]').forEach(el => {
-    el.onclick = (e) => { e.preventDefault(); openBooking(el.dataset.book || null); };
+    el.onclick = (e) => { e.preventDefault(); closeMobile(); openBooking(el.dataset.book || null); };
   });
 }
 
@@ -558,22 +560,24 @@ function handleScroll() {
 window.addEventListener('scroll', handleScroll);
 
 function toggleMobile() {
+  var links = document.querySelector('.nav-links');
   var toggle = document.querySelector('.mobile-toggle');
-  if (toggle) toggle.setAttribute('aria-expanded', toggle.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');
-  // simple toggle that reveals links as a dropdown
-  const links = document.querySelector('.nav-links');
   if (!links) return;
-  if (links.style.display === 'flex') { links.style.display = ''; return; }
-  links.style.display = 'flex';
-  links.style.position = 'absolute';
-  links.style.top = '100%';
-  links.style.left = 0;
-  links.style.right = 0;
-  links.style.flexDirection = 'column';
-  links.style.background = 'var(--cream)';
-  links.style.padding = '28px 24px';
-  links.style.gap = '18px';
-  links.style.borderBottom = '1px solid var(--line)';
+  var open = !links.classList.contains('open');
+  links.classList.toggle('open', open);
+  if (toggle) {
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    toggle.setAttribute('aria-label', currentLang === 'nl' ? (open ? 'Menu sluiten' : 'Menu openen') : (open ? 'Close menu' : 'Open menu'));
+  }
+}
+function closeMobile() {
+  var links = document.querySelector('.nav-links');
+  var toggle = document.querySelector('.mobile-toggle');
+  if (links) links.classList.remove('open');
+  if (toggle) {
+    toggle.setAttribute('aria-expanded', 'false');
+    toggle.setAttribute('aria-label', currentLang === 'nl' ? 'Menu openen' : 'Open menu');
+  }
 }
 
 /* ===================== Tweaks ===================== */
