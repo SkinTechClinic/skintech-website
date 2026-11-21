@@ -7,6 +7,10 @@
   "url": "https://skintechclinic.nl",
   "email": "info@skintechclinic.nl",
   "image": "https://skintechclinic.nl/assets/logo.png",
+  "sameAs": [
+    "https://www.instagram.com/skintech_nl/",
+    "https://www.facebook.com/profile.php?id=61596690755185"
+  ],
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "Keizersgracht 241",
