@@ -486,16 +486,19 @@ const FAQS_EN = [
 
 /* ===================== Technology ===================== */
 const TECH_IMG = {
-  gentlemax: '/assets/gentlemax.webp',
+  gentlemax: '/assets/gentlemax-v2.webp',
   cryo7: '/assets/cryo7.webp',
-  glace: '/assets/glace.webp',
+  glace: '/assets/glace-v2.webp',
   ionto: '/assets/ionto.avif',
-  scanner: '/assets/scanner.png',
+  scanner: '/assets/scanner-v2.webp',
 };
-function techIllus(id) {
+function attrText(s) {
+  return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
+}
+function techIllus(id, name) {
   const src = TECH_IMG[id];
   if (!src) return '';
-  return `<img class="tech-photo" src="${src}" alt="" loading="lazy"/>`;
+  return `<img class="tech-photo" src="${src}" alt="${attrText(name)}" loading="lazy"/>`;
 }
 
 
@@ -541,7 +544,7 @@ const ARTICLES = [
     titleEn:'The Sylton Observ 520x: your skin in focus',
     excerptNl:'Wat onze huidscanner ziet dat het blote oog mist — en waarom dat de basis vormt van elk behandelplan.',
     excerptEn:'What our skin scanner sees that the naked eye misses — and why that forms the foundation of every treatment plan.',
-    img:'/assets/sylton-scan.png',
+    img:'/assets/sylton-scan-v2.webp',
   },
   { id:'ipl-vs-laser', cat:'Vergelijking', catEn:'Comparison', date:'2026-05-01',
     titleNl:'IPL vs. laser: wat is het verschil en wat werkt beter?',

@@ -15,9 +15,27 @@ const routes = {
   terms: renderTerms,
 };
 
+/* Fixed parts outside the page area follow the chosen language: page language, skip link, navigation label, cookie banner. */
+function applyChrome() {
+  var nl = currentLang === 'nl';
+  document.documentElement.lang = nl ? 'nl' : 'en';
+  var set = function(id, text) { var el = document.getElementById(id); if (el) el.textContent = text; };
+  set('skipLink', nl ? 'Ga naar inhoud' : 'Skip to content');
+  set('cookieAccept', nl ? 'Accepteren' : 'Accept');
+  set('cookieDecline', nl ? 'Weigeren' : 'Decline');
+  var nav = document.getElementById('siteNav'); if (nav) nav.setAttribute('aria-label', nl ? 'Hoofdnavigatie' : 'Main navigation');
+  var banner = document.getElementById('cookieBanner'); if (banner) banner.setAttribute('aria-label', nl ? 'Cookie-instellingen' : 'Cookie settings');
+  var text = document.getElementById('cookieText');
+  if (text) {
+    var link = '<a href="#" onclick="event.preventDefault(); navigate(\'privacy\')" style="color:inherit; text-decoration:underline;">' + (nl ? 'cookiebeleid' : 'cookie policy') + '</a>';
+    text.innerHTML = nl ? 'Wij gebruiken cookies om je ervaring te verbeteren. Door verder te gaan ga je akkoord met ons ' + link + '.' : 'We use cookies to improve your experience. By continuing you agree to our ' + link + '.';
+  }
+}
+
 let _isInitialLoad = true;
 function navigate(route) {
   currentRoute = route;
+  applyChrome();
   // Close mobile nav if open
   var navLinks = document.querySelector('.nav-links'); if (navLinks) { navLinks.style.display = ''; navLinks.style.position = ''; navLinks.style.top = ''; navLinks.style.left = ''; navLinks.style.right = ''; navLinks.style.flexDirection = ''; navLinks.style.background = ''; navLinks.style.padding = ''; navLinks.style.gap = ''; navLinks.style.borderBottom = ''; } var toggle = document.querySelector('.mobile-toggle'); if (toggle) toggle.setAttribute('aria-expanded', 'false');
   const app = document.getElementById('app');
@@ -317,7 +335,7 @@ function bookingStep2() {
       ${upcoming.map(dt => {
         var key = dt.toISOString().slice(0,10);
         return '<div class="slot '+(bookingData.date===key?'selected':'')+'" onclick="bookingData.date=\''+key+'\'; renderBooking();">' +
-          '<div style="font-size:10px; letter-spacing:0.15em; text-transform:uppercase; color:var(--muted); margin-bottom:4px;">'+dayNames[dt.getDay()]+'</div>' +
+          '<div style="font-size:12px; letter-spacing:0.08em; text-transform:uppercase; color:var(--muted); margin-bottom:4px;">'+dayNames[dt.getDay()]+'</div>' +
           '<div>'+dt.getDate()+'</div>' +
         '</div>';
       }).join('')}
@@ -517,7 +535,7 @@ function handleContact(e) {
     if (r.ok) {
       form.innerHTML = '<div style="padding:60px 0; text-align:center;">' +
         '<div style="width:64px; height:64px; margin:0 auto 24px; border-radius:50%; border:1px solid var(--bronze-deep); display:grid; place-items:center; color:var(--bronze-deep); font-family:var(--serif); font-size:28px; font-style:italic;">\u2713</div>' +
-        '<h3 style="font-family:var(--serif); font-size:32px; font-weight:400; margin-bottom:12px;">' + (currentLang==='nl' ? 'Bedankt!' : 'Thank you!') + '</h3>' +
+        '<h3 style="font-family:var(--serif); font-size:34px; font-weight:400; margin-bottom:12px;">' + (currentLang==='nl' ? 'Bedankt!' : 'Thank you!') + '</h3>' +
         '<p style="color:var(--muted); font-size:15px; line-height:1.7; max-width:400px; margin:0 auto;">' + (currentLang==='nl' ? 'We hebben je bericht ontvangen en nemen zo snel mogelijk contact met je op.' : 'We have received your message and will get back to you as soon as possible.') + '</p>' +
         '</div>';
     } else {
