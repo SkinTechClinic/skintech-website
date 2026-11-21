@@ -51,6 +51,8 @@ const cut = (s, max = 158) => { if (s.length <= max) return s; const c = s.slice
 const q = v => v === null || v === undefined ? 'null' : JSON.stringify(v);
 const pathFor = (route, lang, article) => run(`pathFor(${q(route)}, ${q(lang)}, ${q(article)})`);
 const titleFor = (route, lang, article) => run(`pageTitle(${q(route)}, ${q(lang)}, ${q(article)})`);
+/* the short name of a page: the part of its title before the clinic name ("Journal: articles on ..." -> "Journal") */
+const nameFor = (route, lang) => route === 'home' ? 'SkinTech Laser Clinic Amsterdam' : titleFor(route, lang).split(/ \| |: /)[0];
 const t = (key, lang) => run(`currentLang=${q(lang)}; t(${q(key)})`);
 const fileFor = (route, lang, article) => {
   const base = lang === 'en' ? 'en/' : '';
@@ -104,6 +106,7 @@ function nav(route, lang, article) {
 
 /* ---------- one page ---------- */
 const LOCAL_BUSINESS = read('tools/jsonld-localbusiness.json').trim();
+const OG_ALT = { nl: 'SkinTech Laser Clinic: premium laser- en huidbehandelingen in Amsterdam', en: 'SkinTech Laser Clinic: premium laser and skin treatments in Amsterdam' };
 function page(route, lang, article) {
   run(`currentLang=${q(lang)}; currentRoute=${q(route)}; currentArticle=${q(article)};`);
   const body = article ? run(`outlineHeadings(renderArticle(${q(article)}))`) : run(`outlineHeadings(${ROUTES[route]}())`);
@@ -119,7 +122,7 @@ function page(route, lang, article) {
     const lede = body.match(/<p class="lede"[^>]*>([\s\S]*?)<\/p>/);
     desc = lede ? cut(text(lede[1])) : (FALLBACK_DESC[route] ? FALLBACK_DESC[route][lang] : HOME_DESC[lang]);
   }
-  const image = a && a.img ? ORIGIN + a.img : ORIGIN + '/assets/og-image.png';
+  const image = a && a.img ? ORIGIN + a.img : ORIGIN + `/assets/og-image-${lang}-v2.jpg`;
   const head = [
     `<title>${esc(title)}</title>`,
     `<meta name="description" content="${esc(desc)}">`,
@@ -132,9 +135,11 @@ function page(route, lang, article) {
     `<meta property="og:url" content="${url}">`,
     `<meta property="og:site_name" content="SkinTech Laser Clinic">`,
     `<meta property="og:image" content="${image}">`,
-    ...(a && a.img ? [] : [`<meta property="og:image:width" content="1200">`, `<meta property="og:image:height" content="630">`]),
+    ...(a && a.img ? [] : [`<meta property="og:image:width" content="1200">`, `<meta property="og:image:height" content="630">`,
+      `<meta property="og:image:alt" content="${esc(OG_ALT[lang])}">`]),
     `<meta property="og:locale" content="${lang === 'nl' ? 'nl_NL' : 'en_GB'}">`,
     `<meta property="og:locale:alternate" content="${lang === 'nl' ? 'en_GB' : 'nl_NL'}">`,
+    `<meta name="twitter:card" content="summary_large_image">`,
   ].join('\n');
 
   /* structured data: only what the page itself shows */
@@ -152,7 +157,7 @@ function page(route, lang, article) {
       publisher: { '@type': 'Organization', name: 'SkinTech Laser Clinic', logo: { '@type': 'ImageObject', url: ORIGIN + '/assets/logo.png' } } }));
   }
   if (route !== 'home') {
-    const crumbs = [{ name: 'Home', item: ORIGIN + pathFor('home', lang) }, { name: text(titleFor(route, lang).split(' | ')[0]), item: ORIGIN + pathFor(route, lang) }];
+    const crumbs = [{ name: 'Home', item: ORIGIN + pathFor('home', lang) }, { name: text(nameFor(route, lang)), item: ORIGIN + pathFor(route, lang) }];
     if (a) crumbs.push({ name: lang === 'nl' ? a.titleNl : a.titleEn, item: url });
     ld.push(jsonld({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, item: c.item })) }));
   }
@@ -165,7 +170,8 @@ function page(route, lang, article) {
     .replace('{{SKIP}}', c.skip).replace('{{COOKIE_LABEL}}', c.cookieLabel).replace('{{COOKIE_TEXT}}', () => c.cookie(pathFor('privacy', lang)))
     .replace('{{COOKIE_ACCEPT}}', c.accept).replace('{{COOKIE_DECLINE}}', c.decline);
   if (/\{\{[A-Z_]+\}\}/.test(html)) throw new Error('unfilled placeholder in ' + fileFor(route, lang, article));
-  return { file: fileFor(route, lang, article), html: stamp(html), url, title, desc, route, lang, article };
+  const name = a ? (lang === 'nl' ? a.titleNl : a.titleEn) : nameFor(route, lang);
+  return { file: fileFor(route, lang, article), html: stamp(html), url, title, name, desc, route, lang, article };
 }
 
 /* ---------- all pages ---------- */
@@ -175,6 +181,12 @@ for (const lang of LANGS) {
   for (const route of Object.keys(ROUTES)) pages.push(page(route, lang, null));
   for (const a of ARTICLES) pages.push(page('journal', lang, a.id));
 }
+/* ---------- every title must fit in a search result and be the only one of its kind ---------- */
+const TITLE_MAX = Number(run('TITLE_MAX'));
+const wide = pages.map(p => ({ p, w: Math.round(Number(run(`titleWidth(${q(p.title)})`))) })).filter(x => x.w > TITLE_MAX);
+if (wide.length) throw new Error('title too wide (limit ' + TITLE_MAX + ' px): give the article a shorter seoNl / seoEn in js/data.js\n' + wide.map(x => `  ${x.w} px  ${x.p.file}  ${x.p.title}`).join('\n'));
+const seenTitles = new Map();
+for (const p of pages) { if (seenTitles.has(p.title)) throw new Error(`same title on two pages: ${seenTitles.get(p.title)} and ${p.file}: ${p.title}`); seenTitles.set(p.title, p.file); }
 let changed = 0;
 for (const p of pages) {
   const dest = path.join(ROOT, p.file);
@@ -186,7 +198,7 @@ for (const p of pages) {
   console.log(`${old === p.html ? 'same   ' : (CHECK ? 'CHANGE ' : 'written')} ${p.file.padEnd(46)} ${String(Buffer.byteLength(p.html)).padStart(7)} bytes  ${p.title.slice(0, 60)}`);
 }
 console.log(`${pages.length} pages, ${changed} ${CHECK ? 'would change' : 'written'}`);
-fs.writeFileSync(path.join(ROOT, 'tools/pages.json'), JSON.stringify(pages.map(({ file, url, title, desc, route, lang, article }) => ({ file, url, title, desc, route, lang, article })), null, 1) + '\n');
+fs.writeFileSync(path.join(ROOT, 'tools/pages.json'), JSON.stringify(pages.map(({ file, url, title, name, desc, route, lang, article }) => ({ file, url, title, name, desc, route, lang, article })), null, 1) + '\n');
 
 /* ---------- sitemap: every address in both languages, with the date its content last changed ---------- */
 const today = process.env.BUILD_DATE || new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Amsterdam' }).format(new Date());
@@ -206,7 +218,7 @@ const sitemap = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http:
 
 /* ---------- llms.txt: a short guide to the site for AI assistants ---------- */
 const en = pages.filter(p => p.lang === 'en'), nlp = pages.filter(p => p.lang === 'nl');
-const line = p => `- [${p.title.split(' | ')[0]}](${p.url}): ${p.desc}`;
+const line = p => `- [${p.name}](${p.url}): ${p.desc}`;
 const llms = [
   '# SkinTech Laser Clinic',
   '',
