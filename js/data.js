@@ -37,7 +37,7 @@ const fingerprintSVG = `
 /* ===================== App data ===================== */
 const SERVICES = [
   { id:'laser', num:'01', name:'Laserontharing', italic:'ontharing', nav:'Laserontharing', duration:'30–60 min', sessions:'6–8 sessies',
-    img:'assets/service-laser.webp',
+    img:'/assets/service-laser.webp',
     blurb:'Precisie-laserbehandeling voor blijvend gladde huid, geschikt voor elk huidtype.',
     desc:'Ons signature-protocol met de GentleMax Pro Plus zorgt voor duurzame haarreductie met minimaal ongemak. Afgestemd op jouw huidtype en ontworpen voor zichtbaar resultaat vanaf de eerste sessies.',
     forWho:'Voor iedereen die blijvend gladde huid wil, zonder de onderhoudsroutine — veilig voor Fitzpatrick-huidtypes I t/m VI.',
@@ -133,7 +133,7 @@ const SERVICES = [
     priceNote:'Alle prijzen zijn inclusief 21% btw. Exacte tarieven worden tijdens de gratis huidscan met je besproken.'
   },
   { id:'deep', num:'02', name:'Deep Cleansing Facial', italic:'Cleansing', nav:'Deep Cleansing Facial', duration:'60 min', sessions:'Maandelijks ritueel',
-    img:'assets/service-deep.webp',
+    img:'/assets/service-deep.webp',
     blurb:'Een verhelderend ritueel dat verstopte, gevoelige of vermoeide huid reset.',
     desc:'Een herstellende, clinical-grade gezichtsbehandeling die de huid grondig reinigt zonder haar uit balans te brengen. Opgebouwd rond de actuele staat van jouw huid — nooit volgens een vast script.',
     forWho:'Verstopte, vette, doffe of reactieve huid die toe is aan een professionele reset.',
@@ -147,7 +147,7 @@ const SERVICES = [
     priceNote:'Inclusief huidanalyse en een persoonlijk verzorgingsadvies voor thuis. Alle prijzen incl. 21% btw.'
   },
   { id:'glace', num:'03', name:'Glacē Glow Facial', italic:'Glow', nav:'Glacē Glow Facial', duration:'45–60 min', sessions:'Seizoensgebonden',
-    img:'assets/service-glace.webp',
+    img:'/assets/service-glace.webp',
     blurb:'Cryo-geïnfuseerde lichtheid met een verfijnde, lit-from-within afwerking.',
     desc:'Onze signature cold-therapy-behandeling combineert cryo-modulatie met een voedende infusie. De huid oogt direct fris, gelift en zichtbaar stralend.',
     forWho:'Voor iedereen die zich voorbereidt op een moment — of gewoon een betere spiegel wenst op een doordeweekse dag.',
@@ -162,7 +162,7 @@ const SERVICES = [
     priceNote:'Aanrader in aanloop naar een event, seizoenswissel of een fotoshoot. Alle prijzen incl. 21% btw.'
   },
   { id:'scan', num:'04', name:'Gratis huidscan & consult', italic:'huidscan', nav:'Gratis huidscan', duration:'45 min', sessions:'Jaarlijks',
-    img:'assets/service-scan.webp',
+    img:'/assets/service-scan.webp',
     blurb:'Een technologie-gedreven lezing van je huid, van oppervlak tot diepere lagen.',
     desc:'Een diagnostische sessie met onze Sylton Observ 520x, die pigmentatie, hydratatie, textuur en onderliggende kenmerken in kaart brengt. Je verlaat de kliniek met een geschreven verzorgingsplan — geen verkoopgesprek.',
     forWho:'Voor iedereen die een behandeltraject start, of gewoon helderheid wil over wat de huid werkelijk nodig heeft.',
@@ -177,7 +177,7 @@ const SERVICES = [
     priceNote:'Onze standaard huidscan en laserconsult zijn altijd gratis en vrijblijvend. Alle prijzen incl. 21% btw.'
   },
   { id:'combo', num:'05', name:'Op maat — behandelplan', italic:'op maat', nav:'Behandelplan op maat', duration:'Op maat', sessions:'Traject',
-    img:'assets/service-combo.webp',
+    img:'/assets/service-combo.webp',
     blurb:'Multidisciplinaire trajecten, afgestemd op jouw huid en agenda.',
     desc:'Voor cliënten die streven naar duurzaam resultaat in plaats van losse sessies. We combineren laser, facials en analyse in een kwartaalritme dat bij je leven past.',
     forWho:'Cliënten die zich committeren aan blijvende huidgezondheid en zichtbare verfijning op de lange termijn.',
@@ -288,7 +288,7 @@ function t(key) { return (T[currentLang] || T.nl)[key] || key; }
 
 const SERVICES_EN = [
   { id:'laser', num:'01', name:'Laser Hair Removal', italic:'Removal', nav:'Laser Hair Removal', duration:'30–60 min', sessions:'6–8 sessions',
-    img:'assets/service-laser.webp',
+    img:'/assets/service-laser.webp',
     blurb:'Precision laser treatment for lasting smoothness, safe for all skin types.',
     desc:'Our GentleMax Pro Plus protocol delivers lasting hair reduction with minimal discomfort. Calibrated to your skin type for visible results from the first sessions.',
     forWho:'Anyone seeking permanent, low-maintenance smoothness — suitable for Fitzpatrick skin types I–VI.',
@@ -384,7 +384,7 @@ const SERVICES_EN = [
     priceNote:'All prices include 21% VAT. Exact pricing is discussed during your free skin scan.'
   },
   { id:'deep', num:'02', name:'Deep Cleansing Facial', italic:'Cleansing', nav:'Deep Cleansing Facial', duration:'60 min', sessions:'Monthly ritual',
-    img:'assets/service-deep.webp',
+    img:'/assets/service-deep.webp',
     blurb:'A clarifying ritual that resets congested, reactive, or tired skin.',
     desc:"A restorative, clinical-grade facial that removes impurities without stripping. Built around your skin's current state — never a fixed script.",
     forWho:'Congested, oily, dull or reactive skin in need of a professional reset.',
@@ -398,7 +398,7 @@ const SERVICES_EN = [
     priceNote:'Includes skin analysis and a personalised at-home care recommendation. All prices include 21% VAT.'
   },
   { id:'glace', num:'03', name:'Glacē Glow Facial', italic:'Glow', nav:'Glacē Glow Facial', duration:'45–60 min', sessions:'Seasonal',
-    img:'assets/service-glace.webp',
+    img:'/assets/service-glace.webp',
     blurb:'Cryo-infused luminosity with a refined, lit-from-within finish.',
     desc:'Our signature cold-therapy facial combines cryo modulation with nutrient infusion. Skin looks immediately fresh, lifted and visibly glowing.',
     forWho:'Anyone preparing for a moment — or simply wanting a better mirror on an ordinary day.',
@@ -413,7 +413,7 @@ const SERVICES_EN = [
     priceNote:'Ideal before an event, seasonal change or photoshoot. All prices include 21% VAT.'
   },
   { id:'scan', num:'04', name:'Free Skin Scan & Consultation', italic:'Skin Scan', nav:'Free skin scan', duration:'45 min', sessions:'Annual',
-    img:'assets/service-scan.webp',
+    img:'/assets/service-scan.webp',
     blurb:'A technology-led reading of your skin, from surface to deeper layers.',
     desc:'A diagnostic session with our Sylton Observ 520x, mapping pigmentation, hydration, texture and underlying concerns. You leave with a written care plan — not a sales pitch.',
     forWho:'Anyone starting a treatment journey or wanting clarity on what their skin actually needs.',
@@ -428,7 +428,7 @@ const SERVICES_EN = [
     priceNote:'Our standard skin scan and laser consultation are always free and no-obligation. All prices include 21% VAT.'
   },
   { id:'combo', num:'05', name:'Tailored Treatment Plans', italic:'Tailored', nav:'Tailored Treatment Plan', duration:'Bespoke', sessions:'Programme',
-    img:'assets/service-combo.webp',
+    img:'/assets/service-combo.webp',
     blurb:'Multi-modality programmes shaped to your skin and your calendar.',
     desc:'For clients who want lasting results rather than one-off sessions. We combine laser, facials and analysis in a quarterly rhythm that suits your life.',
     forWho:'Clients committed to long-term skin health and visible, sustained improvement.',
@@ -482,11 +482,11 @@ const FAQS_EN = [
 
 /* ===================== Technology ===================== */
 const TECH_IMG = {
-  gentlemax: 'assets/gentlemax.webp',
-  cryo7: 'assets/cryo7.webp',
-  glace: 'assets/glace.webp',
-  ionto: 'assets/ionto.avif',
-  scanner: 'assets/scanner.png',
+  gentlemax: '/assets/gentlemax.webp',
+  cryo7: '/assets/cryo7.webp',
+  glace: '/assets/glace.webp',
+  ionto: '/assets/ionto.avif',
+  scanner: '/assets/scanner.png',
 };
 function techIllus(id) {
   const src = TECH_IMG[id];
@@ -502,63 +502,63 @@ const ARTICLES = [
     titleEn:'Laser hair removal: everything you need to know before your first session',
     excerptNl:'Van voorbereiding tot nazorg — een compleet overzicht van wat je kunt verwachten bij laserontharing met de GentleMax Pro Plus.',
     excerptEn:'From preparation to aftercare — a complete overview of what to expect from laser hair removal with the GentleMax Pro Plus.',
-    img:'assets/service-laser.webp',
+    img:'/assets/service-laser.webp',
   },
   { id:'skin-types', cat:'Huidverzorging', catEn:'Skin Care', date:'2026-04-28',
     titleNl:'Huidtype I t/m VI: waarom het uitmaakt voor jouw behandeling',
     titleEn:'Skin type I to VI: why it matters for your treatment',
     excerptNl:'Niet elke huid reageert hetzelfde. We leggen uit hoe we de GentleMax Pro Plus kalibreren voor elk Fitzpatrick-huidtype.',
     excerptEn:'Not every skin responds the same way. We explain how we calibrate the GentleMax Pro Plus for every Fitzpatrick skin type.',
-    img:'assets/service-scan.webp',
+    img:'/assets/service-scan.webp',
   },
   { id:'glace-glow', cat:'Behandelingen', catEn:'Treatments', date:'2026-04-20',
     titleNl:'Glacē Glow Facial: de wetenschap achter de glow',
     titleEn:'Glacē Glow Facial: the science behind the glow',
     excerptNl:'Hoe de Candela Glacē met vortex-technologie jouw huid reinigt, exfolieert en laat stralen.',
     excerptEn:'How the Candela Glacē uses vortex technology to cleanse, exfoliate, and make your skin glow.',
-    img:'assets/service-glace.webp',
+    img:'/assets/service-glace.webp',
   },
   { id:'prep-aftercare', cat:'Tips', catEn:'Tips', date:'2026-04-15',
     titleNl:'Voorbereiding en nazorg: zo haal je het meeste uit je behandeling',
     titleEn:'Preparation and aftercare: how to get the most from your treatment',
     excerptNl:'De juiste voorbereiding en nazorg maken het verschil. Onze checklist voor voor en na elke sessie.',
     excerptEn:'The right preparation and aftercare make all the difference. Our checklist for before and after every session.',
-    img:'assets/service-deep.webp',
+    img:'/assets/service-deep.webp',
   },
   { id:'deep-vs-glace', cat:'Vergelijking', catEn:'Comparison', date:'2026-04-10',
     titleNl:'Deep Cleansing vs. Glacē Glow: welke facial past bij jou?',
     titleEn:'Deep Cleansing vs. Glacē Glow: which facial suits you?',
     excerptNl:'Twee signature facials, elk met een eigen doel. We helpen je kiezen op basis van jouw huidtype en wensen.',
     excerptEn:'Two signature facials, each with a distinct purpose. We help you choose based on your skin type and goals.',
-    img:'assets/article-deep-vs-glace.webp',
+    img:'/assets/article-deep-vs-glace.webp',
   },
   { id:'sylton-scan', cat:'Technologie', catEn:'Technology', date:'2026-04-05',
     titleNl:'De Sylton Observ 520x: jouw huid in beeld',
     titleEn:'The Sylton Observ 520x: your skin in focus',
     excerptNl:'Wat onze huidscanner ziet dat het blote oog mist — en waarom dat de basis vormt van elk behandelplan.',
     excerptEn:'What our skin scanner sees that the naked eye misses — and why that forms the foundation of every treatment plan.',
-    img:'assets/sylton-scan.png',
+    img:'/assets/sylton-scan.png',
   },
   { id:'ipl-vs-laser', cat:'Vergelijking', catEn:'Comparison', date:'2026-05-01',
     titleNl:'IPL vs. laser: wat is het verschil en wat werkt beter?',
     titleEn:'IPL vs. laser: what\'s the difference and which works better?',
     excerptNl:'Intense Pulsed Light en echte laser worden vaak door elkaar gehaald. We leggen de wetenschappelijke verschillen uit.',
     excerptEn:'Intense Pulsed Light and true laser are often confused. We explain the scientific differences.',
-    img:'assets/article-ipl-vs-laser.webp',
+    img:'/assets/article-ipl-vs-laser.webp',
   },
   { id:'laser-donkere-huid', cat:'Huidverzorging', catEn:'Skin Care', date:'2026-04-30',
     titleNl:'Laserontharing bij donkere huid: veilig, effectief en inclusief',
     titleEn:'Laser hair removal for dark skin: safe, effective, and inclusive',
     excerptNl:'Veel klinieken kunnen donkere huidtypen niet veilig behandelen. Onze dual-wavelength laser wel.',
     excerptEn:'Many clinics can\'t safely treat darker skin types. Our dual-wavelength laser can.',
-    img:'assets/article-laser-dark-skin.webp',
+    img:'/assets/article-laser-dark-skin.webp',
   },
   { id:'huidverbetering-amsterdam', cat:'Huidverzorging', catEn:'Skin Care', date:'2026-04-25',
     titleNl:'Huidverbetering in Amsterdam: jouw complete gids',
     titleEn:'Skin improvement in Amsterdam: your complete guide',
     excerptNl:'Van huidanalyse tot behandelplan — ontdek hoe professionele huidverzorging jouw huid transformeert.',
     excerptEn:'From skin analysis to treatment plan — discover how professional skincare transforms your skin.',
-    img:'assets/article-skin-amsterdam.webp',
+    img:'/assets/article-skin-amsterdam.webp',
   },
 ];
 
@@ -569,7 +569,7 @@ function loadArticleContent() {
   if (_articlesLoaded) return Promise.resolve();
   return new Promise(function(resolve) {
     var s = document.createElement('script');
-    s.src = 'js/articles-content.min.js';
+    s.src = '/js/articles-content.min.js?v=851dd741';
     s.onload = function() { _articlesLoaded = true; resolve(); };
     s.onerror = function() { _articlesLoaded = true; resolve(); };
     document.head.appendChild(s);

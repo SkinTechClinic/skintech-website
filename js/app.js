@@ -516,14 +516,19 @@ let hashRaw = window.location.hash.replace('#','');
 if (hashRaw.startsWith('en/')) { currentLang = 'en'; try { localStorage.setItem('sk_lang','en'); } catch(e){} hashRaw = hashRaw.slice(3); }
 else if (hashRaw.startsWith('en')) { currentLang = 'en'; try { localStorage.setItem('sk_lang','en'); } catch(e){} if (hashRaw === 'en') hashRaw = 'home'; }
 // Also support clean URLs (/about, /services, etc.)
+// and article addresses (/journal/<id>), which open the article itself
+var initArticle = null;
 if (!hashRaw) {
-  var path = window.location.pathname.slice(1).split('/')[0];
+  var pathParts = window.location.pathname.slice(1).split('/');
+  var path = pathParts[0];
   if (path && routes[path]) hashRaw = path;
+  if (path === 'journal' && pathParts[1] && ARTICLES.some(function(a) { return a.id === pathParts[1]; })) initArticle = pathParts[1];
 }
 const hashRoute = hashRaw;
 const initRoute = hashRoute && routes[hashRoute] ? hashRoute : 'home';
 currentRoute = initRoute;
 navigate(initRoute);
+if (initArticle) showArticle(initArticle);
 
 
 
