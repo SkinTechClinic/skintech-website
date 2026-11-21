@@ -5,7 +5,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>SkinTech Laser Clinic — Amsterdam</title>
-<meta name="description" content="SkinTech Laser Clinic Amsterdam — Premium laserontharing, huidverbetering en gezichtsbehandelingen. Boek uw gratis huidscan.">
+<meta name="description" content="SkinTech Laser Clinic Amsterdam — Premium laserontharing, huidverbetering en gezichtsbehandelingen. Opening in het tweede kwartaal van 2027.">
 <meta name="robots" content="index, follow">
 
 <!-- Open Graph -->
@@ -39,7 +39,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 
 <!-- Stylesheet -->
-<link rel="stylesheet" href="/css/styles.min.css?v=0a35c154">
+<link rel="stylesheet" href="/css/styles.min.css?v=6962981e">
 
 <!-- Structured Data: LocalBusiness -->
 <script type="application/ld+json">
@@ -85,7 +85,7 @@
     { "@type": "Question", "name": "Hoeveel sessies zijn er nodig?", "acceptedAnswer": { "@type": "Answer", "text": "Gemiddeld zijn 6-8 sessies nodig, met intervallen van 4-8 weken afhankelijk van het behandelgebied. Alleen haren in de anagene groeifase reageren op de laser." } },
     { "@type": "Question", "name": "Is het geschikt voor donkere huid?", "acceptedAnswer": { "@type": "Answer", "text": "Ja. De GentleMax Pro Plus beschikt over een 1064nm Nd:YAG laser die veilig is voor alle huidtypen, inclusief Fitzpatrick IV-VI. De langere golflengte wordt minder geabsorbeerd door epidermaal melanine." } },
     { "@type": "Question", "name": "Wat is het verschil tussen IPL en laser?", "acceptedAnswer": { "@type": "Answer", "text": "IPL (Intense Pulsed Light) gebruikt breed-spectrum licht, terwijl een laser één specifieke golflengte gebruikt. Laser is preciezer, effectiever en veiliger voor donkere huid. IPL vereist meer sessies." } },
-    { "@type": "Question", "name": "Wat kost een behandeling?", "acceptedAnswer": { "@type": "Answer", "text": "Laserontharing vanaf €35 per sessie (kleine zones) tot €465 (full body premium). Deep Cleansing Facial €95, Glacē Glow Facial €125. Kuren zijn altijd voordeliger. Alle prijzen incl. 21% btw. Boek een gratis huidscan voor een persoonlijke prijsopgave." } }
+    { "@type": "Question", "name": "Wat kost een behandeling?", "acceptedAnswer": { "@type": "Answer", "text": "Laserontharing vanaf €35 per sessie (kleine zones) tot €465 (full body premium). Deep Cleansing Facial €95, Glacē Glow Facial €125. Pakketten: 6 sessies voor de prijs van 5, of 13 sessies voor de prijs van 10. Alle prijzen incl. 21% btw. Het behandelplan en de exacte prijs bespreken we tijdens de gratis huidscan." } }
   ]
 }
 </script>
@@ -174,8 +174,8 @@ window.addEventListener('unhandledrejection', function(e) {
     <a href="#" data-route="contact">Contact</a>
   </div>
   <div class="nav-right">
-    <button class="nav-book" style="background:transparent; border:1px solid currentColor; color:currentColor;" onclick="navigate('contact')" id="nl-scan">Gratis huidscan</button>
-    <button class="nav-book" onclick="openBooking()" id="nl-book">Boek nu</button>
+    <button class="nav-book" style="background:transparent; border:1px solid currentColor; color:currentColor;" onclick="openBooking('scan')" id="nl-scan">Gratis huidscan</button>
+    <button class="nav-book" onclick="openBooking()" id="nl-book">Wachtlijst</button>
     <button class="mobile-toggle" onclick="toggleMobile()" aria-label="Menu openen" aria-expanded="false"><span></span><span></span></button>
   </div>
 </nav>
@@ -186,14 +186,14 @@ window.addEventListener('unhandledrejection', function(e) {
 <!-- SVG loaded by JavaScript --></div>
     <div class="container" style="position:relative; z-index:2; width:100%;">
       <div style="margin-bottom:60px;" class="eyebrow">
-        <span style="color:var(--bronze-pale); letter-spacing:0.22em; text-transform:uppercase; font-size:11px;">Amsterdam · Est. 2026</span>
+        <span style="color:var(--bronze-pale); letter-spacing:0.22em; text-transform:uppercase; font-size:11px;">Amsterdam · Opening tweede kwartaal 2027</span>
       </div>
       <div class="hero-grid">
         <h1>Premium laser- en<br/><i>huidbehandelingen</i><br/>in <i>Amsterdam.</i></h1>
         <div class="hero-meta">
           <p class="hero-intro">Voor een gladdere huid, meer comfort en zichtbaar verzorgde resultaten — met geavanceerde technologie, persoonlijke aandacht en een rustige clinic experience.</p>
           <div class="hero-cta">
-            <button class="btn btn-primary" data-book="">Boek nu <span>→</span></button>
+            <button class="btn btn-primary" data-book="">Op de wachtlijst <span>→</span></button>
             <button class="btn btn-dark-outline" data-route="services">Behandelingen</button>
           </div>
         </div>
@@ -459,7 +459,7 @@ window.addEventListener('unhandledrejection', function(e) {
   </div><footer class="site">
     <div class="container">
       <div class="footer-big">
-        Begin<br>met een <i>consult</i> — <a href="#" data-book="">boek hier →</a>
+        Opening in het <i>tweede kwartaal van 2027</i> — <a href="#" data-book="">kom op de wachtlijst →</a>
       </div>
       <div class="footer-grid">
         <div>
@@ -571,13 +571,13 @@ setTimeout(function() {
 </script>
 
 <!-- JavaScript: Data & Translations -->
-<script src="/js/data.min.js?v=8ae56a1a"></script>
+<script src="/js/data.min.js?v=acf4194f"></script>
 
 <!-- JavaScript: Page Render Functions -->
-<script src="/js/pages.min.js?v=9f17504d"></script>
+<script src="/js/pages.min.js?v=bc4e59f2"></script>
 
 <!-- JavaScript: Router, Booking & Initialization -->
-<script src="/js/app.min.js?v=ea3f4323"></script>
+<script src="/js/app.min.js?v=8c975ea8"></script>
 
 
 

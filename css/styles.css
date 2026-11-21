@@ -2313,3 +2313,42 @@ footer.site {
   .footer-grid { display: block; }
   footer.site { border-top: 1px solid #ccc; padding-top: 12px; }
 }
+
+/* ===================== Waiting list pop-up ===================== */
+.modal .wl-opt-meta { font-size: 13px; color: var(--muted); margin-top: 4px; }
+.modal .wl-opt-rec { font-size: 12px; color: var(--bronze-deep); margin-top: 4px; }
+.modal .svc-opt .price { font-family: var(--sans); font-size: 13px; font-style: normal; text-align: right; white-space: nowrap; }
+.wl-panel { margin-top: 16px; background: var(--cream-deep); border-radius: 4px; padding: 18px; }
+.wl-toggle { display: flex; gap: 8px; margin-bottom: 12px; }
+.wl-toggle .btn { font-size: 13px; padding: 8px 18px; }
+.wl-hint { font-size: 13px; color: var(--muted); margin: 0 0 10px; line-height: 1.5; }
+.wl-areas { max-height: 264px; overflow-y: auto; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding-right: 4px; }
+.wl-cat { font-family: var(--sans); font-size: 12px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--bronze-deep); margin: 14px 0 4px; }
+.wl-area { display: grid; grid-template-columns: 22px 1fr auto; align-items: center; gap: 8px; padding: 9px 6px; border-bottom: 1px solid var(--line); cursor: pointer; font-family: var(--sans); font-size: 14px; letter-spacing: 0; text-transform: none; color: var(--ink); border-radius: 3px; }
+.wl-area:last-child { border-bottom: 0; }
+.wl-area input { width: 16px; height: 16px; accent-color: var(--ink); margin: 0; }
+.wl-area.on { background: rgba(26,22,19,0.06); }
+.wl-area-price { font-variant-numeric: tabular-nums; font-weight: 500; }
+.wl-summary { margin-top: 14px; font-size: 14px; }
+.wl-summary-empty { color: var(--muted); font-size: 13px; line-height: 1.5; }
+.wl-summary-title { font-weight: 500; margin-bottom: 8px; line-height: 1.4; }
+.wl-summary-row, .wl-price-row { display: flex; justify-content: space-between; gap: 16px; padding: 7px 0; border-bottom: 1px solid var(--line); font-size: 14px; font-variant-numeric: tabular-nums; }
+.wl-summary-row strong { font-weight: 600; }
+.wl-summary-note { font-size: 12px; color: var(--muted); margin-top: 10px; line-height: 1.5; }
+.wl-required { font-size: 12px; color: var(--muted); margin-bottom: 12px; }
+.wl-two { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 12px; }
+.wl-chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+.wl-chip { font-family: var(--sans); font-size: 13px; padding: 8px 14px; border: 1px solid var(--line); border-radius: 999px; background: transparent; color: var(--ink); cursor: pointer; }
+.wl-chip.on { background: var(--ink); color: var(--cream); border-color: var(--ink); }
+.wl-consent { display: grid; grid-template-columns: 22px 1fr; gap: 10px; align-items: start; margin-top: 16px; font-family: var(--sans); font-size: 14px; line-height: 1.5; letter-spacing: 0; text-transform: none; color: var(--ink); cursor: pointer; }
+.wl-consent input { width: 16px; height: 16px; margin: 3px 0 0; accent-color: var(--ink); }
+.wl-consent small { font-size: 12px; color: var(--muted); }
+.wl-consent a { color: var(--bronze-deep); text-decoration: underline; }
+.wl-error { margin-top: 14px; padding: 12px 14px; border: 1px solid #c44; border-radius: 4px; color: #8a2a2a; font-size: 13px; line-height: 1.5; }
+.wl-check { width: 64px; height: 64px; margin: 0 auto 24px; border-radius: 50%; border: 1px solid var(--bronze-deep); display: grid; place-items: center; color: var(--bronze-deep); font-family: var(--serif); font-size: 28px; }
+.wl-done { background: var(--cream-deep); padding: 12px 24px; border-radius: 4px; margin-bottom: 24px; }
+.wl-done-row { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; padding: 12px 0; border-bottom: 1px solid var(--line); font-size: 14px; }
+.wl-done-row span { color: var(--muted); font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; white-space: nowrap; }
+.wl-done-row strong { font-weight: 500; text-align: right; }
+.wl-done-note { font-size: 12px; color: var(--muted); text-align: center; margin-bottom: 20px; line-height: 1.6; }
+@media (max-width: 520px) { .wl-two { grid-template-columns: 1fr; } }
