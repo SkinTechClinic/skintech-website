@@ -50,6 +50,7 @@ function renderHome() {
     resEy: 'Resultaten', resH: 'Resultaten die<br/><i>natuurlijk aanvoelen.</i>',
     resP: 'Hier tonen we binnenkort echte behandelresultaten van SkinTech-cliënten, met volledige toestemming en zonder retouche.',
     resBef: 'voor', resAft: 'na', resSoon: 'binnenkort',
+    resNote: 'Voorbeeldresultaten van de technologie waarmee wij werken. Dit zijn geen cliënten van SkinTech. Resultaten verschillen per persoon.',
     res1img: true,
     res1t:'Laserontharing', res1d:'Na 6 sessies',
     res2img: true,
@@ -99,6 +100,7 @@ function renderHome() {
     resEy: 'Results', resH: 'Results that feel<br/><i>naturally yours.</i>',
     resP: 'Real client results coming soon, shared with full consent and no retouching.',
     resBef: 'before', resAft: 'after', resSoon: 'coming soon',
+    resNote: 'Example results of the technology we work with. These are not SkinTech clients. Results vary from person to person.',
     res1img: true,
     res1t:'Laser Hair Removal', res1d:'After 6 sessions',
     res2img: true,
@@ -263,7 +265,8 @@ function renderHome() {
           </div>
         `).join('')}
       </div>
-      <div style="margin-top:48px; text-align:center;">
+      <p style="margin:28px auto 0; max-width:640px; text-align:center; font-size:12px; line-height:1.6; color:rgba(245,239,228,0.55);">${c.resNote}</p>
+      <div style="margin-top:36px; text-align:center;">
         <button class="btn btn-dark-outline" onclick="navigate('contact')" style="margin:0 auto;">${c.resCta}</button>
       </div>
     </div>

@@ -114,8 +114,9 @@ function bookingStep1() {
   const wLabel = currentLang==='nl' ? 'Dames' : 'Women';
   const mLabel = currentLang==='nl' ? 'Heren' : 'Men';
   const singleH = currentLang==='nl' ? 'Per sessie' : 'Single';
-  const pkg6H = '6x';
-  const pkg8H = '8x';
+  const pkg6H = '5+1';
+  const pkg13H = '10+3';
+  const pkgNote = currentLang==='nl' ? '5+1 = 6 sessies voor de prijs van 5 · 10+3 = 13 sessies voor de prijs van 10' : '5+1 = 6 sessions for the price of 5 · 10+3 = 13 sessions for the price of 10';
 
   // Build laser pricing table if laser is selected
   var laserTable = '';
@@ -132,7 +133,7 @@ function bookingStep1() {
           '<td style="padding:5px 0; font-size:12px;">'+r.area+'</td>' +
           '<td style="padding:5px 4px; font-size:12px; text-align:right; font-family:var(--serif);">'+r.single+'</td>' +
           '<td style="padding:5px 4px; font-size:12px; text-align:right; color:var(--muted);">'+r.pkg6+'</td>' +
-          '<td style="padding:5px 4px; font-size:12px; text-align:right; color:var(--muted);">'+r.pkg8+'</td>' +
+          '<td style="padding:5px 4px; font-size:12px; text-align:right; color:var(--muted);">'+r.pkg13+'</td>' +
           '</tr>';
       });
     });
@@ -147,9 +148,9 @@ function bookingStep1() {
           '<th style="text-align:left; font-size:10px; text-transform:uppercase; letter-spacing:0.1em; color:var(--muted); padding-bottom:6px;"></th>' +
           '<th style="text-align:right; font-size:10px; text-transform:uppercase; letter-spacing:0.1em; color:var(--muted); padding-bottom:6px;">'+singleH+'</th>' +
           '<th style="text-align:right; font-size:10px; text-transform:uppercase; letter-spacing:0.1em; color:var(--muted); padding-bottom:6px;">'+pkg6H+'</th>' +
-          '<th style="text-align:right; font-size:10px; text-transform:uppercase; letter-spacing:0.1em; color:var(--muted); padding-bottom:6px;">'+pkg8H+'</th>' +
+          '<th style="text-align:right; font-size:10px; text-transform:uppercase; letter-spacing:0.1em; color:var(--muted); padding-bottom:6px;">'+pkg13H+'</th>' +
         '</tr></thead><tbody>' + rows + '</tbody></table></div>' +
-      '<div style="font-size:10px; color:var(--muted); margin-top:8px;">'+vatNote+'</div>' +
+      '<div style="font-size:10px; color:var(--muted); margin-top:8px; line-height:1.5;">'+pkgNote+'<br/>'+vatNote+'</div>' +
       '</div>';
   }
 
