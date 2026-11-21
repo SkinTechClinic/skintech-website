@@ -1,0 +1,54 @@
+# SkinTech Laser Clinic
+
+> Laser and skin clinic in Amsterdam, the Netherlands. The clinic is in preparation and has not opened yet. The opening is planned for the second quarter of 2027. Appointments cannot be booked yet; visitors can join the waiting list on the website.
+
+Planned treatments: laser hair removal with the Candela GentleMax Pro Plus, Deep Cleansing Facial, Glacē Glow Facial, and a free skin scan and consultation with the Sylton Observ 520x. Prices are listed on the treatments page and are indications until the free skin scan.
+The site is in Dutch (default) and English (addresses under /en). Contact: info@skintechclinic.nl
+
+## Pages (English)
+- [SkinTech Laser Clinic Amsterdam](https://skintechclinic.nl/en): SkinTech Laser Clinic Amsterdam — premium laser hair removal, skin improvement and facials. Opening in the second quarter of 2027.
+- [About us](https://skintechclinic.nl/en/about): We opened SkinTech because Amsterdam needed a different kind of aesthetic address — one where medical precision and boutique care are not in competition…
+- [Treatments and prices](https://skintechclinic.nl/en/services): From laser hair removal to facials and skin analysis: discover which treatment suits your skin and goals.
+- [Technology](https://skintechclinic.nl/en/technology): At SkinTech we use carefully selected technologies that contribute to precision, comfort and a premium treatment experience.
+- [Results](https://skintechclinic.nl/en/results): Our full client gallery launches with the clinic. Placeholder imagery is shown below — real results will replace these, with full written consent and no…
+- [Frequently asked questions](https://skintechclinic.nl/en/faq): If something isn't covered here, message us directly. We'd rather answer a question before you book than after.
+- [Journal](https://skintechclinic.nl/en/journal): Articles about skin care, treatments and the technology behind our approach. Written by the SkinTech team.
+- [Contact and waiting list](https://skintechclinic.nl/en/contact): Tell us a little about your skin and your goals. We open in the second quarter of 2027 and will answer your question by email.
+
+## Journal (English)
+- [Laser hair removal: everything you need to know before your first session](https://skintechclinic.nl/en/journal/laser-guide): From preparation to aftercare — a complete overview of what to expect from laser hair removal with the GentleMax Pro Plus.
+- [Skin type I to VI: why it matters for your treatment](https://skintechclinic.nl/en/journal/skin-types): Not every skin responds the same way. We explain how we calibrate the GentleMax Pro Plus for every Fitzpatrick skin type.
+- [Glacē Glow Facial: the science behind the glow](https://skintechclinic.nl/en/journal/glace-glow): How the Candela Glacē uses vortex technology to cleanse, exfoliate, and make your skin glow.
+- [Preparation and aftercare: how to get the most from your treatment](https://skintechclinic.nl/en/journal/prep-aftercare): The right preparation and aftercare make all the difference. Our checklist for before and after every session.
+- [Deep Cleansing vs. Glacē Glow: which facial suits you?](https://skintechclinic.nl/en/journal/deep-vs-glace): Two signature facials, each with a distinct purpose. We help you choose based on your skin type and goals.
+- [The Sylton Observ 520x: your skin in focus](https://skintechclinic.nl/en/journal/sylton-scan): What our skin scanner sees that the naked eye misses — and why that forms the foundation of every treatment plan.
+- [IPL vs. laser: what's the difference and which works better?](https://skintechclinic.nl/en/journal/ipl-vs-laser): Intense Pulsed Light and true laser are often confused. We explain the scientific differences.
+- [Laser hair removal for dark skin: safe, effective, and inclusive](https://skintechclinic.nl/en/journal/laser-donkere-huid): Many clinics can't safely treat darker skin types. Our dual-wavelength laser can.
+- [Skin improvement in Amsterdam: your complete guide](https://skintechclinic.nl/en/journal/huidverbetering-amsterdam): From skin analysis to treatment plan — discover how professional skincare transforms your skin.
+
+## Pagina's (Nederlands)
+- [SkinTech Laser Clinic Amsterdam](https://skintechclinic.nl/): SkinTech Laser Clinic Amsterdam — Premium laserontharing, huidverbetering en gezichtsbehandelingen. Opening in het tweede kwartaal van 2027.
+- [Over ons](https://skintechclinic.nl/about): We openden SkinTech omdat Amsterdam een ander soort esthetisch adres nodig had — een plek waar medische precisie en boutique zorg niet elkaars tegenpolen…
+- [Behandelingen en tarieven](https://skintechclinic.nl/services): Van laserontharing tot facials en huidanalyse: ontdek welke behandeling past bij jouw huid en doelen.
+- [Technologie](https://skintechclinic.nl/technology): Bij SkinTech gebruiken we zorgvuldig geselecteerde technologieën die bijdragen aan precisie, comfort en een premium behandelervaring.
+- [Resultaten](https://skintechclinic.nl/results): Onze volledige galerie verschijnt bij de opening van de clinic. De afbeeldingen hieronder zijn placeholders — echte resultaten worden toegevoegd met…
+- [Veelgestelde vragen](https://skintechclinic.nl/faq): Een selectie van de vragen die we het meest horen. Staat jouw vraag er niet bij? Neem contact op.
+- [Journal](https://skintechclinic.nl/journal): Artikelen over huidverzorging, behandelingen en de technologie achter onze aanpak. Geschreven door het SkinTech-team.
+- [Contact en wachtlijst](https://skintechclinic.nl/contact): Vertel ons iets over jouw huid en doelen. We openen in het tweede kwartaal van 2027 en beantwoorden je vraag per e-mail.
+
+## Journal (Nederlands)
+- [Laserontharing: alles wat je moet weten voor je eerste sessie](https://skintechclinic.nl/journal/laser-guide): Van voorbereiding tot nazorg — een compleet overzicht van wat je kunt verwachten bij laserontharing met de GentleMax Pro Plus.
+- [Huidtype I t/m VI: waarom het uitmaakt voor jouw behandeling](https://skintechclinic.nl/journal/skin-types): Niet elke huid reageert hetzelfde. We leggen uit hoe we de GentleMax Pro Plus kalibreren voor elk Fitzpatrick-huidtype.
+- [Glacē Glow Facial: de wetenschap achter de glow](https://skintechclinic.nl/journal/glace-glow): Hoe de Candela Glacē met vortex-technologie jouw huid reinigt, exfolieert en laat stralen.
+- [Voorbereiding en nazorg: zo haal je het meeste uit je behandeling](https://skintechclinic.nl/journal/prep-aftercare): De juiste voorbereiding en nazorg maken het verschil. Onze checklist voor voor en na elke sessie.
+- [Deep Cleansing vs. Glacē Glow: welke facial past bij jou?](https://skintechclinic.nl/journal/deep-vs-glace): Twee signature facials, elk met een eigen doel. We helpen je kiezen op basis van jouw huidtype en wensen.
+- [De Sylton Observ 520x: jouw huid in beeld](https://skintechclinic.nl/journal/sylton-scan): Wat onze huidscanner ziet dat het blote oog mist — en waarom dat de basis vormt van elk behandelplan.
+- [IPL vs. laser: wat is het verschil en wat werkt beter?](https://skintechclinic.nl/journal/ipl-vs-laser): Intense Pulsed Light en echte laser worden vaak door elkaar gehaald. We leggen de wetenschappelijke verschillen uit.
+- [Laserontharing bij donkere huid: veilig, effectief en inclusief](https://skintechclinic.nl/journal/laser-donkere-huid): Veel klinieken kunnen donkere huidtypen niet veilig behandelen. Onze dual-wavelength laser wel.
+- [Huidverbetering in Amsterdam: jouw complete gids](https://skintechclinic.nl/journal/huidverbetering-amsterdam): Van huidanalyse tot behandelplan — ontdek hoe professionele huidverzorging jouw huid transformeert.
+
+## Legal
+- [Privacybeleid](https://skintechclinic.nl/privacy): Privacybeleid van SkinTech Laser Clinic, Amsterdam.
+- [Algemene voorwaarden](https://skintechclinic.nl/terms): Algemene voorwaarden van SkinTech Laser Clinic, Amsterdam.
+- [Privacy policy](https://skintechclinic.nl/en/privacy): Privacy policy of SkinTech Laser Clinic, Amsterdam.
+- [Terms and conditions](https://skintechclinic.nl/en/terms): Terms and conditions of SkinTech Laser Clinic, Amsterdam.

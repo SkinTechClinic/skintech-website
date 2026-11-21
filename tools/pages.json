@@ -1,0 +1,344 @@
+[
+ {
+  "file": "index.html",
+  "url": "https://skintechclinic.nl/",
+  "title": "SkinTech Laser Clinic Amsterdam | Laserontharing en huidbehandelingen",
+  "desc": "SkinTech Laser Clinic Amsterdam — Premium laserontharing, huidverbetering en gezichtsbehandelingen. Opening in het tweede kwartaal van 2027.",
+  "route": "home",
+  "lang": "nl",
+  "article": null
+ },
+ {
+  "file": "about.html",
+  "url": "https://skintechclinic.nl/about",
+  "title": "Over ons | SkinTech Laser Clinic Amsterdam",
+  "desc": "We openden SkinTech omdat Amsterdam een ander soort esthetisch adres nodig had — een plek waar medische precisie en boutique zorg niet elkaars tegenpolen…",
+  "route": "about",
+  "lang": "nl",
+  "article": null
+ },
+ {
+  "file": "services.html",
+  "url": "https://skintechclinic.nl/services",
+  "title": "Behandelingen en tarieven | SkinTech Laser Clinic Amsterdam",
+  "desc": "Van laserontharing tot facials en huidanalyse: ontdek welke behandeling past bij jouw huid en doelen.",
+  "route": "services",
+  "lang": "nl",
+  "article": null
+ },
+ {
+  "file": "technology.html",
+  "url": "https://skintechclinic.nl/technology",
+  "title": "Technologie | SkinTech Laser Clinic Amsterdam",
+  "desc": "Bij SkinTech gebruiken we zorgvuldig geselecteerde technologieën die bijdragen aan precisie, comfort en een premium behandelervaring.",
+  "route": "technology",
+  "lang": "nl",
+  "article": null
+ },
+ {
+  "file": "results.html",
+  "url": "https://skintechclinic.nl/results",
+  "title": "Resultaten | SkinTech Laser Clinic Amsterdam",
+  "desc": "Onze volledige galerie verschijnt bij de opening van de clinic. De afbeeldingen hieronder zijn placeholders — echte resultaten worden toegevoegd met…",
+  "route": "results",
+  "lang": "nl",
+  "article": null
+ },
+ {
+  "file": "faq.html",
+  "url": "https://skintechclinic.nl/faq",
+  "title": "Veelgestelde vragen | SkinTech Laser Clinic Amsterdam",
+  "desc": "Een selectie van de vragen die we het meest horen. Staat jouw vraag er niet bij? Neem contact op.",
+  "route": "faq",
+  "lang": "nl",
+  "article": null
+ },
+ {
+  "file": "journal.html",
+  "url": "https://skintechclinic.nl/journal",
+  "title": "Journal | SkinTech Laser Clinic Amsterdam",
+  "desc": "Artikelen over huidverzorging, behandelingen en de technologie achter onze aanpak. Geschreven door het SkinTech-team.",
+  "route": "journal",
+  "lang": "nl",
+  "article": null
+ },
+ {
+  "file": "contact.html",
+  "url": "https://skintechclinic.nl/contact",
+  "title": "Contact en wachtlijst | SkinTech Laser Clinic Amsterdam",
+  "desc": "Vertel ons iets over jouw huid en doelen. We openen in het tweede kwartaal van 2027 en beantwoorden je vraag per e-mail.",
+  "route": "contact",
+  "lang": "nl",
+  "article": null
+ },
+ {
+  "file": "privacy.html",
+  "url": "https://skintechclinic.nl/privacy",
+  "title": "Privacybeleid | SkinTech Laser Clinic",
+  "desc": "Privacybeleid van SkinTech Laser Clinic, Amsterdam.",
+  "route": "privacy",
+  "lang": "nl",
+  "article": null
+ },
+ {
+  "file": "terms.html",
+  "url": "https://skintechclinic.nl/terms",
+  "title": "Algemene voorwaarden | SkinTech Laser Clinic",
+  "desc": "Algemene voorwaarden van SkinTech Laser Clinic, Amsterdam.",
+  "route": "terms",
+  "lang": "nl",
+  "article": null
+ },
+ {
+  "file": "journal/laser-guide.html",
+  "url": "https://skintechclinic.nl/journal/laser-guide",
+  "title": "Laserontharing: alles wat je moet weten voor je eerste sessie | SkinTech Laser Clinic",
+  "desc": "Van voorbereiding tot nazorg — een compleet overzicht van wat je kunt verwachten bij laserontharing met de GentleMax Pro Plus.",
+  "route": "journal",
+  "lang": "nl",
+  "article": "laser-guide"
+ },
+ {
+  "file": "journal/skin-types.html",
+  "url": "https://skintechclinic.nl/journal/skin-types",
+  "title": "Huidtype I t/m VI: waarom het uitmaakt voor jouw behandeling | SkinTech Laser Clinic",
+  "desc": "Niet elke huid reageert hetzelfde. We leggen uit hoe we de GentleMax Pro Plus kalibreren voor elk Fitzpatrick-huidtype.",
+  "route": "journal",
+  "lang": "nl",
+  "article": "skin-types"
+ },
+ {
+  "file": "journal/glace-glow.html",
+  "url": "https://skintechclinic.nl/journal/glace-glow",
+  "title": "Glacē Glow Facial: de wetenschap achter de glow | SkinTech Laser Clinic",
+  "desc": "Hoe de Candela Glacē met vortex-technologie jouw huid reinigt, exfolieert en laat stralen.",
+  "route": "journal",
+  "lang": "nl",
+  "article": "glace-glow"
+ },
+ {
+  "file": "journal/prep-aftercare.html",
+  "url": "https://skintechclinic.nl/journal/prep-aftercare",
+  "title": "Voorbereiding en nazorg: zo haal je het meeste uit je behandeling | SkinTech Laser Clinic",
+  "desc": "De juiste voorbereiding en nazorg maken het verschil. Onze checklist voor voor en na elke sessie.",
+  "route": "journal",
+  "lang": "nl",
+  "article": "prep-aftercare"
+ },
+ {
+  "file": "journal/deep-vs-glace.html",
+  "url": "https://skintechclinic.nl/journal/deep-vs-glace",
+  "title": "Deep Cleansing vs. Glacē Glow: welke facial past bij jou? | SkinTech Laser Clinic",
+  "desc": "Twee signature facials, elk met een eigen doel. We helpen je kiezen op basis van jouw huidtype en wensen.",
+  "route": "journal",
+  "lang": "nl",
+  "article": "deep-vs-glace"
+ },
+ {
+  "file": "journal/sylton-scan.html",
+  "url": "https://skintechclinic.nl/journal/sylton-scan",
+  "title": "De Sylton Observ 520x: jouw huid in beeld | SkinTech Laser Clinic",
+  "desc": "Wat onze huidscanner ziet dat het blote oog mist — en waarom dat de basis vormt van elk behandelplan.",
+  "route": "journal",
+  "lang": "nl",
+  "article": "sylton-scan"
+ },
+ {
+  "file": "journal/ipl-vs-laser.html",
+  "url": "https://skintechclinic.nl/journal/ipl-vs-laser",
+  "title": "IPL vs. laser: wat is het verschil en wat werkt beter? | SkinTech Laser Clinic",
+  "desc": "Intense Pulsed Light en echte laser worden vaak door elkaar gehaald. We leggen de wetenschappelijke verschillen uit.",
+  "route": "journal",
+  "lang": "nl",
+  "article": "ipl-vs-laser"
+ },
+ {
+  "file": "journal/laser-donkere-huid.html",
+  "url": "https://skintechclinic.nl/journal/laser-donkere-huid",
+  "title": "Laserontharing bij donkere huid: veilig, effectief en inclusief | SkinTech Laser Clinic",
+  "desc": "Veel klinieken kunnen donkere huidtypen niet veilig behandelen. Onze dual-wavelength laser wel.",
+  "route": "journal",
+  "lang": "nl",
+  "article": "laser-donkere-huid"
+ },
+ {
+  "file": "journal/huidverbetering-amsterdam.html",
+  "url": "https://skintechclinic.nl/journal/huidverbetering-amsterdam",
+  "title": "Huidverbetering in Amsterdam: jouw complete gids | SkinTech Laser Clinic",
+  "desc": "Van huidanalyse tot behandelplan — ontdek hoe professionele huidverzorging jouw huid transformeert.",
+  "route": "journal",
+  "lang": "nl",
+  "article": "huidverbetering-amsterdam"
+ },
+ {
+  "file": "en/index.html",
+  "url": "https://skintechclinic.nl/en",
+  "title": "SkinTech Laser Clinic Amsterdam | Laser hair removal and skin treatments",
+  "desc": "SkinTech Laser Clinic Amsterdam — premium laser hair removal, skin improvement and facials. Opening in the second quarter of 2027.",
+  "route": "home",
+  "lang": "en",
+  "article": null
+ },
+ {
+  "file": "en/about.html",
+  "url": "https://skintechclinic.nl/en/about",
+  "title": "About us | SkinTech Laser Clinic Amsterdam",
+  "desc": "We opened SkinTech because Amsterdam needed a different kind of aesthetic address — one where medical precision and boutique care are not in competition…",
+  "route": "about",
+  "lang": "en",
+  "article": null
+ },
+ {
+  "file": "en/services.html",
+  "url": "https://skintechclinic.nl/en/services",
+  "title": "Treatments and prices | SkinTech Laser Clinic Amsterdam",
+  "desc": "From laser hair removal to facials and skin analysis: discover which treatment suits your skin and goals.",
+  "route": "services",
+  "lang": "en",
+  "article": null
+ },
+ {
+  "file": "en/technology.html",
+  "url": "https://skintechclinic.nl/en/technology",
+  "title": "Technology | SkinTech Laser Clinic Amsterdam",
+  "desc": "At SkinTech we use carefully selected technologies that contribute to precision, comfort and a premium treatment experience.",
+  "route": "technology",
+  "lang": "en",
+  "article": null
+ },
+ {
+  "file": "en/results.html",
+  "url": "https://skintechclinic.nl/en/results",
+  "title": "Results | SkinTech Laser Clinic Amsterdam",
+  "desc": "Our full client gallery launches with the clinic. Placeholder imagery is shown below — real results will replace these, with full written consent and no…",
+  "route": "results",
+  "lang": "en",
+  "article": null
+ },
+ {
+  "file": "en/faq.html",
+  "url": "https://skintechclinic.nl/en/faq",
+  "title": "Frequently asked questions | SkinTech Laser Clinic Amsterdam",
+  "desc": "If something isn't covered here, message us directly. We'd rather answer a question before you book than after.",
+  "route": "faq",
+  "lang": "en",
+  "article": null
+ },
+ {
+  "file": "en/journal.html",
+  "url": "https://skintechclinic.nl/en/journal",
+  "title": "Journal | SkinTech Laser Clinic Amsterdam",
+  "desc": "Articles about skin care, treatments and the technology behind our approach. Written by the SkinTech team.",
+  "route": "journal",
+  "lang": "en",
+  "article": null
+ },
+ {
+  "file": "en/contact.html",
+  "url": "https://skintechclinic.nl/en/contact",
+  "title": "Contact and waiting list | SkinTech Laser Clinic Amsterdam",
+  "desc": "Tell us a little about your skin and your goals. We open in the second quarter of 2027 and will answer your question by email.",
+  "route": "contact",
+  "lang": "en",
+  "article": null
+ },
+ {
+  "file": "en/privacy.html",
+  "url": "https://skintechclinic.nl/en/privacy",
+  "title": "Privacy policy | SkinTech Laser Clinic",
+  "desc": "Privacy policy of SkinTech Laser Clinic, Amsterdam.",
+  "route": "privacy",
+  "lang": "en",
+  "article": null
+ },
+ {
+  "file": "en/terms.html",
+  "url": "https://skintechclinic.nl/en/terms",
+  "title": "Terms and conditions | SkinTech Laser Clinic",
+  "desc": "Terms and conditions of SkinTech Laser Clinic, Amsterdam.",
+  "route": "terms",
+  "lang": "en",
+  "article": null
+ },
+ {
+  "file": "en/journal/laser-guide.html",
+  "url": "https://skintechclinic.nl/en/journal/laser-guide",
+  "title": "Laser hair removal: everything you need to know before your first session | SkinTech Laser Clinic",
+  "desc": "From preparation to aftercare — a complete overview of what to expect from laser hair removal with the GentleMax Pro Plus.",
+  "route": "journal",
+  "lang": "en",
+  "article": "laser-guide"
+ },
+ {
+  "file": "en/journal/skin-types.html",
+  "url": "https://skintechclinic.nl/en/journal/skin-types",
+  "title": "Skin type I to VI: why it matters for your treatment | SkinTech Laser Clinic",
+  "desc": "Not every skin responds the same way. We explain how we calibrate the GentleMax Pro Plus for every Fitzpatrick skin type.",
+  "route": "journal",
+  "lang": "en",
+  "article": "skin-types"
+ },
+ {
+  "file": "en/journal/glace-glow.html",
+  "url": "https://skintechclinic.nl/en/journal/glace-glow",
+  "title": "Glacē Glow Facial: the science behind the glow | SkinTech Laser Clinic",
+  "desc": "How the Candela Glacē uses vortex technology to cleanse, exfoliate, and make your skin glow.",
+  "route": "journal",
+  "lang": "en",
+  "article": "glace-glow"
+ },
+ {
+  "file": "en/journal/prep-aftercare.html",
+  "url": "https://skintechclinic.nl/en/journal/prep-aftercare",
+  "title": "Preparation and aftercare: how to get the most from your treatment | SkinTech Laser Clinic",
+  "desc": "The right preparation and aftercare make all the difference. Our checklist for before and after every session.",
+  "route": "journal",
+  "lang": "en",
+  "article": "prep-aftercare"
+ },
+ {
+  "file": "en/journal/deep-vs-glace.html",
+  "url": "https://skintechclinic.nl/en/journal/deep-vs-glace",
+  "title": "Deep Cleansing vs. Glacē Glow: which facial suits you? | SkinTech Laser Clinic",
+  "desc": "Two signature facials, each with a distinct purpose. We help you choose based on your skin type and goals.",
+  "route": "journal",
+  "lang": "en",
+  "article": "deep-vs-glace"
+ },
+ {
+  "file": "en/journal/sylton-scan.html",
+  "url": "https://skintechclinic.nl/en/journal/sylton-scan",
+  "title": "The Sylton Observ 520x: your skin in focus | SkinTech Laser Clinic",
+  "desc": "What our skin scanner sees that the naked eye misses — and why that forms the foundation of every treatment plan.",
+  "route": "journal",
+  "lang": "en",
+  "article": "sylton-scan"
+ },
+ {
+  "file": "en/journal/ipl-vs-laser.html",
+  "url": "https://skintechclinic.nl/en/journal/ipl-vs-laser",
+  "title": "IPL vs. laser: what's the difference and which works better? | SkinTech Laser Clinic",
+  "desc": "Intense Pulsed Light and true laser are often confused. We explain the scientific differences.",
+  "route": "journal",
+  "lang": "en",
+  "article": "ipl-vs-laser"
+ },
+ {
+  "file": "en/journal/laser-donkere-huid.html",
+  "url": "https://skintechclinic.nl/en/journal/laser-donkere-huid",
+  "title": "Laser hair removal for dark skin: safe, effective, and inclusive | SkinTech Laser Clinic",
+  "desc": "Many clinics can't safely treat darker skin types. Our dual-wavelength laser can.",
+  "route": "journal",
+  "lang": "en",
+  "article": "laser-donkere-huid"
+ },
+ {
+  "file": "en/journal/huidverbetering-amsterdam.html",
+  "url": "https://skintechclinic.nl/en/journal/huidverbetering-amsterdam",
+  "title": "Skin improvement in Amsterdam: your complete guide | SkinTech Laser Clinic",
+  "desc": "From skin analysis to treatment plan — discover how professional skincare transforms your skin.",
+  "route": "journal",
+  "lang": "en",
+  "article": "huidverbetering-amsterdam"
+ }
+]

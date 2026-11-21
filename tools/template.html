@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="{{LANG}}" style="--bronze: #6E6359; --bronze-deep: #4A423A; --bronze-pale: #B5AA9D;">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+{{HEAD_META}}
+<meta name="robots" content="index, follow">
+
+
+
+<!-- Favicon -->
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#1A1613">
+
+<!-- Fonts -->
+<link rel="preload" href="/assets/fonts/cormorant-garamond-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+
+<!-- Stylesheet -->
+<link rel="stylesheet" href="/css/styles.min.css?v=b291cbdb">
+
+{{JSONLD}}
+
+
+
+<!-- Vercel Web Analytics -->
+<script>
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/insights/script.js"></script>
+<script defer src="/_vercel/speed-insights/script.js"></script>
+<!-- Error tracking: log JS errors to console and optionally to endpoint -->
+<script>
+window.addEventListener('error', function(e) {
+  var err = { msg: e.message, src: e.filename, line: e.lineno, col: e.colno, ts: new Date().toISOString() };
+  try { var errs = JSON.parse(sessionStorage.getItem('sk_errors') || '[]'); errs.push(err); if (errs.length > 10) errs.shift(); sessionStorage.setItem('sk_errors', JSON.stringify(errs)); } catch(x) {}
+});
+window.addEventListener('unhandledrejection', function(e) {
+  var err = { msg: 'Promise: ' + (e.reason && e.reason.message || String(e.reason)), ts: new Date().toISOString() };
+  try { var errs = JSON.parse(sessionStorage.getItem('sk_errors') || '[]'); errs.push(err); if (errs.length > 10) errs.shift(); sessionStorage.setItem('sk_errors', JSON.stringify(errs)); } catch(x) {}
+});
+</script>
+
+</head>
+<body>
+<a href="#app" class="skip-nav" style="position:absolute;top:-100px;left:16px;background:var(--ink);color:var(--cream);padding:12px 24px;z-index:9999;border-radius:0 0 8px 8px;font-size:14px;transition:top 0.2s;" onfocus="this.style.top='0'" onblur="this.style.top='-100px'" id="skipLink">{{SKIP}}</a>
+
+
+{{NAV}}
+
+{{MAIN}}
+
+
+
+
+<div id="modalHost"></div>
+<div id="tweaksPanel" class="tweaks-panel"></div>
+
+<div id="cookieBanner" class="cookie-banner" role="dialog" aria-label="{{COOKIE_LABEL}}">
+  <span id="cookieText">{{COOKIE_TEXT}}</span>
+  <div class="cookie-actions">
+    <button onclick="document.getElementById('cookieBanner').classList.add('hidden'); try{localStorage.setItem('sk_cookies','ok')}catch(e){}" class="btn-accept" id="cookieAccept">{{COOKIE_ACCEPT}}</button>
+    <button onclick="document.getElementById('cookieBanner').classList.add('hidden'); try{localStorage.setItem('sk_cookies','no')}catch(e){}" class="btn-decline" id="cookieDecline">{{COOKIE_DECLINE}}</button>
+  </div>
+</div>
+
+
+
+<!-- JavaScript: Data & Translations -->
+<script src="/js/data.min.js?v=d7b233fe"></script>
+
+<!-- JavaScript: Page Render Functions -->
+<script src="/js/pages.min.js?v=2fb91625"></script>
+
+<!-- JavaScript: Router, Booking & Initialization -->
+<script src="/js/app.min.js?v=c7012b98"></script>
+
+
+
+<!-- Service Worker registration -->
+<script>
+if ('serviceWorker' in navigator) { navigator.serviceWorker.register('/sw.js').catch(function(){}); }
+</script>
+</body>
+</html>

@@ -234,7 +234,64 @@ const FAQS = [
 
 let currentRoute = 'home';
 let bookingOpen = false;
-let currentLang = (()=>{ try { return localStorage.getItem('sk_lang') || 'nl'; } catch(e){ return 'nl'; } })();
+let currentArticle = null;
+/* The address decides the language: English lives under /en. */
+let currentLang = (()=>{ try { return /^\/en(\/|$|\.html$)/.test(window.location.pathname) ? 'en' : 'nl'; } catch(e){ return 'nl'; } })();
+
+/* ---- Addresses: every page and article has its own path ---- */
+const SITE_ORIGIN = 'https://skintechclinic.nl';
+const ROUTE_LIST = ['home','about','services','technology','results','faq','journal','contact','privacy','terms'];
+function pathFor(route, lang, article) {
+  var base = (lang || currentLang) === 'en' ? '/en' : '';
+  if (article) return base + '/journal/' + article;
+  if (!route || route === 'home') return base || '/';
+  return base + '/' + route;
+}
+function parsePath(pathname) {
+  var clean = String(pathname || '/').replace(/\.html$/, '').replace(/\/index$/, '').replace(/\/+$/, '');
+  var parts = clean.split('/').filter(Boolean);
+  var lang = 'nl';
+  if (parts[0] === 'en') { lang = 'en'; parts.shift(); }
+  var route = parts[0] || 'home';
+  if (route === 'index') route = 'home';
+  var article = (route === 'journal' && parts[1]) ? parts[1] : null;
+  if (ROUTE_LIST.indexOf(route) === -1 || parts.length > (article ? 2 : 1)) route = null;
+  return { lang: lang, route: route, article: article };
+}
+/* Heading levels for screen readers: the designs pick heading tags by size, which skips levels
+   (a main heading followed by a level 3 or 4). This keeps the tags and styles, and tells assistive
+   technology the real depth with aria-level. base = level of the heading the block sits under. */
+function outlineHeadings(html, base) {
+  var stack = base ? [{ tag: 0, level: base }] : [];
+  return String(html).replace(/<h([1-6])(\s[^>]*)?>/g, function(m, tag, attrs) {
+    var t = +tag;
+    while (stack.length && stack[stack.length - 1].tag >= t) stack.pop();
+    var level = stack.length ? stack[stack.length - 1].level + 1 : 1;
+    stack.push({ tag: t, level: level });
+    if (level === t || /aria-level=/.test(attrs || '')) return m;
+    return '<h' + tag + ' aria-level="' + level + '"' + (attrs || '') + '>';
+  });
+}
+const PAGE_TITLES = {
+  home:       { nl:'SkinTech Laser Clinic Amsterdam | Laserontharing en huidbehandelingen', en:'SkinTech Laser Clinic Amsterdam | Laser hair removal and skin treatments' },
+  about:      { nl:'Over ons | SkinTech Laser Clinic Amsterdam', en:'About us | SkinTech Laser Clinic Amsterdam' },
+  services:   { nl:'Behandelingen en tarieven | SkinTech Laser Clinic Amsterdam', en:'Treatments and prices | SkinTech Laser Clinic Amsterdam' },
+  technology: { nl:'Technologie | SkinTech Laser Clinic Amsterdam', en:'Technology | SkinTech Laser Clinic Amsterdam' },
+  results:    { nl:'Resultaten | SkinTech Laser Clinic Amsterdam', en:'Results | SkinTech Laser Clinic Amsterdam' },
+  faq:        { nl:'Veelgestelde vragen | SkinTech Laser Clinic Amsterdam', en:'Frequently asked questions | SkinTech Laser Clinic Amsterdam' },
+  journal:    { nl:'Journal | SkinTech Laser Clinic Amsterdam', en:'Journal | SkinTech Laser Clinic Amsterdam' },
+  contact:    { nl:'Contact en wachtlijst | SkinTech Laser Clinic Amsterdam', en:'Contact and waiting list | SkinTech Laser Clinic Amsterdam' },
+  privacy:    { nl:'Privacybeleid | SkinTech Laser Clinic', en:'Privacy policy | SkinTech Laser Clinic' },
+  terms:      { nl:'Algemene voorwaarden | SkinTech Laser Clinic', en:'Terms and conditions | SkinTech Laser Clinic' },
+};
+function pageTitle(route, lang, article) {
+  var l = lang || currentLang;
+  if (article) {
+    var a = ARTICLES.find(function(x) { return x.id === article; });
+    if (a) return (l === 'nl' ? a.titleNl : a.titleEn) + ' | SkinTech Laser Clinic';
+  }
+  return (PAGE_TITLES[route] || PAGE_TITLES.home)[l];
+}
 
 /* ---- Translation helper ---- */
 const T = {

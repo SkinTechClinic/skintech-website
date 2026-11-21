@@ -364,7 +364,7 @@ nav.site.on-dark .nav-book {
 }
 
 /* Small laptops: a more compact bar so nothing wraps or shrinks */
-@media (max-width: 1320px) {
+@media (max-width: 1400px) {
   .nav-links {
     gap: 24px;
   }
@@ -373,8 +373,35 @@ nav.site.on-dark .nav-book {
   }
 }
 
+/* Language switch in the bar, visible at every width */
+.nav-lang {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+}
+
+.nav-lang a {
+  padding: 8px 2px;
+  opacity: 0.72;
+  transition: opacity .2s;
+}
+
+.nav-lang a:hover, .nav-lang a.active {
+  opacity: 1;
+}
+
+.nav-lang a.active {
+  font-weight: 500;
+}
+
+.nav-lang span {
+  opacity: 0.4;
+}
+
 /* Tablets and phones: the menu button, with the links and both buttons in a readable panel */
-@media (max-width: 1150px) {
+@media (max-width: 1220px) {
   .nav-links {
     display: none;
   }
@@ -465,7 +492,7 @@ nav.site.on-dark .logo-img, footer.site .logo-img {
   filter: invert(1);
 }
 
-@media (max-width: 1320px) {
+@media (max-width: 1400px) {
   nav.site .logo-img {
     height: 110px;
   }
@@ -892,7 +919,8 @@ section {
   margin-bottom: 32px;
 }
 
-.journey-step h4 {
+.journey-step h4,
+.journey-step .journey-title {
   font-family: var(--serif);
   font-size: 26px;
   font-weight: 400;
@@ -1227,7 +1255,8 @@ footer.site {
   border-bottom: 1px solid var(--line-dark);
 }
 
-.footer-grid h5 {
+.footer-grid h5,
+.footer-grid .footer-title {
   font-size: 12px;
   letter-spacing: 0.16em;
   text-transform: uppercase;

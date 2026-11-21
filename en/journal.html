@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en" style="--bronze: #6E6359; --bronze-deep: #4A423A; --bronze-pale: #B5AA9D;">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Journal | SkinTech Laser Clinic Amsterdam</title>
+<meta name="description" content="Articles about skin care, treatments and the technology behind our approach. Written by the SkinTech team.">
+<link rel="canonical" href="https://skintechclinic.nl/en/journal">
+<link rel="alternate" hreflang="nl" href="https://skintechclinic.nl/journal">
+<link rel="alternate" hreflang="en" href="https://skintechclinic.nl/en/journal">
+<link rel="alternate" hreflang="x-default" href="https://skintechclinic.nl/journal">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Journal | SkinTech Laser Clinic Amsterdam">
+<meta property="og:description" content="Articles about skin care, treatments and the technology behind our approach. Written by the SkinTech team.">
+<meta property="og:url" content="https://skintechclinic.nl/en/journal">
+<meta property="og:site_name" content="SkinTech Laser Clinic">
+<meta property="og:image" content="https://skintechclinic.nl/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_GB">
+<meta property="og:locale:alternate" content="nl_NL">
+<meta name="robots" content="index, follow">
+
+
+
+<!-- Favicon -->
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#1A1613">
+
+<!-- Fonts -->
+<link rel="preload" href="/assets/fonts/cormorant-garamond-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+
+<!-- Stylesheet -->
+<link rel="stylesheet" href="/css/styles.min.css?v=e6d3df39">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://skintechclinic.nl/en"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Journal",
+      "item": "https://skintechclinic.nl/en/journal"
+    }
+  ]
+}
+</script>
+
+
+
+<!-- Vercel Web Analytics -->
+<script>
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/insights/script.js"></script>
+<script defer src="/_vercel/speed-insights/script.js"></script>
+<!-- Error tracking: log JS errors to console and optionally to endpoint -->
+<script>
+window.addEventListener('error', function(e) {
+  var err = { msg: e.message, src: e.filename, line: e.lineno, col: e.colno, ts: new Date().toISOString() };
+  try { var errs = JSON.parse(sessionStorage.getItem('sk_errors') || '[]'); errs.push(err); if (errs.length > 10) errs.shift(); sessionStorage.setItem('sk_errors', JSON.stringify(errs)); } catch(x) {}
+});
+window.addEventListener('unhandledrejection', function(e) {
+  var err = { msg: 'Promise: ' + (e.reason && e.reason.message || String(e.reason)), ts: new Date().toISOString() };
+  try { var errs = JSON.parse(sessionStorage.getItem('sk_errors') || '[]'); errs.push(err); if (errs.length > 10) errs.shift(); sessionStorage.setItem('sk_errors', JSON.stringify(errs)); } catch(x) {}
+});
+</script>
+
+</head>
+<body>
+<a href="#app" class="skip-nav" style="position:absolute;top:-100px;left:16px;background:var(--ink);color:var(--cream);padding:12px 24px;z-index:9999;border-radius:0 0 8px 8px;font-size:14px;transition:top 0.2s;" onfocus="this.style.top='0'" onblur="this.style.top='-100px'" id="skipLink">Skip to content</a>
+
+
+<nav class="site" id="siteNav" role="navigation" aria-label="Main navigation">
+  <a href="/en" class="logo" data-route="home">
+    <img class="logo-img" src="/assets/logo-v2.png" alt="SkinTech Laser Clinic · Amsterdam" width="852" height="419" fetchpriority="high">
+  </a>
+  <div class="nav-links">
+    <a href="/en" data-route="home" id="nl-home">Home</a>
+    <a href="/en/about" data-route="about" id="nl-about">About</a>
+    <a href="/en/services" data-route="services" id="nl-services">Treatments</a>
+    <a href="/en/technology" data-route="technology" id="nl-tech">Technology</a>
+    <a href="/en/faq" data-route="faq">FAQ</a>
+    <a href="/en/journal" data-route="journal" class="active" id="nl-journal">Journal</a>
+    <a href="/en/contact" data-route="contact">Contact</a>
+    <a href="#" class="nav-m-only nav-m-cta" data-book id="nl-m-book">Waiting list</a>
+    <a href="#" class="nav-m-only nav-m-cta outline" data-book="scan" id="nl-m-scan">Free skin scan</a>
+  </div>
+  <div class="nav-right">
+    <div class="nav-lang"><a href="/journal" data-lang="nl" hreflang="nl" lang="nl">NL</a><span aria-hidden="true">·</span><a href="/en/journal" data-lang="en" class="active" aria-current="true" hreflang="en" lang="en">EN</a></div>
+    <button class="nav-book" style="background:transparent; border:1px solid currentColor; color:currentColor;" onclick="openBooking('scan')" id="nl-scan">Free skin scan</button>
+    <button class="nav-book" onclick="openBooking()" id="nl-book">Waiting list</button>
+    <button class="mobile-toggle" onclick="toggleMobile()" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+  </div>
+</nav>
+
+<main id="app" role="main" tabindex="-1" data-page="journal" data-page-lang="en"><div class="page-enter">
+  <section class="page-head">
+    <div class="container">
+      <span class="eyebrow">— Journal</span>
+      <h1>Insights, tips and<br/><i>treatment knowledge.</i></h1>
+      <p class="lede">Articles about skin care, treatments and the technology behind our approach. Written by the SkinTech team.</p>
+    </div>
+  </section>
+
+  <section style="padding:80px 0 140px;">
+    <div class="container">
+      <div style="display:flex; gap:12px; margin-bottom:48px; flex-wrap:wrap;">
+        
+          <button class="btn btn-outline journal-filter" style="font-size:12px; padding:8px 18px;" onclick="filterJournal('all')" data-cat="all">
+            All
+          </button>
+        
+          <button class="btn btn-outline journal-filter" style="font-size:12px; padding:8px 18px;" onclick="filterJournal('Treatments')" data-cat="Treatments">
+            Treatments
+          </button>
+        
+          <button class="btn btn-outline journal-filter" style="font-size:12px; padding:8px 18px;" onclick="filterJournal('Skin Care')" data-cat="Skin Care">
+            Skin Care
+          </button>
+        
+          <button class="btn btn-outline journal-filter" style="font-size:12px; padding:8px 18px;" onclick="filterJournal('Tips')" data-cat="Tips">
+            Tips
+          </button>
+        
+          <button class="btn btn-outline journal-filter" style="font-size:12px; padding:8px 18px;" onclick="filterJournal('Comparison')" data-cat="Comparison">
+            Comparison
+          </button>
+        
+          <button class="btn btn-outline journal-filter" style="font-size:12px; padding:8px 18px;" onclick="filterJournal('Technology')" data-cat="Technology">
+            Technology
+          </button>
+        
+      </div>
+      <div class="journal-grid" style="display:grid; grid-template-columns:repeat(3, 1fr); gap:28px;" id="journalGrid">
+        
+          <article class="journal-card" data-cat="Treatments" data-article="laser-guide" style="cursor:pointer;">
+            <div style="aspect-ratio:16/10; border-radius:4px; overflow:hidden; margin-bottom:20px; background:var(--cream-deep);">
+              <img src="/assets/service-laser.webp" alt="" style="width:100%; height:100%; object-fit:cover;" loading="lazy"/>
+            </div>
+            <div style="display:flex; gap:16px; align-items:center; margin-bottom:12px;">
+              <span style="font-size:12px; letter-spacing:0.14em; text-transform:uppercase; color:var(--bronze-deep);">Treatments</span>
+              <span style="font-size:12px; color:var(--muted);">2026-05-01</span>
+            </div>
+            <h3 aria-level="2" style="font-family:var(--serif); font-size:20px; font-weight:400; line-height:1.25; margin-bottom:12px;"><a href="/en/journal/laser-guide">Laser hair removal: everything you need to know before your first session</a></h3>
+            <p style="font-size:13px; color:var(--muted); line-height:1.7; margin-bottom:16px;">From preparation to aftercare — a complete overview of what to expect from laser hair removal with the GentleMax Pro Plus.</p>
+            <span style="font-size:12px; color:var(--bronze-deep); letter-spacing:0.05em;">Read more →</span>
+          </article>
+        
+          <article class="journal-card" data-cat="Skin Care" data-article="skin-types" style="cursor:pointer;">
+            <div style="aspect-ratio:16/10; border-radius:4px; overflow:hidden; margin-bottom:20px; background:var(--cream-deep);">
+              <img src="/assets/service-scan.webp" alt="" style="width:100%; height:100%; object-fit:cover;" loading="lazy"/>
+            </div>
+            <div style="display:flex; gap:16px; align-items:center; margin-bottom:12px;">
+              <span style="font-size:12px; letter-spacing:0.14em; text-transform:uppercase; color:var(--bronze-deep);">Skin Care</span>
+              <span style="font-size:12px; color:var(--muted);">2026-04-28</span>
+            </div>
+            <h3 aria-level="2" style="font-family:var(--serif); font-size:20px; font-weight:400; line-height:1.25; margin-bottom:12px;"><a href="/en/journal/skin-types">Skin type I to VI: why it matters for your treatment</a></h3>
+            <p style="font-size:13px; color:var(--muted); line-height:1.7; margin-bottom:16px;">Not every skin responds the same way. We explain how we calibrate the GentleMax Pro Plus for every Fitzpatrick skin type.</p>
+            <span style="font-size:12px; color:var(--bronze-deep); letter-spacing:0.05em;">Read more →</span>
+          </article>
+        
+          <article class="journal-card" data-cat="Treatments" data-article="glace-glow" style="cursor:pointer;">
+            <div style="aspect-ratio:16/10; border-radius:4px; overflow:hidden; margin-bottom:20px; background:var(--cream-deep);">
+              <img src="/assets/service-glace.webp" alt="" style="width:100%; height:100%; object-fit:cover;" loading="lazy"/>
+            </div>
+            <div style="display:flex; gap:16px; align-items:center; margin-bottom:12px;">
+              <span style="font-size:12px; letter-spacing:0.14em; text-transform:uppercase; color:var(--bronze-deep);">Treatments</span>
+              <span style="font-size:12px; color:var(--muted);">2026-04-20</span>
+            </div>
+            <h3 aria-level="2" style="font-family:var(--serif); font-size:20px; font-weight:400; line-height:1.25; margin-bottom:12px;"><a href="/en/journal/glace-glow">Glacē Glow Facial: the science behind the glow</a></h3>
+            <p style="font-size:13px; color:var(--muted); line-height:1.7; margin-bottom:16px;">How the Candela Glacē uses vortex technology to cleanse, exfoliate, and make your skin glow.</p>
+            <span style="font-size:12px; color:var(--bronze-deep); letter-spacing:0.05em;">Read more →</span>
+          </article>
+        
+          <article class="journal-card" data-cat="Tips" data-article="prep-aftercare" style="cursor:pointer;">
+            <div style="aspect-ratio:16/10; border-radius:4px; overflow:hidden; margin-bottom:20px; background:var(--cream-deep);">
+              <img src="/assets/service-deep.webp" alt="" style="width:100%; height:100%; object-fit:cover;" loading="lazy"/>
+            </div>
+            <div style="display:flex; gap:16px; align-items:center; margin-bottom:12px;">
+              <span style="font-size:12px; letter-spacing:0.14em; text-transform:uppercase; color:var(--bronze-deep);">Tips</span>
+              <span style="font-size:12px; color:var(--muted);">2026-04-15</span>
+            </div>
+            <h3 aria-level="2" style="font-family:var(--serif); font-size:20px; font-weight:400; line-height:1.25; margin-bottom:12px;"><a href="/en/journal/prep-aftercare">Preparation and aftercare: how to get the most from your treatment</a></h3>
+            <p style="font-size:13px; color:var(--muted); line-height:1.7; margin-bottom:16px;">The right preparation and aftercare make all the difference. Our checklist for before and after every session.</p>
+            <span style="font-size:12px; color:var(--bronze-deep); letter-spacing:0.05em;">Read more →</span>
+          </article>
+        
+          <article class="journal-card" data-cat="Comparison" data-article="deep-vs-glace" style="cursor:pointer;">
+            <div style="aspect-ratio:16/10; border-radius:4px; overflow:hidden; margin-bottom:20px; background:var(--cream-deep);">
+              <img src="/assets/article-deep-vs-glace.webp" alt="" style="width:100%; height:100%; object-fit:cover;" loading="lazy"/>
+            </div>
+            <div style="display:flex; gap:16px; align-items:center; margin-bottom:12px;">
+              <span style="font-size:12px; letter-spacing:0.14em; text-transform:uppercase; color:var(--bronze-deep);">Comparison</span>
+              <span style="font-size:12px; color:var(--muted);">2026-04-10</span>
+            </div>
+            <h3 aria-level="2" style="font-family:var(--serif); font-size:20px; font-weight:400; line-height:1.25; margin-bottom:12px;"><a href="/en/journal/deep-vs-glace">Deep Cleansing vs. Glacē Glow: which facial suits you?</a></h3>
+            <p style="font-size:13px; color:var(--muted); line-height:1.7; margin-bottom:16px;">Two signature facials, each with a distinct purpose. We help you choose based on your skin type and goals.</p>
+            <span style="font-size:12px; color:var(--bronze-deep); letter-spacing:0.05em;">Read more →</span>
+          </article>
+        
+          <article class="journal-card" data-cat="Technology" data-article="sylton-scan" style="cursor:pointer;">
+            <div style="aspect-ratio:16/10; border-radius:4px; overflow:hidden; margin-bottom:20px; background:var(--cream-deep);">
+              <img src="/assets/sylton-scan-v2.webp" alt="" style="width:100%; height:100%; object-fit:cover;" loading="lazy"/>
+            </div>
+            <div style="display:flex; gap:16px; align-items:center; margin-bottom:12px;">
+              <span style="font-size:12px; letter-spacing:0.14em; text-transform:uppercase; color:var(--bronze-deep);">Technology</span>
+              <span style="font-size:12px; color:var(--muted);">2026-04-05</span>
+            </div>
+            <h3 aria-level="2" style="font-family:var(--serif); font-size:20px; font-weight:400; line-height:1.25; margin-bottom:12px;"><a href="/en/journal/sylton-scan">The Sylton Observ 520x: your skin in focus</a></h3>
+            <p style="font-size:13px; color:var(--muted); line-height:1.7; margin-bottom:16px;">What our skin scanner sees that the naked eye misses — and why that forms the foundation of every treatment plan.</p>
+            <span style="font-size:12px; color:var(--bronze-deep); letter-spacing:0.05em;">Read more →</span>
+          </article>
+        
+          <article class="journal-card" data-cat="Comparison" data-article="ipl-vs-laser" style="cursor:pointer;">
+            <div style="aspect-ratio:16/10; border-radius:4px; overflow:hidden; margin-bottom:20px; background:var(--cream-deep);">
+              <img src="/assets/article-ipl-vs-laser.webp" alt="" style="width:100%; height:100%; object-fit:cover;" loading="lazy"/>
+            </div>
+            <div style="display:flex; gap:16px; align-items:center; margin-bottom:12px;">
+              <span style="font-size:12px; letter-spacing:0.14em; text-transform:uppercase; color:var(--bronze-deep);">Comparison</span>
+              <span style="font-size:12px; color:var(--muted);">2026-05-01</span>
+            </div>
+            <h3 aria-level="2" style="font-family:var(--serif); font-size:20px; font-weight:400; line-height:1.25; margin-bottom:12px;"><a href="/en/journal/ipl-vs-laser">IPL vs. laser: what's the difference and which works better?</a></h3>
+            <p style="font-size:13px; color:var(--muted); line-height:1.7; margin-bottom:16px;">Intense Pulsed Light and true laser are often confused. We explain the scientific differences.</p>
+            <span style="font-size:12px; color:var(--bronze-deep); letter-spacing:0.05em;">Read more →</span>
+          </article>
+        
+          <article class="journal-card" data-cat="Skin Care" data-article="laser-donkere-huid" style="cursor:pointer;">
+            <div style="aspect-ratio:16/10; border-radius:4px; overflow:hidden; margin-bottom:20px; background:var(--cream-deep);">
+              <img src="/assets/article-laser-dark-skin.webp" alt="" style="width:100%; height:100%; object-fit:cover;" loading="lazy"/>
+            </div>
+            <div style="display:flex; gap:16px; align-items:center; margin-bottom:12px;">
+              <span style="font-size:12px; letter-spacing:0.14em; text-transform:uppercase; color:var(--bronze-deep);">Skin Care</span>
+              <span style="font-size:12px; color:var(--muted);">2026-04-30</span>
+            </div>
+            <h3 aria-level="2" style="font-family:var(--serif); font-size:20px; font-weight:400; line-height:1.25; margin-bottom:12px;"><a href="/en/journal/laser-donkere-huid">Laser hair removal for dark skin: safe, effective, and inclusive</a></h3>
+            <p style="font-size:13px; color:var(--muted); line-height:1.7; margin-bottom:16px;">Many clinics can't safely treat darker skin types. Our dual-wavelength laser can.</p>
+            <span style="font-size:12px; color:var(--bronze-deep); letter-spacing:0.05em;">Read more →</span>
+          </article>
+        
+          <article class="journal-card" data-cat="Skin Care" data-article="huidverbetering-amsterdam" style="cursor:pointer;">
+            <div style="aspect-ratio:16/10; border-radius:4px; overflow:hidden; margin-bottom:20px; background:var(--cream-deep);">
+              <img src="/assets/article-skin-amsterdam.webp" alt="" style="width:100%; height:100%; object-fit:cover;" loading="lazy"/>
+            </div>
+            <div style="display:flex; gap:16px; align-items:center; margin-bottom:12px;">
+              <span style="font-size:12px; letter-spacing:0.14em; text-transform:uppercase; color:var(--bronze-deep);">Skin Care</span>
+              <span style="font-size:12px; color:var(--muted);">2026-04-25</span>
+            </div>
+            <h3 aria-level="2" style="font-family:var(--serif); font-size:20px; font-weight:400; line-height:1.25; margin-bottom:12px;"><a href="/en/journal/huidverbetering-amsterdam">Skin improvement in Amsterdam: your complete guide</a></h3>
+            <p style="font-size:13px; color:var(--muted); line-height:1.7; margin-bottom:16px;">From skin analysis to treatment plan — discover how professional skincare transforms your skin.</p>
+            <span style="font-size:12px; color:var(--bronze-deep); letter-spacing:0.05em;">Read more →</span>
+          </article>
+        
+      </div>
+    </div>
+  </section>
+
+  <section style="padding:100px 0; background:var(--cream-deep); text-align:center;">
+    <div class="container-narrow">
+      <h2 style="font-family:var(--serif); font-size:clamp(32px,4vw,52px); font-weight:300; line-height:1.1; margin-bottom:20px;">
+        Want to stay <i style="color:var(--bronze-deep);">informed?</i>
+      </h2>
+      <p style="color:var(--muted); max-width:440px; margin:0 auto 32px; font-size:14px; line-height:1.7;">
+        Follow us on Instagram for tips, news and behind-the-scenes from the clinic.
+      </p>
+      <a href="https://instagram.com/skintech_nl" target="_blank" rel="noopener" class="btn btn-primary">Instagram →</a>
+    </div>
+  </section>
+  </div><footer class="site">
+    <div class="container">
+      <div class="footer-big">
+        Opening in the <i>second quarter of 2027</i> — <a href="#" data-book>join the waiting list →</a>
+      </div>
+      <div class="footer-grid">
+        <div>
+          <div class="logo" style="color:var(--cream); margin-bottom:24px;">
+            <img class="logo-img" src="/assets/logo-v2.png" alt="SkinTech Laser Clinic · Amsterdam" width="852" height="419" loading="lazy"/>
+          </div>
+          <p class="footer-addr">Premium laser and skin treatments<br/>in Amsterdam.<br/><br/>info@skintechclinic.nl<br/>+31 6 28 25 82 86</p>
+        </div>
+        <div>
+          <div class="footer-title">Treatments</div>
+          <ul>
+            <li><a href="/en/services" data-route="services">Laser Hair Removal</a></li>
+            <li><a href="/en/services" data-route="services">Deep Cleansing Facial</a></li>
+            <li><a href="/en/services" data-route="services">Glacē Glow Facial</a></li>
+            <li><a href="/en/services" data-route="services">Free skin scan</a></li>
+            <li><a href="/en/services" data-route="services">Tailored Treatment Plan</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-title">Clinic</div>
+          <ul>
+            <li><a href="/en/about" data-route="about">About</a></li>
+            <li><a href="/en/technology" data-route="technology">Technology</a></li>
+            <li><a href="/en/faq" data-route="faq">FAQ</a></li>
+            <li><a href="/en/journal" data-route="journal">Journal</a></li>
+            <li><a href="/en/contact" data-route="contact">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-title">Follow</div>
+          <ul>
+            <li><a href="https://instagram.com/skintech_nl" target="_blank" rel="noopener">Instagram</a></li>
+            <li><a href="https://wa.me/31628258286" target="_blank" rel="noopener">WhatsApp</a></li>
+            <li><a href="/journal" data-lang="nl" hreflang="nl" lang="nl" style="opacity:0.85;">NL</a> · <a href="/en/journal" data-lang="en" hreflang="en" lang="en" style="font-weight:500; color:var(--cream);">EN</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-legal">
+        <span>© 2026 SkinTech Laser Clinic · Amsterdam</span>
+        <span><a href="/en/privacy" data-route="privacy" style="color:inherit;">Privacy policy</a> · <a href="/en/terms" data-route="terms" style="color:inherit;">Terms</a> · KvK 42039525</span>
+      </div>
+    </div>
+  </footer></main>
+
+
+
+
+<div id="modalHost"></div>
+<div id="tweaksPanel" class="tweaks-panel"></div>
+
+<div id="cookieBanner" class="cookie-banner" role="dialog" aria-label="Cookie settings">
+  <span id="cookieText">We use cookies to improve your experience. By continuing you agree to our <a href="/en/privacy" data-route="privacy" style="color:inherit; text-decoration:underline;">cookie policy</a>.</span>
+  <div class="cookie-actions">
+    <button onclick="document.getElementById('cookieBanner').classList.add('hidden'); try{localStorage.setItem('sk_cookies','ok')}catch(e){}" class="btn-accept" id="cookieAccept">Accept</button>
+    <button onclick="document.getElementById('cookieBanner').classList.add('hidden'); try{localStorage.setItem('sk_cookies','no')}catch(e){}" class="btn-decline" id="cookieDecline">Decline</button>
+  </div>
+</div>
+
+
+
+<!-- JavaScript: Data & Translations -->
+<script src="/js/data.min.js?v=254736f7"></script>
+
+<!-- JavaScript: Page Render Functions -->
+<script src="/js/pages.min.js?v=7f4bf05d"></script>
+
+<!-- JavaScript: Router, Booking & Initialization -->
+<script src="/js/app.min.js?v=f8d7f79e"></script>
+
+
+
+<!-- Service Worker registration -->
+<script>
+if ('serviceWorker' in navigator) { navigator.serviceWorker.register('/sw.js').catch(function(){}); }
+</script>
+</body>
+</html>

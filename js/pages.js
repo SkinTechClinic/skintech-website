@@ -5,7 +5,7 @@
 function setLang(lang) {
   currentLang = lang;
   try { localStorage.setItem('sk_lang', lang); } catch(e) {}
-  navigate(currentRoute);
+  if (currentArticle) showArticle(currentArticle); else navigate(currentRoute);
 }
 
 function renderHome() {
@@ -23,7 +23,7 @@ function renderHome() {
     stat1: 'Behandelingen', stat2: 'Huidtypes behandeld', stat3: 'Specialist per cliënt',
     aboutEy: 'Over ons',
     aboutH: 'Waar technologie en<br/>huidverzorging <i>samenkomen.</i>',
-    aboutP: 'Bij SkinTech Laser Clinic combineren we hoogwaardige laser- en huidtechnologie met een persoonlijke, rustige benadering. Onze behandelingen zijn ontworpen voor mensen die duidelijke resultaten willen, maar ook comfort, veiligheid en vertrouwen belangrijk vinden.',
+    aboutP: 'Bij SkinTech Laser Clinic combineren we hoogwaardige laser- en huidtechnologie met een persoonlijke, rustige benadering. Onze laser- en huidbehandelingen zijn ontworpen voor mensen die duidelijke resultaten willen, maar ook comfort, veiligheid en vertrouwen belangrijk vinden.',
     svcEy: 'Behandelingen', svcH: 'Onze <i>behandelingen.</i>',
     svcP: 'Gerichte behandelingen voor ontharing, huidverbetering en een frisse, gezonde uitstraling.',
     whyEy: 'Waarom SkinTech',
@@ -73,7 +73,7 @@ function renderHome() {
     stat1: 'Treatments', stat2: 'Skin types treated', stat3: 'Specialist per client',
     aboutEy: 'About us',
     aboutH: 'Where technology and<br/>skin care <i>meet.</i>',
-    aboutP: 'At SkinTech Laser Clinic we combine advanced laser and skin technology with a personal, calm approach. Our treatments are designed for people who want clear results and also value comfort, safety and trust.',
+    aboutP: 'At SkinTech Laser Clinic we combine advanced laser and skin technology with a personal, calm approach. Our laser and skin treatments are designed for people who want clear results and also value comfort, safety and trust.',
     svcEy: 'Treatments', svcH: 'Our <i>treatments.</i>',
     svcP: 'Focused treatments for hair removal, skin improvement and a fresh, healthy appearance.',
     whyEy: 'Why SkinTech',
@@ -240,10 +240,10 @@ function renderHome() {
         <p>${c.journP}</p>
       </div>
       <div class="journey-steps">
-        <div class="journey-step"><div class="n">01</div><h4>${c.j1h}</h4><p>${c.j1p}</p></div>
-        <div class="journey-step"><div class="n">02</div><h4>${c.j2h}</h4><p>${c.j2p}</p></div>
-        <div class="journey-step"><div class="n">03</div><h4>${c.j3h}</h4><p>${c.j3p}</p></div>
-        <div class="journey-step"><div class="n">04</div><h4>${c.j4h}</h4><p>${c.j4p}</p></div>
+        <div class="journey-step"><div class="n">01</div><div class="journey-title">${c.j1h}</div><p>${c.j1p}</p></div>
+        <div class="journey-step"><div class="n">02</div><div class="journey-title">${c.j2h}</div><p>${c.j2p}</p></div>
+        <div class="journey-step"><div class="n">03</div><div class="journey-title">${c.j3h}</div><p>${c.j3p}</p></div>
+        <div class="journey-step"><div class="n">04</div><div class="journey-title">${c.j4h}</div><p>${c.j4p}</p></div>
       </div>
     </div>
   </section>
@@ -757,7 +757,7 @@ function renderJournal() {
       </div>
       <div class="journal-grid" style="display:grid; grid-template-columns:repeat(3, 1fr); gap:28px;" id="journalGrid">
         ${ARTICLES.map(a => `
-          <article class="journal-card" data-cat="${nl ? a.cat : a.catEn}" style="cursor:pointer;" onclick="showArticle('${a.id}')">
+          <article class="journal-card" data-cat="${nl ? a.cat : a.catEn}" data-article="${a.id}" style="cursor:pointer;">
             <div style="aspect-ratio:16/10; border-radius:4px; overflow:hidden; margin-bottom:20px; background:var(--cream-deep);">
               ${a.img ? `<img src="${a.img}" alt="" style="width:100%; height:100%; object-fit:cover;" loading="lazy"/>` : ''}
             </div>
@@ -765,7 +765,7 @@ function renderJournal() {
               <span style="font-size:12px; letter-spacing:0.14em; text-transform:uppercase; color:var(--bronze-deep);">${nl ? a.cat : a.catEn}</span>
               <span style="font-size:12px; color:var(--muted);">${a.date}</span>
             </div>
-            <h3 style="font-family:var(--serif); font-size:20px; font-weight:400; line-height:1.25; margin-bottom:12px;">${nl ? a.titleNl : a.titleEn}</h3>
+            <h3 style="font-family:var(--serif); font-size:20px; font-weight:400; line-height:1.25; margin-bottom:12px;"><a href="${pathFor('journal', null, a.id)}">${nl ? a.titleNl : a.titleEn}</a></h3>
             <p style="font-size:13px; color:var(--muted); line-height:1.7; margin-bottom:16px;">${nl ? a.excerptNl : a.excerptEn}</p>
             <span style="font-size:12px; color:var(--bronze-deep); letter-spacing:0.05em;">${c.readMore}</span>
           </article>
@@ -803,25 +803,13 @@ function filterJournal(cat) {
   });
 }
 
-function showArticle(id) {
+function renderArticle(id) {
   const a = ARTICLES.find(x => x.id === id);
-  if (!a) return;
-  // Lazy-load article content if not yet loaded
-  if (!_articlesLoaded) {
-    loadArticleContent().then(function() { showArticle(id); });
-    // Show loading state
-    const app = document.getElementById('app');
-    app.innerHTML = '<div style="padding:120px 0;text-align:center;"><p style="color:var(--muted);font-size:14px;">' + (currentLang==='nl'?'Artikel laden...':'Loading article...') + '</p></div>';
-    return;
-  }
+  if (!a) return '';
   const nl = currentLang === 'nl';
-  const content = ARTICLE_CONTENT[id];
+  const content = (typeof ARTICLE_CONTENT !== 'undefined' && ARTICLE_CONTENT) ? ARTICLE_CONTENT[id] : null;
   const body = content ? (nl ? content.bodyNl : content.bodyEn) : '';
-  const app = document.getElementById('app');
-  app.innerHTML = '';
-  const el = document.createElement('div');
-  el.className = 'page-enter';
-  el.innerHTML = `
+  return `
     <section class="page-head">
       <div class="container">
         <div style="margin-bottom:16px;">
@@ -847,13 +835,33 @@ function showArticle(id) {
       </div>
     </section>
   `;
+}
+
+function showArticle(id, opts) {
+  opts = opts || {};
+  const a = ARTICLES.find(x => x.id === id);
+  if (!a) return;
+  // Lazy-load article content if not yet loaded
+  if (!_articlesLoaded) {
+    loadArticleContent().then(function() { showArticle(id, opts); });
+    // Show loading state
+    const app = document.getElementById('app');
+    app.innerHTML = '<div style="padding:120px 0;text-align:center;"><p style="color:var(--muted);font-size:14px;">' + (currentLang==='nl'?'Artikel laden...':'Loading article...') + '</p></div>';
+    return;
+  }
+  currentRoute = 'journal';
+  currentArticle = id;
+  const app = document.getElementById('app');
+  app.innerHTML = '';
+  const el = document.createElement('div');
+  el.className = 'page-enter';
+  el.innerHTML = outlineHeadings(renderArticle(id));
+  app.appendChild(el);
   const footer = document.createElement('footer');
   footer.className = 'site';
-  footer.innerHTML = renderFooter();
-  el.appendChild(footer);
-  app.appendChild(el);
-  window.scrollTo(0, 0);
-  bindPageInteractions();
+  footer.innerHTML = outlineHeadings(renderFooter(), 1);
+  app.appendChild(footer);
+  afterRender(opts);
 }
 
 /* ===================== Contact ===================== */
@@ -915,7 +923,7 @@ function renderContact() {
           <div style="margin-top:16px; display:flex; gap:10px; align-items:flex-start;">
             <input type="checkbox" id="consent" required style="margin-top:4px; flex-shrink:0;">
             <label for="consent" style="font-size:12px; color:var(--muted); line-height:1.5; letter-spacing:0; text-transform:none;">
-              ${nl ? 'Ik ga akkoord met het <a href="#" onclick="event.preventDefault(); navigate(\'privacy\')" style="color:var(--bronze-deep); text-decoration:underline;">privacybeleid</a> en geef toestemming voor het verwerken van mijn gegevens.' : 'I agree to the <a href="#" onclick="event.preventDefault(); navigate(\'privacy\')" style="color:var(--bronze-deep); text-decoration:underline;">privacy policy</a> and consent to the processing of my data.'}
+              ${nl ? 'Ik ga akkoord met het <a href="' + pathFor('privacy') + '" data-route="privacy" style="color:var(--bronze-deep); text-decoration:underline;">privacybeleid</a> en geef toestemming voor het verwerken van mijn gegevens.' : 'I agree to the <a href="' + pathFor('privacy') + '" data-route="privacy" style="color:var(--bronze-deep); text-decoration:underline;">privacy policy</a> and consent to the processing of my data.'}
             </label>
           </div>
           <div style="margin-top:10px; display:flex; gap:10px; align-items:flex-start;">
@@ -1323,38 +1331,37 @@ function renderFooter() {
             : 'Premium laser and skin treatments<br/>in Amsterdam.<br/><br/>info@skintechclinic.nl<br/>+31 6 28 25 82 86'}</p>
         </div>
         <div>
-          <h5>${nl ? 'Behandelingen' : 'Treatments'}</h5>
+          <div class="footer-title">${nl ? 'Behandelingen' : 'Treatments'}</div>
           <ul>
-            <li><a href="#" data-route="services">${nl ? 'Laserontharing' : 'Laser Hair Removal'}</a></li>
-            <li><a href="#" data-route="services">Deep Cleansing Facial</a></li>
-            <li><a href="#" data-route="services">Glacē Glow Facial</a></li>
-            <li><a href="#" data-route="services">${nl ? 'Gratis huidscan' : 'Free skin scan'}</a></li>
-            <li><a href="#" data-route="services">${nl ? 'Op maat — behandelplan' : 'Tailored Treatment Plan'}</a></li>
+            <li><a href="${pathFor('services')}" data-route="services">${nl ? 'Laserontharing' : 'Laser Hair Removal'}</a></li>
+            <li><a href="${pathFor('services')}" data-route="services">Deep Cleansing Facial</a></li>
+            <li><a href="${pathFor('services')}" data-route="services">Glacē Glow Facial</a></li>
+            <li><a href="${pathFor('services')}" data-route="services">${nl ? 'Gratis huidscan' : 'Free skin scan'}</a></li>
+            <li><a href="${pathFor('services')}" data-route="services">${nl ? 'Op maat — behandelplan' : 'Tailored Treatment Plan'}</a></li>
           </ul>
         </div>
         <div>
-          <h5>${nl ? 'Kliniek' : 'Clinic'}</h5>
+          <div class="footer-title">${nl ? 'Kliniek' : 'Clinic'}</div>
           <ul>
-            <li><a href="#" data-route="about">${nl ? 'Over ons' : 'About'}</a></li>
-            <li><a href="#" data-route="technology">${nl ? 'Technologie' : 'Technology'}</a></li>
-            <li><a href="#" data-route="faq">FAQ</a></li>
-            <li><a href="#" data-route="journal">Journal</a></li>
-            <li><a href="#" data-route="contact">Contact</a></li>
+            <li><a href="${pathFor('about')}" data-route="about">${nl ? 'Over ons' : 'About'}</a></li>
+            <li><a href="${pathFor('technology')}" data-route="technology">${nl ? 'Technologie' : 'Technology'}</a></li>
+            <li><a href="${pathFor('faq')}" data-route="faq">FAQ</a></li>
+            <li><a href="${pathFor('journal')}" data-route="journal">Journal</a></li>
+            <li><a href="${pathFor('contact')}" data-route="contact">Contact</a></li>
           </ul>
         </div>
         <div>
-          <h5>${nl ? 'Volg ons' : 'Follow'}</h5>
+          <div class="footer-title">${nl ? 'Volg ons' : 'Follow'}</div>
           <ul>
             <li><a href="https://instagram.com/skintech_nl" target="_blank" rel="noopener">Instagram</a></li>
             <li><a href="https://wa.me/31628258286" target="_blank" rel="noopener">WhatsApp</a></li>
-            <li><a href="#">Journal — ${nl ? 'binnenkort' : 'coming soon'}</a></li>
-            <li><a href="#" onclick="event.preventDefault(); setLang('nl')" style="${currentLang==='nl'?'font-weight:500; color:var(--cream);':'opacity:0.85;'}">NL</a> · <a href="#" onclick="event.preventDefault(); setLang('en')" style="${currentLang==='en'?'font-weight:500; color:var(--cream);':'opacity:0.85;'}">EN</a></li>
+            <li><a href="${pathFor(currentRoute, 'nl', currentArticle)}" data-lang="nl" hreflang="nl" lang="nl" style="${currentLang==='nl'?'font-weight:500; color:var(--cream);':'opacity:0.85;'}">NL</a> · <a href="${pathFor(currentRoute, 'en', currentArticle)}" data-lang="en" hreflang="en" lang="en" style="${currentLang==='en'?'font-weight:500; color:var(--cream);':'opacity:0.85;'}">EN</a></li>
           </ul>
         </div>
       </div>
       <div class="footer-legal">
         <span>© 2026 SkinTech Laser Clinic · Amsterdam</span>
-        <span>${nl ? '<a href="#" onclick="event.preventDefault(); navigate(\'privacy\')" style="color:inherit;">Privacybeleid</a> · <a href="#" onclick="event.preventDefault(); navigate(\'terms\')" style="color:inherit;">Algemene voorwaarden</a> · KvK 42039525' : '<a href="#" onclick="event.preventDefault(); navigate(\'privacy\')" style="color:inherit;">Privacy policy</a> · <a href="#" onclick="event.preventDefault(); navigate(\'terms\')" style="color:inherit;">Terms</a> · KvK 42039525'}</span>
+        <span>${nl ? '<a href="' + pathFor('privacy') + '" data-route="privacy" style="color:inherit;">Privacybeleid</a> · <a href="' + pathFor('terms') + '" data-route="terms" style="color:inherit;">Algemene voorwaarden</a> · KvK 42039525' : '<a href="' + pathFor('privacy') + '" data-route="privacy" style="color:inherit;">Privacy policy</a> · <a href="' + pathFor('terms') + '" data-route="terms" style="color:inherit;">Terms</a> · KvK 42039525'}</span>
       </div>
     </div>
   `;
