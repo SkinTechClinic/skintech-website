@@ -16,13 +16,13 @@ bodyNl: `
 <p>Er zijn drie dominante lasertypes op de markt voor ontharing. Elk heeft specifieke eigenschappen:</p>
 
 <p><strong>Alexandrite-laser (755 nm)</strong><br/>
-De gouden standaard voor laserontharing bij lichtere huidtypen (Fitzpatrick I–III). De 755 nm golflengte wordt sterk geabsorbeerd door melanine, wat resulteert in een hoge effectiviteit per sessie. De Alexandrite biedt doorgaans de snelste haarreductie bij geschikte huidtypen. Klinische studies rapporteren een haarreductie van 74–84% na 3–4 sessies bij Fitzpatrick I–III (<a href="https://doi.org/10.1067/mjd.2000.106347" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Eremia et al., 2001, <em>Dermatologic Surgery</em></a>).</p>
+De 755 nm golflengte wordt sterk geabsorbeerd door melanine en wordt vooral gebruikt bij lichtere huidtypen (Fitzpatrick I–III). In een dossieronderzoek onder 89 mensen was de gemiddelde haarreductie 74% na gemiddeld 5,6 behandelingen met een alexandrietlaser (Eremia et al., 2001, <em>Dermatologic Surgery</em>). Zulke cijfers komen uit afzonderlijke studies en zijn geen voorspelling van jouw resultaat.</p>
 
 <p><strong>Nd:YAG-laser (1064 nm)</strong><br/>
 De langere golflengte penetreert dieper in de huid en wordt minder geabsorbeerd door epidermaal melanine. Dit maakt de Nd:YAG de veiligste keuze voor donkere huidtypen (Fitzpatrick IV–VI), waar het risico op hyperpigmentatie en brandwonden bij kortere golflengtes significant hoger is (<a href="https://doi.org/10.1111/j.1524-4725.2009.01181.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Alster & Bryan, 2009, <em>Dermatologic Surgery</em></a>).</p>
 
 <p><strong>Diodelaser (800–810 nm)</strong><br/>
-De diodelaser zit qua golflengte tussen de Alexandrite en Nd:YAG. Het is de meest verspreide technologie in budget- en franchiseklinieken vanwege de lagere aanschafkosten. Hoewel de diodelaser effectief kan zijn, tonen vergelijkende studies aan dat de Alexandrite een significant hogere haarreductie per sessie oplevert bij lichtere huidtypen. Handrick et al. (2001) vonden in een direct vergelijkend onderzoek dat de Alexandrite (755 nm) een hogere klinische effectiviteit toonde dan de diodelaser (800 nm) na drie behandelingen (<a href="https://doi.org/10.1046/j.1524-4725.2001.00337.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Handrick & Alster, 2001, <em>Dermatologic Surgery</em></a>).</p>
+De diodelaser zit qua golflengte tussen de Alexandrite en Nd:YAG. Het is de meest verspreide technologie in budget- en franchiseklinieken vanwege de lagere aanschafkosten. Hoewel de diodelaser effectief kan zijn, tonen vergelijkende studies aan dat de Alexandrite een significant hogere haarreductie per sessie oplevert bij lichtere huidtypen. Handrick et al. (2001) vonden in een direct vergelijkend onderzoek dat de Alexandrite (755 nm) een hogere klinische effectiviteit toonde dan de diodelaser (800 nm) na drie behandelingen (<a href="https://doi.org/10.1046/j.1524-4725.2001.00338.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Handrick & Alster, 2001, <em>Dermatologic Surgery</em></a>).</p>
 
 <h3>Waarom SkinTech kiest voor de GentleMax Pro Plus</h3>
 <p>De Candela GentleMax Pro Plus is een duaal-golflengte platform dat zowel de 755 nm Alexandrite als de 1064 nm Nd:YAG combineert in één systeem. Dit betekent dat de specialist per sessie — en zelfs per behandelzone — de optimale golflengte kan selecteren. Voor een cliënt met Fitzpatrick III huid kan de specialist de Alexandrite gebruiken op het lichaam en overschakelen naar de Nd:YAG voor zones met meer pigmentatie.</p>
@@ -31,7 +31,7 @@ De diodelaser zit qua golflengte tussen de Alexandrite en Nd:YAG. Het is de mees
 
 <h3>De haargroeicyclus en behandelfrequentie</h3>
 <p>Menselijk haar groeit in drie fasen: <strong>anageen</strong> (actieve groei, 2–7 jaar op de hoofdhuid, korter elders), <strong>catageen</strong> (overgang, 2–3 weken) en <strong>telogeen</strong> (rust, 2–4 maanden). Alleen haar in de anagene fase bevat voldoende melanine en is fysiek verbonden met de papil om effectief door de laser te worden bereikt.</p>
-<p>Omdat slechts 20–30% van het haar zich tegelijkertijd in de anagene fase bevindt, zijn gemiddeld 6–8 sessies nodig met tussenpozen van 4–8 weken, afhankelijk van het lichaamsdeel. Na een volledige behandelreeks rapporteren meta-analyses een langdurige haarreductie van 70–90% (<a href="https://doi.org/10.1111/j.1468-3083.2006.01499.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Haedersdal & Wulf, 2006, <em>JEADV</em></a>).</p>
+<p>Niet alle haren zitten tegelijk in de anagene fase. Daarom zijn er meerdere sessies nodig, meestal zes tot acht, met tussenpozen van 4–8 weken, afhankelijk van het lichaamsdeel. Na herhaalde behandelingen is er bewijs voor een gedeeltelijke haarreductie die langer dan zes maanden aanhoudt; bewijs voor volledige en blijvende haarverwijdering is er niet (<a href="https://doi.org/10.1111/j.1468-3083.2005.01327.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Haedersdal & Wulf, 2006, <em>JEADV</em></a>).</p>
 
 <h3>Voorbereiding op uw sessie</h3>
 <p>Voor een goede voorbereiding op laserontharing geldt in het algemeen: scheer het behandelgebied 24 uur voor de sessie (de follikel moet intact blijven onder het oppervlak). Stop minimaal 4–6 weken vooraf met waxen, epileren of plukken. Vermijd intensieve zonblootstelling en zelfbruiners 2 weken vooraf. Pauzeer retinol en AHA/BHA-producten 3–5 dagen voor de behandeling.</p>
@@ -46,11 +46,11 @@ De diodelaser zit qua golflengte tussen de Alexandrite en Nd:YAG. Het is de mees
 <ol style="font-size:13px; color:var(--muted); line-height:2;">
 <li>Anderson, R.R. & Parrish, J.A. (1983). Selective photothermolysis: precise microsurgery by selective absorption of pulsed radiation. <em>Science</em>, 220(4596), 524–527. <a href="https://doi.org/10.1126/science.6823544" target="_blank" rel="noopener" style="color:var(--bronze-deep);">DOI</a></li>
 <li>Grossman, M.C. et al. (1996). Damage to hair follicles by normal-mode ruby laser pulses. <em>JAAD</em>, 35(6), 889–894. <a href="https://doi.org/10.1016/s0190-9622(96)90747-6" target="_blank" rel="noopener" style="color:var(--bronze-deep);">DOI</a></li>
-<li>Eremia, S. et al. (2001). Laser hair removal: long-term results with a 755 nm alexandrite laser. <em>Dermatologic Surgery</em>, 27(11), 920–924. <a href="https://doi.org/10.1067/mjd.2000.106347" target="_blank" rel="noopener" style="color:var(--bronze-deep);">DOI</a></li>
+<li>Eremia, S. et al. (2001). Laser hair removal: long-term results with a 755 nm alexandrite laser. <em>Dermatologic Surgery</em>, 27(11), 920–924.</li>
 <li>Alster, T.S. & Bryan, H. (2009). Laser treatment of dark skin. <em>Dermatologic Surgery</em>, 35(1), 11–20. <a href="https://doi.org/10.1111/j.1524-4725.2009.01181.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">DOI</a></li>
-<li>Handrick, C. & Alster, T.S. (2001). Comparison of long-pulsed diode and long-pulsed alexandrite lasers for hair removal. <em>Dermatologic Surgery</em>, 27(7), 622–626. <a href="https://doi.org/10.1046/j.1524-4725.2001.00337.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">DOI</a></li>
+<li>Handrick, C. & Alster, T.S. (2001). Comparison of long-pulsed diode and long-pulsed alexandrite lasers for hair removal. <em>Dermatologic Surgery</em>, 27(7), 622–626. <a href="https://doi.org/10.1046/j.1524-4725.2001.00338.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">DOI</a></li>
 <li>Raulin, C. et al. (2000). Laser hair removal with the GentleLASE. <em>Lasers in Surgery and Medicine</em>, 27(5), 455–460. <a href="https://doi.org/10.1067/mjd.2000.107939" target="_blank" rel="noopener" style="color:var(--bronze-deep);">DOI</a></li>
-<li>Haedersdal, M. & Wulf, H.C. (2006). Evidence-based review of hair removal using lasers and light sources. <em>JEADV</em>, 20(1), 9–20. <a href="https://doi.org/10.1111/j.1468-3083.2006.01499.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">DOI</a></li>
+<li>Haedersdal, M. & Wulf, H.C. (2006). Evidence-based review of hair removal using lasers and light sources. <em>JEADV</em>, 20(1), 9–20. <a href="https://doi.org/10.1111/j.1468-3083.2005.01327.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">DOI</a></li>
 <li>Gan, S.D. & Graber, E.M. (2013). Laser hair removal: a review. <em>Dermatologic Surgery</em>, 39(6), 823–838. <a href="https://doi.org/10.1111/dsu.12130" target="_blank" rel="noopener" style="color:var(--bronze-deep);">DOI</a></li>
 </ol>
 `,
@@ -65,13 +65,13 @@ bodyEn: `
 <p>Three dominant laser types exist for hair removal, each with distinct properties:</p>
 
 <p><strong>Alexandrite laser (755 nm)</strong><br/>
-The gold standard for laser hair removal on lighter skin types (Fitzpatrick I–III). The 755 nm wavelength is strongly absorbed by melanin, resulting in high efficacy per session. The Alexandrite typically offers the fastest hair reduction in suitable skin types. Clinical studies report 74–84% hair reduction after 3–4 sessions in Fitzpatrick I–III (<a href="https://doi.org/10.1067/mjd.2000.106347" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Eremia et al., 2001, <em>Dermatologic Surgery</em></a>).</p>
+The 755 nm wavelength is strongly absorbed by melanin and is mainly used on lighter skin types (Fitzpatrick I–III). In a review of the records of 89 people, mean hair reduction was 74% after an average of 5.6 treatments with an alexandrite laser (Eremia et al., 2001, <em>Dermatologic Surgery</em>). Figures like these come from individual studies and do not predict your result.</p>
 
 <p><strong>Nd:YAG laser (1064 nm)</strong><br/>
 The longer wavelength penetrates deeper into the skin and is less absorbed by epidermal melanin. This makes the Nd:YAG the safest choice for darker skin types (Fitzpatrick IV–VI), where the risk of hyperpigmentation and burns with shorter wavelengths is significantly higher (<a href="https://doi.org/10.1111/j.1524-4725.2009.01181.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Alster & Bryan, 2009, <em>Dermatologic Surgery</em></a>).</p>
 
 <p><strong>Diode laser (800–810 nm)</strong><br/>
-The diode laser sits between the Alexandrite and Nd:YAG in wavelength. It is the most widespread technology in budget and franchise clinics due to lower acquisition costs. While the diode laser can be effective, comparative studies show the Alexandrite achieves significantly higher hair reduction per session in lighter skin types. Handrick et al. (2001) found in a direct comparative study that the Alexandrite (755 nm) showed higher clinical efficacy than the diode laser (800 nm) after three treatments (<a href="https://doi.org/10.1046/j.1524-4725.2001.00337.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Handrick & Alster, 2001, <em>Dermatologic Surgery</em></a>).</p>
+The diode laser sits between the Alexandrite and Nd:YAG in wavelength. It is the most widespread technology in budget and franchise clinics due to lower acquisition costs. While the diode laser can be effective, comparative studies show the Alexandrite achieves significantly higher hair reduction per session in lighter skin types. Handrick et al. (2001) found in a direct comparative study that the Alexandrite (755 nm) showed higher clinical efficacy than the diode laser (800 nm) after three treatments (<a href="https://doi.org/10.1046/j.1524-4725.2001.00338.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Handrick & Alster, 2001, <em>Dermatologic Surgery</em></a>).</p>
 
 <h3>Why SkinTech chose the GentleMax Pro Plus</h3>
 <p>The Candela GentleMax Pro Plus is a dual-wavelength platform combining both the 755 nm Alexandrite and 1064 nm Nd:YAG in one system. This means the specialist can select the optimal wavelength per session — and even per treatment zone. For a Fitzpatrick III client, the specialist can use the Alexandrite on the body and switch to the Nd:YAG for zones with more pigmentation.</p>
@@ -80,7 +80,7 @@ The diode laser sits between the Alexandrite and Nd:YAG in wavelength. It is the
 
 <h3>The hair growth cycle and treatment frequency</h3>
 <p>Human hair grows in three phases: <strong>anagen</strong> (active growth), <strong>catagen</strong> (transition) and <strong>telogen</strong> (rest). Only hair in the anagen phase contains sufficient melanin and is physically connected to the papilla to be effectively targeted by the laser.</p>
-<p>Since only 20–30% of hair is in the anagen phase at any given time, an average of 6–8 sessions are needed at 4–8 week intervals. After a complete treatment course, meta-analyses report long-term hair reduction of 70–90% (<a href="https://doi.org/10.1111/j.1468-3083.2006.01499.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Haedersdal & Wulf, 2006, <em>JEADV</em></a>).</p>
+<p>Hairs are never all in the anagen phase at the same time. That is why several sessions are needed, usually six to eight, at 4–8 week intervals depending on the body area. After repeated treatments there is evidence of a partial hair reduction that lasts longer than six months; there is no evidence of complete and lasting hair removal (<a href="https://doi.org/10.1111/j.1468-3083.2005.01327.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Haedersdal & Wulf, 2006, <em>JEADV</em></a>).</p>
 
 <h3>Preparation</h3>
 <p>To prepare well for laser hair removal, the general advice is: shave the treatment area 24 hours before the session. Stop waxing, epilating or plucking at least 4–6 weeks beforehand. Avoid intense sun exposure and self-tanners for 2 weeks prior. Pause retinol and AHA/BHA products 3–5 days before treatment.</p>
@@ -95,11 +95,11 @@ The diode laser sits between the Alexandrite and Nd:YAG in wavelength. It is the
 <ol style="font-size:13px; color:var(--muted); line-height:2;">
 <li>Anderson, R.R. & Parrish, J.A. (1983). Selective photothermolysis. <em>Science</em>, 220(4596), 524–527. <a href="https://doi.org/10.1126/science.6823544" target="_blank" rel="noopener" style="color:var(--bronze-deep);">DOI</a></li>
 <li>Grossman, M.C. et al. (1996). Damage to hair follicles by normal-mode ruby laser pulses. <em>JAAD</em>, 35(6), 889–894. <a href="https://doi.org/10.1016/s0190-9622(96)90747-6" target="_blank" rel="noopener" style="color:var(--bronze-deep);">DOI</a></li>
-<li>Eremia, S. et al. (2001). Laser hair removal with a 755 nm alexandrite laser. <em>Dermatologic Surgery</em>, 27(11), 920–924. <a href="https://doi.org/10.1067/mjd.2000.106347" target="_blank" rel="noopener" style="color:var(--bronze-deep);">DOI</a></li>
+<li>Eremia, S. et al. (2001). Laser hair removal with a 755 nm alexandrite laser. <em>Dermatologic Surgery</em>, 27(11), 920–924.</li>
 <li>Alster, T.S. & Bryan, H. (2009). Laser treatment of dark skin. <em>Dermatologic Surgery</em>, 35(1), 11–20. <a href="https://doi.org/10.1111/j.1524-4725.2009.01181.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">DOI</a></li>
-<li>Handrick, C. & Alster, T.S. (2001). Comparison of diode and alexandrite lasers. <em>Dermatologic Surgery</em>, 27(7), 622–626. <a href="https://doi.org/10.1046/j.1524-4725.2001.00337.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">DOI</a></li>
+<li>Handrick, C. & Alster, T.S. (2001). Comparison of diode and alexandrite lasers. <em>Dermatologic Surgery</em>, 27(7), 622–626. <a href="https://doi.org/10.1046/j.1524-4725.2001.00338.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">DOI</a></li>
 <li>Raulin, C. et al. (2000). Laser hair removal with the GentleLASE. <em>Lasers in Surgery and Medicine</em>, 27(5), 455–460. <a href="https://doi.org/10.1067/mjd.2000.107939" target="_blank" rel="noopener" style="color:var(--bronze-deep);">DOI</a></li>
-<li>Haedersdal, M. & Wulf, H.C. (2006). Evidence-based review of hair removal. <em>JEADV</em>, 20(1), 9–20. <a href="https://doi.org/10.1111/j.1468-3083.2006.01499.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">DOI</a></li>
+<li>Haedersdal, M. & Wulf, H.C. (2006). Evidence-based review of hair removal. <em>JEADV</em>, 20(1), 9–20. <a href="https://doi.org/10.1111/j.1468-3083.2005.01327.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">DOI</a></li>
 <li>Gan, S.D. & Graber, E.M. (2013). Laser hair removal: a review. <em>Dermatologic Surgery</em>, 39(6), 823–838. <a href="https://doi.org/10.1111/dsu.12130" target="_blank" rel="noopener" style="color:var(--bronze-deep);">DOI</a></li>
 </ol>
 `
@@ -299,7 +299,7 @@ bodyEn: `
 
 <h3>Haargroei-cyclus en sessie-interval</h3>
 
-<p>Menselijk haargroei volgt drie fasen: anagen (actieve groei, 2-7 jaar), catagen (overgangsperiode, 2-3 weken), en telogen (rustfase, 2-3 maanden). Lasers zijn alleen effectief op haren in de anagenfase, wanneer melanine in de haarmatrix aanwezig is voor laserenergieabsorptie. Slechts 10-15% van de haargroei bevindt zich tegelijk in de anagenfase, daarom zijn 6-8 sessies nodig voor volledige haarverwijdering.</p>
+<p>Menselijk haargroei volgt drie fasen: anagen (actieve groei, 2-7 jaar), catagen (overgangsperiode, 2-3 weken), en telogen (rustfase, 2-3 maanden). Lasers zijn alleen effectief op haren in de anagenfase, wanneer melanine in de haarmatrix aanwezig is voor laserenergieabsorptie. Omdat nooit alle haren tegelijk in de anagenfase zitten, is een reeks behandelingen nodig voor een langdurige haarreductie.</p>
 
 <p>De intervalperiode varieert op basis van lichaamslokalisatie en haartype. Gezichtshaar groeit sneller (interval 4-6 weken) dan beenhaar (interval 8-12 weken). Bikinizone en axillen groeien met intermediaire snelheid (interval 6-8 weken). Bij rug- en schouderhaar worden langere intervallen aanbevolen (8-10 weken) vanwege trage haargroei in deze gebieden.</p>
 
@@ -342,10 +342,6 @@ bodyEn: `
   </tbody>
 </table>
 
-<h3>Wetenschappelijke ondersteuning</h3>
-
-<p>Langdurige haarverwijdering door lasergebruik is gedocumenteerd door <a href="https://doi.org/10.1001/archderm.135.6.637" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Dierickx et al., 1999, Archives of Dermatology</a>, waaruit blijkt dat alexandriet-lasers aanzienlijke langdurige haarvermindering veroorzaken. <a href="https://doi.org/10.1046/j.1440-0960.2002.00580.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Liew, 2002, Australasian Journal of Dermatology</a> benadrukt het belang van correcte nazorg ter voorkoming van bijwerkingen. Een uitgebreide review door <a href="https://doi.org/10.1111/j.1600-0625.2006.00437.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Haedersdal & Wulf, 2006, Experimental Dermatology</a> beveelt evidence-based voorbereiding en nazorg aan. Voor moderne technologie raadplegen wij <a href="https://doi.org/10.1111/dsu.12290" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Gan & Graber, 2013, Dermatologic Surgery</a> over kwaliteitsgestandaardiseerde lasersystemen.</p>
-
 <p>Met een goede voorbereiding en nazorg ga je met vertrouwen een laserbehandeling in. Bij SkinTech Laser Clinic Amsterdam kan dat vanaf onze opening, gepland in het tweede kwartaal van 2027.</p>`,
 
     bodyEn: `<h3>Preparation and Aftercare for Laser Treatments and Facial Procedures</h3>
@@ -382,7 +378,7 @@ bodyEn: `
 
 <h3>Hair Growth Cycle and Treatment Intervals</h3>
 
-<p>Human hair growth follows three phases: anagen (active growth, 2-7 years), catagen (transition, 2-3 weeks), and telogen (resting phase, 2-3 months). Lasers are only effective on anagen-phase hairs, when melanin concentrations are highest in the hair matrix for optimal energy absorption. Only 10-15% of total hair is simultaneously in anagen phase, necessitating 6-8 sessions for complete hair elimination.</p>
+<p>Human hair growth follows three phases: anagen (active growth, 2-7 years), catagen (transition, 2-3 weeks), and telogen (resting phase, 2-3 months). Lasers are only effective on anagen-phase hairs, when melanin concentrations are highest in the hair matrix for optimal energy absorption. Because hairs are never all in the anagen phase at the same time, a series of treatments is needed for long-term hair reduction.</p>
 
 <p>Treatment intervals vary by body location and hair characteristics. Facial hair grows faster (4-6 week intervals) than leg hair (8-12 week intervals). Bikini zone and underarm hair follow intermediate growth cycles (6-8 week intervals). Back and shoulder hair requires longer intervals (8-10 weeks) due to slower growth rates in these areas.</p>
 
@@ -424,10 +420,6 @@ bodyEn: `
     </tr>
   </tbody>
 </table>
-
-<h3>Scientific Foundation</h3>
-
-<p>Long-term laser hair removal efficacy is established by <a href="https://doi.org/10.1001/archderm.135.6.637" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Dierickx et al., 1999, Archives of Dermatology</a>, demonstrating significant long-term hair reduction using alexandrite lasers. <a href="https://doi.org/10.1046/j.1440-0960.2002.00580.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Liew, 2002, Australasian Journal of Dermatology</a> emphasizes proper aftercare protocols for complication prevention. A comprehensive evidence review by <a href="https://doi.org/10.1111/j.1600-0625.2006.00437.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Haedersdal & Wulf, 2006, Experimental Dermatology</a> recommends evidence-based preparation and aftercare. For contemporary systems, we reference <a href="https://doi.org/10.1111/dsu.12290" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Gan & Graber, 2013, Dermatologic Surgery</a> on quality-switched laser technologies.</p>
 
 <p>With good preparation and aftercare, you go into a laser treatment with confidence. At SkinTech Laser Clinic Amsterdam that will be possible from our opening, planned for the second quarter of 2027.</p>`
   },
@@ -795,272 +787,88 @@ bodyEn: `
 
   'ipl-vs-laser': {
     bodyNl: `
-<h3>IPL vs Laserhaarverlies — Wat is het Verschil en Welke is Beter?</h3>
+<p>IPL en laser worden vaak in één adem genoemd, en soms heet het allebei gewoon 'laseren'. Toch zijn het twee verschillende technieken. Hier lees je wat het verschil is, wat onderzoek over de resultaten zegt en waarom wij met een laser gaan werken.</p>
 
-<p>Wie zich in ontharing verdiept, komt al snel bij dezelfde vraag uit: "Wat is het verschil tussen IPL en laser, en welke moet ik kiezen?" Het antwoord ligt in fysica, niet slechts marketing. IPL en medische lasers zijn fundamenteel verschillende technologieën, met verschillende werkingsmechanismen, effectiviteit en veiligheid. Dit artikel legt de wetenschappelijke verschillen uit en verklaart waarom SkinTech voor een medisch lasersysteem heeft gekozen.</p>
+<h3>Wat is IPL?</h3>
 
-<h4>IPL: Intense Pulsed Light</h4>
+<p>IPL staat voor Intense Pulsed Light. Het is een flitslamp en officieel geen laser, schrijft de Nederlandse Vereniging voor Dermatologie en Venereologie (NVDV). Een IPL-apparaat geeft licht van meerdere golflengten tegelijk, een laser licht van één golflengte. Filters houden bij IPL het deel van het licht tegen dat niet nodig is.</p>
 
-<p>IPL (Intense Pulsed Light) is geen echte laser. Het is een brede-spectrum lichtbron die golflengten van 500 tot 1200 nanometer (nm) uitzendt — een breed bereik van zichtbare en infrarode licht. Dit spectrum wordt gefilterd om bepaalde golflengten te selecteren, maar het licht blijft incoherent: de fotonen zijn niet in fase met elkaar en de energiedistributie over het behandelgebied is ongelijkmatig.</p>
+<h3>Wat is een laser?</h3>
 
-<p>IPL-energie wordt aangemeten in fluence (joules per vierkante centimeter, J/cm²). Thuisapparaten leveren 5-7 J/cm² af; professionele IPL-systemen bereiken 20-40 J/cm². Dit spectrum en deze energieniveaus maken IPL geschikt voor pigmentatie- en vaatproblemen, maar minder optimaal voor haarverlies.</p>
+<p>Een laser geeft licht van één golflengte. Voor ontharing is die zo gekozen dat het pigment in de haar het licht goed opneemt. De warmte die daarbij ontstaat, beschadigt het haarzakje. De GentleMax Pro Plus, het apparaat waarmee wij gaan werken, heeft twee lasers: een alexandrietlaser (755 nm) en een Nd:YAG-laser (1064 nm).</p>
 
-<h4>Medische Lasers: Coherente, Gerichte Energie</h4>
+<h3>Wat zegt het onderzoek over de resultaten?</h3>
 
-<p>Een medische laser produceert licht van een enkele welbepaalde golflengte (bijvoorbeeld 755 nm voor alexandriet of 1064 nm voor Nd:YAG). Dit licht is coherent: alle fotonen bewegen in fase, wat resulteert in een scherpe, zeer geconcentreerde bundel. Dit focusgedrag stelt lasers in staat om energie zeer nauwkeurig op haarvollicles en melanine in haarbronnen af te leveren.</p>
+<p>Beide technieken verminderen haargroei. In een gerandomiseerde studie uit 2013 kregen dertig mensen in de ene oksel een diodelaser en in de andere IPL. Een jaar na de laatste behandeling was het aantal haren aan de laserkant gemiddeld met 69 procent afgenomen en aan de IPL-kant met 53 procent. De laserbehandeling deed wel meer pijn.</p>
 
-<h4>Kernverschillen: Natuurkunde Zaken</h4>
+<p>Het bewijs is dun. De onderzoekers schrijven zelf dat er maar weinig gerandomiseerde vergelijkingen tussen laser en IPL bestaan. Een overzicht uit 2006 vond na herhaalde behandelingen met alexandriet- en diodelasers bewijs voor een haarreductie die langer dan zes maanden aanhoudt. Voor IPL ontbrak dat bewijs voor de lange termijn toen nog. En de studie uit 2013 vergeleek IPL met een diodelaser, niet met de lasers in ons apparaat.</p>
 
-<p><strong>Coherentie en Energiedistributie</strong> — Laserenergie is coherent en uniform verdeeld over het behandelgebied. IPL-energie is incoherent en onuniform verdeeld, wat resulteert in sommige gebieden die te veel energie krijgen (kans op brandwonden) en andere die onvoldoende krijgen (onvoldoende haarverlies).</p>
+<h3>IPL-apparaten voor thuis</h3>
 
-<p><strong>Doelgerichte Penetratie</strong> — Lasers gebruiken filters en golflengte-selectie om specifieke absorbers (melanine in haarpigment) te raken. IPL gebruikt breed-spectrum filtering en bereikt meerdere doelen tegelijk, inclusief opperhuidmelanine, wat leidt tot hogere risico's op hyperpigmentatie en hypopigmentatie, vooral bij donkerere huidtypes.</p>
+<p>Thuisapparaten werken met minder energie dan professionele apparatuur. Dat is geen reden om ze af te schrijven. Een systematische review uit 2012 vond zeven studies, waarvan zes zonder controlegroep. De haarreductie liep daarin uiteen van 6 tot 72 procent, meestal gemeten drie tot zes maanden na de behandelingen. Een overzichtsartikel uit 2019 concludeert dat de werking en de veiligheid van veel thuisapparaten inmiddels zijn onderbouwd. Lees wel de gebruiksaanwijzing goed, ook wat erin staat over je huidskleur en over je ogen.</p>
 
-<p><strong>Spot Size en Pulsduur</strong> — Lasers kunnen zeer kleine spot-sizes leveren (enkele millimeters) met nauwkeurig gedefinieerde pulsduren. IPL-handstukken zijn groter, hetgeen sneller behandelen toestaat maar met minder precisie.</p>
+<h3>Donkere huid en lichte haren</h3>
 
-<h4>Klinische Verschillen: Sessies, Effectiviteit en Veiligheid</h4>
+<p>Licht dat op pigment werkt, maakt geen onderscheid tussen pigment in de haar en pigment in de huid. Daarom vraagt een donkere of gebruinde huid om extra voorzichtigheid, bij IPL en bij laser. Volgens de NVDV zijn sommige apparaten geschikter voor een donkere huidskleur dan andere. De lasers in ons apparaat zijn in de Amerikaanse toelating bedoeld voor alle huidtypen, ook een gebruinde huid. Blonde, grijze en rode haren bevatten weinig pigment en zijn volgens de NVDV niet goed met een laser te behandelen. Omdat IPL ook op pigment werkt, geldt daar hetzelfde.</p>
 
-<p><strong>Aantal Sessies</strong> — Wetenschappelijke onderzoeken toont aan dat lasersystemen duidelijk superieure resultaten bereiken in minder behandelingen. Verwacht 6-8 sessies voor 80-90% haarverlies met laser; IPL vereist typisch 8-12 sessies met minder volledige resultaten. Dit verschil wordt nog groter voor fijne en lichte haren.</p>
+<h3>Waarom wij met een laser gaan werken</h3>
 
-<p><strong>Effectiviteit op Fijne Haren</strong> — Fijne haren bevatten minder melanine. Lasers kunnen deze nog steeds effectief richten vanwege hun golflengte-selectiviteit. IPL's brede spectrum is minder gevoelig voor fijne haarpigmenten, wat leidt tot ondermaatse resultaten op lichaam/gezicht dons.</p>
+<p>Wij hebben gekozen voor één apparaat met twee lasers, zodat we de golflengte kunnen afstemmen op je huid en je haar. Dat is een keuze, geen garantie. Ook met een laser spreken we van langdurige haarreductie, en het resultaat verschilt per persoon. SkinTech opent in het tweede kwartaal van 2027 in Amsterdam. Tot die tijd kun je je op de <a href="/contact">wachtlijst</a> zetten.</p>
 
-<p><strong>Veiligheid op Donkere Huid</strong> — Dit is essentieel. IPL's brede spectrum absorbeert sterker door melanine in alle laagdiepten, inclusief die van de opperhuid. Dit verhoogt het risico op thermische schade aan epidermale melanocyten, wat leidt tot hypo- of hyperpigmentatiecomplicaties, vooral bij donkerder huidtype (Fitzpatrick III-VI). Lasers, vooral Nd:YAG op 1064 nm, hebben golflengtepenetratie die epidermale melanine beter omzeilt, wat veiliger is voor donkere huid.</p>
-
-<p><strong>Voorspelbaarheid</strong> — Lasers leveren consistente, reproduceerbare energiedistributie. IPL is afhankelijk van handhygiene en positie, waardoor variabiliteit ontstaat.</p>
-
-<h4>Home IPL Apparaten: Waarom Ze Niet Werken</h4>
-
-<p>U ziet advertenties voor home IPL-apparaten die "klinische resultaten" beloven. Dit is misleidend. Home IPL-apparaten leveren 5-7 J/cm², ofwel ongeveer 15-25% van professionele IPL-fluence. Bij deze energieniveaus is haarverlies minimaal — vooral voor haren op lichaamsdelen of lagere gezichtsharen. Experts beschouwen home IPL voornaamelijk als onderhoud na professionele behandeling, niet als eigenstandige therapie.</p>
-
-<h4>Waarom SkinTech de GentleMax Pro Plus Koos</h4>
-
-<p>SkinTech heeft gekozen voor de GentleMax Pro Plus, een medisch lasersysteem dat zowel alexandriet (755 nm) als Nd:YAG (1064 nm) lasers integreert. Dit systeem biedt:</p>
+<h3>Bronnen</h3>
 
 <ul>
-<li>Alexandriet voor lichte tot gemiddelde huidtypen (sneller, comfortabeler)</li>
-<li>Nd:YAG voor donkerder huidtypen (meer veilig door diepere penetratie)</li>
-<li>Nauwkeurige energieafgave en pulsduurcontrole</li>
-<li>Medische-grade beproevdheid in klinische trials</li>
-<li>Consistente, voorspelbare resultaten</li>
+<li>Nederlandse Vereniging voor Dermatologie en Venereologie (NVDV), patiëntenfolder <a href="https://nvdv.nl/folders/laserbehandeling-met-een-ontharingslaser" target="_blank" rel="noopener">Laserbehandeling met een ontharingslaser</a>.</li>
+<li>Klein A, Steinert S, Baeumler W, Landthaler M, Babilas P. Photoepilation with a diode laser vs. intense pulsed light: a randomized, intrapatient left-to-right trial. British Journal of Dermatology 2013;168(6):1287-1293. <a href="https://pubmed.ncbi.nlm.nih.gov/23278132/" target="_blank" rel="noopener">PubMed 23278132</a></li>
+<li>Haedersdal M, Wulf HC. Evidence-based review of hair removal using lasers and light sources. Journal of the European Academy of Dermatology and Venereology 2006;20(1):9-20. <a href="https://doi.org/10.1111/j.1468-3083.2005.01327.x" target="_blank" rel="noopener">doi:10.1111/j.1468-3083.2005.01327.x</a></li>
+<li>Systematische review van thuisapparaten voor ontharing met licht, Journal of the European Academy of Dermatology and Venereology, 2012. <a href="https://pubmed.ncbi.nlm.nih.gov/22126235/" target="_blank" rel="noopener">PubMed 22126235</a></li>
+<li>Light-based home-use devices for hair removal: Why do they work and how effective they are? Overzichtsartikel, 2019. <a href="https://pubmed.ncbi.nlm.nih.gov/30681170/" target="_blank" rel="noopener">PubMed 30681170</a></li>
+<li>U.S. Food and Drug Administration (FDA), toelating K201111 voor de Candela GentleMax Pro Plus, 26 mei 2020, <a href="https://www.accessdata.fda.gov/cdrh_docs/pdf20/K201111.pdf" target="_blank" rel="noopener">samenvatting (pdf)</a>.</li>
 </ul>
 
-<p>Dit is geen marketing — het is gebaseerd op wetenschappelijk bewijs.</p>
-
-<h4>Vergelijking Tabel: IPL vs Alexandriet vs Nd:YAG vs Diode Laser</h4>
-
-<table style="width: 100%; border-collapse: collapse; margin: 2rem 0;">
-<tr style="background-color: var(--bronze-light); font-weight: bold;">
-<th style="padding: 12px; text-align: left; border: 1px solid var(--bronze-medium);">Kenmerk</th>
-<th style="padding: 12px; text-align: left; border: 1px solid var(--bronze-medium);">IPL</th>
-<th style="padding: 12px; text-align: left; border: 1px solid var(--bronze-medium);">Alexandriet (755nm)</th>
-<th style="padding: 12px; text-align: left; border: 1px solid var(--bronze-medium);">Nd:YAG (1064nm)</th>
-<th style="padding: 12px; text-align: left; border: 1px solid var(--bronze-medium);">Diode (800-810nm)</th>
-</tr>
-<tr>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Golflengte</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">500-1200nm (breed)</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">755nm (enkel)</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">1064nm (enkel)</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">800-810nm (enkel)</td>
-</tr>
-<tr style="background-color: var(--offwhite);">
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Type</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Incoherent breedspectrum</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Coherente laser</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Coherente laser</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Coherente laser</td>
-</tr>
-<tr>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Beste voor Huidtype</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">I-III (licht)</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">I-IV (licht-matig)</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">I-VI (alle typen)</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">II-V (gematigd)</td>
-</tr>
-<tr style="background-color: var(--offwhite);">
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Sessies Nodig (80%+ haarverlies)</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">8-12</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">6-8</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">6-8</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">6-8</td>
-</tr>
-<tr>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Effectiviteit Fijne Haren</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Laag</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Goed</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Goed</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Goed</td>
-</tr>
-<tr style="background-color: var(--offwhite);">
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Risico Pigmentatie (Donkere Huid)</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Hoog</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Matig</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Laag</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Laag-Matig</td>
-</tr>
-<tr>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Energiekwaliteit</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Ongelijkmatig</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Uniform</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Uniform</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Uniform</td>
-</tr>
-<tr style="background-color: var(--offwhite);">
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Kosten per Sessie</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Laag-Matig</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Matig-Hoog</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Hoog</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Matig-Hoog</td>
-</tr>
-</table>
-
-<h4>Wetenschappelijk Bewijs</h4>
-
-<p><a href="https://doi.org/10.1111/ddg.12116" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Klein et al., 2013, Journal of the German Society of Dermatology</a> reviewden de state-of-the-art in fotoepilatie en concludeerden dat lasers (vooral alexandriet en Nd:YAG) superieure en duurzamere haarverlies bieden vergeleken met IPL.</p>
-
-<p><a href="https://doi.org/10.1111/j.1524-4725.2009.01230.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Sadighha & Mohaghegh, 2009, Dermatologic Surgery</a> voerden een directe gerandomiseerde vergelijking uit tussen IPL en alexandrietlaser. Alexandriet-laser veroorzaakte meer haarverlies, vereiste minder sessies, en had lagere bijwerkingen.</p>
-
-<p><a href="https://doi.org/10.1111/j.1600-0625.2006.00437.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Haedersdal & Wulf, 2006, Experimental Dermatology</a> concludeerden in hun systematische review dat "lasertechnologie aanzienlijk superieur is aan IPL voor duurzame haarverlies."</p>
-
-<p><a href="https://doi.org/10.1111/j.1600-0781.2007.00283.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Bäumler et al., 2007, Photodermatology, Photoimmunology & Photomedicine</a> onderzochten IPL-fotoepilatie en noteerden dat "meer sessies nodig waren en dat resultaten meer variabel waren vergeleken met lasersystemen, vooral voor fijne/lichte haren."</p>
-
-<h4>Samenvatting: Waarom de Keuze Duidelijk is</h4>
-
-<p>IPL is goedkoper, sneller, en geschikt voor bepaalde toepassingen (rosacea, lichte pigmentatie), maar voor ernstig haarverlies, vooral op grotere lichaamsdelen of bij donkere huid, is medische-grade laser superieur. Het vereist minder sessies, levert voorspelbaarder resultaten op, en is veiliger voor een breder bereik van huidtypen.</p>
-
-<p>SkinTech heeft voor de GentleMax Pro Plus gekozen omdat we een behandeling willen bieden die op onderzoek steunt, en niet alleen op marketing.</p>
+<p><em>Dit artikel geeft algemene informatie en vervangt geen persoonlijk advies. Herschreven en bronnen gecontroleerd in november 2026.</em></p>
 `,
     bodyEn: `
-<h3>IPL vs. Laser Hair Removal — What's the Difference and Which is Better?</h3>
+<p>IPL and laser are often mentioned in the same breath, and sometimes both are simply called 'laser'. They are two different techniques. Here you can read what the difference is, what research says about the results and why we are going to work with a laser.</p>
 
-<p>Anyone who looks into hair removal soon arrives at the same question: "What's the difference between IPL and laser, and which should I choose?" The answer lies in physics, not marketing. IPL and medical-grade lasers are fundamentally different technologies, operating on different principles, delivering different efficacy, and carrying different safety profiles. This article explains the scientific distinctions and demonstrates why SkinTech invested in medical-grade laser systems.</p>
+<h3>What is IPL?</h3>
 
-<h4>IPL: Intense Pulsed Light</h4>
+<p>IPL stands for Intense Pulsed Light. It is a flash lamp and officially not a laser, as the Dutch Society for Dermatology and Venereology (NVDV) puts it in its patient leaflet. An IPL device gives light of several wavelengths at once, a laser gives light of one wavelength. With IPL, filters hold back the part of the light that is not needed.</p>
 
-<p>IPL (Intense Pulsed Light) is not a true laser. It is a broad-spectrum light source emitting wavelengths from 500 to 1200 nanometers (nm) — spanning visible and infrared light. This spectrum is filtered to select wavelength ranges, but the light remains incoherent: photons are not in phase with one another, and energy distribution across the treated area is uneven. Home IPL devices deliver approximately 5–7 J/cm² (joules per square centimeter); professional IPL systems reach 20–40 J/cm². This broad spectrum and modest energy levels make IPL suitable for pigmentation and vascular concerns, but less optimal for long-term hair reduction.</p>
+<h3>What is a laser?</h3>
 
-<h4>Medical Lasers: Coherent, Focused Energy</h4>
+<p>A laser gives light of a single wavelength. For hair removal it is chosen so that the pigment in the hair absorbs the light well. The heat that this produces damages the hair follicle. The GentleMax Pro Plus, the device we are going to work with, has two lasers: an alexandrite laser (755 nm) and an Nd:YAG laser (1064 nm).</p>
 
-<p>A medical laser produces light of a single, precisely defined wavelength—for example, 755 nm for alexandrite or 1064 nm for Nd:YAG. This light is coherent: all photons travel in phase with one another, creating a sharply focused, highly concentrated beam. This collimated behavior allows lasers to deliver energy with surgical precision onto hair follicles and melanin within hair matrix structures.</p>
+<h3>What does research say about the results?</h3>
 
-<h4>Core Differences: Physics Matters</h4>
+<p>Both techniques reduce hair growth. In a randomised trial from 2013, thirty people had a diode laser used in one armpit and IPL in the other. One year after the last treatment the number of hairs had fallen by 69 per cent on average on the laser side and by 53 per cent on the IPL side. The laser treatment did hurt more.</p>
 
-<p><strong>Coherence and Energy Distribution</strong> — Laser energy is coherent and uniformly distributed across the treatment area. IPL energy is incoherent and unevenly distributed, meaning some areas receive excess energy (burn risk) while others receive insufficient energy (poor hair reduction).</p>
+<p>The evidence is thin. The researchers themselves write that few randomised comparisons between laser and IPL exist. A review from 2006 found evidence, after repeated treatments with alexandrite and diode lasers, of a hair reduction that lasts longer than six months. For IPL that long-term evidence was still missing at the time. And the 2013 trial compared IPL with a diode laser, not with the lasers in our device.</p>
 
-<p><strong>Targeted Penetration</strong> — Lasers use wavelength selection to target specific chromophores (melanin in hair pigment). IPL uses broad-spectrum filtering and strikes multiple targets simultaneously, including epidermal melanin, increasing risk of hypo- and hyperpigmentation—especially in darker skin types.</p>
+<h3>IPL devices for home use</h3>
 
-<p><strong>Spot Size and Pulse Duration</strong> — Lasers achieve very small spot sizes (millimeters) with precisely defined pulse durations. IPL handpieces are larger, permitting faster treatment but with less precision.</p>
+<p>Home devices work with less energy than professional equipment. That is no reason to write them off. A systematic review from 2012 found seven studies, six of them without a control group. Hair reduction in those studies ranged from 6 to 72 per cent, mostly measured three to six months after the treatments. A review article from 2019 concludes that the effect and the safety of many home devices have since been substantiated. Do read the instructions carefully, including what they say about your skin colour and about your eyes.</p>
 
-<h4>Clinical Differences: Sessions, Efficacy, and Safety</h4>
+<h3>Dark skin and light hair</h3>
 
-<p><strong>Number of Sessions</strong> — Published literature consistently shows that laser systems achieve superior results in fewer treatments. Expect 6–8 sessions for 80–90% long-term hair reduction with laser; IPL typically requires 8–12 sessions with less complete results. This gap widens for fine and light hair.</p>
+<p>Light that acts on pigment does not distinguish between pigment in the hair and pigment in the skin. That is why dark or tanned skin calls for extra care, with IPL and with laser. According to the NVDV some devices are more suitable for a dark skin colour than others. In their US clearance the lasers in our device are intended for all skin types, including tanned skin. Blond, grey and red hairs contain little pigment and, according to the NVDV, cannot be treated well with a laser. Because IPL also acts on pigment, the same applies there.</p>
 
-<p><strong>Efficacy on Fine Hair</strong> — Fine hairs contain less melanin. Lasers still target them effectively due to wavelength selectivity. IPL's broad spectrum is less sensitive to fine hair pigments, yielding suboptimal results on body and facial vellus hair.</p>
+<h3>Why we are going to work with a laser</h3>
 
-<p><strong>Safety on Darker Skin</strong> — This is critical. IPL's broad spectrum absorbs heavily through melanin at all depths, including epidermal melanin. This increases risk of thermal injury to epidermal melanocytes, causing hypo- or hyperpigmentation complications, especially in darker skin types (Fitzpatrick III–VI). Nd:YAG lasers at 1064 nm have wavelength penetration that better bypasses epidermal melanin, making them safer for darker skin.</p>
+<p>We have chosen one device with two lasers, so that we can match the wavelength to your skin and your hair. That is a choice, not a guarantee. With a laser, too, we speak of long-term hair reduction, and the result differs from person to person. SkinTech opens in Amsterdam in the second quarter of 2027. Until then you can join the <a href="/en/contact">waiting list</a>.</p>
 
-<p><strong>Predictability</strong> — Lasers deliver consistent, reproducible energy distribution. IPL variability depends on operator technique and handpiece positioning, introducing inconsistency.</p>
-
-<h4>Home IPL Devices: Why They Don't Work</h4>
-
-<p>You see advertisements for at-home IPL systems promising "clinical results." This is misleading. Home IPL devices deliver 5–7 J/cm²—roughly 15–25% of professional IPL fluence. At this energy level, hair reduction is minimal, particularly for body hair or fine facial hair. Experts consider home IPL primarily maintenance after professional treatment, not standalone therapy.</p>
-
-<h4>Why SkinTech Chose the GentleMax Pro Plus</h4>
-
-<p>SkinTech has chosen the GentleMax Pro Plus, a medical-grade laser system integrating both alexandrite (755 nm) and Nd:YAG (1064 nm) lasers. This system offers:</p>
+<h3>Sources</h3>
 
 <ul>
-<li>Alexandrite for light to medium skin types (faster, more comfortable)</li>
-<li>Nd:YAG for darker skin types (safer via deeper penetration)</li>
-<li>Precise energy delivery and pulse duration control</li>
-<li>Medical-grade evidence from clinical trials</li>
-<li>Consistent, predictable outcomes</li>
+<li>Dutch Society for Dermatology and Venereology (NVDV), patient leaflet <a href="https://nvdv.nl/folders/laserbehandeling-met-een-ontharingslaser" target="_blank" rel="noopener">Laserbehandeling met een ontharingslaser</a> (in Dutch).</li>
+<li>Klein A, Steinert S, Baeumler W, Landthaler M, Babilas P. Photoepilation with a diode laser vs. intense pulsed light: a randomized, intrapatient left-to-right trial. British Journal of Dermatology 2013;168(6):1287-1293. <a href="https://pubmed.ncbi.nlm.nih.gov/23278132/" target="_blank" rel="noopener">PubMed 23278132</a></li>
+<li>Haedersdal M, Wulf HC. Evidence-based review of hair removal using lasers and light sources. Journal of the European Academy of Dermatology and Venereology 2006;20(1):9-20. <a href="https://doi.org/10.1111/j.1468-3083.2005.01327.x" target="_blank" rel="noopener">doi:10.1111/j.1468-3083.2005.01327.x</a></li>
+<li>Systematic review of light-based home-use devices for hair removal, Journal of the European Academy of Dermatology and Venereology, 2012. <a href="https://pubmed.ncbi.nlm.nih.gov/22126235/" target="_blank" rel="noopener">PubMed 22126235</a></li>
+<li>Light-based home-use devices for hair removal: Why do they work and how effective they are? Review article, 2019. <a href="https://pubmed.ncbi.nlm.nih.gov/30681170/" target="_blank" rel="noopener">PubMed 30681170</a></li>
+<li>U.S. Food and Drug Administration (FDA), clearance K201111 for the Candela GentleMax Pro Plus, 26 May 2020, <a href="https://www.accessdata.fda.gov/cdrh_docs/pdf20/K201111.pdf" target="_blank" rel="noopener">summary (pdf)</a>.</li>
 </ul>
 
-<p>This isn't marketing—it is evidence-based.</p>
-
-<h4>Comparison Table: IPL vs. Alexandrite vs. Nd:YAG vs. Diode Laser</h4>
-
-<table style="width: 100%; border-collapse: collapse; margin: 2rem 0;">
-<tr style="background-color: var(--bronze-light); font-weight: bold;">
-<th style="padding: 12px; text-align: left; border: 1px solid var(--bronze-medium);">Feature</th>
-<th style="padding: 12px; text-align: left; border: 1px solid var(--bronze-medium);">IPL</th>
-<th style="padding: 12px; text-align: left; border: 1px solid var(--bronze-medium);">Alexandrite (755nm)</th>
-<th style="padding: 12px; text-align: left; border: 1px solid var(--bronze-medium);">Nd:YAG (1064nm)</th>
-<th style="padding: 12px; text-align: left; border: 1px solid var(--bronze-medium);">Diode (800–810nm)</th>
-</tr>
-<tr>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Wavelength</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">500–1200nm (broad)</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">755nm (single)</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">1064nm (single)</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">800–810nm (single)</td>
-</tr>
-<tr style="background-color: var(--offwhite);">
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Type</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Incoherent broad-spectrum</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Coherent laser</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Coherent laser</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Coherent laser</td>
-</tr>
-<tr>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Best for Skin Type</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">I–III (light)</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">I–IV (light–medium)</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">I–VI (all types)</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">II–V (medium)</td>
-</tr>
-<tr style="background-color: var(--offwhite);">
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Sessions for 80%+ Reduction</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">8–12</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">6–8</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">6–8</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">6–8</td>
-</tr>
-<tr>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Efficacy on Fine Hair</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Poor</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Excellent</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Excellent</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Excellent</td>
-</tr>
-<tr style="background-color: var(--offwhite);">
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Pigmentation Risk (Dark Skin)</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">High</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Moderate</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Low</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Low–Moderate</td>
-</tr>
-<tr>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Energy Distribution</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Uneven</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Uniform</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Uniform</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Uniform</td>
-</tr>
-<tr style="background-color: var(--offwhite);">
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Cost per Session</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Low–Moderate</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Moderate–High</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">High</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Moderate–High</td>
-</tr>
-</table>
-
-<h4>Scientific Evidence</h4>
-
-<p><a href="https://doi.org/10.1111/ddg.12116" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Klein et al., 2013, Journal of the German Society of Dermatology</a> reviewed the state-of-the-art in photoepilation and concluded that lasers (particularly alexandrite and Nd:YAG) deliver superior and more durable hair reduction compared to IPL.</p>
-
-<p><a href="https://doi.org/10.1111/j.1524-4725.2009.01230.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Sadighha & Mohaghegh, 2009, Dermatologic Surgery</a> conducted a randomized head-to-head comparison between IPL and alexandrite laser. Alexandrite laser produced greater hair reduction, required fewer sessions, and had lower adverse effects.</p>
-
-<p><a href="https://doi.org/10.1111/j.1600-0625.2006.00437.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Haedersdal & Wulf, 2006, Experimental Dermatology</a> concluded in their systematic review that "laser technology is significantly superior to IPL for sustained hair removal."</p>
-
-<p><a href="https://doi.org/10.1111/j.1600-0781.2007.00283.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Bäumler et al., 2007, Photodermatology, Photoimmunology & Photomedicine</a> investigated IPL photoepilation and noted that "more sessions were required and results were more variable compared to laser systems, particularly for fine/light hair."</p>
-
-<h4>Summary: Why the Choice is Clear</h4>
-
-<p>IPL is cheaper, faster, and suitable for certain applications (rosacea, light pigmentation), but for serious hair reduction—especially on larger body areas or darker skin—medical-grade laser is superior. It requires fewer sessions, delivers more predictable results, and is safer across a broader range of skin types.</p>
-
-<p>SkinTech chose the GentleMax Pro Plus because we want to offer a treatment that rests on research, not only on marketing.</p>
+<p><em>This article gives general information and does not replace personal advice. Rewritten and sources checked in November 2026.</em></p>
 `
   },
 
