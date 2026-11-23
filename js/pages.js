@@ -1353,7 +1353,7 @@ function renderFooter() {
           <div class="footer-title">${nl ? 'Volg ons' : 'Follow'}</div>
           <ul>
             <li><a href="https://instagram.com/skintech_nl" target="_blank" rel="noopener">Instagram</a></li>
-            <li><a href="https://www.facebook.com/profile.php?id=61596690755185" target="_blank" rel="noopener">Facebook</a></li>
+            <li><a href="https://www.facebook.com/skintechclinic.nl" target="_blank" rel="noopener">Facebook</a></li>
             <li><a href="https://wa.me/31628258286" target="_blank" rel="noopener">WhatsApp</a></li>
             <li><a href="${pathFor(currentRoute, 'nl', currentArticle)}" data-lang="nl" hreflang="nl" lang="nl" style="${currentLang==='nl'?'font-weight:500; color:var(--cream);':'opacity:0.85;'}">NL</a> · <a href="${pathFor(currentRoute, 'en', currentArticle)}" data-lang="en" hreflang="en" lang="en" style="${currentLang==='en'?'font-weight:500; color:var(--cream);':'opacity:0.85;'}">EN</a></li>
           </ul>
