@@ -228,7 +228,7 @@ const FAQS = [
   { q:'Heb ik een consult nodig vóór de behandeling?', a:'Ja — elke nieuwe cliënt begint met een huidscan en consult. Zo kunnen we je huid lezen, je doelen begrijpen en een onderbouwd plan schrijven. De huidscan is altijd gratis en volledig vrijblijvend.' },
   { q:'Wat kost een behandeling?', a:'Onze tarieven liggen in lijn met wat je van een boutique laserkliniek mag verwachten. Exacte prijzen verschillen per zone, huidtype en behandeldoel en bespreken we transparant tijdens de gratis huidscan. Kuren zijn altijd voordeliger dan losse sessies.' },
   { q:'Kan ik al een afspraak maken?', a:'Nog niet. SkinTech Laser Clinic opent naar verwachting in het tweede kwartaal van 2027. Via de wachtlijst op deze site kies je de behandeling waarin je geïnteresseerd bent en laat je je gegevens achter. Zodra de agenda opengaat, krijg je van ons één persoonlijk bericht.' },
-  { q:'Waar bevindt de kliniek zich?', a:'SkinTech Laser Clinic vind je in hartje Amsterdam. Het adres en de routebeschrijving ontvang je bij het bevestigen van je afspraak.' },
+  { q:'Waar bevindt de kliniek zich?', a:'We openen in Amsterdam. Het adres maken we later bekend.' },
 ];
 
 
@@ -564,7 +564,7 @@ const FAQS_EN = [
   { q:'Do I need a consultation before treatment?', a:'Yes — every new client begins with a skin scan and consultation. We read your skin, understand your goals and write a plan. The skin scan is always free and completely no-obligation.' },
   { q:'What does a treatment cost?', a:"Our pricing is in line with what you'd expect from a boutique laser clinic. Exact prices vary by zone, skin type and treatment goal and are discussed transparently during the free skin scan. Courses are always more affordable than individual sessions." },
   { q:'Can I book an appointment yet?', a:'Not yet. SkinTech Laser Clinic is expected to open in the second quarter of 2027. Through the waiting list on this site you choose the treatment you are interested in and leave your details. As soon as booking opens, you will receive one personal message from us.' },
-  { q:'Where is the clinic?', a:"SkinTech Laser Clinic is located in central Amsterdam. You'll receive the address and directions when your appointment is confirmed." },
+  { q:'Where is the clinic?', a:'We are opening in Amsterdam. We will announce the address later.' },
 ];
 
 /* ===================== Technology ===================== */
