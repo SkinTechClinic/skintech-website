@@ -6,102 +6,160 @@ ARTICLE_CONTENT = {
 // ============================================================
 'laser-guide': {
 bodyNl: `
-<p>Laserontharing is wereldwijd een van de meest uitgevoerde esthetische behandelingen. Toch bestaan er grote verschillen tussen lasersystemen, kliniekkeuzes en protocollen. In dit uitgebreide artikel bespreken we de wetenschap achter laserontharing, vergelijken we de belangrijkste lasertechnologieën — inclusief de veel aangeboden diodelaser — en leggen we uit waarom SkinTech Laser Clinic in Amsterdam kiest voor de Candela GentleMax Pro Plus.</p>
+<p>Denk je over laserontharing na? Dan wil je weten hoe het werkt, hoeveel sessies je nodig hebt, hoe je je voorbereidt en wat je erna kunt verwachten. Dat staat hieronder op een rij. Bij elk onderdeel lees je van welke bron de informatie komt.</p>
 
-<h3>Het werkingsprincipe: selectieve fotothermolyse</h3>
-<p>Laserontharing is gebaseerd op het principe van <em>selectieve fotothermolyse</em>, voor het eerst beschreven door Anderson en Parrish in 1983. Lichtenergie met een specifieke golflengte wordt selectief geabsorbeerd door melanine — het pigment in de haarfollikel — waardoor deze verhit tot een temperatuur waarbij de germinatieve cellen (de haarpapil en bulge-regio) thermisch beschadigd raken, zonder het omliggende weefsel significant aan te tasten (<a href="https://doi.org/10.1126/science.6823544" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Anderson & Parrish, 1983, <em>Science</em></a>).</p>
-<p>De effectiviteit hangt af van drie parameters: <strong>golflengte</strong> (bepaalt de absorptiediepte), <strong>pulseduur</strong> (moet korter zijn dan de thermische relaxatietijd van de follikel) en <strong>fluence</strong> (energiedichtheid in J/cm²). Een te lage fluence geeft onvoldoende schade; een te hoge fluence vergroot het risico op brandwonden (<a href="https://doi.org/10.1016/s0190-9622(96)90747-6" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Grossman et al., 1996, <em>JAAD</em></a>).</p>
+<h3>Hoe laserontharing werkt</h3>
 
-<h3>Lasertechnologieën vergeleken: Alexandrite, Nd:YAG en diodelaser</h3>
-<p>Er zijn drie dominante lasertypes op de markt voor ontharing. Elk heeft specifieke eigenschappen:</p>
+<p>Een laser stuurt een geconcentreerde lichtbundel de huid in. Het pigment in de haar, melanine, neemt dat licht op. Het licht wordt warmte, en die warmte beschadigt het haarzakje. Daardoor neemt de haargroei af, legt de Mayo Clinic uit. Het principe heet selectieve fotothermolyse en werd in 1983 beschreven door Anderson en Parrish in het tijdschrift Science.</p>
 
-<p><strong>Alexandrite-laser (755 nm)</strong><br/>
-De 755 nm golflengte wordt sterk geabsorbeerd door melanine en wordt vooral gebruikt bij lichtere huidtypen (Fitzpatrick I–III). In een dossieronderzoek onder 89 mensen was de gemiddelde haarreductie 74% na gemiddeld 5,6 behandelingen met een alexandrietlaser (Eremia et al., 2001, <em>Dermatologic Surgery</em>). Zulke cijfers komen uit afzonderlijke studies en zijn geen voorspelling van jouw resultaat.</p>
+<p>Omdat de laser op pigment werkt, reageren donkere haren het best. Blonde, witte, grijze en rode haren reageren slecht, schrijven de Mayo Clinic en de Nederlandse Vereniging voor Dermatologie en Venereologie (NVDV).</p>
 
-<p><strong>Nd:YAG-laser (1064 nm)</strong><br/>
-De langere golflengte penetreert dieper in de huid en wordt minder geabsorbeerd door epidermaal melanine. Dit maakt de Nd:YAG de veiligste keuze voor donkere huidtypen (Fitzpatrick IV–VI), waar het risico op hyperpigmentatie en brandwonden bij kortere golflengtes significant hoger is (<a href="https://doi.org/10.1111/j.1524-4725.2009.01181.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Alster & Bryan, 2009, <em>Dermatologic Surgery</em></a>).</p>
+<h3>Welke lasers er zijn</h3>
 
-<p><strong>Diodelaser (800–810 nm)</strong><br/>
-De diodelaser zit qua golflengte tussen de Alexandrite en Nd:YAG. Het is de meest verspreide technologie in budget- en franchiseklinieken vanwege de lagere aanschafkosten. Hoewel de diodelaser effectief kan zijn, tonen vergelijkende studies aan dat de Alexandrite een significant hogere haarreductie per sessie oplevert bij lichtere huidtypen. Handrick et al. (2001) vonden in een direct vergelijkend onderzoek dat de Alexandrite (755 nm) een hogere klinische effectiviteit toonde dan de diodelaser (800 nm) na drie behandelingen (<a href="https://doi.org/10.1046/j.1524-4725.2001.00338.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Handrick & Alster, 2001, <em>Dermatologic Surgery</em></a>).</p>
+<p>Voor ontharing worden vooral drie lasers gebruikt: de alexandrietlaser (755 nm), de diodelaser (rond 800 nm) en de Nd:YAG-laser (1064 nm). Welke past, hangt af van je huid en je haar. Een donkere huid vraagt om de juiste laser en de juiste instellingen, schrijft de Mayo Clinic. Volgens de NVDV zijn sommige apparaten daar geschikter voor dan andere.</p>
 
-<h3>Waarom SkinTech kiest voor de GentleMax Pro Plus</h3>
-<p>De Candela GentleMax Pro Plus is een duaal-golflengte platform dat zowel de 755 nm Alexandrite als de 1064 nm Nd:YAG combineert in één systeem. Dit betekent dat de specialist per sessie — en zelfs per behandelzone — de optimale golflengte kan selecteren. Voor een cliënt met Fitzpatrick III huid kan de specialist de Alexandrite gebruiken op het lichaam en overschakelen naar de Nd:YAG voor zones met meer pigmentatie.</p>
-<p>Cruciaal is het geïntegreerde Dynamic Cooling Device (DCD): een gepatenteerde cryogeenspray die de epidermis milliseconden vóór elke laserpuls koelt. Dit verhoogt het comfort aanzienlijk, beschermt de huid tegen thermische schade, en maakt het mogelijk om met hogere fluences te werken — wat direct correleert met betere resultaten (<a href="https://doi.org/10.1067/mjd.2000.107939" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Raulin et al., 2000, <em>Lasers in Surgery and Medicine</em></a>).</p>
-<p>In vergelijking: de meeste diodelasersystemen gebruiken contactkoeling (een gekoeld sapphire-venster), wat minder dynamisch is en niet per puls kan worden aangepast. Het DCD-systeem van Candela biedt nauwkeurigere epidermale bescherming, met name bij hogere energieniveaus.</p>
+<p>De GentleMax Pro Plus, het apparaat waarmee wij gaan werken, heeft een alexandrietlaser en een Nd:YAG-laser in één toestel. Een koelspray koelt de bovenste huidlaag bij elke puls.</p>
 
-<h3>De haargroeicyclus en behandelfrequentie</h3>
-<p>Menselijk haar groeit in drie fasen: <strong>anageen</strong> (actieve groei, 2–7 jaar op de hoofdhuid, korter elders), <strong>catageen</strong> (overgang, 2–3 weken) en <strong>telogeen</strong> (rust, 2–4 maanden). Alleen haar in de anagene fase bevat voldoende melanine en is fysiek verbonden met de papil om effectief door de laser te worden bereikt.</p>
-<p>Niet alle haren zitten tegelijk in de anagene fase. Daarom zijn er meerdere sessies nodig, meestal zes tot acht, met tussenpozen van 4–8 weken, afhankelijk van het lichaamsdeel. Na herhaalde behandelingen is er bewijs voor een gedeeltelijke haarreductie die langer dan zes maanden aanhoudt; bewijs voor volledige en blijvende haarverwijdering is er niet (<a href="https://doi.org/10.1111/j.1468-3083.2005.01327.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Haedersdal & Wulf, 2006, <em>JEADV</em></a>).</p>
+<h3>Hoeveel sessies, en waarom</h3>
 
-<h3>Voorbereiding op uw sessie</h3>
-<p>Voor een goede voorbereiding op laserontharing geldt in het algemeen: scheer het behandelgebied 24 uur voor de sessie (de follikel moet intact blijven onder het oppervlak). Stop minimaal 4–6 weken vooraf met waxen, epileren of plukken. Vermijd intensieve zonblootstelling en zelfbruiners 2 weken vooraf. Pauzeer retinol en AHA/BHA-producten 3–5 dagen voor de behandeling.</p>
+<p>Haren groeien in fasen en zitten nooit allemaal tegelijk in de groeifase. De laser werkt alleen goed bij haren die dat op dat moment wel zijn. Daarom heb je altijd een reeks behandelingen nodig. De Mayo Clinic noemt vier tot acht behandelingen met enkele weken ertussen, het Jeroen Bosch Ziekenhuis vijf tot zeven. Wij gaan uit van zes tot acht sessies, met vier tot acht weken ertussen, afhankelijk van het lichaamsdeel.</p>
 
-<h3>Nazorg</h3>
-<p>Na de behandeling: gebruik dagelijks SPF 30+ en vermijd direct zonlicht gedurende minimaal 2 weken. Vermijd hete douches, sauna en intensieve sport gedurende 24–48 uur. Gebruik een kalmerende, parfumvrije moisturizer. Haaruitval (shedding) begint 1–3 weken na de sessie — dit is normaal en wijst op succesvolle behandeling.</p>
+<h3>Wat je mag verwachten</h3>
 
-<h3>Veiligheid en bijwerkingen</h3>
-<p>Laserontharing met de GentleMax Pro Plus is FDA-goedgekeurd (510(k) cleared) en uitgebreid klinisch getest in meer dan 25 jaar gebruik wereldwijd. Veelvoorkomende, tijdelijke bijwerkingen zijn lichte roodheid en perifoliculair oedeem (zwelling rond de follikels) — deze verdwijnen doorgaans binnen 24–48 uur. Ernstige bijwerkingen zoals blaarvorming of pigmentveranderingen zijn zeldzaam bij correct gebruik en komen significant vaker voor bij ongetrainde operators of inferieure apparatuur (<a href="https://doi.org/10.1111/dsu.12130" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Gan & Graber, 2013, <em>Dermatologic Surgery</em></a>).</p>
+<p>Laserontharing vermindert haargroei voor lange tijd. Dat elk haartje voorgoed wegblijft, kan niemand beloven. Een overzicht van dertig studies vond na herhaalde behandelingen bewijs voor een gedeeltelijke haarreductie die langer dan zes maanden aanhoudt, en geen bewijs voor volledige en blijvende haarverwijdering (Haedersdal en Wulf, 2006).</p>
 
-<h3 style="margin-top:48px; font-size:18px; color:var(--bronze-deep);">Wetenschappelijke referenties</h3>
-<ol style="font-size:13px; color:var(--muted); line-height:2;">
-<li>Anderson, R.R. & Parrish, J.A. (1983). Selective photothermolysis: precise microsurgery by selective absorption of pulsed radiation. <em>Science</em>, 220(4596), 524–527. <a href="https://doi.org/10.1126/science.6823544" target="_blank" rel="noopener" style="color:var(--bronze-deep);">DOI</a></li>
-<li>Grossman, M.C. et al. (1996). Damage to hair follicles by normal-mode ruby laser pulses. <em>JAAD</em>, 35(6), 889–894. <a href="https://doi.org/10.1016/s0190-9622(96)90747-6" target="_blank" rel="noopener" style="color:var(--bronze-deep);">DOI</a></li>
-<li>Eremia, S. et al. (2001). Laser hair removal: long-term results with a 755 nm alexandrite laser. <em>Dermatologic Surgery</em>, 27(11), 920–924.</li>
-<li>Alster, T.S. & Bryan, H. (2009). Laser treatment of dark skin. <em>Dermatologic Surgery</em>, 35(1), 11–20. <a href="https://doi.org/10.1111/j.1524-4725.2009.01181.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">DOI</a></li>
-<li>Handrick, C. & Alster, T.S. (2001). Comparison of long-pulsed diode and long-pulsed alexandrite lasers for hair removal. <em>Dermatologic Surgery</em>, 27(7), 622–626. <a href="https://doi.org/10.1046/j.1524-4725.2001.00338.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">DOI</a></li>
-<li>Raulin, C. et al. (2000). Laser hair removal with the GentleLASE. <em>Lasers in Surgery and Medicine</em>, 27(5), 455–460. <a href="https://doi.org/10.1067/mjd.2000.107939" target="_blank" rel="noopener" style="color:var(--bronze-deep);">DOI</a></li>
-<li>Haedersdal, M. & Wulf, H.C. (2006). Evidence-based review of hair removal using lasers and light sources. <em>JEADV</em>, 20(1), 9–20. <a href="https://doi.org/10.1111/j.1468-3083.2005.01327.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">DOI</a></li>
-<li>Gan, S.D. & Graber, E.M. (2013). Laser hair removal: a review. <em>Dermatologic Surgery</em>, 39(6), 823–838. <a href="https://doi.org/10.1111/dsu.12130" target="_blank" rel="noopener" style="color:var(--bronze-deep);">DOI</a></li>
-</ol>
+<p>Hoeveel haar er verdwijnt, verschilt per studie en per persoon. In een dossieronderzoek onder 89 mensen was de gemiddelde haarreductie 74 procent na gemiddeld 5,6 behandelingen met een alexandrietlaser (Eremia en collega's, 2001). Een Cochrane-review van gerandomiseerde studies kwam in 2006 uit op ongeveer de helft, gemeten tot zes maanden na de behandeling. Zulke cijfers zijn geen voorspelling van jouw resultaat.</p>
+
+<p>Wat terugkomt is vaak dunner en lichter, en soms is af en toe een onderhoudsbehandeling nodig. Laser pakt de oorzaak van overmatige haargroei niet aan: haargroei door hormonen kan dus doorgaan (Mayo Clinic).</p>
+
+<h3>Zo bereid je je voor</h3>
+
+<ul>
+<li>Scheer het gebied de dag voor de behandeling.</li>
+<li>Hars en epileer niet in de vier weken ervoor. Scheren mag wel.</li>
+<li>Mijd zon en zonnebank en gebruik geen zelfbruiner. Op een gebruinde huid kunnen pigmentvlekken ontstaan.</li>
+<li>Vertel bij de intake welke medicijnen je gebruikt en of je zwanger bent. Het Jeroen Bosch Ziekenhuis behandelt bijvoorbeeld niet tijdens de zwangerschap.</li>
+<li>Getatoeëerde huid wordt niet gelaserd.</li>
+</ul>
+
+<p>Deze adviezen komen van de Mayo Clinic en het Jeroen Bosch Ziekenhuis.</p>
+
+<h3>Tijdens de behandeling</h3>
+
+<p>Je krijgt een beschermbril op en de huid wordt gekoeld. Elke puls voelt als een kort tikje. De Mayo Clinic vergelijkt het met een elastiekje dat tegen je huid schiet, het Jeroen Bosch Ziekenhuis noemt het onaangenaam. Een klein gebied zoals de bovenlip is in een paar minuten klaar, een groot gebied zoals de rug kan een uur of langer duren.</p>
+
+<h3>Na de behandeling</h3>
+
+<ul>
+<li>De huid kan een paar uur rood, gezwollen of geïrriteerd zijn. Koelen helpt.</li>
+<li>Bescherm de behandelde huid tegen de zon. De Mayo Clinic noemt zes weken en dagelijks een zonnebrandcrème met factor 30 of hoger, het Jeroen Bosch Ziekenhuis drie weken met factor 40 of hoger. Volg wat je behandelaar adviseert.</li>
+<li>De behandelde haren vallen in de dagen tot weken daarna uit. Scheren mag, harsen en epileren niet.</li>
+<li>Gebruik de eerste dagen geen geparfumeerde producten op de behandelde huid.</li>
+</ul>
+
+<h3>Bijwerkingen en veiligheid</h3>
+
+<p>Vaak en tijdelijk: lichte irritatie, zwelling en een verandering van de huidskleur. Minder vaak: blaren, korstjes, littekens of een verandering van de huidstructuur. Zeldzaam: dikkere haargroei rond het behandelde gebied. Het risico is groter bij een donkere huid en als je de zon niet mijdt (Mayo Clinic). Rond de ogen wordt niet gelaserd.</p>
+
+<p>De Amerikaanse vereniging van dermatologen (AAD) waarschuwt dat laserontharing in onervaren handen kan leiden tot brandwonden, blijvende verkleuring van de huid en littekens. Vraag daarom altijd wie je behandelt en met welk apparaat.</p>
+
+<h3>Bij SkinTech</h3>
+
+<p>SkinTech opent in het tweede kwartaal van 2027 in Amsterdam. Aan een eerste laserbehandeling gaat bij ons straks altijd een intake met huidanalyse vooraf. Daarin bespreken we je huidtype, je haar en wat je mag verwachten. Tot de opening kun je je op de <a href="/contact">wachtlijst</a> zetten.</p>
+
+<h3>Bronnen</h3>
+
+<ul>
+<li>Mayo Clinic, <a href="https://www.mayoclinic.org/tests-procedures/laser-hair-removal/about/pac-20394555" target="_blank" rel="noopener">Laser hair removal</a>.</li>
+<li>Jeroen Bosch Ziekenhuis, patiëntinformatie <a href="https://www.jeroenboschziekenhuis.nl/behandelingen/laserontharen/pdf" target="_blank" rel="noopener">Laserontharen</a>, laatste revisie 16 september 2026.</li>
+<li>Nederlandse Vereniging voor Dermatologie en Venereologie (NVDV), patiëntenfolder <a href="https://nvdv.nl/folders/laserbehandeling-met-een-ontharingslaser" target="_blank" rel="noopener">Laserbehandeling met een ontharingslaser</a>.</li>
+<li>American Academy of Dermatology (AAD), <a href="https://www.aad.org/public/cosmetic/hair-removal/laser-hair-removal-faqs" target="_blank" rel="noopener">Laser hair removal: FAQs</a>.</li>
+<li>Anderson RR, Parrish JA. Selective photothermolysis: precise microsurgery by selective absorption of pulsed radiation. Science 1983;220(4596):524-527.</li>
+<li>Haedersdal M, Wulf HC. Evidence-based review of hair removal using lasers and light sources. Journal of the European Academy of Dermatology and Venereology 2006;20(1):9-20. <a href="https://doi.org/10.1111/j.1468-3083.2005.01327.x" target="_blank" rel="noopener">doi:10.1111/j.1468-3083.2005.01327.x</a></li>
+<li>Haedersdal M, Gøtzsche PC. Laser and photoepilation for unwanted hair growth. Cochrane Database of Systematic Reviews 2006, nr. 4, CD004684. <a href="https://doi.org/10.1002/14651858.CD004684.pub2" target="_blank" rel="noopener">doi:10.1002/14651858.CD004684.pub2</a></li>
+<li>Eremia S, Li CY, Umar SH, Newman N. Laser hair removal: long-term results with a 755 nm alexandrite laser. Dermatologic Surgery 2001;27(11):920-924.</li>
+<li>U.S. Food and Drug Administration (FDA), toelating K201111 voor de Candela GentleMax Pro Plus, 26 mei 2020, <a href="https://www.accessdata.fda.gov/cdrh_docs/pdf20/K201111.pdf" target="_blank" rel="noopener">samenvatting (pdf)</a>.</li>
+</ul>
+
+<p><em>Dit artikel geeft algemene informatie en vervangt geen persoonlijk advies. Herschreven en bronnen gecontroleerd in november 2026.</em></p>
 `,
 bodyEn: `
-<p>Laser hair removal is one of the most performed aesthetic treatments worldwide. Yet significant differences exist between laser systems, clinic choices and protocols. In this comprehensive article, we discuss the science behind laser hair removal, compare the key laser technologies — including the widely offered diode laser — and explain why SkinTech Laser Clinic in Amsterdam has chosen the Candela GentleMax Pro Plus.</p>
+<p>Thinking about laser hair removal? Then you will want to know how it works, how many sessions you need, how to prepare and what to expect afterwards. It is all set out below. For each part you can read which source the information comes from.</p>
 
-<h3>The working principle: selective photothermolysis</h3>
-<p>Laser hair removal is based on the principle of <em>selective photothermolysis</em>, first described by Anderson and Parrish in 1983. Light energy at a specific wavelength is selectively absorbed by melanin — the pigment in the hair follicle — heating it to a temperature that thermally damages the germinative cells (the dermal papilla and bulge region) without significantly affecting surrounding tissue (<a href="https://doi.org/10.1126/science.6823544" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Anderson & Parrish, 1983, <em>Science</em></a>).</p>
-<p>Effectiveness depends on three parameters: <strong>wavelength</strong> (determines absorption depth), <strong>pulse duration</strong> (must be shorter than the follicle's thermal relaxation time) and <strong>fluence</strong> (energy density in J/cm²). Too low a fluence yields insufficient damage; too high increases the risk of burns (<a href="https://doi.org/10.1016/s0190-9622(96)90747-6" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Grossman et al., 1996, <em>JAAD</em></a>).</p>
+<h3>How laser hair removal works</h3>
 
-<h3>Laser technologies compared: Alexandrite, Nd:YAG and diode</h3>
-<p>Three dominant laser types exist for hair removal, each with distinct properties:</p>
+<p>A laser sends a concentrated beam of light into the skin. The pigment in the hair, melanin, absorbs that light. The light turns into heat, and the heat damages the hair follicle. That slows hair growth, as the Mayo Clinic explains. The principle is called selective photothermolysis and was described in 1983 by Anderson and Parrish in the journal Science.</p>
 
-<p><strong>Alexandrite laser (755 nm)</strong><br/>
-The 755 nm wavelength is strongly absorbed by melanin and is mainly used on lighter skin types (Fitzpatrick I–III). In a review of the records of 89 people, mean hair reduction was 74% after an average of 5.6 treatments with an alexandrite laser (Eremia et al., 2001, <em>Dermatologic Surgery</em>). Figures like these come from individual studies and do not predict your result.</p>
+<p>Because the laser acts on pigment, dark hairs respond best. Blond, white, grey and red hairs respond poorly, according to the Mayo Clinic and the Dutch Society for Dermatology and Venereology (NVDV).</p>
 
-<p><strong>Nd:YAG laser (1064 nm)</strong><br/>
-The longer wavelength penetrates deeper into the skin and is less absorbed by epidermal melanin. This makes the Nd:YAG the safest choice for darker skin types (Fitzpatrick IV–VI), where the risk of hyperpigmentation and burns with shorter wavelengths is significantly higher (<a href="https://doi.org/10.1111/j.1524-4725.2009.01181.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Alster & Bryan, 2009, <em>Dermatologic Surgery</em></a>).</p>
+<h3>Which lasers there are</h3>
 
-<p><strong>Diode laser (800–810 nm)</strong><br/>
-The diode laser sits between the Alexandrite and Nd:YAG in wavelength. It is the most widespread technology in budget and franchise clinics due to lower acquisition costs. While the diode laser can be effective, comparative studies show the Alexandrite achieves significantly higher hair reduction per session in lighter skin types. Handrick et al. (2001) found in a direct comparative study that the Alexandrite (755 nm) showed higher clinical efficacy than the diode laser (800 nm) after three treatments (<a href="https://doi.org/10.1046/j.1524-4725.2001.00338.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Handrick & Alster, 2001, <em>Dermatologic Surgery</em></a>).</p>
+<p>Three lasers are mainly used for hair removal: the alexandrite laser (755 nm), the diode laser (around 800 nm) and the Nd:YAG laser (1064 nm). Which one fits depends on your skin and your hair. Dark skin needs the right laser and the right settings, the Mayo Clinic writes. According to the NVDV some devices are more suitable for it than others.</p>
 
-<h3>Why SkinTech chose the GentleMax Pro Plus</h3>
-<p>The Candela GentleMax Pro Plus is a dual-wavelength platform combining both the 755 nm Alexandrite and 1064 nm Nd:YAG in one system. This means the specialist can select the optimal wavelength per session — and even per treatment zone. For a Fitzpatrick III client, the specialist can use the Alexandrite on the body and switch to the Nd:YAG for zones with more pigmentation.</p>
-<p>Crucial is the integrated Dynamic Cooling Device (DCD): a patented cryogen spray that cools the epidermis milliseconds before each laser pulse. This significantly increases comfort, protects the skin from thermal damage, and allows working with higher fluences — which directly correlates with better results (<a href="https://doi.org/10.1067/mjd.2000.107939" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Raulin et al., 2000, <em>Lasers in Surgery and Medicine</em></a>).</p>
-<p>By comparison: most diode laser systems use contact cooling (a chilled sapphire window), which is less dynamic and cannot be adjusted per pulse. Candela's DCD system provides more precise epidermal protection, particularly at higher energy levels.</p>
+<p>The GentleMax Pro Plus, the device we are going to work with, has an alexandrite laser and an Nd:YAG laser in one machine. A cooling spray cools the top layer of the skin with every pulse.</p>
 
-<h3>The hair growth cycle and treatment frequency</h3>
-<p>Human hair grows in three phases: <strong>anagen</strong> (active growth), <strong>catagen</strong> (transition) and <strong>telogen</strong> (rest). Only hair in the anagen phase contains sufficient melanin and is physically connected to the papilla to be effectively targeted by the laser.</p>
-<p>Hairs are never all in the anagen phase at the same time. That is why several sessions are needed, usually six to eight, at 4–8 week intervals depending on the body area. After repeated treatments there is evidence of a partial hair reduction that lasts longer than six months; there is no evidence of complete and lasting hair removal (<a href="https://doi.org/10.1111/j.1468-3083.2005.01327.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Haedersdal & Wulf, 2006, <em>JEADV</em></a>).</p>
+<h3>How many sessions, and why</h3>
 
-<h3>Preparation</h3>
-<p>To prepare well for laser hair removal, the general advice is: shave the treatment area 24 hours before the session. Stop waxing, epilating or plucking at least 4–6 weeks beforehand. Avoid intense sun exposure and self-tanners for 2 weeks prior. Pause retinol and AHA/BHA products 3–5 days before treatment.</p>
+<p>Hairs grow in phases and are never all in the growth phase at the same time. The laser only works well on hairs that are in it at that moment. That is why you always need a series of treatments. The Mayo Clinic mentions four to eight treatments several weeks apart, the Jeroen Bosch Hospital in the Netherlands five to seven. We plan on six to eight sessions, four to eight weeks apart, depending on the body area.</p>
 
-<h3>Aftercare</h3>
-<p>After treatment: use SPF 30+ daily and avoid direct sunlight for at least 2 weeks. Avoid hot showers, sauna and intense exercise for 24–48 hours. Use a soothing, fragrance-free moisturiser. Hair shedding begins 1–3 weeks post-session — this is normal and indicates successful treatment.</p>
+<h3>What you can expect</h3>
 
-<h3>Safety and side effects</h3>
-<p>Laser hair removal with the GentleMax Pro Plus is FDA-cleared (510(k)) and extensively clinically tested over 25+ years worldwide. Common, temporary side effects include mild redness and perifollicular oedema — these typically resolve within 24–48 hours. Serious side effects such as blistering or pigment changes are rare with correct use and occur significantly more frequently with untrained operators or inferior equipment (<a href="https://doi.org/10.1111/dsu.12130" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Gan & Graber, 2013, <em>Dermatologic Surgery</em></a>).</p>
+<p>Laser hair removal reduces hair growth for a long time. Nobody can promise that every hair stays away for good. A review of thirty studies found evidence, after repeated treatments, of a partial hair reduction that lasts longer than six months, and no evidence of complete and lasting hair removal (Haedersdal and Wulf, 2006).</p>
 
-<h3 style="margin-top:48px; font-size:18px; color:var(--bronze-deep);">Scientific references</h3>
-<ol style="font-size:13px; color:var(--muted); line-height:2;">
-<li>Anderson, R.R. & Parrish, J.A. (1983). Selective photothermolysis. <em>Science</em>, 220(4596), 524–527. <a href="https://doi.org/10.1126/science.6823544" target="_blank" rel="noopener" style="color:var(--bronze-deep);">DOI</a></li>
-<li>Grossman, M.C. et al. (1996). Damage to hair follicles by normal-mode ruby laser pulses. <em>JAAD</em>, 35(6), 889–894. <a href="https://doi.org/10.1016/s0190-9622(96)90747-6" target="_blank" rel="noopener" style="color:var(--bronze-deep);">DOI</a></li>
-<li>Eremia, S. et al. (2001). Laser hair removal with a 755 nm alexandrite laser. <em>Dermatologic Surgery</em>, 27(11), 920–924.</li>
-<li>Alster, T.S. & Bryan, H. (2009). Laser treatment of dark skin. <em>Dermatologic Surgery</em>, 35(1), 11–20. <a href="https://doi.org/10.1111/j.1524-4725.2009.01181.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">DOI</a></li>
-<li>Handrick, C. & Alster, T.S. (2001). Comparison of diode and alexandrite lasers. <em>Dermatologic Surgery</em>, 27(7), 622–626. <a href="https://doi.org/10.1046/j.1524-4725.2001.00338.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">DOI</a></li>
-<li>Raulin, C. et al. (2000). Laser hair removal with the GentleLASE. <em>Lasers in Surgery and Medicine</em>, 27(5), 455–460. <a href="https://doi.org/10.1067/mjd.2000.107939" target="_blank" rel="noopener" style="color:var(--bronze-deep);">DOI</a></li>
-<li>Haedersdal, M. & Wulf, H.C. (2006). Evidence-based review of hair removal. <em>JEADV</em>, 20(1), 9–20. <a href="https://doi.org/10.1111/j.1468-3083.2005.01327.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">DOI</a></li>
-<li>Gan, S.D. & Graber, E.M. (2013). Laser hair removal: a review. <em>Dermatologic Surgery</em>, 39(6), 823–838. <a href="https://doi.org/10.1111/dsu.12130" target="_blank" rel="noopener" style="color:var(--bronze-deep);">DOI</a></li>
-</ol>
+<p>How much hair goes differs from study to study and from person to person. In a review of the records of 89 people, mean hair reduction was 74 per cent after an average of 5.6 treatments with an alexandrite laser (Eremia and colleagues, 2001). A Cochrane review of randomised trials arrived at about half in 2006, measured up to six months after treatment. Figures like these do not predict your result.</p>
+
+<p>What comes back is often finer and lighter, and sometimes an occasional maintenance treatment is needed. Laser does not treat the cause of excess hair growth, so hair growth driven by hormones can continue (Mayo Clinic).</p>
+
+<h3>How to prepare</h3>
+
+<ul>
+<li>Shave the area the day before the treatment.</li>
+<li>Do not wax or epilate in the four weeks before. Shaving is fine.</li>
+<li>Avoid the sun and sunbeds and do not use self-tanner. Pigment spots can form on tanned skin.</li>
+<li>At the intake, say which medicines you use and whether you are pregnant. The Jeroen Bosch Hospital, for example, does not treat during pregnancy.</li>
+<li>Tattooed skin is not treated with the laser.</li>
+</ul>
+
+<p>This advice comes from the Mayo Clinic and the Jeroen Bosch Hospital.</p>
+
+<h3>During the treatment</h3>
+
+<p>You wear protective glasses and the skin is cooled. Each pulse feels like a short snap. The Mayo Clinic compares it to a rubber band flicking against your skin, the Jeroen Bosch Hospital calls it unpleasant. A small area such as the upper lip takes a few minutes, a large area such as the back can take an hour or more.</p>
+
+<h3>After the treatment</h3>
+
+<ul>
+<li>The skin can be red, swollen or irritated for a few hours. Cooling helps.</li>
+<li>Protect the treated skin from the sun. The Mayo Clinic mentions six weeks and a daily sunscreen of SPF 30 or higher, the Jeroen Bosch Hospital three weeks with SPF 40 or higher. Follow what the person who treats you advises.</li>
+<li>The treated hairs fall out in the days to weeks that follow. Shaving is fine, waxing and epilating are not.</li>
+<li>Do not use perfumed products on the treated skin for the first few days.</li>
+</ul>
+
+<h3>Side effects and safety</h3>
+
+<p>Common and temporary: mild irritation, swelling and a change in skin colour. Less common: blisters, crusts, scars or a change in skin texture. Rare: thicker hair growth around the treated area. The risk is higher with dark skin and if you do not avoid the sun (Mayo Clinic). The area around the eyes is not treated.</p>
+
+<p>The American Academy of Dermatology (AAD) warns that in inexperienced hands laser hair removal can lead to burns, lasting changes in skin colour and scars. So always ask who will treat you and with which device.</p>
+
+<h3>At SkinTech</h3>
+
+<p>SkinTech opens in Amsterdam in the second quarter of 2027. With us, a first laser treatment will always be preceded by an intake with a skin analysis. There we discuss your skin type, your hair and what you can expect. Until we open you can join the <a href="/en/contact">waiting list</a>.</p>
+
+<h3>Sources</h3>
+
+<ul>
+<li>Mayo Clinic, <a href="https://www.mayoclinic.org/tests-procedures/laser-hair-removal/about/pac-20394555" target="_blank" rel="noopener">Laser hair removal</a>.</li>
+<li>Jeroen Bosch Hospital, patient information <a href="https://www.jeroenboschziekenhuis.nl/behandelingen/laserontharen/pdf" target="_blank" rel="noopener">Laserontharen</a>, last revised 16 September 2026 (in Dutch).</li>
+<li>Dutch Society for Dermatology and Venereology (NVDV), patient leaflet <a href="https://nvdv.nl/folders/laserbehandeling-met-een-ontharingslaser" target="_blank" rel="noopener">Laserbehandeling met een ontharingslaser</a> (in Dutch).</li>
+<li>American Academy of Dermatology (AAD), <a href="https://www.aad.org/public/cosmetic/hair-removal/laser-hair-removal-faqs" target="_blank" rel="noopener">Laser hair removal: FAQs</a>.</li>
+<li>Anderson RR, Parrish JA. Selective photothermolysis: precise microsurgery by selective absorption of pulsed radiation. Science 1983;220(4596):524-527.</li>
+<li>Haedersdal M, Wulf HC. Evidence-based review of hair removal using lasers and light sources. Journal of the European Academy of Dermatology and Venereology 2006;20(1):9-20. <a href="https://doi.org/10.1111/j.1468-3083.2005.01327.x" target="_blank" rel="noopener">doi:10.1111/j.1468-3083.2005.01327.x</a></li>
+<li>Haedersdal M, Gøtzsche PC. Laser and photoepilation for unwanted hair growth. Cochrane Database of Systematic Reviews 2006, issue 4, CD004684. <a href="https://doi.org/10.1002/14651858.CD004684.pub2" target="_blank" rel="noopener">doi:10.1002/14651858.CD004684.pub2</a></li>
+<li>Eremia S, Li CY, Umar SH, Newman N. Laser hair removal: long-term results with a 755 nm alexandrite laser. Dermatologic Surgery 2001;27(11):920-924.</li>
+<li>U.S. Food and Drug Administration (FDA), clearance K201111 for the Candela GentleMax Pro Plus, 26 May 2020, <a href="https://www.accessdata.fda.gov/cdrh_docs/pdf20/K201111.pdf" target="_blank" rel="noopener">summary (pdf)</a>.</li>
+</ul>
+
+<p><em>This article gives general information and does not replace personal advice. Rewritten and sources checked in November 2026.</em></p>
 `
 },
 
@@ -265,163 +323,109 @@ bodyEn: `
 },
 
 'prep-aftercare': {
-    bodyNl: `<h3>Voorbereiding en nazorg voor laserbehandelingen en gezichtsverzorging</h3>
+    bodyNl: `
+<p>Wat je voor en na een laserbehandeling doet, maakt verschil voor je huid. Dit is de checklist voor laserontharing. Bij elk onderdeel staat van welke bron het advies komt.</p>
 
-<p>Succesvolle laserbehandelingen en professionele gezichtsbehandelingen vereisen zorgvuldige voorbereiding en correct nazorgprotocol. Bij SkinTech Laser Clinic in Amsterdam gaan we je straks in elke fase begeleiden. Dit artikel zet de algemene richtlijnen alvast op een rij.</p>
+<h3>In de weken ervoor</h3>
 
-<h3>Voorbereiding op laserbehandeling</h3>
+<ul>
+<li><strong>Niet harsen of epileren.</strong> Stop daar minstens vier weken voor de behandeling mee. De laser heeft de haar in het haarzakje nodig. Scheren mag wel.</li>
+<li><strong>Uit de zon.</strong> Mijd zon en zonnebank, gebruik geen zelfbruiner en smeer je in met een zonnebrandcrème met factor 30 of hoger. Op een gebruinde huid kunnen na de behandeling pigmentvlekken ontstaan.</li>
+<li><strong>Medicijnen en zwangerschap.</strong> Vertel bij de intake welke medicijnen je gebruikt en of je zwanger bent.</li>
+</ul>
 
-<p><strong>Haarverwijdering vooraf:</strong> Het is essentieel om haren 24 uur voor de behandeling te scheren, niet plukken of waxen. Scheren verwijdert alleen het zichtbare haargedeelte boven de huid, terwijl het haarzaad in de folliculus intact blijft voor laserabsorptie. Waxen en plukken verwijderen de complete haarwortel, waardoor effectieve laserenergie-absorptie onmogelijk wordt. Dit protocol verhoogt de behandelingseffectiviteit aanzienlijk en vermindert het oncomfortabel gevoel tijdens de sessie.</p>
+<p>Deze adviezen komen van de Mayo Clinic en het Jeroen Bosch Ziekenhuis.</p>
 
-<p><strong>Zonbescherming:</strong> Vier weken voorafgaand aan uw behandeling dient u intensieve zonnebescherming te hanteren. UV-blootstelling veroorzaakt melanineproductie in de epidermis en huid, wat leidt tot ongewenste laserabsorptie en verhoogd risico op pigmentveranderingen, erythema en onveilige huidtemperatuurstijging. In Amsterdam's gematigde klimaat is zonnebrand minder voor de hand liggend, maar UV-bescherming blijft kritisch.</p>
+<h3>De dag ervoor</h3>
 
-<p><strong>Medicamenteuze interacties:</strong> Bepaalde geneesmiddelen verhogen fotogevoeligheid. Isotretinoïne (Accutane) dient voorkomen te worden als gevolg van verhoogde risico's van litteken en pigmentveranderingen. Andere fotosensibiliserende medicijnen als tetracyclines, NSAIDs, en bepaalde antidepressiva kunnen complicaties veroorzaken. Raadpleeg uw dermatoloog of huisarts minstens twee weken voor afspraken.</p>
+<p>Scheer het gebied dat behandeld wordt, voorzichtig, één dag van tevoren. Zowel de Mayo Clinic als het Jeroen Bosch Ziekenhuis adviseert dat.</p>
 
-<p><strong>Skincare-voorbereiding:</strong> Vermijd retinol, vitamine A-derivaten, AHA's (glycolzuur), BHA's (salicylzuur), en potentieel irritante actieve ingrediënten minstens één week voor behandeling. Deze componenten verdunnen de hoornlaag en verzwakken de huidbarrière, wat leidt tot verhoogde gevoeligheid en potentiële verbranding.</p>
+<h3>Tijdens de behandeling</h3>
 
-<h3>Dag van behandeling</h3>
+<p>Je krijgt een beschermbril op en de huid wordt gekoeld. Elke puls voelt als een kort tikje. Zeg het als het te veel wordt.</p>
 
-<p>Zorg dat de behandelingszone schoon is, zonder deodorant, parfum, bodylotion, of cosmetica. Deze producten vormen een absorberend laagje op de huid, wat de laserenergieoverdracht verstoort en thermische reacties kan tegengaan.</p>
+<h3>De eerste dagen erna</h3>
 
-<h3>Nazorg na laserbehandeling</h3>
+<ul>
+<li><strong>Koelen.</strong> De huid kan een paar uur rood, gezwollen of geïrriteerd zijn. Koel met koud water of een coldpack.</li>
+<li><strong>Deppen, niet wrijven.</strong> Dep de huid droog en gebruik de eerste dagen geen geparfumeerde producten.</li>
+<li><strong>Alleen scheren.</strong> De behandelde haren vallen in de dagen tot weken daarna uit. Scheren mag, harsen en epileren niet, ook niet tussen de sessies.</li>
+</ul>
 
-<p><strong>Erythema en onvlamming:</strong> Milde roodheid (erythema) is normaal en verdwijnt doorgaans binnen 1-4 uur tot maximaal 24-48 uur. Dit is een gezonde inflammatoire reactie die aangeeft dat de laserenergieoverdracht succesvol was.</p>
+<h3>De zon, ook weken later</h3>
 
-<p><strong>Hydratatie en verzorging:</strong> Pas hypoallergeen aloe vera-gel direct na behandeling toe. Aloe vera bezit antimicrobiële en anti-inflammatoire eigenschappen die huidherstel bevorderen. Vermijd producten met alcohol, essentiële oliën, of andere irriterende stoffen gedurende 24-48 uur.</p>
+<p>Bescherm de behandelde huid tegen de zon. Over hoe lang verschillen de bronnen. Het Jeroen Bosch Ziekenhuis noemt drie weken met een parfumvrije zonnebrandcrème van minimaal factor 40, de Mayo Clinic zes weken met factor 30 of hoger. De Nederlandse Vereniging voor Dermatologie en Venereologie (NVDV) raadt aan de behandelde huid tot twaalf weken goed te beschermen om donkere vlekken te voorkomen. Houd aan wat je behandelaar adviseert.</p>
 
-<p><strong>Zonnebescherming:</strong> Zonnebrandcrème SPF 50+ is verplicht minimaal zes maanden na laserbehandeling. Behandelde huid is gevoeliger voor UV-schade en pigmentveranderingen. Overexposure kan ernstige postinflammatorische hyperpigmentatie veroorzaken.</p>
+<h3>Wanneer je contact opneemt</h3>
 
-<p><strong>Hitte vermijden:</strong> Gedurende 24-48 uur dient u hete douches, baden, sauna's, warmwaterbaden, zwembaden met chloor, en intensieve fysieke inspanning te vermijden. Hitte vergroot het risico op blaarvormingen, infecties, en hyperpigmentatie door verhoogde huidtemperatuur en zweetklieractiviteit.</p>
+<p>Lichte irritatie en zwelling trekken meestal binnen een paar uur weg. Krijg je blaren, korstjes of een verkleuring die niet wegtrekt, neem dan contact op met degene die je heeft behandeld.</p>
 
-<h3>Nazorg voor Glacē Facial</h3>
+<h3>Bij SkinTech</h3>
 
-<p>Na een Glacē Glow Facial reinigt u uw gezicht mild met lauwwarm water. De huid is geëxfolieerd en geperfuseerd met vochtinbrengingsstoffen. Vermijd sterke actieve ingrediënten gedurende 24 uur. Retinoid en zuurbehandelingen kunnen herhaald worden 48 uur na behandeling. Zonnebrandcrème SPF 30+ is aanbevolen gezien de verhoogde gevoeligheid na exfoliatie.</p>
+<p>SkinTech opent in het tweede kwartaal van 2027 in Amsterdam. Bij de intake lopen we deze checklist straks met je door. Tot de opening kun je je op de <a href="/contact">wachtlijst</a> zetten.</p>
 
-<h3>Haargroei-cyclus en sessie-interval</h3>
+<h3>Bronnen</h3>
 
-<p>Menselijk haargroei volgt drie fasen: anagen (actieve groei, 2-7 jaar), catagen (overgangsperiode, 2-3 weken), en telogen (rustfase, 2-3 maanden). Lasers zijn alleen effectief op haren in de anagenfase, wanneer melanine in de haarmatrix aanwezig is voor laserenergieabsorptie. Omdat nooit alle haren tegelijk in de anagenfase zitten, is een reeks behandelingen nodig voor een langdurige haarreductie.</p>
+<ul>
+<li>Mayo Clinic, <a href="https://www.mayoclinic.org/tests-procedures/laser-hair-removal/about/pac-20394555" target="_blank" rel="noopener">Laser hair removal</a>.</li>
+<li>Jeroen Bosch Ziekenhuis, patiëntinformatie <a href="https://www.jeroenboschziekenhuis.nl/behandelingen/laserontharen/pdf" target="_blank" rel="noopener">Laserontharen</a>, laatste revisie 16 september 2026.</li>
+<li>Nederlandse Vereniging voor Dermatologie en Venereologie (NVDV), patiëntenfolder <a href="https://nvdv.nl/folders/laserbehandeling-met-een-ontharingslaser" target="_blank" rel="noopener">Laserbehandeling met een ontharingslaser</a>.</li>
+</ul>
 
-<p>De intervalperiode varieert op basis van lichaamslokalisatie en haartype. Gezichtshaar groeit sneller (interval 4-6 weken) dan beenhaar (interval 8-12 weken). Bikinizone en axillen groeien met intermediaire snelheid (interval 6-8 weken). Bij rug- en schouderhaar worden langere intervallen aanbevolen (8-10 weken) vanwege trage haargroei in deze gebieden.</p>
+<p><em>Dit artikel geeft algemene informatie en vervangt geen persoonlijk advies. Herschreven en bronnen gecontroleerd in november 2026.</em></p>
+`,
 
-<h3>Vergelijking van behandelingslocaties</h3>
+    bodyEn: `
+<p>What you do before and after a laser treatment makes a difference to your skin. This is the checklist for laser hair removal. For each part you can read which source the advice comes from.</p>
 
-<table style="width:100%; border-collapse:collapse; margin:1.5rem 0;">
-  <thead>
-    <tr style="background-color:#f5f5f5;">
-      <th style="border:1px solid #ddd; padding:12px; text-align:left;">Lichaamsdeel</th>
-      <th style="border:1px solid #ddd; padding:12px; text-align:left;">Aantal sessies</th>
-      <th style="border:1px solid #ddd; padding:12px; text-align:left;">Interval (weken)</th>
-      <th style="border:1px solid #ddd; padding:12px; text-align:left;">Discomfort</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="border:1px solid #ddd; padding:12px;">Gezicht/bovenlip</td>
-      <td style="border:1px solid #ddd; padding:12px;">6-8</td>
-      <td style="border:1px solid #ddd; padding:12px;">4-6</td>
-      <td style="border:1px solid #ddd; padding:12px;">Mild-matig</td>
-    </tr>
-    <tr style="background-color:#fafafa;">
-      <td style="border:1px solid #ddd; padding:12px;">Bikinilijn</td>
-      <td style="border:1px solid #ddd; padding:12px;">8-10</td>
-      <td style="border:1px solid #ddd; padding:12px;">6-8</td>
-      <td style="border:1px solid #ddd; padding:12px;">Matig-sterk</td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #ddd; padding:12px;">Benen</td>
-      <td style="border:1px solid #ddd; padding:12px;">6-8</td>
-      <td style="border:1px solid #ddd; padding:12px;">8-12</td>
-      <td style="border:1px solid #ddd; padding:12px;">Mild</td>
-    </tr>
-    <tr style="background-color:#fafafa;">
-      <td style="border:1px solid #ddd; padding:12px;">Rug/schouders</td>
-      <td style="border:1px solid #ddd; padding:12px;">6-8</td>
-      <td style="border:1px solid #ddd; padding:12px;">8-10</td>
-      <td style="border:1px solid #ddd; padding:12px;">Mild-matig</td>
-    </tr>
-  </tbody>
-</table>
+<h3>In the weeks before</h3>
 
-<p>Met een goede voorbereiding en nazorg ga je met vertrouwen een laserbehandeling in. Bij SkinTech Laser Clinic Amsterdam kan dat vanaf onze opening, gepland in het tweede kwartaal van 2027.</p>`,
+<ul>
+<li><strong>No waxing or epilating.</strong> Stop at least four weeks before the treatment. The laser needs the hair in the follicle. Shaving is fine.</li>
+<li><strong>Out of the sun.</strong> Avoid the sun and sunbeds, do not use self-tanner and use a sunscreen of SPF 30 or higher. Pigment spots can form on tanned skin after the treatment.</li>
+<li><strong>Medicines and pregnancy.</strong> At the intake, say which medicines you use and whether you are pregnant.</li>
+</ul>
 
-    bodyEn: `<h3>Preparation and Aftercare for Laser Treatments and Facial Procedures</h3>
+<p>This advice comes from the Mayo Clinic and the Jeroen Bosch Hospital in the Netherlands.</p>
 
-<p>Successful laser hair removal and professional facial treatments require careful preparation and rigorous aftercare protocols. At SkinTech Laser Clinic in Amsterdam, we will guide you through every stage once we open. This article sets out the general guidelines in advance.</p>
+<h3>The day before</h3>
 
-<h3>Pre-Treatment Preparation for Laser Hair Removal</h3>
+<p>Shave the area to be treated, carefully, one day in advance. Both the Mayo Clinic and the Jeroen Bosch Hospital advise this.</p>
 
-<p><strong>Hair removal method:</strong> You must shave the treatment area 24 hours before your appointment—never wax or pluck. Shaving removes only the visible hair shaft above the skin while keeping the hair root intact within the follicle, allowing optimal laser energy absorption. Waxing and plucking remove the entire hair root, preventing effective laser interaction with melanin in the hair matrix. This protocol significantly improves treatment efficacy and reduces discomfort during the session.</p>
+<h3>During the treatment</h3>
 
-<p><strong>Sun avoidance:</strong> For 4 weeks prior to treatment, strict sun protection is essential. UV exposure stimulates melanin production in the epidermis, leading to unwanted laser energy absorption, increased erythema risk, and potential pigmentary changes. Although Amsterdam's temperate climate provides some natural protection, UV avoidance remains critical for safety and efficacy.</p>
+<p>You wear protective glasses and the skin is cooled. Each pulse feels like a short snap. Say so if it becomes too much.</p>
 
-<p><strong>Medication interactions:</strong> Certain medications increase photosensitivity and must be avoided. Isotretinoin (Accutane) carries elevated risks of scarring and pigmentary complications. Other photosensitizing agents include tetracyclines, NSAIDs, and specific antidepressants. Consult your dermatologist or physician at least two weeks before your appointment.</p>
+<h3>The first days after</h3>
 
-<p><strong>Skincare avoidance:</strong> Discontinue retinol, vitamin A derivatives, AHAs (glycolic acid), BHAs (salicylic acid), and other active ingredients one week before treatment. These compounds thin the stratum corneum and compromise the skin barrier, increasing sensitivity and burn risk.</p>
+<ul>
+<li><strong>Cool.</strong> The skin can be red, swollen or irritated for a few hours. Cool it with cold water or a cold pack.</li>
+<li><strong>Pat, do not rub.</strong> Pat the skin dry and do not use perfumed products for the first few days.</li>
+<li><strong>Shaving only.</strong> The treated hairs fall out in the days to weeks that follow. Shaving is fine, waxing and epilating are not, also not between sessions.</li>
+</ul>
 
-<h3>Day-of-Treatment Protocol</h3>
+<h3>The sun, weeks later too</h3>
 
-<p>Arrive with clean skin free of deodorant, perfume, lotions, and cosmetics. These products create an absorptive layer that interferes with laser energy transmission and prevents proper thermal response.</p>
+<p>Protect the treated skin from the sun. The sources differ on how long. The Jeroen Bosch Hospital mentions three weeks with an unperfumed sunscreen of at least SPF 40, the Mayo Clinic six weeks with SPF 30 or higher. The Dutch Society for Dermatology and Venereology (NVDV) advises protecting the treated skin well for up to twelve weeks to prevent dark spots. Follow what the person who treats you advises.</p>
 
-<h3>Post-Laser Aftercare</h3>
+<h3>When to get in touch</h3>
 
-<p><strong>Erythema management:</strong> Mild redness (erythema) is normal and resolves within 1-4 hours to 24-48 hours maximum. This represents a healthy inflammatory response indicating successful laser energy delivery.</p>
+<p>Mild irritation and swelling usually fade within a few hours. If you get blisters, crusts or a discolouration that does not fade, contact the person who treated you.</p>
 
-<p><strong>Hydration and soothing:</strong> Apply hypoallergenic aloe vera gel immediately post-treatment. Aloe vera possesses antimicrobial and anti-inflammatory properties that accelerate skin recovery. Avoid alcohol-based products, essential oils, and irritants for 24-48 hours.</p>
+<h3>At SkinTech</h3>
 
-<p><strong>Sun protection:</strong> SPF 50+ sunscreen is mandatory for at least six months post-laser treatment. Treated skin is more vulnerable to UV damage and pigmentary complications. Overexposure can cause severe post-inflammatory hyperpigmentation.</p>
+<p>SkinTech opens in Amsterdam in the second quarter of 2027. At the intake we will go through this checklist with you. Until we open you can join the <a href="/en/contact">waiting list</a>.</p>
 
-<p><strong>Heat avoidance:</strong> For 24-48 hours, avoid hot showers, baths, saunas, hot water immersion, chlorinated pools, and intense physical exercise. Heat increases blister formation risk, infection potential, and hyperpigmentation through elevated skin temperature and sweat gland activity.</p>
+<h3>Sources</h3>
 
-<h3>Post-Glacē Facial Aftercare</h3>
+<ul>
+<li>Mayo Clinic, <a href="https://www.mayoclinic.org/tests-procedures/laser-hair-removal/about/pac-20394555" target="_blank" rel="noopener">Laser hair removal</a>.</li>
+<li>Jeroen Bosch Hospital, patient information <a href="https://www.jeroenboschziekenhuis.nl/behandelingen/laserontharen/pdf" target="_blank" rel="noopener">Laserontharen</a>, last revised 16 September 2026 (in Dutch).</li>
+<li>Dutch Society for Dermatology and Venereology (NVDV), patient leaflet <a href="https://nvdv.nl/folders/laserbehandeling-met-een-ontharingslaser" target="_blank" rel="noopener">Laserbehandeling met een ontharingslaser</a> (in Dutch).</li>
+</ul>
 
-<p>After your Glacē Glow Facial, gently cleanse with lukewarm water. Your skin has been exfoliated and infused with hydrating serums. Avoid strong actives for 24 hours. Retinoids and acid treatments may resume after 48 hours. SPF 30+ is recommended due to increased post-exfoliation sensitivity.</p>
-
-<h3>Hair Growth Cycle and Treatment Intervals</h3>
-
-<p>Human hair growth follows three phases: anagen (active growth, 2-7 years), catagen (transition, 2-3 weeks), and telogen (resting phase, 2-3 months). Lasers are only effective on anagen-phase hairs, when melanin concentrations are highest in the hair matrix for optimal energy absorption. Because hairs are never all in the anagen phase at the same time, a series of treatments is needed for long-term hair reduction.</p>
-
-<p>Treatment intervals vary by body location and hair characteristics. Facial hair grows faster (4-6 week intervals) than leg hair (8-12 week intervals). Bikini zone and underarm hair follow intermediate growth cycles (6-8 week intervals). Back and shoulder hair requires longer intervals (8-10 weeks) due to slower growth rates in these areas.</p>
-
-<h3>Treatment Location Comparison Table</h3>
-
-<table style="width:100%; border-collapse:collapse; margin:1.5rem 0;">
-  <thead>
-    <tr style="background-color:#f5f5f5;">
-      <th style="border:1px solid #ddd; padding:12px; text-align:left;">Body Area</th>
-      <th style="border:1px solid #ddd; padding:12px; text-align:left;">Sessions Required</th>
-      <th style="border:1px solid #ddd; padding:12px; text-align:left;">Interval (weeks)</th>
-      <th style="border:1px solid #ddd; padding:12px; text-align:left;">Discomfort Level</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="border:1px solid #ddd; padding:12px;">Face/upper lip</td>
-      <td style="border:1px solid #ddd; padding:12px;">6-8</td>
-      <td style="border:1px solid #ddd; padding:12px;">4-6</td>
-      <td style="border:1px solid #ddd; padding:12px;">Mild-moderate</td>
-    </tr>
-    <tr style="background-color:#fafafa;">
-      <td style="border:1px solid #ddd; padding:12px;">Bikini line</td>
-      <td style="border:1px solid #ddd; padding:12px;">8-10</td>
-      <td style="border:1px solid #ddd; padding:12px;">6-8</td>
-      <td style="border:1px solid #ddd; padding:12px;">Moderate-strong</td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #ddd; padding:12px;">Legs</td>
-      <td style="border:1px solid #ddd; padding:12px;">6-8</td>
-      <td style="border:1px solid #ddd; padding:12px;">8-12</td>
-      <td style="border:1px solid #ddd; padding:12px;">Mild</td>
-    </tr>
-    <tr style="background-color:#fafafa;">
-      <td style="border:1px solid #ddd; padding:12px;">Back/shoulders</td>
-      <td style="border:1px solid #ddd; padding:12px;">6-8</td>
-      <td style="border:1px solid #ddd; padding:12px;">8-10</td>
-      <td style="border:1px solid #ddd; padding:12px;">Mild-moderate</td>
-    </tr>
-  </tbody>
-</table>
-
-<p>With good preparation and aftercare, you go into a laser treatment with confidence. At SkinTech Laser Clinic Amsterdam that will be possible from our opening, planned for the second quarter of 2027.</p>`
+<p><em>This article gives general information and does not replace personal advice. Rewritten and sources checked in November 2026.</em></p>
+`
   },
 
   'deep-vs-glace': {
@@ -874,193 +878,103 @@ bodyEn: `
 
 'laser-donkere-huid': {
     bodyNl: `
-<h3>Laserontharing voor donkere huid: veilig, effectief en inclusief</h3>
+<p>Lang gold laserontharing als iets voor een lichte huid met donker haar. Dat is veranderd. Een donkere huid vraagt wel om de juiste laser, de juiste instellingen en iemand met ervaring. Dit is wat je moet weten voor je begint.</p>
 
-<p>Laserontharing is een van de meest populaire cosmetische behandelingen ter wereld, maar mensen met donkere huid hebben jarenlang gestrugfeld met veiligheid en effectiviteit. De realiteit is echter transformatief: met de juiste lasertechnologie en klinische expertise is laserontharing niet alleen veilig voor donkere huid, maar ook uiterst effectief. In Amsterdam, een van de meest diverse steden van Europa, is het essentieel dat clinics kunnen beschikken over de technologie om alle huidtypes professioneel te behandelen.</p>
+<h3>Waarom een donkere huid extra aandacht vraagt</h3>
 
-<h3>Waarom donkere huid een ander soort lasertechnologie vereist</h3>
+<p>Een ontharingslaser werkt op pigment. Het licht moet terechtkomen in het pigment van de haar, maar een donkere huid heeft ook veel pigment in de bovenste huidlaag. Dat pigment neemt een deel van de energie op. Daardoor is de kans op bijwerkingen groter: de Mayo Clinic noemt mensen met een bruine of zwarte huid als groep met een hoger risico, en schrijft dat een donkere huid de juiste laser en de juiste instellingen nodig heeft.</p>
 
-<p>De uitdaging met laserontharing op donkere huid ligt in de basale natuurkunde van laserlicht en melanine. Alle lasers voor haarverwijdering werken door energie af te geven die wordt opgenomen door melanine in de haarwortels. Maar mensen met donkere huid (Fitzpatrick-type IV tot VI) hebben ook hogere concentraties melanine in de epidermis — de buitenste laag van de huid.</p>
+<p>De Nederlandse Vereniging voor Dermatologie en Venereologie (NVDV) beschrijft welke bijwerkingen dan vooral spelen: lichte vlekken en donkere vlekken, die na dagen, weken of maanden kunnen ontstaan.</p>
 
-<p>Dit zorgt voor twee problemen: ten eerste concurreert epidermale melanine met folliculaire melanine om de laser-energie, wat de behandeleffectiviteit vermindert. Ten tweede kunnen conventiële lasers (zoals alexandrite en IPL-systemen) overmatige hitte in de epidermis opwekken, wat leidt tot brandwonden, hypopigmentatie (lichter wordende vlekken) of hyperpigmentatie (donkerder wordende vlekken). Dit is waarom veel clinics traditioneel alleen alexandrite-lasers gebruikten — een ernstige beperking voor donkere huiden.</p>
+<h3>Welke laser bij een donkere huid</h3>
 
-<h3>Het Nd:YAG-verschil: langere golflengten, betere penetratie, universele veiligheid</h3>
+<p>Lasers met een langere golflengte, zoals de Nd:YAG-laser (1064 nm), gelden als de beste keuze voor donkere huidtypen. Zo vatten onderzoekers het samen in een studie uit 2008 onder 59 vrouwen met huidtype IV en V. Na zes behandelingen met een Nd:YAG-laser noemden zij de behandeling veilig en werkzaam.</p>
 
-<p>De oplossing is de Nd:YAG-laser met een golflengte van 1064 nanometer. Deze langere golflengte dringt dieper in de huid door zonder significant door epidermale melanine te worden geabsorbeerd. Klinisch onderzoek heeft aangetoond dat Nd:YAG lasers uitzonderlijke resultaten opleveren op Fitzpatrick-type IV tot VI-huid, met minimale complicaties.</p>
+<p>Andere studies wijzen dezelfde kant op. Een dossieronderzoek uit 2011 onder 150 mensen met huidtype IV tot en met VI kwam tot dezelfde conclusie; bij de meeste deelnemers was het resultaat naar tevredenheid. Een studie uit 2001 onder twintig vrouwen met huidtype IV tot en met VI vond schade aan de haarzakjes zonder schade aan de bovenste huidlaag. Het zijn kleine studies, meestal zonder controlegroep. Een garantie geven ze niet.</p>
 
-<p><a href="https://doi.org/10.1046/j.1524-4725.2000.00037.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Adrian & Shay, 2000, Dermatologic Surgery</a> dokumenteerden dat Nd:YAG-systemen de eerste veilige en effectieve keuze zijn voor haarverwijdering op donkere huid. Later onderzoek door <a href="https://doi.org/10.1111/j.1529-8019.2004.04015.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Battle & Hobbs, 2004</a> bevestigde dat Nd:YAG-lasers consistent superieure resultaten geven op donkere huiden met significantief lagere complicatiepercentages.</p>
+<h3>Wat dat bij SkinTech betekent</h3>
 
-<h3>GentleMax Pro Plus: het gouden standaard voor inclusieve laserontharing</h3>
+<p>De GentleMax Pro Plus, het apparaat waarmee wij gaan werken, heeft naast een alexandrietlaser ook een Nd:YAG-laser. In de Amerikaanse toelating is het apparaat bedoeld voor alle huidtypen, van I tot en met VI, ook een gebruinde huid. Een koelspray koelt de bovenste huidlaag bij elke puls.</p>
 
-<p>De GentleMax Pro Plus is een dual-wavelength systeem dat zowel alexandrite (755nm) als Nd:YAG (1064nm) kan leveren. Dit stelt clinicians in staat om naadloos over te schakelen naar Nd:YAG voor donkere huiden zonder een apart apparaat te nodig hebben. Het ingebouwde DCD (Dynamic Cooling Device) koelt bovendien proactief de epidermis, wat brandwonden en pigmentveranderingen verder voorkomt.</p>
+<p>SkinTech opent in het tweede kwartaal van 2027 in Amsterdam. Bij een lasertraject horen bij ons straks een consult en een patchtest: een proefbehandeling op een klein stukje huid, voordat we een groter gebied behandelen.</p>
 
-<p>Dit is waarom SkinTech Laser Clinic Amsterdam de GentleMax Pro Plus heeft gekozen: het is niet alleen een investering in apparatuur, maar een commitment aan het veilig en effectief behandelen van alle Amsterdamse huidtypes, van zeer licht tot zeer donker.</p>
+<h3>Vragen om te stellen, bij welke kliniek dan ook</h3>
 
-<h3>Laser-veiligheid op donkere huid: een vergelijkingstabel</h3>
-
-<table style="width:100%;border-collapse:collapse;margin:20px 0;">
-<tr style="background-color:#f5f5f5;">
-<th style="border:1px solid #ddd;padding:10px;text-align:left;">Lasertype</th>
-<th style="border:1px solid #ddd;padding:10px;text-align:left;">Golflengte</th>
-<th style="border:1px solid #ddd;padding:10px;text-align:left;">Fitzpatrick I-III</th>
-<th style="border:1px solid #ddd;padding:10px;text-align:left;">Fitzpatrick IV-VI</th>
-<th style="border:1px solid #ddd;padding:10px;text-align:left;">Complicatierisico</th>
-</tr>
-<tr>
-<td style="border:1px solid #ddd;padding:10px;">Alexandrite (755nm)</td>
-<td style="border:1px solid #ddd;padding:10px;">755nm</td>
-<td style="border:1px solid #ddd;padding:10px;">Uitstekend</td>
-<td style="border:1px solid #ddd;padding:10px;">Beperkt veilig</td>
-<td style="border:1px solid #ddd;padding:10px;">Matig tot hoog</td>
-</tr>
-<tr style="background-color:#f9f9f9;">
-<td style="border:1px solid #ddd;padding:10px;">IPL (500-1200nm)</td>
-<td style="border:1px solid #ddd;padding:10px;">Brede spectrum</td>
-<td style="border:1px solid #ddd;padding:10px;">Goed</td>
-<td style="border:1px solid #ddd;padding:10px;">Niet aanbevolen</td>
-<td style="border:1px solid #ddd;padding:10px;">Hoog</td>
-</tr>
-<tr>
-<td style="border:1px solid #ddd;padding:10px;">Nd:YAG (1064nm)</td>
-<td style="border:1px solid #ddd;padding:10px;">1064nm</td>
-<td style="border:1px solid #ddd;padding:10px;">Goed</td>
-<td style="border:1px solid #ddd;padding:10px;">Uitstekend</td>
-<td style="border:1px solid #ddd;padding:10px;">Laag</td>
-</tr>
-<tr style="background-color:#f9f9f9;">
-<td style="border:1px solid #ddd;padding:10px;">Nd:YAG + DCD</td>
-<td style="border:1px solid #ddd;padding:10px;">1064nm + koeling</td>
-<td style="border:1px solid #ddd;padding:10px;">Goed</td>
-<td style="border:1px solid #ddd;padding:10px;">Zeer uitstekend</td>
-<td style="border:1px solid #ddd;padding:10px;">Zeer laag</td>
-</tr>
-</table>
-
-<h3>Wat u moet zoeken in een kliniek: de SkinTech-benadering</h3>
-
-<p>Als u laserontharing overweegt met donkere huid, zijn hier kritische vragen die u moet stellen:</p>
-
-<ul style="margin:15px 0;padding-left:20px;">
-<li><strong>Welke laser gebruikt u?</strong> Zorg ervoor dat Nd:YAG beschikbaar is, niet alleen alexandrite of IPL.</li>
-<li><strong>Heeft u ervaring met mijn huidtype?</strong> Vraag naar voorbeelden en referenties van patiënten met vergelijkbare huid.</li>
-<li><strong>Voert u een patchtest uit?</strong> Dit is essentieel om individuele reacties te evalueren voordat u doorgaat met volledige behandeling.</li>
-<li><strong>Hoeveel sessies verwacht u?</strong> Donkere huid kan iets meer sessies nodig hebben, maar met Nd:YAG worden goede resultaten verwacht.</li>
+<ul>
+<li><strong>Welke laser gebruiken jullie voor mijn huid?</strong> Vraag of er een laser met een lange golflengte is, zoals een Nd:YAG.</li>
+<li><strong>Hebben jullie ervaring met mijn huidskleur?</strong> De Mayo Clinic raadt aan iemand te kiezen die ervaring heeft met verschillende huidskleuren.</li>
+<li><strong>Doen jullie eerst een proefbehandeling?</strong> Zo zie je hoe je huid reageert voordat een groot gebied wordt behandeld.</li>
+<li><strong>Welk resultaat mag ik verwachten?</strong> Laserontharing vermindert haargroei voor lange tijd. Dat elk haartje voorgoed wegblijft, kan niemand beloven.</li>
 </ul>
 
-<p>SkinTech Laser Clinic Amsterdam opent naar verwachting in het tweede kwartaal van 2027. Een persoonlijk consult en een patchtest vóór de volledige behandeling horen daar straks standaard bij.</p>
+<h3>De zon telt extra</h3>
 
-<h3>Misvattingen ontmaskerd: wat waar is en wat niet</h3>
+<p>Kom niet met een gebruinde huid naar een behandeling en bescherm de behandelde huid daarna goed tegen de zon. De NVDV raadt aan dat tot twaalf weken na de behandeling te doen, om donkere vlekken te voorkomen.</p>
 
-<p><strong>Mythe 1: "Laser werkt niet op donkere huid."</strong> Onwaar. Nd:YAG-lasers werken uitzonderlijk goed op donkere huid, omdat de golflengte niet significant door epidermale melanine wordt geabsorbeerd.</p>
+<p>Tot de opening kun je je op de <a href="/contact">wachtlijst</a> zetten.</p>
 
-<p><strong>Mythe 2: "Je hebt veel meer sessies nodig voor donkere huid."</strong> Gedeeltelijk waar. Donkere huid kan soms iets meer sessies nodig hebben (6-8 in plaats van 4-6), maar met Nd:YAG zijn de verschillen minimaal. <a href="https://doi.org/10.1111/j.1365-2230.2003.01372.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Lanigan, 2003</a> documenteerde dat complicaties eerder dan onwerkzaamheid het beperkende factor is als de verkeerde laser wordt gebruikt.</p>
+<h3>Bronnen</h3>
 
-<p><strong>Mythe 3: "Laserontharing doet pijn op donkere huid."</strong> Dit hoeft niet waar te zijn. Met moderne DCD-koeling is de ervaring voor alle huidtypes vergelijkbaar.</p>
+<ul>
+<li>Mayo Clinic, <a href="https://www.mayoclinic.org/tests-procedures/laser-hair-removal/about/pac-20394555" target="_blank" rel="noopener">Laser hair removal</a>.</li>
+<li>Nederlandse Vereniging voor Dermatologie en Venereologie (NVDV), patiëntenfolder <a href="https://nvdv.nl/folders/laserbehandeling-met-een-ontharingslaser" target="_blank" rel="noopener">Laserbehandeling met een ontharingslaser</a>.</li>
+<li>Evaluation of long-pulsed 1064 nm Nd:YAG laser-assisted hair removal vs multiple treatment sessions and different hair types in Indian patients. Journal of Cutaneous and Aesthetic Surgery, 2008. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2840900/" target="_blank" rel="noopener">PubMed Central PMC2840900</a></li>
+<li>Long-pulsed Nd:YAG laser-assisted hair removal in Fitzpatrick skin types IV-VI. Lasers in Medical Science 2011;26(5):623-626. <a href="https://pubmed.ncbi.nlm.nih.gov/21519944/" target="_blank" rel="noopener">PubMed 21519944</a></li>
+<li>Long-pulsed Nd:YAG laser-assisted hair removal in pigmented skin: a clinical and histological evaluation. Archives of Dermatology 2001;137(7):885-889. <a href="https://pubmed.ncbi.nlm.nih.gov/11453807/" target="_blank" rel="noopener">PubMed 11453807</a></li>
+<li>U.S. Food and Drug Administration (FDA), toelating K201111 voor de Candela GentleMax Pro Plus, 26 mei 2020, <a href="https://www.accessdata.fda.gov/cdrh_docs/pdf20/K201111.pdf" target="_blank" rel="noopener">samenvatting (pdf)</a>.</li>
+</ul>
 
-<h3>Het Amsterdam-voordeel: inclusieve zorg in een diverse stad</h3>
-
-<p>Amsterdam is de thuisbasis van grote Surinaamse, Turkse, Marokkaanse en Indonesische gemeenschappen — mensen met Fitzpatrick-type IV tot VI-huid. Niet elke kliniek heeft een laser die voor deze huidtypes geschikt is. SkinTech kiest daarom voor een systeem met een Nd:YAG-laser, zodat we straks alle Amsterdammers kunnen helpen.</p>
-
-<h3>Volgende stappen: uw laserontharing-reis beginnen</h3>
-
-<p>Denk je na over langdurige haarreductie, welk huidtype je ook hebt? SkinTech Laser Clinic Amsterdam opent in het tweede kwartaal van 2027, met een persoonlijk consult, huidanalyse, patchtest en een heldere uitleg van je behandelplan. Tot die tijd kun je je op de wachtlijst zetten.</p>
-
-<p>Moderne Nd:YAG-lasers hebben laserontharing ook voor een donkere huid bereikbaar gemaakt. Het is tijd dat alle Amsterdammers toegang hebben tot deze technologie.</p>
-    `,
+<p><em>Dit artikel geeft algemene informatie en vervangt geen persoonlijk advies. Herschreven en bronnen gecontroleerd in november 2026.</em></p>
+`,
     bodyEn: `
-<h3>Laser Hair Removal for Dark Skin: Safe, Effective, and Inclusive</h3>
+<p>For a long time laser hair removal was seen as something for light skin with dark hair. That has changed. Dark skin does need the right laser, the right settings and someone with experience. This is what to know before you start.</p>
 
-<p>Laser hair removal is one of the world's most popular cosmetic treatments, but people with dark skin have long struggled with safety and effectiveness concerns. The reality, however, is transformative: with the right laser technology and clinical expertise, laser hair removal is not only safe for dark skin—it's also highly effective. In Amsterdam, one of Europe's most diverse cities, it's essential that clinics have the technology to professionally treat all skin types.</p>
+<h3>Why dark skin needs extra care</h3>
 
-<h3>Why Dark Skin Requires Different Laser Technology</h3>
+<p>A hair removal laser acts on pigment. The light has to reach the pigment of the hair, but dark skin also has a lot of pigment in its top layer. That pigment absorbs part of the energy. This makes side effects more likely: the Mayo Clinic names people with brown or black skin as a group at higher risk, and writes that dark skin needs the right laser and the right settings.</p>
 
-<p>The challenge with laser hair removal on dark skin lies in the basic physics of laser light and melanin. All hair removal lasers work by emitting energy that is absorbed by melanin in hair follicles. But people with dark skin (Fitzpatrick types IV–VI) also have higher concentrations of melanin in the epidermis—the skin's outer layer.</p>
+<p>The Dutch Society for Dermatology and Venereology (NVDV) describes which side effects matter most here: light spots and dark spots, which can appear after days, weeks or months.</p>
 
-<p>This creates two problems: first, epidermal melanin competes with follicular melanin for laser energy, reducing treatment effectiveness. Second, conventional lasers (such as alexandrite and IPL systems) can generate excessive heat in the epidermis, leading to burns, hypopigmentation (lightening), or hyperpigmentation (darkening). This is why many clinics traditionally used alexandrite lasers only—a serious limitation for dark skin.</p>
+<h3>Which laser for dark skin</h3>
 
-<h3>The Nd:YAG Difference: Longer Wavelengths, Better Penetration, Universal Safety</h3>
+<p>Lasers with a longer wavelength, such as the Nd:YAG laser (1064 nm), are considered the best choice for darker skin types. That is how researchers put it in a 2008 study of 59 women with skin types IV and V. After six treatments with an Nd:YAG laser they called the treatment safe and effective.</p>
 
-<p>The solution is the Nd:YAG laser with a wavelength of 1064 nanometers. This longer wavelength penetrates deeper into the skin without being significantly absorbed by epidermal melanin. Clinical research has demonstrated that Nd:YAG lasers deliver exceptional results on Fitzpatrick types IV–VI skin, with minimal complications.</p>
+<p>Other studies point the same way. A 2011 review of the records of 150 people with skin types IV to VI reached the same conclusion, with a satisfactory result for most participants. A 2001 study of twenty women with skin types IV to VI found damage to the hair follicles without damage to the top layer of the skin. These are small studies, mostly without a control group. They do not amount to a guarantee.</p>
 
-<p><a href="https://doi.org/10.1046/j.1524-4725.2000.00037.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Adrian & Shay, 2000, Dermatologic Surgery</a> documented that Nd:YAG systems are the first safe and effective choice for hair removal on dark skin. Subsequent research by <a href="https://doi.org/10.1111/j.1529-8019.2004.04015.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Battle & Hobbs, 2004</a> confirmed that Nd:YAG lasers consistently deliver superior results on dark skin with significantly lower complication rates.</p>
+<h3>What that means at SkinTech</h3>
 
-<h3>GentleMax Pro Plus: The Gold Standard for Inclusive Hair Removal</h3>
+<p>The GentleMax Pro Plus, the device we are going to work with, has an Nd:YAG laser as well as an alexandrite laser. In its US clearance the device is intended for all skin types, from I to VI, including tanned skin. A cooling spray cools the top layer of the skin with every pulse.</p>
 
-<p>The GentleMax Pro Plus is a dual-wavelength system delivering both alexandrite (755nm) and Nd:YAG (1064nm). This allows clinicians to seamlessly switch to Nd:YAG for dark skin types without needing a separate device. The integrated DCD (Dynamic Cooling Device) also proactively cools the epidermis, further preventing burns and pigment changes.</p>
+<p>SkinTech opens in Amsterdam in the second quarter of 2027. With us, a course of laser treatments will include a consultation and a patch test: a trial treatment on a small patch of skin, before we treat a larger area.</p>
 
-<p>This is why SkinTech Laser Clinic Amsterdam chose the GentleMax Pro Plus: it's not merely an equipment investment, but a commitment to safely and effectively treating all of Amsterdam's skin types, from very fair to very dark.</p>
+<h3>Questions to ask, at any clinic</h3>
 
-<h3>Laser Safety on Dark Skin: A Comparison Table</h3>
-
-<table style="width:100%;border-collapse:collapse;margin:20px 0;">
-<tr style="background-color:#f5f5f5;">
-<th style="border:1px solid #ddd;padding:10px;text-align:left;">Laser Type</th>
-<th style="border:1px solid #ddd;padding:10px;text-align:left;">Wavelength</th>
-<th style="border:1px solid #ddd;padding:10px;text-align:left;">Fitzpatrick I–III</th>
-<th style="border:1px solid #ddd;padding:10px;text-align:left;">Fitzpatrick IV–VI</th>
-<th style="border:1px solid #ddd;padding:10px;text-align:left;">Complication Risk</th>
-</tr>
-<tr>
-<td style="border:1px solid #ddd;padding:10px;">Alexandrite (755nm)</td>
-<td style="border:1px solid #ddd;padding:10px;">755nm</td>
-<td style="border:1px solid #ddd;padding:10px;">Excellent</td>
-<td style="border:1px solid #ddd;padding:10px;">Limited safety</td>
-<td style="border:1px solid #ddd;padding:10px;">Moderate to high</td>
-</tr>
-<tr style="background-color:#f9f9f9;">
-<td style="border:1px solid #ddd;padding:10px;">IPL (500–1200nm)</td>
-<td style="border:1px solid #ddd;padding:10px;">Broad spectrum</td>
-<td style="border:1px solid #ddd;padding:10px;">Good</td>
-<td style="border:1px solid #ddd;padding:10px;">Not recommended</td>
-<td style="border:1px solid #ddd;padding:10px;">High</td>
-</tr>
-<tr>
-<td style="border:1px solid #ddd;padding:10px;">Nd:YAG (1064nm)</td>
-<td style="border:1px solid #ddd;padding:10px;">1064nm</td>
-<td style="border:1px solid #ddd;padding:10px;">Good</td>
-<td style="border:1px solid #ddd;padding:10px;">Excellent</td>
-<td style="border:1px solid #ddd;padding:10px;">Low</td>
-</tr>
-<tr style="background-color:#f9f9f9;">
-<td style="border:1px solid #ddd;padding:10px;">Nd:YAG + DCD</td>
-<td style="border:1px solid #ddd;padding:10px;">1064nm + cooling</td>
-<td style="border:1px solid #ddd;padding:10px;">Good</td>
-<td style="border:1px solid #ddd;padding:10px;">Excellent</td>
-<td style="border:1px solid #ddd;padding:10px;">Very low</td>
-</tr>
-</table>
-
-<h3>What to Look for in a Clinic: The SkinTech Approach</h3>
-
-<p>If you're considering laser hair removal with dark skin, here are critical questions to ask:</p>
-
-<ul style="margin:15px 0;padding-left:20px;">
-<li><strong>What laser do you use?</strong> Ensure Nd:YAG is available, not just alexandrite or IPL.</li>
-<li><strong>Do you have experience with my skin type?</strong> Ask for examples and references from patients with similar skin.</li>
-<li><strong>Do you perform a patch test?</strong> This is essential to evaluate individual reactions before proceeding with full treatment.</li>
-<li><strong>How many sessions do you expect?</strong> Dark skin may require slightly more sessions, but good results are expected with Nd:YAG.</li>
+<ul>
+<li><strong>Which laser do you use for my skin?</strong> Ask whether there is a long-wavelength laser, such as an Nd:YAG.</li>
+<li><strong>Do you have experience with my skin colour?</strong> The Mayo Clinic advises choosing someone who has experience with different skin colours.</li>
+<li><strong>Do you do a trial treatment first?</strong> That shows how your skin responds before a large area is treated.</li>
+<li><strong>What result can I expect?</strong> Laser hair removal reduces hair growth for a long time. Nobody can promise that every hair stays away for good.</li>
 </ul>
 
-<p>SkinTech Laser Clinic Amsterdam is expected to open in the second quarter of 2027. A personal consultation and a patch test before full treatment will be standard.</p>
+<h3>The sun matters even more</h3>
 
-<h3>Myths Debunked: What's True and What Isn't</h3>
+<p>Do not come to a treatment with tanned skin, and protect the treated skin well from the sun afterwards. The NVDV advises doing so for up to twelve weeks after the treatment, to prevent dark spots.</p>
 
-<p><strong>Myth 1: "Lasers don't work on dark skin."</strong> False. Nd:YAG lasers work exceptionally well on dark skin because the wavelength is not significantly absorbed by epidermal melanin.</p>
+<p>Until we open you can join the <a href="/en/contact">waiting list</a>.</p>
 
-<p><strong>Myth 2: "You need many more sessions for dark skin."</strong> Partially true. Dark skin may require slightly more sessions (6–8 instead of 4–6), but with Nd:YAG, the differences are minimal. <a href="https://doi.org/10.1111/j.1365-2230.2003.01372.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Lanigan, 2003</a> documented that complications, rather than ineffectiveness, are the limiting factor when the wrong laser is used.</p>
+<h3>Sources</h3>
 
-<p><strong>Myth 3: "Laser hair removal is painful on dark skin."</strong> This need not be true. With modern DCD cooling, the experience for all skin types is comparable.</p>
+<ul>
+<li>Mayo Clinic, <a href="https://www.mayoclinic.org/tests-procedures/laser-hair-removal/about/pac-20394555" target="_blank" rel="noopener">Laser hair removal</a>.</li>
+<li>Dutch Society for Dermatology and Venereology (NVDV), patient leaflet <a href="https://nvdv.nl/folders/laserbehandeling-met-een-ontharingslaser" target="_blank" rel="noopener">Laserbehandeling met een ontharingslaser</a> (in Dutch).</li>
+<li>Evaluation of long-pulsed 1064 nm Nd:YAG laser-assisted hair removal vs multiple treatment sessions and different hair types in Indian patients. Journal of Cutaneous and Aesthetic Surgery, 2008. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2840900/" target="_blank" rel="noopener">PubMed Central PMC2840900</a></li>
+<li>Long-pulsed Nd:YAG laser-assisted hair removal in Fitzpatrick skin types IV-VI. Lasers in Medical Science 2011;26(5):623-626. <a href="https://pubmed.ncbi.nlm.nih.gov/21519944/" target="_blank" rel="noopener">PubMed 21519944</a></li>
+<li>Long-pulsed Nd:YAG laser-assisted hair removal in pigmented skin: a clinical and histological evaluation. Archives of Dermatology 2001;137(7):885-889. <a href="https://pubmed.ncbi.nlm.nih.gov/11453807/" target="_blank" rel="noopener">PubMed 11453807</a></li>
+<li>U.S. Food and Drug Administration (FDA), clearance K201111 for the Candela GentleMax Pro Plus, 26 May 2020, <a href="https://www.accessdata.fda.gov/cdrh_docs/pdf20/K201111.pdf" target="_blank" rel="noopener">summary (pdf)</a>.</li>
+</ul>
 
-<h3>The Amsterdam Advantage: Inclusive Care in a Diverse City</h3>
-
-<p>Amsterdam is home to large Surinamese, Turkish, Moroccan, and Indonesian communities—people with Fitzpatrick types IV–VI skin. Not every clinic has a laser that suits these skin types. SkinTech is therefore choosing a system with an Nd:YAG laser, so that we will be able to help all Amsterdammers.</p>
-
-<h3>Next Steps: Begin Your Laser Hair Removal Journey</h3>
-
-<p>Thinking about long-term hair reduction, whatever your skin type? SkinTech Laser Clinic Amsterdam opens in the second quarter of 2027, with a personal consultation, skin analysis, patch test and a clear explanation of your treatment plan. Until then you can join the waiting list.</p>
-
-<p>Modern Nd:YAG lasers have brought laser hair removal within reach for dark skin as well. It's time every Amsterdammer had access to this technology.</p>
-    `
+<p><em>This article gives general information and does not replace personal advice. Rewritten and sources checked in November 2026.</em></p>
+`
   },
 
   'huidverbetering-amsterdam': {

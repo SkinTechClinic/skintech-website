@@ -642,8 +642,8 @@ const ARTICLES = [
     img:'/assets/article-ipl-vs-laser.webp',
   },
   { id:'laser-donkere-huid', cat:'Huidverzorging', catEn:'Skin Care', date:'2026-04-30', updated:'2026-11-23',
-    titleNl:'Laserontharing bij donkere huid: veilig, effectief en inclusief',
-    titleEn:'Laser hair removal for dark skin: safe, effective, and inclusive',
+    titleNl:'Laserontharing bij een donkere huid: waar je op let',
+    titleEn:'Laser hair removal for dark skin: what to look out for',
     seoNl:'Laserontharing bij donkere huid', seoEn:'Laser hair removal for dark skin',
     excerptNl:'Een donkere huid vraagt om een andere laser. Hoe de Nd:YAG-golflengte dat verschil maakt.',
     excerptEn:'Darker skin calls for a different laser. How the Nd:YAG wavelength makes the difference.',
@@ -666,7 +666,7 @@ function loadArticleContent() {
   if (_articlesLoaded) return Promise.resolve();
   return new Promise(function(resolve) {
     var s = document.createElement('script');
-    s.src = '/js/articles-content.min.js?v=df7013a2';
+    s.src = '/js/articles-content.min.js?v=73f1a9a8';
     s.onload = function() { _articlesLoaded = true; resolve(); };
     s.onerror = function() { _articlesLoaded = true; resolve(); };
     document.head.appendChild(s);

@@ -23,7 +23,7 @@ The site is in Dutch (default) and English (addresses under /en). Contact: info@
 - [Deep Cleansing vs. Glacē Glow: which facial suits you?](https://skintechclinic.nl/en/journal/deep-vs-glace): Two signature facials, each with a distinct purpose. We help you choose based on your skin type and goals.
 - [The Sylton Observ 520x: your skin in focus](https://skintechclinic.nl/en/journal/sylton-scan): What our skin scanner sees that the naked eye misses — and why that forms the foundation of every treatment plan.
 - [IPL vs. laser: what's the difference and which works better?](https://skintechclinic.nl/en/journal/ipl-vs-laser): Intense Pulsed Light and true laser are often confused. We explain the scientific differences.
-- [Laser hair removal for dark skin: safe, effective, and inclusive](https://skintechclinic.nl/en/journal/laser-donkere-huid): Darker skin calls for a different laser. How the Nd:YAG wavelength makes the difference.
+- [Laser hair removal for dark skin: what to look out for](https://skintechclinic.nl/en/journal/laser-donkere-huid): Darker skin calls for a different laser. How the Nd:YAG wavelength makes the difference.
 - [Skin improvement in Amsterdam: your complete guide](https://skintechclinic.nl/en/journal/huidverbetering-amsterdam): From skin analysis to treatment plan — what professional skincare in Amsterdam involves.
 
 ## Pagina's (Nederlands)
@@ -44,7 +44,7 @@ The site is in Dutch (default) and English (addresses under /en). Contact: info@
 - [Deep Cleansing vs. Glacē Glow: welke facial past bij jou?](https://skintechclinic.nl/journal/deep-vs-glace): Twee signature facials, elk met een eigen doel. We helpen je kiezen op basis van jouw huidtype en wensen.
 - [De Sylton Observ 520x: jouw huid in beeld](https://skintechclinic.nl/journal/sylton-scan): Wat onze huidscanner ziet dat het blote oog mist — en waarom dat de basis vormt van elk behandelplan.
 - [IPL vs. laser: wat is het verschil en wat werkt beter?](https://skintechclinic.nl/journal/ipl-vs-laser): Intense Pulsed Light en echte laser worden vaak door elkaar gehaald. We leggen de wetenschappelijke verschillen uit.
-- [Laserontharing bij donkere huid: veilig, effectief en inclusief](https://skintechclinic.nl/journal/laser-donkere-huid): Een donkere huid vraagt om een andere laser. Hoe de Nd:YAG-golflengte dat verschil maakt.
+- [Laserontharing bij een donkere huid: waar je op let](https://skintechclinic.nl/journal/laser-donkere-huid): Een donkere huid vraagt om een andere laser. Hoe de Nd:YAG-golflengte dat verschil maakt.
 - [Huidverbetering in Amsterdam: jouw complete gids](https://skintechclinic.nl/journal/huidverbetering-amsterdam): Van huidanalyse tot behandelplan — wat professionele huidverzorging in Amsterdam inhoudt.
 
 ## Legal
