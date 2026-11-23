@@ -156,7 +156,7 @@ function page(route, lang, article) {
   }
   if (a) {
     ld.push(jsonld({ '@context': 'https://schema.org', '@type': 'Article', headline: lang === 'nl' ? a.titleNl : a.titleEn, description: desc,
-      datePublished: a.date, dateModified: a.date, inLanguage: lang, image, mainEntityOfPage: url,
+      datePublished: a.date, dateModified: a.updated || a.date, inLanguage: lang, image, mainEntityOfPage: url,
       author: { '@type': 'Organization', name: 'SkinTech Laser Clinic', url: ORIGIN + '/' },
       publisher: { '@type': 'Organization', name: 'SkinTech Laser Clinic', logo: { '@type': 'ImageObject', url: ORIGIN + '/assets/logo.png' } } }));
   }

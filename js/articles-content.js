@@ -6,7 +6,7 @@ ARTICLE_CONTENT = {
 // ============================================================
 'laser-guide': {
 bodyNl: `
-<p>Laserontharing is wereldwijd een van de meest uitgevoerde esthetische behandelingen. Toch bestaan er grote verschillen tussen lasersystemen, kliniekkeuzes en protocollen. In dit uitgebreide artikel bespreken we de wetenschap achter laserontharing, vergelijken we de belangrijkste lasertechnologieën — inclusief de veel aangeboden diodelaser — en leggen we uit waarom SkinTech Laser Clinic in Amsterdam werkt met de Candela GentleMax Pro Plus.</p>
+<p>Laserontharing is wereldwijd een van de meest uitgevoerde esthetische behandelingen. Toch bestaan er grote verschillen tussen lasersystemen, kliniekkeuzes en protocollen. In dit uitgebreide artikel bespreken we de wetenschap achter laserontharing, vergelijken we de belangrijkste lasertechnologieën — inclusief de veel aangeboden diodelaser — en leggen we uit waarom SkinTech Laser Clinic in Amsterdam kiest voor de Candela GentleMax Pro Plus.</p>
 
 <h3>Het werkingsprincipe: selectieve fotothermolyse</h3>
 <p>Laserontharing is gebaseerd op het principe van <em>selectieve fotothermolyse</em>, voor het eerst beschreven door Anderson en Parrish in 1983. Lichtenergie met een specifieke golflengte wordt selectief geabsorbeerd door melanine — het pigment in de haarfollikel — waardoor deze verhit tot een temperatuur waarbij de germinatieve cellen (de haarpapil en bulge-regio) thermisch beschadigd raken, zonder het omliggende weefsel significant aan te tasten (<a href="https://doi.org/10.1126/science.6823544" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Anderson & Parrish, 1983, <em>Science</em></a>).</p>
@@ -34,7 +34,7 @@ De diodelaser zit qua golflengte tussen de Alexandrite en Nd:YAG. Het is de mees
 <p>Omdat slechts 20–30% van het haar zich tegelijkertijd in de anagene fase bevindt, zijn gemiddeld 6–8 sessies nodig met tussenpozen van 4–8 weken, afhankelijk van het lichaamsdeel. Na een volledige behandelreeks rapporteren meta-analyses een langdurige haarreductie van 70–90% (<a href="https://doi.org/10.1111/j.1468-3083.2006.01499.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Haedersdal & Wulf, 2006, <em>JEADV</em></a>).</p>
 
 <h3>Voorbereiding op uw sessie</h3>
-<p>Voor optimale resultaten bij laserontharing in onze Amsterdam-kliniek adviseren wij: scheer het behandelgebied 24 uur voor de sessie (de follikel moet intact blijven onder het oppervlak). Stop minimaal 4–6 weken vooraf met waxen, epileren of plukken. Vermijd intensieve zonblootstelling en zelfbruiners 2 weken vooraf. Pauzeer retinol en AHA/BHA-producten 3–5 dagen voor de behandeling.</p>
+<p>Voor een goede voorbereiding op laserontharing geldt in het algemeen: scheer het behandelgebied 24 uur voor de sessie (de follikel moet intact blijven onder het oppervlak). Stop minimaal 4–6 weken vooraf met waxen, epileren of plukken. Vermijd intensieve zonblootstelling en zelfbruiners 2 weken vooraf. Pauzeer retinol en AHA/BHA-producten 3–5 dagen voor de behandeling.</p>
 
 <h3>Nazorg</h3>
 <p>Na de behandeling: gebruik dagelijks SPF 30+ en vermijd direct zonlicht gedurende minimaal 2 weken. Vermijd hete douches, sauna en intensieve sport gedurende 24–48 uur. Gebruik een kalmerende, parfumvrije moisturizer. Haaruitval (shedding) begint 1–3 weken na de sessie — dit is normaal en wijst op succesvolle behandeling.</p>
@@ -55,7 +55,7 @@ De diodelaser zit qua golflengte tussen de Alexandrite en Nd:YAG. Het is de mees
 </ol>
 `,
 bodyEn: `
-<p>Laser hair removal is one of the most performed aesthetic treatments worldwide. Yet significant differences exist between laser systems, clinic choices and protocols. In this comprehensive article, we discuss the science behind laser hair removal, compare the key laser technologies — including the widely offered diode laser — and explain why SkinTech Laser Clinic in Amsterdam works with the Candela GentleMax Pro Plus.</p>
+<p>Laser hair removal is one of the most performed aesthetic treatments worldwide. Yet significant differences exist between laser systems, clinic choices and protocols. In this comprehensive article, we discuss the science behind laser hair removal, compare the key laser technologies — including the widely offered diode laser — and explain why SkinTech Laser Clinic in Amsterdam has chosen the Candela GentleMax Pro Plus.</p>
 
 <h3>The working principle: selective photothermolysis</h3>
 <p>Laser hair removal is based on the principle of <em>selective photothermolysis</em>, first described by Anderson and Parrish in 1983. Light energy at a specific wavelength is selectively absorbed by melanin — the pigment in the hair follicle — heating it to a temperature that thermally damages the germinative cells (the dermal papilla and bulge region) without significantly affecting surrounding tissue (<a href="https://doi.org/10.1126/science.6823544" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Anderson & Parrish, 1983, <em>Science</em></a>).</p>
@@ -83,7 +83,7 @@ The diode laser sits between the Alexandrite and Nd:YAG in wavelength. It is the
 <p>Since only 20–30% of hair is in the anagen phase at any given time, an average of 6–8 sessions are needed at 4–8 week intervals. After a complete treatment course, meta-analyses report long-term hair reduction of 70–90% (<a href="https://doi.org/10.1111/j.1468-3083.2006.01499.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Haedersdal & Wulf, 2006, <em>JEADV</em></a>).</p>
 
 <h3>Preparation</h3>
-<p>For optimal results at our Amsterdam clinic: shave the treatment area 24 hours before the session. Stop waxing, epilating or plucking at least 4–6 weeks beforehand. Avoid intense sun exposure and self-tanners for 2 weeks prior. Pause retinol and AHA/BHA products 3–5 days before treatment.</p>
+<p>To prepare well for laser hair removal, the general advice is: shave the treatment area 24 hours before the session. Stop waxing, epilating or plucking at least 4–6 weeks beforehand. Avoid intense sun exposure and self-tanners for 2 weeks prior. Pause retinol and AHA/BHA products 3–5 days before treatment.</p>
 
 <h3>Aftercare</h3>
 <p>After treatment: use SPF 30+ daily and avoid direct sunlight for at least 2 weeks. Avoid hot showers, sauna and intense exercise for 24–48 hours. Use a soothing, fragrance-free moisturiser. Hair shedding begins 1–3 weeks post-session — this is normal and indicates successful treatment.</p>
@@ -110,7 +110,7 @@ The diode laser sits between the Alexandrite and Nd:YAG in wavelength. It is the
 // ============================================================
 'skin-types': {
 bodyNl: `
-<p>De reactie van je huid op laser- en lichtbehandelingen wordt fundamenteel bepaald door je huidtype. De Fitzpatrick-schaal — ontwikkeld door dermatoloog Thomas B. Fitzpatrick in 1975 — classificeert huid in zes typen op basis van melaninegehalte en UV-respons. Bij SkinTech Laser Clinic in Amsterdam vormt deze classificatie, aangevuld met geavanceerde huidanalyse, het vertrekpunt van elk behandelplan.</p>
+<p>De reactie van je huid op laser- en lichtbehandelingen wordt fundamenteel bepaald door je huidtype. De Fitzpatrick-schaal — ontwikkeld door dermatoloog Thomas B. Fitzpatrick in 1975 — classificeert huid in zes typen op basis van melaninegehalte en UV-respons. Bij SkinTech Laser Clinic in Amsterdam wordt deze classificatie, aangevuld met een huidanalyse, straks het vertrekpunt van elk behandelplan.</p>
 
 <h3>De Fitzpatrick-classificatie in detail</h3>
 <p><strong>Type I</strong> — Zeer lichte huid, sproeten, rood/blond haar. Verbrandt altijd, bruint nooit. Keltisch type. Melanine-index: laag. Extreem gevoelig voor UV-schade en fotoveroudering.<br/>
@@ -129,12 +129,12 @@ bodyNl: `
 <p>De 800–810 nm diodelaser wordt vaak gepresenteerd als een "universele" oplossing voor alle huidtypen. Dit is misleidend. Hoewel de diodelaser een middenpositie inneemt qua golflengte, biedt deze noch de superieure melanine-absorptie van de Alexandrite bij lichte huid, noch de veiligheidsmarges van de Nd:YAG bij donkere huid. Een duaal-platform zoals de GentleMax Pro Plus — dat beide uitersten combineert — biedt objectief meer behandelveiligheid en -effectiviteit over het volledige Fitzpatrick-spectrum.</p>
 <p>Ross et al. (1999) toonden aan dat duaal-golflengte systemen een significant hogere patiënttevredenheid opleveren dan single-wavelength apparaten, met name bij cliënten met gemengde huidtypes of bij behandeling van meerdere zones (<a href="https://doi.org/10.1016/S0733-8635(05)70090-9" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Ross et al., 1999, <em>Dermatologic Clinics</em></a>).</p>
 
-<h3>Hoe SkinTech uw huidtype beoordeelt</h3>
-<p>Bij SkinTech gaan we verder dan een visuele Fitzpatrick-beoordeling. Elke nieuwe cliënt ontvangt een gratis huidanalyse met de Sylton Observ 520x — een professioneel huidscannersysteem dat de huid in zes lichtmodi analyseert. Hiermee beoordelen we niet alleen het pigmentniveau, maar ook vochtigheid, vasculaire patronen, poriëstructuur en eventuele subklinische pigmentonregelmatigheden die met het blote oog niet zichtbaar zijn.</p>
-<p>Op basis van deze objectieve data — gecombineerd met de klinische beoordeling van de specialist — worden de laserparameters per sessie individueel ingesteld: golflengte (755 of 1064 nm), fluence (J/cm²), pulseduur en koeling. Dit voorkomt zowel onder- als overbehandeling.</p>
+<h3>Hoe SkinTech je huidtype gaat beoordelen</h3>
+<p>Bij SkinTech willen we verder gaan dan een visuele Fitzpatrick-beoordeling. Zodra we open zijn, begint elk traject met een gratis huidanalyse met de Sylton Observ 520x — een professioneel huidscannersysteem dat de huid in zes lichtmodi analyseert. Daarmee kijken we niet alleen naar het pigmentniveau, maar ook naar vochtigheid, vasculaire patronen, poriëstructuur en eventuele subklinische pigmentonregelmatigheden die met het blote oog niet zichtbaar zijn.</p>
+<p>Op basis van deze objectieve data — gecombineerd met de klinische beoordeling van de specialist — worden de laserparameters straks per sessie individueel ingesteld: golflengte (755 of 1064 nm), fluence (J/cm²), pulseduur en koeling. Dit voorkomt zowel onder- als overbehandeling.</p>
 
 <h3>Amsterdam: een diverse stad, diverse huidtypen</h3>
-<p>Amsterdam is een van de meest multiculturele steden ter wereld. Onze cliëntenpopulatie omvat het volledige Fitzpatrick-spectrum, van I tot VI. Het is precies deze diversiteit die een duaal-golflengte systeem niet slechts een luxe maakt, maar een klinische noodzaak. Een kliniek die uitsluitend met een diodelaser of Alexandrite werkt, kan simpelweg niet alle huidtypen veilig en effectief behandelen.</p>
+<p>Amsterdam is een van de meest multiculturele steden ter wereld. De inwoners van de stad beslaan het volledige Fitzpatrick-spectrum, van I tot VI. Het is precies deze diversiteit die een duaal-golflengte systeem niet slechts een luxe maakt, maar een klinische noodzaak. Een kliniek die uitsluitend met een diodelaser of Alexandrite werkt, kan simpelweg niet alle huidtypen veilig en effectief behandelen.</p>
 
 <h3 style="margin-top:48px; font-size:18px; color:var(--bronze-deep);">Wetenschappelijke referenties</h3>
 <ol style="font-size:13px; color:var(--muted); line-height:2;">
@@ -146,7 +146,7 @@ bodyNl: `
 </ol>
 `,
 bodyEn: `
-<p>Your skin's response to laser and light treatments is fundamentally determined by your skin type. The Fitzpatrick scale — developed by dermatologist Thomas B. Fitzpatrick in 1975 — classifies skin into six types based on melanin content and UV response. At SkinTech Laser Clinic in Amsterdam, this classification, supplemented with advanced skin analysis, forms the starting point of every treatment plan.</p>
+<p>Your skin's response to laser and light treatments is fundamentally determined by your skin type. The Fitzpatrick scale — developed by dermatologist Thomas B. Fitzpatrick in 1975 — classifies skin into six types based on melanin content and UV response. At SkinTech Laser Clinic in Amsterdam, this classification, supplemented with a skin analysis, will be the starting point of every treatment plan.</p>
 
 <h3>The Fitzpatrick classification in detail</h3>
 <p><strong>Type I</strong> — Very fair, freckles, red/blonde hair. Always burns, never tans. Celtic type. Very sensitive to UV damage and photoaging.<br/>
@@ -163,11 +163,11 @@ bodyEn: `
 <h3>Diode laser versus Alexandrite and Nd:YAG per skin type</h3>
 <p>The 800–810 nm diode laser is often presented as a "universal" solution. This is misleading. While the diode occupies a middle position in wavelength, it offers neither the superior melanin absorption of the Alexandrite in fair skin, nor the safety margins of the Nd:YAG in dark skin. A dual platform like the GentleMax Pro Plus — combining both extremes — objectively provides more treatment safety and efficacy across the full Fitzpatrick spectrum.</p>
 
-<h3>How SkinTech assesses your skin type</h3>
-<p>At SkinTech, we go beyond visual Fitzpatrick assessment. Every new client receives a free skin analysis with the Sylton Observ 520x — a professional scanner that analyses skin across six light modes. This allows us to assess not only pigment level, but also hydration, vascular patterns, pore structure and subclinical pigment irregularities invisible to the naked eye.</p>
+<h3>How SkinTech will assess your skin type</h3>
+<p>At SkinTech, we want to go beyond visual Fitzpatrick assessment. Once we are open, every plan will start with a free skin analysis with the Sylton Observ 520x — a professional scanner that analyses skin across six light modes. This will let us assess not only pigment level, but also hydration, vascular patterns, pore structure and subclinical pigment irregularities invisible to the naked eye.</p>
 
 <h3>Amsterdam: a diverse city, diverse skin types</h3>
-<p>Amsterdam is one of the world's most multicultural cities. Our client population spans the full Fitzpatrick spectrum. It is precisely this diversity that makes a dual-wavelength system not merely a luxury, but a clinical necessity. A clinic working exclusively with a diode or Alexandrite laser simply cannot treat all skin types safely and effectively.</p>
+<p>Amsterdam is one of the world's most multicultural cities. The people who live here span the full Fitzpatrick spectrum. It is precisely this diversity that makes a dual-wavelength system not merely a luxury, but a clinical necessity. A clinic working exclusively with a diode or Alexandrite laser simply cannot treat all skin types safely and effectively.</p>
 
 <h3 style="margin-top:48px; font-size:18px; color:var(--bronze-deep);">Scientific references</h3>
 <ol style="font-size:13px; color:var(--muted); line-height:2;">
@@ -185,12 +185,12 @@ bodyEn: `
 // ============================================================
 'glace-glow': {
 bodyNl: `
-<p>De Glacē Glow Facial bij SkinTech is gebaseerd op de Candela Glacē — een geavanceerd gezichtsbehandelingssysteem dat reiniging, extractie, hydratatie en antioxidantinfusie combineert in één doorlopende behandeling. In dit artikel leggen we uit hoe de technologie werkt, vergelijken we het met de bekende HydraFacial, en onderbouwen we waarom SkinTech voor de Glacē heeft gekozen.</p>
+<p>De Glacē Glow Facial die SkinTech gaat aanbieden, is gebaseerd op de Candela Glacē — een geavanceerd gezichtsbehandelingssysteem dat reiniging, extractie, hydratatie en antioxidantinfusie combineert in één doorlopende behandeling. In dit artikel leggen we uit hoe de technologie werkt, vergelijken we het met de bekende HydraFacial, en onderbouwen we waarom SkinTech voor de Glacē heeft gekozen.</p>
 
 <h3>Wat is de Candela Glacē?</h3>
 <p>De Candela Glacē is een multi-step gezichtsbehandelingssysteem van Candela (Syneron-Candela), dezelfde fabrikant als de GentleMax Pro Plus laser. Het systeem werkt met een gesloten-circuit vortex-technologie die in vier fasen de huid reinigt en voedt:</p>
 <p><strong>Fase 1 — Reiniging en peeling:</strong> Een milde zuurtip (glycolzuur + salicylzuur) wordt samen met vortex-zuigkracht over de huid geleid. Dit verwijdert dode huidcellen, overtollig sebum en vervuiling. De combinatie van chemische en mechanische exfoliatie zorgt voor een grondiger resultaat dan handmatige reiniging alleen (<a href="https://doi.org/10.2147/CCID.S24490" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Kornhauser et al., 2010, <em>CCID</em></a>).</p>
-<p><strong>Fase 2 — Extractie:</strong> Een pijnloze vacuümtip verwijdert mee-eters en comedonen uit de poriën zonder handmatige druk, wat het risico op beschadiging en littekenvorming vermindert.</p>
+<p><strong>Fase 2 — Extractie:</strong> Een vacuümtip verwijdert mee-eters en comedonen uit de poriën zonder handmatige druk, wat het risico op beschadiging en littekenvorming vermindert.</p>
 <p><strong>Fase 3 — Hydratatie en infusie:</strong> Een cocktail van hyaluronzuur, peptiden en antioxidanten wordt via vortex-druk diep in de huid gebracht. Hyaluronzuur bindt tot 1000x het eigen gewicht aan water, wat de huid direct voller en gladder maakt (<a href="https://doi.org/10.4161/derm.21923" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Papakonstantinou et al., 2012, <em>Dermato-Endocrinology</em></a>).</p>
 <p><strong>Fase 4 — Bescherming:</strong> Een afsluitend serum met niacinamide en antioxidanten versterkt de huidbarrière en beschermt tegen oxidatieve stress. Niacinamide verhoogt de ceramideproductie, wat de barrièrefunctie meetbaar verbetert (<a href="https://doi.org/10.1111/j.1524-4725.2005.31732.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Bissett et al., 2005, <em>Dermatologic Surgery</em></a>).</p>
 
@@ -207,7 +207,7 @@ bodyNl: `
 <tr><td style="padding:12px 0; color:var(--muted);">Positionering</td><td style="padding:12px 16px;">Medisch-esthetisch</td><td style="padding:12px 16px;">Beauty/spa</td></tr>
 </table>
 
-<p>Het fundamentele verschil: de HydraFacial is ontworpen als een gestandaardiseerde spa-behandeling, beschikbaar in salons en warenhuizen. De Candela Glacē is ontworpen als een klinische behandeling die naadloos integreert met het bredere Candela-platform. Bij SkinTech wordt de Glacē gecombineerd met de Sylton Observ huidscanner (voor objectieve pre-behandeling diagnostiek) en kan deze worden gecombineerd met laserbehandelingen in één sessie — iets wat met een standalone HydraFacial niet mogelijk is.</p>
+<p>Het fundamentele verschil: de HydraFacial is ontworpen als een gestandaardiseerde spa-behandeling, beschikbaar in salons en warenhuizen. De Candela Glacē is ontworpen als een klinische behandeling die naadloos integreert met het bredere Candela-platform. Bij SkinTech combineren we de Glacē straks met de Sylton Observ huidscanner, voor een objectieve analyse vooraf.</p>
 
 <h3>De wetenschap achter de glow</h3>
 <p>De directe verbetering in huidtextuur en uitstraling na een Glacē-behandeling is het resultaat van meerdere gelijktijdige mechanismen: verwijdering van het stratum corneum (de buitenste laag dode cellen), mechanische stimulatie van de microcirculatie door de vortex-zuigkracht, en directe hydratatie van de epidermis. Klinisch vertaalt zich dit in een meetbare verhoging van de huidhydratatie (tot 600% toename in corneometrie-waarden direct na behandeling) en een zichtbare vermindering van fijne lijntjes en poriëgrootte.</p>
@@ -225,12 +225,12 @@ bodyNl: `
 </ol>
 `,
 bodyEn: `
-<p>The Glacē Glow Facial at SkinTech is based on the Candela Glacē — an advanced facial treatment system combining cleansing, extraction, hydration and antioxidant infusion in one continuous treatment. In this article, we explain how the technology works, compare it with the well-known HydraFacial, and explain why SkinTech chose the Glacē.</p>
+<p>The Glacē Glow Facial that SkinTech will offer is based on the Candela Glacē — an advanced facial treatment system combining cleansing, extraction, hydration and antioxidant infusion in one continuous treatment. In this article, we explain how the technology works, compare it with the well-known HydraFacial, and explain why SkinTech chose the Glacē.</p>
 
 <h3>What is the Candela Glacē?</h3>
 <p>The Candela Glacē is a multi-step facial system from Candela (Syneron-Candela), the same manufacturer as the GentleMax Pro Plus laser. The system uses closed-circuit vortex technology across four phases:</p>
 <p><strong>Phase 1 — Cleansing and peeling:</strong> A mild acid tip (glycolic + salicylic acid) combined with vortex suction removes dead cells, excess sebum and impurities (<a href="https://doi.org/10.2147/CCID.S24490" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Kornhauser et al., 2010</a>).</p>
-<p><strong>Phase 2 — Extraction:</strong> A painless vacuum tip removes blackheads and comedones without manual pressure, reducing the risk of damage and scarring.</p>
+<p><strong>Phase 2 — Extraction:</strong> A vacuum tip removes blackheads and comedones without manual pressure, reducing the risk of damage and scarring.</p>
 <p><strong>Phase 3 — Hydration and infusion:</strong> A cocktail of hyaluronic acid, peptides and antioxidants is delivered deep into the skin via vortex pressure. Hyaluronic acid binds up to 1000x its own weight in water (<a href="https://doi.org/10.4161/derm.21923" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Papakonstantinou et al., 2012</a>).</p>
 <p><strong>Phase 4 — Protection:</strong> A finishing serum with niacinamide and antioxidants strengthens the skin barrier (<a href="https://doi.org/10.1111/j.1524-4725.2005.31732.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Bissett et al., 2005</a>).</p>
 
@@ -246,7 +246,7 @@ bodyEn: `
 <tr><td style="padding:12px 0; color:var(--muted);">Positioning</td><td style="padding:12px 16px;">Medical-aesthetic</td><td style="padding:12px 16px;">Beauty/spa</td></tr>
 </table>
 
-<p>The fundamental difference: the HydraFacial is designed as a standardised spa treatment available in salons and department stores. The Candela Glacē is designed as a clinical treatment that integrates seamlessly with the broader Candela platform. At SkinTech, the Glacē is combined with the Sylton Observ skin scanner and can be combined with laser treatments in one session — something not possible with a standalone HydraFacial.</p>
+<p>The fundamental difference: the HydraFacial is designed as a standardised spa treatment available in salons and department stores. The Candela Glacē is designed as a clinical treatment that integrates seamlessly with the broader Candela platform. At SkinTech, we will combine the Glacē with the Sylton Observ skin scanner, for an objective analysis beforehand.</p>
 
 <h3>The science behind the glow</h3>
 <p>The immediate improvement in skin texture and radiance results from simultaneous mechanisms: removal of the stratum corneum, mechanical stimulation of microcirculation via vortex suction, and direct epidermal hydration. Clinically, this translates to measurable increases in skin hydration (up to 600% increase in corneometry values immediately post-treatment) and visible reduction in fine lines and pore size.</p>
@@ -267,7 +267,7 @@ bodyEn: `
 'prep-aftercare': {
     bodyNl: `<h3>Voorbereiding en nazorg voor laserbehandelingen en gezichtsverzorging</h3>
 
-<p>Succesvolle laserbehandelingen en professionele gezichtsbehandelingen vereisen zorgvuldige voorbereiding en correct nazorgprotocol. Bij SkinTech Laser Clinic in Amsterdam begeleiding wij u door elk stadium om optimale resultaten en veiligheid te garanderen.</p>
+<p>Succesvolle laserbehandelingen en professionele gezichtsbehandelingen vereisen zorgvuldige voorbereiding en correct nazorgprotocol. Bij SkinTech Laser Clinic in Amsterdam gaan we je straks in elke fase begeleiden. Dit artikel zet de algemene richtlijnen alvast op een rij.</p>
 
 <h3>Voorbereiding op laserbehandeling</h3>
 
@@ -346,11 +346,11 @@ bodyEn: `
 
 <p>Langdurige haarverwijdering door lasergebruik is gedocumenteerd door <a href="https://doi.org/10.1001/archderm.135.6.637" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Dierickx et al., 1999, Archives of Dermatology</a>, waaruit blijkt dat alexandriet-lasers aanzienlijke langdurige haarvermindering veroorzaken. <a href="https://doi.org/10.1046/j.1440-0960.2002.00580.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Liew, 2002, Australasian Journal of Dermatology</a> benadrukt het belang van correcte nazorg ter voorkoming van bijwerkingen. Een uitgebreide review door <a href="https://doi.org/10.1111/j.1600-0625.2006.00437.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Haedersdal & Wulf, 2006, Experimental Dermatology</a> beveelt evidence-based voorbereiding en nazorg aan. Voor moderne technologie raadplegen wij <a href="https://doi.org/10.1111/dsu.12290" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Gan & Graber, 2013, Dermatologic Surgery</a> over kwaliteitsgestandaardiseerde lasersystemen.</p>
 
-<p>Correct protocol gevolgd, voelt u vertrouwen in uw laserbehandeling bij SkinTech Laser Clinic Amsterdam.</p>`,
+<p>Met een goede voorbereiding en nazorg ga je met vertrouwen een laserbehandeling in. Bij SkinTech Laser Clinic Amsterdam kan dat vanaf onze opening, gepland in het tweede kwartaal van 2027.</p>`,
 
     bodyEn: `<h3>Preparation and Aftercare for Laser Treatments and Facial Procedures</h3>
 
-<p>Successful laser hair removal and professional facial treatments require careful preparation and rigorous aftercare protocols. At SkinTech Laser Clinic in Amsterdam, we guide you through every stage to ensure optimal results and safety.</p>
+<p>Successful laser hair removal and professional facial treatments require careful preparation and rigorous aftercare protocols. At SkinTech Laser Clinic in Amsterdam, we will guide you through every stage once we open. This article sets out the general guidelines in advance.</p>
 
 <h3>Pre-Treatment Preparation for Laser Hair Removal</h3>
 
@@ -429,13 +429,13 @@ bodyEn: `
 
 <p>Long-term laser hair removal efficacy is established by <a href="https://doi.org/10.1001/archderm.135.6.637" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Dierickx et al., 1999, Archives of Dermatology</a>, demonstrating significant long-term hair reduction using alexandrite lasers. <a href="https://doi.org/10.1046/j.1440-0960.2002.00580.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Liew, 2002, Australasian Journal of Dermatology</a> emphasizes proper aftercare protocols for complication prevention. A comprehensive evidence review by <a href="https://doi.org/10.1111/j.1600-0625.2006.00437.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Haedersdal & Wulf, 2006, Experimental Dermatology</a> recommends evidence-based preparation and aftercare. For contemporary systems, we reference <a href="https://doi.org/10.1111/dsu.12290" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Gan & Graber, 2013, Dermatologic Surgery</a> on quality-switched laser technologies.</p>
 
-<p>Following proper protocols, you can proceed with confidence in your laser treatments at SkinTech Laser Clinic Amsterdam.</p>`
+<p>With good preparation and aftercare, you go into a laser treatment with confidence. At SkinTech Laser Clinic Amsterdam that will be possible from our opening, planned for the second quarter of 2027.</p>`
   },
 
   'deep-vs-glace': {
     bodyNl: `<h3>Deep Cleansing Facial versus Glacē Glow Facial: Welke behandeling voor u?</h3>
 
-<p>Beide behandelingen verwijderen dode cellen en verontreinigingen, maar via verschillende technologieën en behandelprotocollen. SkinTech Laser Clinic biedt beide opties aangepast aan uw huidbehoefte.</p>
+<p>Beide behandelingen verwijderen dode cellen en verontreinigingen, maar via verschillende technologieën en behandelprotocollen. SkinTech Laser Clinic gaat beide behandelingen aanbieden, afgestemd op wat jouw huid nodig heeft.</p>
 
 <h3>Deep Cleansing Facial: Klassieke handmatige behandeling</h3>
 
@@ -445,7 +445,7 @@ bodyEn: `
 
 <h3>Glacē Glow Facial: Vortex-technologie innovatie</h3>
 
-<p>Glacē Glow Facial gebruikt het Candela Glacē-systeem, een geavanceerde hydrafaciale-stijl vortex-reinigingssysteem. Dit is NIET cryotherapie of koeling—het is een medisch-klinische vacuümtechnologie voor veilige, pijnloze extraatie.</p>
+<p>Glacē Glow Facial gebruikt het Candela Glacē-systeem, een geavanceerde hydrafaciale-stijl vortex-reinigingssysteem. Dit is NIET cryotherapie of koeling—het is een medisch-klinische vacuümtechnologie die zonder handmatige druk reinigt.</p>
 
 <p><strong>Glacē werkingsprincipe:</strong> Gespecialiseerde tips creëren een Vortex Fusion-technologie waarbij zuigkracht en spiraalvorming samenwerken. Het proces volgt vier stappen:</p>
 
@@ -453,11 +453,11 @@ bodyEn: `
 
 <p><strong>2. Exfoliate:</strong> Een niet-invasieve vortex-tip werkt met fijne abrasieve middelen zonder huid af te schaven. Dit opent poriën en verwijdert dode cellen voorzichtig.</p>
 
-<p><strong>3. Extract:</strong> Gepatenteerde vortex-zuiging zuigt impuriteiten, talgafstoffe, en vuil uit zonder handmatige druk of beschadiging. Deze stap is pijnloos—veel klanten vinden dit comfortabel en ontspannend.</p>
+<p><strong>3. Extract:</strong> Gepatenteerde vortex-zuiging zuigt impuriteiten, talgafstoffe, en vuil uit zonder handmatige druk of beschadiging.</p>
 
 <p><strong>4. Infuse:</strong> Terwijl de zuigkracht aanwezig blijft, vochtinbrengende serums (hyaluronzuur, peptiden, antioxidanten) dringen diep in porien in. Dit is veel effectiever dan oppervlakkige aanbrenging.</p>
 
-<p>Voordeel: geen downtime, pijnloos, onmiddellijke zichtbaarheid (gloed), en langdurige hydratatie. Serum-selectie is aanpasbaar op uw huidtype.</p>
+<p>Voordeel: geen downtime, onmiddellijke zichtbaarheid (gloed), en langdurige hydratatie. Serum-selectie is aanpasbaar op uw huidtype.</p>
 
 <h3>Glacē versus HydraFacial: Medische versus consumententechnologie</h3>
 
@@ -520,7 +520,7 @@ bodyEn: `
 
 <p><strong>Glacē Glow:</strong> Kies dit voor hydratatie, doffe huid, pre-event gloed (bruiloft, feest), of als u gevoelige huid hebt die handmatige extractie niet aankan. Dit is ook perfect voor onderhoud na Deep Cleansing.</p>
 
-<p><strong>Combinatie-protocol:</strong> Velen van onze Amsterdamse cliënten kiezen voor een Deep Cleansing elke 8-12 weken, gevolgd door Glacē-onderhoud elke 2-4 weken. Deze benadering biedt grondige reinigheid en langdurige hydratatie zonder overbelasting van de huid.</p>
+<p><strong>Combineren:</strong> De twee behandelingen zijn te combineren, bijvoorbeeld een Deep Cleansing elke 8-12 weken met tussendoor Glacē-onderhoud elke 2-4 weken. Zo wordt de huid grondig gereinigd en gehydrateerd zonder haar te overbelasten.</p>
 
 <h3>Huidtype aanbevelingen</h3>
 
@@ -530,11 +530,11 @@ bodyEn: `
 
 <p>Chemische peels gebruiken enzymatische dissociatie, ondersteund door <a href="https://doi.org/10.1111/j.1524-4725.2008.34254.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Fernandes & Signorini, 2008, Dermatologic Surgery</a>. Hydradermabrasie—vergelijkbaar met vortex-technologie—is wetenschappelijk gevalideerd door <a href="https://doi.org/10.1111/j.1524-4725.2009.01250.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Freedman, 2009, Dermatologic Surgery</a> voor effectieve en veilige huidverjongering. Microdermabrasie-effecten op collageen-remodellering zijn gedocumenteerd door <a href="https://doi.org/10.1038/jid.2009.359" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Karimipour et al., 2010, Journal of Investigative Dermatology</a>.</p>
 
-<p>Beide behandelingen zijn veilig, effectief, en complementair. Uw keuze hangt af van huidcondities, gewenste resultaten, en downtime-tolerantie. Wij adviseren u graag bij SkinTech Laser Clinic Amsterdam.</p>`,
+<p>Beide behandelingen zijn veilig, effectief, en complementair. Uw keuze hangt af van huidcondities, gewenste resultaten, en downtime-tolerantie. Bij SkinTech Laser Clinic Amsterdam denken we graag met je mee zodra we open zijn.</p>`,
 
     bodyEn: `<h3>Deep Cleansing Facial versus Glacē Glow Facial: Which Treatment Is Right for You?</h3>
 
-<p>Both treatments remove dead cells and impurities, but utilize different technologies and protocols. SkinTech Laser Clinic offers both options tailored to your specific skin needs and goals.</p>
+<p>Both treatments remove dead cells and impurities, but utilize different technologies and protocols. SkinTech Laser Clinic will offer both, tailored to what your skin needs.</p>
 
 <h3>Deep Cleansing Facial: Traditional Manual Approach</h3>
 
@@ -544,7 +544,7 @@ bodyEn: `
 
 <h3>Glacē Glow Facial: Vortex Technology Innovation</h3>
 
-<p>Glacē Glow Facial employs the Candela Glacē system, an advanced hydrafacial-style vortex cleansing apparatus. This is NOT cryotherapy or cooling—it is a medical-grade vacuum technology enabling safe, painless extraction.</p>
+<p>Glacē Glow Facial employs the Candela Glacē system, an advanced hydrafacial-style vortex cleansing apparatus. This is NOT cryotherapy or cooling—it is a medical-grade vacuum technology that extracts without manual pressure.</p>
 
 <p><strong>Glacē mechanism:</strong> Specialized tips create Vortex Fusion technology where suction force and spiral motion work synergistically. The process follows four sequential steps:</p>
 
@@ -552,11 +552,11 @@ bodyEn: `
 
 <p><strong>2. Exfoliate:</strong> Non-invasive vortex tip employs fine abrasive media without abrading skin. This opens pores and removes dead cells safely.</p>
 
-<p><strong>3. Extract:</strong> Patented vortex suction withdraws impurities, sebaceous matter, and debris without manual pressure or damage. This step is painless—many clients find it relaxing and therapeutic.</p>
+<p><strong>3. Extract:</strong> Patented vortex suction withdraws impurities, sebaceous matter, and debris without manual pressure or damage.</p>
 
 <p><strong>4. Infuse:</strong> While suction remains active, hydrating serums (hyaluronic acid, peptides, antioxidants) penetrate deeply into pores. This is far more effective than superficial application.</p>
 
-<p>Advantages: zero downtime, painless, immediate visible glow, and sustained hydration. Serum selection is customizable to your skin type and concerns.</p>
+<p>Advantages: zero downtime, immediate visible glow, and sustained hydration. Serum selection is customizable to your skin type and concerns.</p>
 
 <h3>Glacē versus HydraFacial: Medical-Grade versus Consumer Technology</h3>
 
@@ -619,7 +619,7 @@ bodyEn: `
 
 <p><strong>Glacē Glow:</strong> Choose this for hydration, dull complexions, pre-event glow enhancement (weddings, celebrations), or when sensitive skin cannot tolerate manual extraction. Perfect for maintenance post-Deep Cleansing.</p>
 
-<p><strong>Combination Protocol:</strong> Many of our Amsterdam clients opt for Deep Cleansing every 8-12 weeks followed by Glacē maintenance every 2-4 weeks. This approach delivers thorough cleansing with sustained hydration without skin overwhelm.</p>
+<p><strong>Combining the two:</strong> The treatments can be combined, for example Deep Cleansing every 8-12 weeks with Glacē maintenance every 2-4 weeks in between. That way the skin is thoroughly cleansed and hydrated without being overloaded.</p>
 
 <h3>Skin Type Recommendations</h3>
 
@@ -629,14 +629,14 @@ bodyEn: `
 
 <p>Chemical peels employ enzymatic dissociation, supported by <a href="https://doi.org/10.1111/j.1524-4725.2008.34254.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Fernandes & Signorini, 2008, Dermatologic Surgery</a>. Hydradermabrasion—analogous to vortex technology—is scientifically validated by <a href="https://doi.org/10.1111/j.1524-4725.2009.01250.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Freedman, 2009, Dermatologic Surgery</a> for effective and safe skin rejuvenation. Microdermabrasion's effects on collagen remodeling are documented by <a href="https://doi.org/10.1038/jid.2009.359" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Karimipour et al., 2010, Journal of Investigative Dermatology</a>.</p>
 
-<p>Both treatments are safe, effective, and complementary. Your choice depends on skin conditions, desired outcomes, and downtime tolerance. We are pleased to advise you at SkinTech Laser Clinic Amsterdam.</p>`
+<p>Both treatments are safe, effective, and complementary. Your choice depends on skin conditions, desired outcomes, and downtime tolerance. At SkinTech Laser Clinic Amsterdam we will be glad to advise you once we open.</p>`
   },
 
 'sylton-scan': {
     bodyNl: `
 <h3>De Sylton Observ 520x Huidscanner — Je Huid in Focus</h3>
 
-<p>Modern huidonderzoek vereist meer dan het blote oog. De Sylton Observ 520x is een geavanceerd diagnostisch instrument dat uw huid van binnenuit analyseert, wat diepe inzichten biedt over structuur, pigmentatie, vochtigheid en onzichtbare schade. Bij SkinTech gebruiken we deze scanner als onderdeel van ons intake- en vervolgprotocol om behandelresultaten nauwkeurig bij te houden.</p>
+<p>Modern huidonderzoek vereist meer dan het blote oog. De Sylton Observ 520x is een geavanceerd diagnostisch instrument dat uw huid van binnenuit analyseert, wat diepe inzichten biedt over structuur, pigmentatie, vochtigheid en onzichtbare schade. Bij SkinTech wordt deze scanner straks onderdeel van de intake en van de vervolgafspraken, zodat we veranderingen in de huid nauwkeurig kunnen volgen.</p>
 
 <h4>Hoe het Observ 520x werkt: Zes lichtmodi</h4>
 
@@ -656,9 +656,9 @@ bodyEn: `
 
 <h4>Klinische Toepassingen</h4>
 
-<p>Bij SkinTech voeren wij een basislijnmeting uit voor elke nieuwe klant. Dit geeft ons inzicht in hun huidigestatus voordat behandeling begint — zichtbare en onzichtbare schade, vasculaire activiteit, pigmentatie op verschillende niveaus, en bacteriële belasting. Na een behandelingsserie (bijvoorbeeld IPL, lasertherapie of chemische peeling) voeren wij vervolgmetingen uit en vergelijken we deze met basislijnafbeeldingen. Dit stelt ons in staat om voortgang objectief aan te tonen.</p>
+<p>Bij SkinTech gaan we bij elke nieuwe cliënt eerst een basismeting doen. Die laat zien hoe de huid ervoor staat voordat een behandeling begint — zichtbare en onzichtbare schade, vasculaire activiteit, pigmentatie op verschillende niveaus, en bacteriële belasting. Na een reeks behandelingen herhalen we de meting en leggen we de beelden naast de basismeting. Zo wordt voortgang objectief zichtbaar.</p>
 
-<p>De Observ 520x is ook een educatief hulpmiddel. Veel patiënten zien hun huid voor het eerst onder verschillende lichtmodi en begrijpen dan de omvang van schade die niet zichtbaar is in normale verlichting. Dit geeft hen motivatie voor behandeling en realistische verwachtingen over resultaten.</p>
+<p>De Observ 520x is ook een educatief hulpmiddel. Wie zijn huid voor het eerst onder verschillende lichtmodi ziet, begrijpt vaak beter welke schade bij gewoon licht onzichtbaar blijft. Dat helpt om realistische verwachtingen te hebben van een behandeling.</p>
 
 <h4>Vergelijking: Observ 520x vs Canfield VISIA</h4>
 
@@ -710,12 +710,12 @@ bodyEn: `
 
 <p><a href="https://doi.org/10.1016/j.burns.2010.09.001" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Bloemen et al., 2011, Burns</a> demonstreerden dat digitale fotografie en real-time observatie verschillende informatiewaarden hebben — direct observatie is beter voor dynamische evaluatie, terwijl gestandaardiseerde fotografie reproduceerbare vergelijking toelaat. Dit ondersteunt waarom we beide benaderingen waarderen.</p>
 
-<p>Bij SkinTech is de Observ 520x ons eerste stap in patiëntenzorg. Het biedt het bewijs dat uw huid verandert, motivatie voor behandeling, en objectieve verificatie dat uw gekozen therapie werkt.</p>
+<p>Bij SkinTech wordt de Observ 520x de eerste stap van elk traject. De beelden laten zien hoe je huid ervoor staat en maken het mogelijk om veranderingen later objectief te vergelijken.</p>
 `,
     bodyEn: `
 <h3>The Sylton Observ 520x Skin Scanner — Your Skin in Focus</h3>
 
-<p>Modern dermatological assessment requires more than visual inspection. The Sylton Observ 520x is an advanced diagnostic imaging system that reveals your skin's internal architecture, exposing structural details, pigmentation patterns, hydration status, and invisible photodamage. At SkinTech, we use this scanner as part of our intake and post-treatment assessment protocol to objectively document skin health and treatment outcomes.</p>
+<p>Modern dermatological assessment requires more than visual inspection. The Sylton Observ 520x is an advanced diagnostic imaging system that reveals your skin's internal architecture, exposing structural details, pigmentation patterns, hydration status, and invisible photodamage. At SkinTech, this scanner will be part of the intake and of follow-up visits, so that changes in the skin can be followed precisely.</p>
 
 <h4>How the Observ 520x Works: Six Light Modes</h4>
 
@@ -735,9 +735,9 @@ bodyEn: `
 
 <h4>Clinical Applications</h4>
 
-<p>At SkinTech, we capture baseline Observ 520x images for every new client. This establishes a detailed photographic and descriptive record of their skin's condition before any intervention — documenting visible and subsurface damage, vascular activity, pigmentation depth, and bacterial burden. After treatment series (laser, IPL, chemical peels), we repeat imaging and directly compare results to baseline, providing objective evidence of improvement.</p>
+<p>At SkinTech, we will start with baseline Observ 520x images for every new client. They record the condition of the skin before any treatment — visible and subsurface damage, vascular activity, pigmentation depth, and bacterial burden. After a series of treatments we will repeat the imaging and compare it with the baseline, so that progress can be seen objectively.</p>
 
-<p>The device also serves an educational function. Many patients see their skin under multiple light modes for the first time and gain perspective on the extent of photodamage that remains invisible under normal lighting. This motivates treatment engagement and sets realistic expectations about what procedures can achieve.</p>
+<p>The device also serves an educational function. Seeing your skin under several light modes for the first time often gives a better idea of the damage that stays invisible in normal light. That helps to set realistic expectations of what a treatment can do.</p>
 
 <h4>Comparison: Observ 520x vs. Canfield VISIA System</h4>
 
@@ -787,9 +787,9 @@ bodyEn: `
 
 <p>The principles underlying multi-wavelength skin imaging are well-established in dermatological literature. <a href="https://doi.org/10.1111/j.1600-0781.2006.00210.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Stamatas et al., 2006, Photodermatology, Photoimmunology & Photomedicine</a> demonstrated that in vivo skin imaging with multiple wavelengths yields reliable data on skin mechanical properties, melanin distribution, and vascular architecture. <a href="https://doi.org/10.1111/srt.12812" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Bae et al., 2020, Skin Research and Technology</a> reviewed multiple skin analysis devices and concluded that multi-modal imaging captures superior diagnostic information compared to single-wavelength systems.</p>
 
-<p><a href="https://doi.org/10.1016/j.burns.2010.09.001" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Bloemen et al., 2011, Burns</a> demonstrated that digital photography and real-time clinical observation provide complementary information: direct observation excels for dynamic assessment, while standardized photography ensures reproducible comparison. This supports our use of the Observ 520x as a primary assessment tool.</p>
+<p><a href="https://doi.org/10.1016/j.burns.2010.09.001" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Bloemen et al., 2011, Burns</a> demonstrated that digital photography and real-time clinical observation provide complementary information: direct observation excels for dynamic assessment, while standardized photography ensures reproducible comparison. This supports our choice of the Observ 520x as the primary assessment tool.</p>
 
-<p>At SkinTech, the Observ 520x is our first step in patient care. It provides visual evidence that your skin changes, establishes baseline metrics, and—most importantly—delivers objective proof that your chosen treatment works.</p>
+<p>At SkinTech, the Observ 520x will be the first step of every plan. The images show the condition of your skin and make it possible to compare changes objectively later on.</p>
 `
   },
 
@@ -797,7 +797,7 @@ bodyEn: `
     bodyNl: `
 <h3>IPL vs Laserhaarverlies — Wat is het Verschil en Welke is Beter?</h3>
 
-<p>Wanneer patiënten SkinTech Laser Clinic contacteren met vragen over haarverlies, stellen velen dezelfde vraag: "Wat is het verschil tussen IPL en laser, en welke zou ik moet kiezen?" Het antwoord ligt in fysica, niet slechts marketing. IPL en medische lasers zijn fundamenteel verschillende technologieën, met verschillende werkingsmechanismen, effectiviteit en veiligheid. Dit artikel legt de wetenschappelijke verschillen uit en verklaart waarom SkinTech voor medische-grade lasersisteemkoos.</p>
+<p>Wie zich in ontharing verdiept, komt al snel bij dezelfde vraag uit: "Wat is het verschil tussen IPL en laser, en welke moet ik kiezen?" Het antwoord ligt in fysica, niet slechts marketing. IPL en medische lasers zijn fundamenteel verschillende technologieën, met verschillende werkingsmechanismen, effectiviteit en veiligheid. Dit artikel legt de wetenschappelijke verschillen uit en verklaart waarom SkinTech voor een medisch lasersysteem heeft gekozen.</p>
 
 <h4>IPL: Intense Pulsed Light</h4>
 
@@ -833,7 +833,7 @@ bodyEn: `
 
 <h4>Waarom SkinTech de GentleMax Pro Plus Koos</h4>
 
-<p>SkinTech implementeerde het GentleMax Pro Plus, een medische-grade laserssysteem dat zowel alexandriet (755 nm) als Nd:YAG (1064 nm) lasers integreert. Dit systeem biedt:</p>
+<p>SkinTech heeft gekozen voor de GentleMax Pro Plus, een medisch lasersysteem dat zowel alexandriet (755 nm) als Nd:YAG (1064 nm) lasers integreert. Dit systeem biedt:</p>
 
 <ul>
 <li>Alexandriet voor lichte tot gemiddelde huidtypen (sneller, comfortabeler)</li>
@@ -927,12 +927,12 @@ bodyEn: `
 
 <p>IPL is goedkoper, sneller, en geschikt voor bepaalde toepassingen (rosacea, lichte pigmentatie), maar voor ernstig haarverlies, vooral op grotere lichaamsdelen of bij donkere huid, is medische-grade laser superieur. Het vereist minder sessies, levert voorspelbaarder resultaten op, en is veiliger voor een breder bereik van huidtypen.</p>
 
-<p>SkinTech investeerde in het GentleMax Pro Plus omdat we willen dat onze patiënten de best mogelijke resultaten bereiken — resultaten ondersteund door wetenschap, niet slechts marketing. Minder sessies, beter werk, veiliger voor uw huid.</p>
+<p>SkinTech heeft voor de GentleMax Pro Plus gekozen omdat we een behandeling willen bieden die op onderzoek steunt, en niet alleen op marketing.</p>
 `,
     bodyEn: `
 <h3>IPL vs. Laser Hair Removal — What's the Difference and Which is Better?</h3>
 
-<p>When prospective clients contact SkinTech Laser Clinic with questions about hair removal, many ask the same question: "What's the difference between IPL and laser, and which should I choose?" The answer lies in physics, not marketing. IPL and medical-grade lasers are fundamentally different technologies, operating on different principles, delivering different efficacy, and carrying different safety profiles. This article explains the scientific distinctions and demonstrates why SkinTech invested in medical-grade laser systems.</p>
+<p>Anyone who looks into hair removal soon arrives at the same question: "What's the difference between IPL and laser, and which should I choose?" The answer lies in physics, not marketing. IPL and medical-grade lasers are fundamentally different technologies, operating on different principles, delivering different efficacy, and carrying different safety profiles. This article explains the scientific distinctions and demonstrates why SkinTech invested in medical-grade laser systems.</p>
 
 <h4>IPL: Intense Pulsed Light</h4>
 
@@ -966,7 +966,7 @@ bodyEn: `
 
 <h4>Why SkinTech Chose the GentleMax Pro Plus</h4>
 
-<p>SkinTech implemented the GentleMax Pro Plus, a medical-grade laser system integrating both alexandrite (755 nm) and Nd:YAG (1064 nm) lasers. This system offers:</p>
+<p>SkinTech has chosen the GentleMax Pro Plus, a medical-grade laser system integrating both alexandrite (755 nm) and Nd:YAG (1064 nm) lasers. This system offers:</p>
 
 <ul>
 <li>Alexandrite for light to medium skin types (faster, more comfortable)</li>
@@ -1060,7 +1060,7 @@ bodyEn: `
 
 <p>IPL is cheaper, faster, and suitable for certain applications (rosacea, light pigmentation), but for serious hair reduction—especially on larger body areas or darker skin—medical-grade laser is superior. It requires fewer sessions, delivers more predictable results, and is safer across a broader range of skin types.</p>
 
-<p>SkinTech invested in the GentleMax Pro Plus because we want our clients to achieve the best possible outcomes—outcomes supported by science, not marketing. Fewer sessions, better work, safer for your skin.</p>
+<p>SkinTech chose the GentleMax Pro Plus because we want to offer a treatment that rests on research, not only on marketing.</p>
 `
   },
 
@@ -1139,7 +1139,7 @@ bodyEn: `
 <li><strong>Hoeveel sessies verwacht u?</strong> Donkere huid kan iets meer sessies nodig hebben, maar met Nd:YAG worden goede resultaten verwacht.</li>
 </ul>
 
-<p>Bij SkinTech Laser Clinic Amsterdam hebben we meer dan tien jaar ervaring met laserontharing op alle huidtypes. We bieden altijd een persoonlijk consult en patchtest aan vóór volledige behandeling.</p>
+<p>SkinTech Laser Clinic Amsterdam opent naar verwachting in het tweede kwartaal van 2027. Een persoonlijk consult en een patchtest vóór de volledige behandeling horen daar straks standaard bij.</p>
 
 <h3>Misvattingen ontmaskerd: wat waar is en wat niet</h3>
 
@@ -1151,15 +1151,13 @@ bodyEn: `
 
 <h3>Het Amsterdam-voordeel: inclusieve zorg in een diverse stad</h3>
 
-<p>Amsterdam is de thuisbasis van grote Surinaamse, Turkse, Marokkaanse en Indonesische gemeenschappen — mensen met Fitzpatrick-type IV tot VI-huid. Veel clinics in Amsterdam zijn echter niet goed uitgerust voor deze populaties. SkinTech is anders gebouwd: ons Nd:YAG-gestuurd systeem betekent dat we Amsterdam echt kunnen dienen.</p>
-
-<p><a href="https://doi.org/10.1016/j.jaad.2008.09.039" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Alster & Bryan, 2009</a> benadrukten dat "inclusieve laser-aparatuur essentieel is voor clinics in multikulturele steden." Wij zijn het daar mee eens.</p>
+<p>Amsterdam is de thuisbasis van grote Surinaamse, Turkse, Marokkaanse en Indonesische gemeenschappen — mensen met Fitzpatrick-type IV tot VI-huid. Niet elke kliniek heeft een laser die voor deze huidtypes geschikt is. SkinTech kiest daarom voor een systeem met een Nd:YAG-laser, zodat we straks alle Amsterdammers kunnen helpen.</p>
 
 <h3>Volgende stappen: uw laserontharing-reis beginnen</h3>
 
-<p>Bent u klaar voor langdurige haarreductie, ongeacht uw huidtype? SkinTech Laser Clinic Amsterdam biedt persoonlijke consultaties met huidanalyse, patchtest en volledig transparante uitleggen van uw behandelplan. Alle ons team spreekt Nederlands en Engels vloeiend.</p>
+<p>Denk je na over langdurige haarreductie, welk huidtype je ook hebt? SkinTech Laser Clinic Amsterdam opent in het tweede kwartaal van 2027, met een persoonlijk consult, huidanalyse, patchtest en een heldere uitleg van je behandelplan. Tot die tijd kun je je op de wachtlijst zetten.</p>
 
-<p>Veel patiënten met donkere huid zijn aangenaam verrast door hoe veilig en effectief moderne Nd:YAG-laserontharing is. Het is tijd dat alle Amsterdammers toegang hebben tot deze technologie.</p>
+<p>Moderne Nd:YAG-lasers hebben laserontharing ook voor een donkere huid bereikbaar gemaakt. Het is tijd dat alle Amsterdammers toegang hebben tot deze technologie.</p>
     `,
     bodyEn: `
 <h3>Laser Hair Removal for Dark Skin: Safe, Effective, and Inclusive</h3>
@@ -1235,7 +1233,7 @@ bodyEn: `
 <li><strong>How many sessions do you expect?</strong> Dark skin may require slightly more sessions, but good results are expected with Nd:YAG.</li>
 </ul>
 
-<p>At SkinTech Laser Clinic Amsterdam, we have over ten years of experience with laser hair removal on all skin types. We always offer a personal consultation and patch test before full treatment.</p>
+<p>SkinTech Laser Clinic Amsterdam is expected to open in the second quarter of 2027. A personal consultation and a patch test before full treatment will be standard.</p>
 
 <h3>Myths Debunked: What's True and What Isn't</h3>
 
@@ -1247,15 +1245,13 @@ bodyEn: `
 
 <h3>The Amsterdam Advantage: Inclusive Care in a Diverse City</h3>
 
-<p>Amsterdam is home to large Surinamese, Turkish, Moroccan, and Indonesian communities—people with Fitzpatrick types IV–VI skin. Yet many Amsterdam clinics are not well-equipped for these populations. SkinTech is built differently: our Nd:YAG-driven system means we can truly serve Amsterdam.</p>
-
-<p><a href="https://doi.org/10.1016/j.jaad.2008.09.039" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Alster & Bryan, 2009</a> emphasized that "inclusive laser equipment is essential for clinics in multicultural cities." We agree.</p>
+<p>Amsterdam is home to large Surinamese, Turkish, Moroccan, and Indonesian communities—people with Fitzpatrick types IV–VI skin. Not every clinic has a laser that suits these skin types. SkinTech is therefore choosing a system with an Nd:YAG laser, so that we will be able to help all Amsterdammers.</p>
 
 <h3>Next Steps: Begin Your Laser Hair Removal Journey</h3>
 
-<p>Ready for long-term hair reduction, regardless of your skin type? SkinTech Laser Clinic Amsterdam offers personal consultations with skin analysis, patch testing, and fully transparent treatment planning. Our entire team speaks Dutch and English fluently.</p>
+<p>Thinking about long-term hair reduction, whatever your skin type? SkinTech Laser Clinic Amsterdam opens in the second quarter of 2027, with a personal consultation, skin analysis, patch test and a clear explanation of your treatment plan. Until then you can join the waiting list.</p>
 
-<p>Many patients with dark skin are pleasantly surprised by how safe and effective modern Nd:YAG laser hair removal is. It's time every Amsterdammer had access to this technology.</p>
+<p>Modern Nd:YAG lasers have brought laser hair removal within reach for dark skin as well. It's time every Amsterdammer had access to this technology.</p>
     `
   },
 
@@ -1263,15 +1259,15 @@ bodyEn: `
     bodyNl: `
 <h3>Huidverbetering in Amsterdam: uw complete gids voor professionele huidverzorging</h3>
 
-<p>Amsterdam is een stad met meer dan 2,4 miljoen inwoners uit meer dan 170 landen. Dit maakt het een unieke omgeving voor huidverzorging: zeer diverse huidtypes, verschillende klimaatuitdagingen en stedelijke omgevingsfactoren. Terwijl huishoude-huidverzorgingsproducten een rol spelen, kan professionele huidverbetering transformatieve resultaten leveren die thuis niet kunnen worden bereikt. SkinTech Laser Clinic Amsterdam is gespecialiseerd in het adresseren van huidproblemen die specifiek zijn voor Amsterdammers.</p>
+<p>In Amsterdam wonen mensen met meer dan 170 nationaliteiten. Dat maakt de stad bijzonder als het om huidverzorging gaat: zeer diverse huidtypes, een wisselvallig klimaat en de invloed van het stadsleven. Producten voor thuis spelen een rol, maar een professionele behandeling kan dieper gaan dan thuis mogelijk is. SkinTech Laser Clinic Amsterdam opent in het tweede kwartaal van 2027 en richt zich op laserontharing, gezichtsbehandelingen en huidanalyse.</p>
 
 <h3>Professionele huidverbetering versus thuishuidverzorging: wat is het verschil?</h3>
 
 <p>Thuisproducten kunnen huiddrogen verlichten en voorkomen, maar ze kunnen diep in de dermis—de onderliggende laag—niet doordringen waar collageen, elasting en pigmentatie werkelijk worden bepaald. Professionele behandelingen gebruiken klinische apparatuur die licht, temperatuur, of mechanische energie kan leveren op niveaus die thuis eenvoudig niet mogelijk zijn.</p>
 
-<p>Bij SkinTech beginnen we met de Observ 520x huidanalysator—een medisch-graad apparaat dat huid in 12 verschillende spectrale banden analyseert. Dit onthult niet alleen wat u aan uw huid ziet, maar ook onderliggende problemen zoals beginfase pigmentatie, textuurveranderingen en dehydratatie. Met deze data creëren we een gepersonaliseerde behandelplan.</p>
+<p>Bij SkinTech begint elk traject straks met een huidscan met de Observ 520x, een systeem voor huidanalyse dat de huid in verschillende lichtstanden laat zien. Dat maakt zichtbaar wat je met het blote oog niet ziet, zoals beginnende pigmentatie, textuurveranderingen en een vochtarme huid. Op basis daarvan maken we een persoonlijk behandelplan.</p>
 
-<h3>Veelvoorkomende huidproblemen die bij SkinTech worden behandeld</h3>
+<h3>Veelvoorkomende huidproblemen in de stad</h3>
 
 <p><strong>Acnelittekens:</strong> Veel Amsterdammers worstelen met puistjes in hun jeugd. Modern laserwerk kan gefractionaleerde lichttherapie gebruiken om littekens opnieuw uit te lijnen.</p>
 
@@ -1283,19 +1279,19 @@ bodyEn: `
 
 <p><strong>Rosacea:</strong> Gezichtsvergieking, erethemateus (rood) huidstelsel en soms puistjes. Dit reageert goed op doelgerichte laserbehandeling.</p>
 
-<h3>SkinTech's drietraps huidverbeteringsprotocol</h3>
+<h3>Zo gaat SkinTech te werk: drie stappen</h3>
 
-<p><strong>Stap 1: Observ 520x huidanalyse</strong> — We scannen uw huid in detail. Dit onthult textuurkaarten, pigmentatiekaarten, vasculaire kaarten, en meer. U ziet zelfs een "huidleeftijd" metric.</p>
+<p><strong>Stap 1: huidscan</strong> — We bekijken je huid met de Observ 520x in verschillende lichtstanden. Zo wordt zichtbaar wat je met het blote oog niet ziet.</p>
 
-<p><strong>Stap 2: Persoonlijkbehandelplan</strong> — Op basis van analyse en uw doelstellingen raden we specifieke behandelingen aan. Voor sommige patiënten is dit slechts één behandelingsmodaliteit. Voor anderen is dit een volgorde.</p>
+<p><strong>Stap 2: persoonlijk behandelplan</strong> — Op basis van de scan en van wat jij wilt bereiken, stellen we een plan voor. Soms is dat één behandeling, soms een reeks.</p>
 
-<p><strong>Stap 3: Combinatiebehandelingen voor maximale resultaten</strong> — Onze kliniek combineert vaak meerdere technologieën in één sessie of over opeenvolgende weken.</p>
+<p><strong>Stap 3: behandelen en volgen</strong> — Waar het past, combineren we behandelingen over opeenvolgende weken. Met een nieuwe scan volgen we hoe je huid reageert.</p>
 
-<h3>SkinTech-behandelingen: wat beschikbaar is</h3>
+<h3>Behandelingen in het kort</h3>
 
 <p><strong>Candela Glacē Facial</strong></p>
 
-<p>Dit is een niet-invasieve behandeling die zichtbaar licht en radiofrequentie-energie gebruikt. Het voert hydratatie in, stelt collageen-synthese in werking, en geeft een onmiddellijke "glow." Ideaal voor dofheid, dehydratatie, fijne lijnen, en poriën. Dit is ons lichtste behandelingsniveau—nul downtime, geen erythema, patiënten kunnen direct werken.</p>
+<p>De Glacē Glow Facial combineert volgens de fabrikant hydrodermabrasie, een cupping-massage en ledlicht. De behandeling is gericht op een gezuiverde en gehydrateerde huid en wordt de lichtste behandeling op ons menu.</p>
 
 <p><strong>Diepte reiniging</strong></p>
 
@@ -1322,7 +1318,7 @@ bodyEn: `
 <tr style="background-color:#f5f5f5;">
 <th style="border:1px solid #ddd;padding:10px;text-align:left;">Seizoen</th>
 <th style="border:1px solid #ddd;padding:10px;text-align:left;">Primaire huiduitdaging</th>
-<th style="border:1px solid #ddd;padding:10px;text-align:left;">SkinTech-aanbeveling</th>
+<th style="border:1px solid #ddd;padding:10px;text-align:left;">Mogelijke aanpak</th>
 </tr>
 <tr>
 <td style="border:1px solid #ddd;padding:10px;">Winter (dec–feb)</td>
@@ -1386,38 +1382,36 @@ bodyEn: `
 </tr>
 </table>
 
-<h3>Wat maakt SkinTech anders van schoonheidssalons</h3>
+<h3>Wat SkinTech anders wil doen dan een schoonheidssalon</h3>
 
-<p>Veel Amsterdam-schoonheidssalons gebruiken "beauty-grade" apparaten—dit zijn consumentenversies van professionele systemen, meestal lichter in specificaties. SkinTech gebruikt medisch-klinische apparatuur. Ons Candela Glacē, onze Nd:YAG-laser, onze Observ-analyzer—dit zijn industrie-standaard apparaten voor dermatologische klinieken.</p>
-
-<p>Daarnaast is ons team medisch gekwalificeerd. We werken op advies van dermatologen; we voeren niet zomaar behandelingen uit. <a href="https://doi.org/10.1016/j.clindermatol.2010.03.030" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Draelos, 2010</a> benadrukte dat medisch-kwalificeerde "cosmeceutical" behandeling veel betere ergebnissen en veiligheidsprofiel oplevert dan beauty-grade.</p>
+<p>SkinTech kiest voor apparatuur die ook in dermatologische klinieken wordt gebruikt: de Candela Glacē, de Candela GentleMax Pro Plus met een Nd:YAG-laser en de Observ 520x voor huidanalyse.</p>
 
 <h3>Retinoids en huidveroudering: integratieve benadering</h3>
 
-<p><a href="https://doi.org/10.1111/j.1365-2230.2006.02238.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Mukherjee et al., 2006</a> toonden aan dat retinoids een van de meest bewezen anti-aging-ingrediënten zijn—ze stimuleren collageen-synthese en verminderen fijne lijnen. Bij SkinTech raden we often nachtretinoid (zoals 0,25–0,5% retinol) aan naast professionele laserbehandelingen. Dit verbetert resulaten.</p>
+<p><a href="https://doi.org/10.1111/j.1365-2230.2006.02238.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Mukherjee et al., 2006</a> toonden aan dat retinoids een van de meest bewezen anti-aging-ingrediënten zijn—ze stimuleren collageen-synthese en verminderen fijne lijnen.</p>
 
 <h3>Amsterdam's internationale gemeenschappen: uw huid, uw taal</h3>
 
-<p>SkinTech spreekt Nederlands en Engels vloeiend. Veel van onze patiënten zijn internationale werknemers, expats, of immigranten die twijfelen of "standaard schoonheidszorg" geschikt is voor hun huidtype. Dit is het geval niet. Onze Nd:YAG-laser werkt op alle Fitzpatrick-typen. Onze Observ-analyzer analyseert alle huidtonen nauwkeurig. Onze team begrijpt huidzorg in context van etnische huid.</p>
+<p>SkinTech wil er zijn voor alle Amsterdammers, ook voor wie zich afvraagt of een standaardbehandeling wel bij zijn of haar huidtype past. De Nd:YAG-laser in de GentleMax Pro Plus is volgens de fabrikant geschikt voor de donkerdere huidtypes, en onze website en communicatie zijn er in het Nederlands en het Engels.</p>
 
-<h3>Uw volgende stap: persoonlijkraadpleging</h3>
+<h3>Je volgende stap: de wachtlijst</h3>
 
-<p>Of u nu met acne-littekens, pigmentatieproblemen, dofheid of rimpels worstelt—professionele huidverbetering is echt mogelijk. SkinTech Laser Clinic Amsterdam biedt gratis, niet-verplichte raadplegingen. We gebruiken Observ 520x huidanalyse om u precies te tonen wat we kunnen doen.</p>
+<p>Of het nu gaat om ongewenste haargroei, een doffe huid of verstopte poriën: een goed plan begint met kijken. SkinTech Laser Clinic Amsterdam opent in het tweede kwartaal van 2027 met een gratis huidscan en een persoonlijk consult. Zet je op de wachtlijst, dan hoor je het als eerste.</p>
 
-<p>Amsterdam verdient huidzorg die gelijk staat aan internationale normen, met apparatuur van huidarts-kwaliteit en kennis van diverse huidtypes. Wij zijn hier om dat te leveren.</p>
+<p>Amsterdam verdient huidzorg met goede apparatuur en kennis van diverse huidtypes. Daar bouwen wij aan.</p>
     `,
     bodyEn: `
 <h3>Skin Improvement in Amsterdam: Your Complete Guide to Professional Skincare</h3>
 
-<p>Amsterdam is a city of more than 2.4 million residents from over 170 countries. This makes it a unique environment for skincare: highly diverse skin types, different climatic challenges, and urban environmental factors. While at-home skincare products play a role, professional skin improvement can deliver transformative results impossible to achieve at home. SkinTech Laser Clinic Amsterdam specializes in addressing skin concerns specific to Amsterdammers.</p>
+<p>People of more than 170 nationalities live in Amsterdam. That makes the city special when it comes to skincare: highly diverse skin types, a changeable climate and the effects of city life. Products for home use play a role, but a professional treatment can go deeper than is possible at home. SkinTech Laser Clinic Amsterdam opens in the second quarter of 2027 and focuses on laser hair removal, facial treatments and skin analysis.</p>
 
 <h3>Professional Skin Improvement vs. At-Home Skincare: What's the Difference?</h3>
 
 <p>At-home products can hydrate skin and prevent dryness, but they cannot penetrate deep into the dermis—the underlying layer where collagen, elastin, and pigmentation are truly determined. Professional treatments use clinical equipment that can deliver light, heat, or mechanical energy at levels simply not possible at home.</p>
 
-<p>At SkinTech, we start with the Observ 520x skin analyzer—a medical-grade device that analyzes skin across 12 different spectral bands. This reveals not only what you see on your skin, but underlying issues like early-stage pigmentation, texture changes, and dehydration. With this data, we create a personalized treatment plan.</p>
+<p>At SkinTech, every plan will start with a skin scan with the Observ 520x, a skin analysis system that shows the skin in different light modes. It makes visible what the naked eye cannot see, such as early pigmentation, texture changes and dehydrated skin. On that basis we make a personal treatment plan.</p>
 
-<h3>Common Skin Concerns Treated at SkinTech</h3>
+<h3>Common Skin Concerns in the City</h3>
 
 <p><strong>Acne scarring:</strong> Many Amsterdammers struggled with acne in their youth. Modern laser work can use fractional light therapy to remodel scars.</p>
 
@@ -1429,19 +1423,19 @@ bodyEn: `
 
 <p><strong>Rosacea:</strong> Facial flushing, erythematous (red) skin, and sometimes pustules. This responds well to targeted laser treatment.</p>
 
-<h3>SkinTech's Three-Step Skin Improvement Protocol</h3>
+<h3>How SkinTech Will Work: Three Steps</h3>
 
-<p><strong>Step 1: Observ 520x skin analysis</strong> — We scan your skin in detail. This reveals texture maps, pigmentation maps, vascular maps, and more. You'll even see a "skin age" metric.</p>
+<p><strong>Step 1: skin scan</strong> — We will look at your skin with the Observ 520x in different light modes. This shows what the naked eye cannot see.</p>
 
-<p><strong>Step 2: Personalized treatment plan</strong> — Based on analysis and your goals, we recommend specific treatments. For some patients, this is just one modality. For others, it's a sequence.</p>
+<p><strong>Step 2: personal treatment plan</strong> — Based on the scan and on what you want to achieve, we will propose a plan. Sometimes that is one treatment, sometimes a series.</p>
 
-<p><strong>Step 3: Combination treatments for maximum results</strong> — Our clinic often combines multiple technologies in one session or across successive weeks.</p>
+<p><strong>Step 3: treat and follow up</strong> — Where it fits, we will combine treatments across successive weeks. A new scan will show how your skin responds.</p>
 
-<h3>SkinTech Treatments: What's Available</h3>
+<h3>Treatments in Brief</h3>
 
 <p><strong>Candela Glacē Facial</strong></p>
 
-<p>This is a non-invasive treatment using visible light and radiofrequency energy. It infuses hydration, activates collagen synthesis, and delivers an immediate "glow." Ideal for dullness, dehydration, fine lines, and pores. This is our lightest treatment level—zero downtime, no erythema, patients can work directly after.</p>
+<p>According to the manufacturer, the Glacē Glow Facial combines hydrodermabrasion, a cupping massage and LED light. The treatment is aimed at purified, hydrated skin and will be the lightest treatment on our menu.</p>
 
 <p><strong>Deep Cleansing</strong></p>
 
@@ -1468,7 +1462,7 @@ bodyEn: `
 <tr style="background-color:#f5f5f5;">
 <th style="border:1px solid #ddd;padding:10px;text-align:left;">Season</th>
 <th style="border:1px solid #ddd;padding:10px;text-align:left;">Primary Skin Challenge</th>
-<th style="border:1px solid #ddd;padding:10px;text-align:left;">SkinTech Recommendation</th>
+<th style="border:1px solid #ddd;padding:10px;text-align:left;">Possible Approach</th>
 </tr>
 <tr>
 <td style="border:1px solid #ddd;padding:10px;">Winter (Dec–Feb)</td>
@@ -1532,25 +1526,23 @@ bodyEn: `
 </tr>
 </table>
 
-<h3>What Makes SkinTech Different from Beauty Salons</h3>
+<h3>What SkinTech Wants to Do Differently from a Beauty Salon</h3>
 
-<p>Many Amsterdam beauty salons use "beauty-grade" devices—consumer versions of professional systems, usually lighter in specifications. SkinTech uses medical-clinical equipment. Our Candela Glacē, our Nd:YAG laser, our Observ analyzer—these are industry-standard devices for dermatological clinics.</p>
-
-<p>Beyond that, our team is medically qualified. We work under dermatological guidance; we don't simply perform treatments. <a href="https://doi.org/10.1016/j.clindermatol.2010.03.030" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Draelos, 2010</a> emphasized that medically-supervised "cosmeceutical" treatment delivers much better results and safety profile than beauty-grade equipment.</p>
+<p>SkinTech is choosing equipment that is also used in dermatology clinics: the Candela Glacē, the Candela GentleMax Pro Plus with an Nd:YAG laser, and the Observ 520x for skin analysis.</p>
 
 <h3>Retinoids and Skin Aging: An Integrative Approach</h3>
 
-<p><a href="https://doi.org/10.1111/j.1365-2230.2006.02238.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Mukherjee et al., 2006</a> showed that retinoids are among the most proven anti-aging ingredients—they stimulate collagen synthesis and reduce fine lines. At SkinTech, we often recommend a nighttime retinoid (such as 0.25–0.5% retinol) alongside professional laser treatments. This amplifies results.</p>
+<p><a href="https://doi.org/10.1111/j.1365-2230.2006.02238.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Mukherjee et al., 2006</a> showed that retinoids are among the most proven anti-aging ingredients—they stimulate collagen synthesis and reduce fine lines.</p>
 
 <h3>Amsterdam's International Communities: Your Skin, Your Language</h3>
 
-<p>SkinTech speaks Dutch and English fluently. Many of our patients are international employees, expats, or immigrants wondering if "standard beauty care" suits their skin type. It does. Our Nd:YAG laser works on all Fitzpatrick types. Our Observ analyzer accurately analyzes all skin tones. Our team understands skincare in the context of ethnic skin.</p>
+<p>SkinTech wants to be there for all Amsterdammers, including anyone wondering whether a standard treatment suits their skin type. According to the manufacturer, the Nd:YAG laser in the GentleMax Pro Plus is suited to darker skin types, and our website and communication are available in Dutch and English.</p>
 
-<h3>Your Next Step: Personal Consultation</h3>
+<h3>Your Next Step: the Waiting List</h3>
 
-<p>Whether you're struggling with acne scars, pigmentation, dullness, or wrinkles—professional skin improvement is genuinely possible. SkinTech Laser Clinic Amsterdam offers free, non-obligatory consultations. We use Observ 520x skin analysis to show you exactly what we can do.</p>
+<p>Whether it is unwanted hair, dull skin or clogged pores: a good plan starts with looking. SkinTech Laser Clinic Amsterdam opens in the second quarter of 2027 with a free skin scan and a personal consultation. Join the waiting list and you will be the first to hear.</p>
 
-<p>Amsterdam deserves skincare matching international standards, with dermatologist-grade equipment and knowledge of diverse skin types. We're here to deliver that.</p>
+<p>Amsterdam deserves skincare with good equipment and knowledge of diverse skin types. That is what we are building.</p>
     `
   }
 }

@@ -17,14 +17,14 @@ The site is in Dutch (default) and English (addresses under /en). Contact: info@
 
 ## Journal (English)
 - [Laser hair removal: everything you need to know before your first session](https://skintechclinic.nl/en/journal/laser-guide): From preparation to aftercare — a complete overview of what to expect from laser hair removal with the GentleMax Pro Plus.
-- [Skin type I to VI: why it matters for your treatment](https://skintechclinic.nl/en/journal/skin-types): Not every skin responds the same way. We explain how we calibrate the GentleMax Pro Plus for every Fitzpatrick skin type.
+- [Skin type I to VI: why it matters for your treatment](https://skintechclinic.nl/en/journal/skin-types): Not every skin responds the same way. We explain why your skin type decides how a laser is set.
 - [Glacē Glow Facial: the science behind the glow](https://skintechclinic.nl/en/journal/glace-glow): How the Candela Glacē uses vortex technology to cleanse, exfoliate, and make your skin glow.
 - [Preparation and aftercare: how to get the most from your treatment](https://skintechclinic.nl/en/journal/prep-aftercare): The right preparation and aftercare make all the difference. Our checklist for before and after every session.
 - [Deep Cleansing vs. Glacē Glow: which facial suits you?](https://skintechclinic.nl/en/journal/deep-vs-glace): Two signature facials, each with a distinct purpose. We help you choose based on your skin type and goals.
 - [The Sylton Observ 520x: your skin in focus](https://skintechclinic.nl/en/journal/sylton-scan): What our skin scanner sees that the naked eye misses — and why that forms the foundation of every treatment plan.
 - [IPL vs. laser: what's the difference and which works better?](https://skintechclinic.nl/en/journal/ipl-vs-laser): Intense Pulsed Light and true laser are often confused. We explain the scientific differences.
-- [Laser hair removal for dark skin: safe, effective, and inclusive](https://skintechclinic.nl/en/journal/laser-donkere-huid): Many clinics can't safely treat darker skin types. Our dual-wavelength laser can.
-- [Skin improvement in Amsterdam: your complete guide](https://skintechclinic.nl/en/journal/huidverbetering-amsterdam): From skin analysis to treatment plan — discover how professional skincare transforms your skin.
+- [Laser hair removal for dark skin: safe, effective, and inclusive](https://skintechclinic.nl/en/journal/laser-donkere-huid): Darker skin calls for a different laser. How the Nd:YAG wavelength makes the difference.
+- [Skin improvement in Amsterdam: your complete guide](https://skintechclinic.nl/en/journal/huidverbetering-amsterdam): From skin analysis to treatment plan — what professional skincare in Amsterdam involves.
 
 ## Pagina's (Nederlands)
 - [SkinTech Laser Clinic Amsterdam](https://skintechclinic.nl/): SkinTech Laser Clinic Amsterdam — Premium laserontharing, huidverbetering en gezichtsbehandelingen. Opening in het tweede kwartaal van 2027.
@@ -38,14 +38,14 @@ The site is in Dutch (default) and English (addresses under /en). Contact: info@
 
 ## Journal (Nederlands)
 - [Laserontharing: alles wat je moet weten voor je eerste sessie](https://skintechclinic.nl/journal/laser-guide): Van voorbereiding tot nazorg — een compleet overzicht van wat je kunt verwachten bij laserontharing met de GentleMax Pro Plus.
-- [Huidtype I t/m VI: waarom het uitmaakt voor jouw behandeling](https://skintechclinic.nl/journal/skin-types): Niet elke huid reageert hetzelfde. We leggen uit hoe we de GentleMax Pro Plus kalibreren voor elk Fitzpatrick-huidtype.
+- [Huidtype I t/m VI: waarom het uitmaakt voor jouw behandeling](https://skintechclinic.nl/journal/skin-types): Niet elke huid reageert hetzelfde. We leggen uit waarom je huidtype bepaalt hoe een laser wordt ingesteld.
 - [Glacē Glow Facial: de wetenschap achter de glow](https://skintechclinic.nl/journal/glace-glow): Hoe de Candela Glacē met vortex-technologie jouw huid reinigt, exfolieert en laat stralen.
 - [Voorbereiding en nazorg: zo haal je het meeste uit je behandeling](https://skintechclinic.nl/journal/prep-aftercare): De juiste voorbereiding en nazorg maken het verschil. Onze checklist voor voor en na elke sessie.
 - [Deep Cleansing vs. Glacē Glow: welke facial past bij jou?](https://skintechclinic.nl/journal/deep-vs-glace): Twee signature facials, elk met een eigen doel. We helpen je kiezen op basis van jouw huidtype en wensen.
 - [De Sylton Observ 520x: jouw huid in beeld](https://skintechclinic.nl/journal/sylton-scan): Wat onze huidscanner ziet dat het blote oog mist — en waarom dat de basis vormt van elk behandelplan.
 - [IPL vs. laser: wat is het verschil en wat werkt beter?](https://skintechclinic.nl/journal/ipl-vs-laser): Intense Pulsed Light en echte laser worden vaak door elkaar gehaald. We leggen de wetenschappelijke verschillen uit.
-- [Laserontharing bij donkere huid: veilig, effectief en inclusief](https://skintechclinic.nl/journal/laser-donkere-huid): Veel klinieken kunnen donkere huidtypen niet veilig behandelen. Onze dual-wavelength laser wel.
-- [Huidverbetering in Amsterdam: jouw complete gids](https://skintechclinic.nl/journal/huidverbetering-amsterdam): Van huidanalyse tot behandelplan — ontdek hoe professionele huidverzorging jouw huid transformeert.
+- [Laserontharing bij donkere huid: veilig, effectief en inclusief](https://skintechclinic.nl/journal/laser-donkere-huid): Een donkere huid vraagt om een andere laser. Hoe de Nd:YAG-golflengte dat verschil maakt.
+- [Huidverbetering in Amsterdam: jouw complete gids](https://skintechclinic.nl/journal/huidverbetering-amsterdam): Van huidanalyse tot behandelplan — wat professionele huidverzorging in Amsterdam inhoudt.
 
 ## Legal
 - [Privacybeleid](https://skintechclinic.nl/privacy): Privacybeleid van SkinTech Laser Clinic, Amsterdam.

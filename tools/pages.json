@@ -114,7 +114,7 @@
   "url": "https://skintechclinic.nl/journal/skin-types",
   "title": "Huidtype I t/m VI: waarom het uitmaakt | SkinTech Laser Clinic",
   "name": "Huidtype I t/m VI: waarom het uitmaakt voor jouw behandeling",
-  "desc": "Niet elke huid reageert hetzelfde. We leggen uit hoe we de GentleMax Pro Plus kalibreren voor elk Fitzpatrick-huidtype.",
+  "desc": "Niet elke huid reageert hetzelfde. We leggen uit waarom je huidtype bepaalt hoe een laser wordt ingesteld.",
   "route": "journal",
   "lang": "nl",
   "article": "skin-types"
@@ -174,7 +174,7 @@
   "url": "https://skintechclinic.nl/journal/laser-donkere-huid",
   "title": "Laserontharing bij donkere huid | SkinTech Laser Clinic",
   "name": "Laserontharing bij donkere huid: veilig, effectief en inclusief",
-  "desc": "Veel klinieken kunnen donkere huidtypen niet veilig behandelen. Onze dual-wavelength laser wel.",
+  "desc": "Een donkere huid vraagt om een andere laser. Hoe de Nd:YAG-golflengte dat verschil maakt.",
   "route": "journal",
   "lang": "nl",
   "article": "laser-donkere-huid"
@@ -184,7 +184,7 @@
   "url": "https://skintechclinic.nl/journal/huidverbetering-amsterdam",
   "title": "Huidverbetering in Amsterdam: jouw complete gids | SkinTech",
   "name": "Huidverbetering in Amsterdam: jouw complete gids",
-  "desc": "Van huidanalyse tot behandelplan — ontdek hoe professionele huidverzorging jouw huid transformeert.",
+  "desc": "Van huidanalyse tot behandelplan — wat professionele huidverzorging in Amsterdam inhoudt.",
   "route": "journal",
   "lang": "nl",
   "article": "huidverbetering-amsterdam"
@@ -304,7 +304,7 @@
   "url": "https://skintechclinic.nl/en/journal/skin-types",
   "title": "Skin type I to VI: why it matters for your treatment | SkinTech",
   "name": "Skin type I to VI: why it matters for your treatment",
-  "desc": "Not every skin responds the same way. We explain how we calibrate the GentleMax Pro Plus for every Fitzpatrick skin type.",
+  "desc": "Not every skin responds the same way. We explain why your skin type decides how a laser is set.",
   "route": "journal",
   "lang": "en",
   "article": "skin-types"
@@ -364,7 +364,7 @@
   "url": "https://skintechclinic.nl/en/journal/laser-donkere-huid",
   "title": "Laser hair removal for dark skin | SkinTech Laser Clinic",
   "name": "Laser hair removal for dark skin: safe, effective, and inclusive",
-  "desc": "Many clinics can't safely treat darker skin types. Our dual-wavelength laser can.",
+  "desc": "Darker skin calls for a different laser. How the Nd:YAG wavelength makes the difference.",
   "route": "journal",
   "lang": "en",
   "article": "laser-donkere-huid"
@@ -374,7 +374,7 @@
   "url": "https://skintechclinic.nl/en/journal/huidverbetering-amsterdam",
   "title": "Skin improvement in Amsterdam: your guide | SkinTech",
   "name": "Skin improvement in Amsterdam: your complete guide",
-  "desc": "From skin analysis to treatment plan — discover how professional skincare transforms your skin.",
+  "desc": "From skin analysis to treatment plan — what professional skincare in Amsterdam involves.",
   "route": "journal",
   "lang": "en",
   "article": "huidverbetering-amsterdam"
