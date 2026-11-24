@@ -732,8 +732,9 @@ var skConsent = (function() {
     window.dataLayer = window.dataLayer || [];
     window.gtag = function() { window.dataLayer.push(arguments); };
     window.gtag('consent', 'default', { ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied', analytics_storage: 'granted' });
+    window.gtag('set', { cookie_expires: 33696000, cookie_update: false, allow_google_signals: false, allow_ad_personalization_signals: false });
     window.gtag('js', new Date());
-    window.gtag('config', SK_GA_ID, { cookie_expires: 33696000, cookie_update: false, allow_google_signals: false, allow_ad_personalization_signals: false });
+    window.gtag('config', SK_GA_ID);
     var sc = document.createElement('script'); sc.async = true; sc.src = 'https://www.googletagmanager.com/gtag/js?id=' + SK_GA_ID;
     document.head.appendChild(sc);
   }
