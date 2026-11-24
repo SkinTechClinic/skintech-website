@@ -60,11 +60,18 @@ window.addEventListener('unhandledrejection', function(e) {
 <div id="modalHost"></div>
 <div id="tweaksPanel" class="tweaks-panel"></div>
 
-<div id="cookieBanner" class="cookie-banner" role="dialog" aria-label="{{COOKIE_LABEL}}">
-  <span id="cookieText">{{COOKIE_TEXT}}</span>
+<div id="cookieBanner" class="cookie-banner hidden" role="dialog" aria-label="{{COOKIE_LABEL}}">
+  <div class="cookie-main">
+    <span id="cookieText">{{COOKIE_TEXT}}</span>
+    <div class="cookie-choices" id="cookieChoices" hidden>
+      <label><input type="checkbox" id="cookieStats"> <span id="cookieStatsLabel">{{COOKIE_STATS}}</span></label>
+      <label><input type="checkbox" id="cookieAds"> <span id="cookieAdsLabel">{{COOKIE_ADS}}</span></label>
+    </div>
+  </div>
   <div class="cookie-actions">
-    <button onclick="document.getElementById('cookieBanner').classList.add('hidden'); try{localStorage.setItem('sk_cookies','ok')}catch(e){}" class="btn-accept" id="cookieAccept">{{COOKIE_ACCEPT}}</button>
-    <button onclick="document.getElementById('cookieBanner').classList.add('hidden'); try{localStorage.setItem('sk_cookies','no')}catch(e){}" class="btn-decline" id="cookieDecline">{{COOKIE_DECLINE}}</button>
+    <button type="button" onclick="skConsent.all()" class="btn-equal" id="cookieAccept">{{COOKIE_ACCEPT}}</button>
+    <button type="button" onclick="skConsent.none()" class="btn-equal" id="cookieDecline">{{COOKIE_DECLINE}}</button>
+    <button type="button" onclick="skConsent.choose()" class="btn-outline" id="cookieChoose">{{COOKIE_CHOOSE}}</button>
   </div>
 </div>
 

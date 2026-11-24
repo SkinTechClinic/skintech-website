@@ -72,9 +72,11 @@ const FALLBACK_DESC = {
 };
 const CHROME = {
   nl: { skip: 'Ga naar inhoud', nav: 'Hoofdnavigatie', menu: 'Menu openen', cookieLabel: 'Cookie-instellingen', accept: 'Accepteren', decline: 'Weigeren',
-        cookie: p => `Wij gebruiken cookies om je ervaring te verbeteren. Door verder te gaan ga je akkoord met ons <a href="${p}" data-route="privacy" style="color:inherit; text-decoration:underline;">cookiebeleid</a>.` },
+        choose: 'Zelf kiezen', stats: 'Statistieken (Google Analytics)', ads: 'Advertenties (Meta Pixel)',
+        cookie: p => `Wij gebruiken cookies voor statistieken (Google Analytics) en advertenties (Meta Pixel), alleen met jouw toestemming. Lees meer in ons <a href="${p}" data-route="privacy" style="color:inherit; text-decoration:underline;">privacybeleid</a>.` },
   en: { skip: 'Skip to content', nav: 'Main navigation', menu: 'Open menu', cookieLabel: 'Cookie settings', accept: 'Accept', decline: 'Decline',
-        cookie: p => `We use cookies to improve your experience. By continuing you agree to our <a href="${p}" data-route="privacy" style="color:inherit; text-decoration:underline;">cookie policy</a>.` },
+        choose: 'Let me choose', stats: 'Statistics (Google Analytics)', ads: 'Advertising (Meta Pixel)',
+        cookie: p => `We use cookies for statistics (Google Analytics) and advertising (Meta Pixel), only with your consent. Read more in our <a href="${p}" data-route="privacy" style="color:inherit; text-decoration:underline;">privacy policy</a>.` },
 };
 
 /* ---------- versions of the minified files, so a release shows at once ---------- */
@@ -172,7 +174,8 @@ function page(route, lang, article) {
     .replace('{{LANG}}', lang).replace('{{HEAD_META}}', () => head).replace('{{JSONLD}}', () => ld.join('\n'))
     .replace('{{NAV}}', () => nav(route, lang, article)).replace('{{MAIN}}', () => main)
     .replace('{{SKIP}}', c.skip).replace('{{COOKIE_LABEL}}', c.cookieLabel).replace('{{COOKIE_TEXT}}', () => c.cookie(pathFor('privacy', lang)))
-    .replace('{{COOKIE_ACCEPT}}', c.accept).replace('{{COOKIE_DECLINE}}', c.decline);
+    .replace('{{COOKIE_ACCEPT}}', c.accept).replace('{{COOKIE_DECLINE}}', c.decline)
+    .replace('{{COOKIE_CHOOSE}}', c.choose).replace('{{COOKIE_STATS}}', c.stats).replace('{{COOKIE_ADS}}', c.ads);
   if (/\{\{[A-Z_]+\}\}/.test(html)) throw new Error('unfilled placeholder in ' + fileFor(route, lang, article));
   const noindex = NOINDEX.includes(route) && !article;
   if (noindex) {

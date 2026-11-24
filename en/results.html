@@ -38,7 +38,7 @@
 <link rel="preload" href="/assets/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 
 <!-- Stylesheet -->
-<link rel="stylesheet" href="/css/styles.min.css?v=e6d3df39">
+<link rel="stylesheet" href="/css/styles.min.css?v=fce4b381">
 
 <script type="application/ld+json">
 {
@@ -221,7 +221,7 @@ window.addEventListener('unhandledrejection', function(e) {
       </div>
       <div class="footer-legal">
         <span>© 2026 SkinTech Laser Clinic · Amsterdam</span>
-        <span><a href="/en/privacy" data-route="privacy" style="color:inherit;">Privacy policy</a> · <a href="/en/terms" data-route="terms" style="color:inherit;">Terms</a> · KvK 42039525</span>
+        <span><a href="/en/privacy" data-route="privacy" style="color:inherit;">Privacy policy</a> · <a href="/en/terms" data-route="terms" style="color:inherit;">Terms</a> · <a href="/en/privacy" onclick="skConsent.open(); return false;" style="color:inherit;">Cookie settings</a> · KvK 42039525</span>
       </div>
     </div>
   </footer></main>
@@ -232,11 +232,18 @@ window.addEventListener('unhandledrejection', function(e) {
 <div id="modalHost"></div>
 <div id="tweaksPanel" class="tweaks-panel"></div>
 
-<div id="cookieBanner" class="cookie-banner" role="dialog" aria-label="Cookie settings">
-  <span id="cookieText">We use cookies to improve your experience. By continuing you agree to our <a href="/en/privacy" data-route="privacy" style="color:inherit; text-decoration:underline;">cookie policy</a>.</span>
+<div id="cookieBanner" class="cookie-banner hidden" role="dialog" aria-label="Cookie settings">
+  <div class="cookie-main">
+    <span id="cookieText">We use cookies for statistics (Google Analytics) and advertising (Meta Pixel), only with your consent. Read more in our <a href="/en/privacy" data-route="privacy" style="color:inherit; text-decoration:underline;">privacy policy</a>.</span>
+    <div class="cookie-choices" id="cookieChoices" hidden>
+      <label><input type="checkbox" id="cookieStats"> <span id="cookieStatsLabel">Statistics (Google Analytics)</span></label>
+      <label><input type="checkbox" id="cookieAds"> <span id="cookieAdsLabel">Advertising (Meta Pixel)</span></label>
+    </div>
+  </div>
   <div class="cookie-actions">
-    <button onclick="document.getElementById('cookieBanner').classList.add('hidden'); try{localStorage.setItem('sk_cookies','ok')}catch(e){}" class="btn-accept" id="cookieAccept">Accept</button>
-    <button onclick="document.getElementById('cookieBanner').classList.add('hidden'); try{localStorage.setItem('sk_cookies','no')}catch(e){}" class="btn-decline" id="cookieDecline">Decline</button>
+    <button type="button" onclick="skConsent.all()" class="btn-equal" id="cookieAccept">Accept</button>
+    <button type="button" onclick="skConsent.none()" class="btn-equal" id="cookieDecline">Decline</button>
+    <button type="button" onclick="skConsent.choose()" class="btn-outline" id="cookieChoose">Let me choose</button>
   </div>
 </div>
 
@@ -246,10 +253,10 @@ window.addEventListener('unhandledrejection', function(e) {
 <script src="/js/data.min.js?v=5842976f"></script>
 
 <!-- JavaScript: Page Render Functions -->
-<script src="/js/pages.min.js?v=9554117c"></script>
+<script src="/js/pages.min.js?v=a27a7958"></script>
 
 <!-- JavaScript: Router, Booking & Initialization -->
-<script src="/js/app.min.js?v=f8d7f79e"></script>
+<script src="/js/app.min.js?v=1b61e0d3"></script>
 
 
 

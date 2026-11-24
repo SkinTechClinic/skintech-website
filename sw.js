@@ -1,4 +1,4 @@
-const CACHE = 'skintech-v3';
+const CACHE = 'skintech-v4';
 const PRECACHE = ['/', '/css/styles.min.css', '/js/data.min.js', '/js/pages.min.js', '/js/app.min.js', '/assets/logo-v2.png'];
 
 self.addEventListener('install', function(e) {
@@ -15,6 +15,7 @@ self.addEventListener('activate', function(e) {
 
 self.addEventListener('fetch', function(e) {
   if (e.request.method !== 'GET') return;
+  if (new URL(e.request.url).origin !== self.location.origin) return;
   e.respondWith(
     fetch(e.request).then(function(r) {
       if (r.ok) {

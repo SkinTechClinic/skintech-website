@@ -1014,11 +1014,11 @@ function renderPrivacy() {
     <p>Huidscans gemaakt met de Sylton Observ 520x, voor-en-na foto's en behandelfoto's. Deze worden alleen gemaakt en opgeslagen met uw uitdrukkelijke schriftelijke toestemming. Beeldmateriaal dat op de website of sociale media wordt geplaatst, vereist aanvullende afzonderlijke toestemming.</p>
 
     <h4>1.5 Technische gegevens</h4>
-    <p>IP-adres (geanonimiseerd), browsertype, apparaatgegevens, pagina's bezocht, verwijzende URL — uitsluitend via analytische cookies waarvoor u toestemming heeft gegeven.</p>
+    <p>IP-adres, browsertype, apparaatgegevens, pagina's bezocht, verwijzende URL — via de cookies voor statistieken en advertenties, uitsluitend als u daarvoor toestemming heeft gegeven (zie 4). Daarnaast telt onze hostingprovider Vercel paginabezoeken en laadtijden zonder cookies; bezoekers worden daarbij niet over meerdere dagen of websites gevolgd.</p>
 
     <h3>2. Rechtsgronden voor verwerking</h3>
     <p>Wij verwerken uw gegevens op basis van de volgende rechtsgronden:</p>
-    <p><strong>Toestemming (art. 6 lid 1 sub a AVG):</strong> Voor gezondheidsgegevens, beeldmateriaal en analytische cookies. U kunt uw toestemming te allen tijde intrekken.<br/>
+    <p><strong>Toestemming (art. 6 lid 1 sub a AVG):</strong> Voor gezondheidsgegevens, beeldmateriaal en de cookies voor statistieken en advertenties. U kunt uw toestemming te allen tijde intrekken.<br/>
     <strong>Uitvoering van een overeenkomst (art. 6 lid 1 sub b AVG):</strong> Voor het verwerken van afspraken, behandelingen en facturering.<br/>
     <strong>Wettelijke verplichting (art. 6 lid 1 sub c AVG):</strong> Voor belastingadministratie en wettelijk vereiste bewaarplicht.<br/>
     <strong>Gerechtvaardigd belang (art. 6 lid 1 sub f AVG):</strong> Voor websitebeveiliging, fraudepreventie en verbetering van onze dienstverlening.</p>
@@ -1029,22 +1029,29 @@ function renderPrivacy() {
     Behandelvoortgang bijhouden en behandelplannen optimaliseren.<br/>
     Facturering en financiële administratie.<br/>
     Communicatie over uw behandeling of afspraak.<br/>
-    Verbetering van onze website en dienstverlening (uitsluitend met geanonimiseerde gegevens).</p>
+    Verbetering van onze website en dienstverlening, en het meten en tonen van onze advertenties (statistieken en advertenties alleen met uw toestemming, zie 4).</p>
 
     <h3>4. Cookies</h3>
 
     <h4>4.1 Functionele cookies (geen toestemming vereist)</h4>
     <p>Taalvoorkeur (NL/EN) en cookiebannervoorkeur. Deze cookies zijn strikt noodzakelijk voor het functioneren van de website.</p>
 
-    <h4>4.2 Analytische cookies (toestemming vereist)</h4>
-    <p>Wij gebruiken analytische cookies uitsluitend na uw uitdrukkelijke toestemming via de cookiebanner. IP-adressen worden geanonimiseerd. U kunt uw toestemming te allen tijde intrekken door uw browserinstellingen aan te passen of door contact met ons op te nemen.</p>
+    <h4>4.2 Statistieken (alleen met uw toestemming)</h4>
+    <p>Wij gebruiken Google Analytics 4 van Google Ireland Limited om te zien welke pagina's worden bezocht en hoe bezoekers ons vinden. De cookies blijven maximaal 13 maanden staan en gegevens op bezoekersniveau worden 2 maanden bewaard.</p>
 
-    <h4>4.3 Marketing/tracking cookies</h4>
-    <p>Wij gebruiken geen marketing- of trackingcookies en delen geen gegevens met advertentienetwerken.</p>
+    <h4>4.3 Advertenties (alleen met uw toestemming)</h4>
+    <p>Wij gebruiken de Meta Pixel van Meta Platforms Ireland Limited om onze advertenties op Instagram en Facebook te meten en om advertenties te tonen aan mensen die deze website hebben bezocht.</p>
+
+    <h4>4.4 Buiten de EU</h4>
+    <p>Google en Meta kunnen deze gegevens in de Verenigde Staten verwerken, op grond van het EU-VS Data Privacy Framework of standaardcontractbepalingen.</p>
+
+    <h4>4.5 Uw keuze</h4>
+    <p>Er wordt niets van Google of Meta geladen voordat u kiest. U kunt uw keuze altijd wijzigen via 'Cookie-instellingen' onderaan elke pagina.</p>
 
     <h3>5. Delen met derden</h3>
     <p>Wij delen uw persoonsgegevens niet met derden, behalve:</p>
     <p><strong>Hostingprovider:</strong> Vercel Inc. (VS) — voor het hosten van onze website. Verwerking op basis van EU-VS Data Privacy Framework.<br/>
+    <strong>Statistieken en advertenties (alleen met uw toestemming):</strong> Google Ireland Limited (Google Analytics) en Meta Platforms Ireland Limited (Meta Pixel), zoals beschreven onder 4.<br/>
     <strong>Boekhouding:</strong> Onze boekhouder voor belastingdoeleinden (wettelijke verplichting).<br/>
     <strong>Betalingsverwerker:</strong> Uw betaalgegevens worden verwerkt door uw bank of betaalprovider; wij slaan geen creditcard- of betaalgegevens op.</p>
     <p>Wij verkopen, verhuren of verhandelen uw persoonsgegevens nooit aan derden.</p>
@@ -1054,7 +1061,7 @@ function renderPrivacy() {
     <strong>Behandelgegevens en gezondheidsgegevens:</strong> 5 jaar na laatste behandeling, conform de richtlijn voor esthetische behandelingen.<br/>
     <strong>Beeldmateriaal (huidscans, foto's):</strong> 5 jaar na laatste behandeling, tenzij u eerder om verwijdering verzoekt.<br/>
     <strong>Financiële gegevens:</strong> 7 jaar (wettelijke bewaarplicht belastingdienst).<br/>
-    <strong>Websiteloggegevens:</strong> 26 maanden (geanonimiseerd).</p>
+    <strong>Websitestatistieken (Google Analytics):</strong> gegevens op bezoekersniveau 2 maanden.</p>
 
     <h3>7. Beveiliging</h3>
     <p>Wij treffen passende technische en organisatorische maatregelen om uw persoonsgegevens te beschermen tegen ongeautoriseerde toegang, verlies of wijziging. Dit omvat SSL/TLS-versleuteling op onze website, toegangsbeperking tot persoonsgegevens op need-to-know-basis, en beveiligde opslag van gezondheidsgegevens en beeldmateriaal.</p>
@@ -1080,7 +1087,7 @@ function renderPrivacy() {
     <h3>11. Wijzigingen</h3>
     <p>Wij behouden ons het recht voor dit privacybeleid te wijzigen. De meest recente versie is altijd beschikbaar op deze pagina. Bij substantiële wijzigingen informeren wij u via de website.</p>
 
-    <p style="margin-top:40px; color:var(--muted); font-size:13px;">Laatst bijgewerkt: mei 2026. Versie 2.0.</p>
+    <p style="margin-top:40px; color:var(--muted); font-size:13px;">Laatst bijgewerkt: november 2026. Versie 2.1.</p>
     </div></section>`;
   } else {
     return `<section class="page-head"><div class="container">
@@ -1106,11 +1113,11 @@ function renderPrivacy() {
     <p>Skin scans taken with the Sylton Observ 520x, before-and-after photographs, and treatment photographs. These are only taken and stored with your explicit written consent. Any visual material published on the website or social media requires additional, separate consent.</p>
 
     <h4>1.5 Technical data</h4>
-    <p>IP address (anonymised), browser type, device information, pages visited, referring URL — collected solely via analytics cookies for which you have given consent.</p>
+    <p>IP address, browser type, device information, pages visited, referring URL — via the statistics and advertising cookies, only if you have given consent for them (see 4). In addition, our hosting provider Vercel counts page views and loading times without cookies; visitors are not followed across days or websites.</p>
 
     <h3>2. Legal bases for processing</h3>
     <p>We process your data on the following legal bases:</p>
-    <p><strong>Consent (Art. 6(1)(a) GDPR):</strong> For health data, visual records, and analytics cookies. You may withdraw your consent at any time.<br/>
+    <p><strong>Consent (Art. 6(1)(a) GDPR):</strong> For health data, visual records, and the statistics and advertising cookies. You may withdraw your consent at any time.<br/>
     <strong>Performance of a contract (Art. 6(1)(b) GDPR):</strong> For processing appointments, treatments, and invoicing.<br/>
     <strong>Legal obligation (Art. 6(1)(c) GDPR):</strong> For tax administration and legally required retention periods.<br/>
     <strong>Legitimate interest (Art. 6(1)(f) GDPR):</strong> For website security, fraud prevention, and improvement of our services.</p>
@@ -1121,22 +1128,29 @@ function renderPrivacy() {
     To track treatment progress and optimise treatment plans.<br/>
     Invoicing and financial administration.<br/>
     Communication regarding your treatment or appointment.<br/>
-    Improvement of our website and services (using anonymised data only).</p>
+    Improvement of our website and services, and measuring and showing our adverts (statistics and advertising only with your consent, see 4).</p>
 
     <h3>4. Cookies</h3>
 
     <h4>4.1 Functional cookies (no consent required)</h4>
     <p>Language preference (NL/EN) and cookie banner preference. These cookies are strictly necessary for the operation of the website.</p>
 
-    <h4>4.2 Analytics cookies (consent required)</h4>
-    <p>We use analytics cookies only after your explicit consent via the cookie banner. IP addresses are anonymised. You may withdraw your consent at any time by adjusting your browser settings or by contacting us.</p>
+    <h4>4.2 Statistics (only with your consent)</h4>
+    <p>We use Google Analytics 4 from Google Ireland Limited to see which pages are visited and how visitors find us. Its cookies stay for at most 13 months, and visitor-level data is kept for 2 months.</p>
 
-    <h4>4.3 Marketing/tracking cookies</h4>
-    <p>We do not use marketing or tracking cookies and do not share data with advertising networks.</p>
+    <h4>4.3 Advertising (only with your consent)</h4>
+    <p>We use the Meta Pixel from Meta Platforms Ireland Limited to measure our adverts on Instagram and Facebook and to show adverts to people who visited this site.</p>
+
+    <h4>4.4 Outside the EU</h4>
+    <p>Google and Meta may process this data in the United States, under the EU-US Data Privacy Framework or standard contractual clauses.</p>
+
+    <h4>4.5 Your choice</h4>
+    <p>Nothing from Google or Meta is loaded until you choose. You can change your choice at any time through "Cookie settings" at the bottom of every page.</p>
 
     <h3>5. Sharing with third parties</h3>
     <p>We do not share your personal data with third parties, except:</p>
     <p><strong>Hosting provider:</strong> Vercel Inc. (US) — for hosting our website. Processing based on the EU-US Data Privacy Framework.<br/>
+    <strong>Statistics and advertising (only with your consent):</strong> Google Ireland Limited (Google Analytics) and Meta Platforms Ireland Limited (Meta Pixel), as described under 4.<br/>
     <strong>Accounting:</strong> Our accountant for tax purposes (legal obligation).<br/>
     <strong>Payment processor:</strong> Your payment data is processed by your bank or payment provider; we do not store credit card or payment details.</p>
     <p>We never sell, rent, or trade your personal data to third parties.</p>
@@ -1146,7 +1160,7 @@ function renderPrivacy() {
     <strong>Treatment data and health data:</strong> 5 years after last treatment, in accordance with aesthetic treatment guidelines.<br/>
     <strong>Visual records (skin scans, photographs):</strong> 5 years after last treatment, unless you request earlier deletion.<br/>
     <strong>Financial data:</strong> 7 years (statutory retention requirement by the Dutch Tax Authority).<br/>
-    <strong>Website log data:</strong> 26 months (anonymised).</p>
+    <strong>Website statistics (Google Analytics):</strong> visitor-level data 2 months.</p>
 
     <h3>7. Security</h3>
     <p>We implement appropriate technical and organisational measures to protect your personal data against unauthorised access, loss, or alteration. This includes SSL/TLS encryption on our website, restricting access to personal data on a need-to-know basis, and secured storage of health data and visual records.</p>
@@ -1172,7 +1186,7 @@ function renderPrivacy() {
     <h3>11. Changes</h3>
     <p>We reserve the right to amend this privacy policy. The most recent version is always available on this page. In the event of substantial changes, we will inform you via the website.</p>
 
-    <p style="margin-top:40px; color:var(--muted); font-size:13px;">Last updated: May 2026. Version 2.0.</p>
+    <p style="margin-top:40px; color:var(--muted); font-size:13px;">Last updated: November 2026. Version 2.1.</p>
     </div></section>`;
   }
 }
@@ -1361,7 +1375,7 @@ function renderFooter() {
       </div>
       <div class="footer-legal">
         <span>© 2026 SkinTech Laser Clinic · Amsterdam</span>
-        <span>${nl ? '<a href="' + pathFor('privacy') + '" data-route="privacy" style="color:inherit;">Privacybeleid</a> · <a href="' + pathFor('terms') + '" data-route="terms" style="color:inherit;">Algemene voorwaarden</a> · KvK 42039525' : '<a href="' + pathFor('privacy') + '" data-route="privacy" style="color:inherit;">Privacy policy</a> · <a href="' + pathFor('terms') + '" data-route="terms" style="color:inherit;">Terms</a> · KvK 42039525'}</span>
+        <span>${nl ? '<a href="' + pathFor('privacy') + '" data-route="privacy" style="color:inherit;">Privacybeleid</a> · <a href="' + pathFor('terms') + '" data-route="terms" style="color:inherit;">Algemene voorwaarden</a> · <a href="' + pathFor('privacy') + '" onclick="skConsent.open(); return false;" style="color:inherit;">Cookie-instellingen</a> · KvK 42039525' : '<a href="' + pathFor('privacy') + '" data-route="privacy" style="color:inherit;">Privacy policy</a> · <a href="' + pathFor('terms') + '" data-route="terms" style="color:inherit;">Terms</a> · <a href="' + pathFor('privacy') + '" onclick="skConsent.open(); return false;" style="color:inherit;">Cookie settings</a> · KvK 42039525'}</span>
       </div>
     </div>
   `;
