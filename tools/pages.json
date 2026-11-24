@@ -122,9 +122,9 @@
  {
   "file": "journal/glace-glow.html",
   "url": "https://skintechclinic.nl/journal/glace-glow",
-  "title": "Glacē Glow Facial: de wetenschap achter de glow | SkinTech",
-  "name": "Glacē Glow Facial: de wetenschap achter de glow",
-  "desc": "Hoe de Candela Glacē met vortex-technologie jouw huid reinigt, exfolieert en laat stralen.",
+  "title": "Glacē Glow Facial: hoe de behandeling werkt | SkinTech",
+  "name": "Glacē Glow Facial: hoe de behandeling werkt",
+  "desc": "Hydrodermabrasie, een cupping-massage en ledlicht: wat de Candela Glacē doet en wat je ervan mag verwachten.",
   "route": "journal",
   "lang": "nl",
   "article": "glace-glow"
@@ -144,7 +144,7 @@
   "url": "https://skintechclinic.nl/journal/deep-vs-glace",
   "title": "Deep Cleansing vs. Glacē Glow: welke facial? | SkinTech",
   "name": "Deep Cleansing vs. Glacē Glow: welke facial past bij jou?",
-  "desc": "Twee signature facials, elk met een eigen doel. We helpen je kiezen op basis van jouw huidtype en wensen.",
+  "desc": "Twee gezichtsbehandelingen, elk met een eigen doel. De verschillen op een rij, zodat je kunt kiezen.",
   "route": "journal",
   "lang": "nl",
   "article": "deep-vs-glace"
@@ -154,7 +154,7 @@
   "url": "https://skintechclinic.nl/journal/sylton-scan",
   "title": "De Sylton Observ 520x: jouw huid in beeld | SkinTech",
   "name": "De Sylton Observ 520x: jouw huid in beeld",
-  "desc": "Wat onze huidscanner ziet dat het blote oog mist — en waarom dat de basis vormt van elk behandelplan.",
+  "desc": "Wat een huidscan laat zien, wat niet, en waarom elk traject bij ons ermee begint.",
   "route": "journal",
   "lang": "nl",
   "article": "sylton-scan"
@@ -182,9 +182,9 @@
  {
   "file": "journal/huidverbetering-amsterdam.html",
   "url": "https://skintechclinic.nl/journal/huidverbetering-amsterdam",
-  "title": "Huidverbetering in Amsterdam: jouw complete gids | SkinTech",
-  "name": "Huidverbetering in Amsterdam: jouw complete gids",
-  "desc": "Van huidanalyse tot behandelplan — wat professionele huidverzorging in Amsterdam inhoudt.",
+  "title": "Huidverbetering in Amsterdam: waar begin je? | SkinTech",
+  "name": "Huidverbetering in Amsterdam: waar begin je?",
+  "desc": "Van huidscan tot verzorgingsplan: wat een huidkliniek voor je kan doen, en wanneer je beter naar de huisarts gaat.",
   "route": "journal",
   "lang": "nl",
   "article": "huidverbetering-amsterdam"
@@ -312,9 +312,9 @@
  {
   "file": "en/journal/glace-glow.html",
   "url": "https://skintechclinic.nl/en/journal/glace-glow",
-  "title": "Glacē Glow Facial: the science behind the glow | SkinTech",
-  "name": "Glacē Glow Facial: the science behind the glow",
-  "desc": "How the Candela Glacē uses vortex technology to cleanse, exfoliate, and make your skin glow.",
+  "title": "Glacē Glow Facial: how the treatment works | SkinTech",
+  "name": "Glacē Glow Facial: how the treatment works",
+  "desc": "Hydrodermabrasion, a cupping massage and LED light: what the Candela Glacē does and what you can expect.",
   "route": "journal",
   "lang": "en",
   "article": "glace-glow"
@@ -334,7 +334,7 @@
   "url": "https://skintechclinic.nl/en/journal/deep-vs-glace",
   "title": "Deep Cleansing vs. Glacē Glow: which facial? | SkinTech",
   "name": "Deep Cleansing vs. Glacē Glow: which facial suits you?",
-  "desc": "Two signature facials, each with a distinct purpose. We help you choose based on your skin type and goals.",
+  "desc": "Two facials, each with its own purpose. The differences side by side, so you can choose.",
   "route": "journal",
   "lang": "en",
   "article": "deep-vs-glace"
@@ -344,7 +344,7 @@
   "url": "https://skintechclinic.nl/en/journal/sylton-scan",
   "title": "The Sylton Observ 520x: your skin in focus | SkinTech",
   "name": "The Sylton Observ 520x: your skin in focus",
-  "desc": "What our skin scanner sees that the naked eye misses — and why that forms the foundation of every treatment plan.",
+  "desc": "What a skin scan shows, what it does not, and why every course with us starts with one.",
   "route": "journal",
   "lang": "en",
   "article": "sylton-scan"
@@ -372,9 +372,9 @@
  {
   "file": "en/journal/huidverbetering-amsterdam.html",
   "url": "https://skintechclinic.nl/en/journal/huidverbetering-amsterdam",
-  "title": "Skin improvement in Amsterdam: your guide | SkinTech",
-  "name": "Skin improvement in Amsterdam: your complete guide",
-  "desc": "From skin analysis to treatment plan — what professional skincare in Amsterdam involves.",
+  "title": "Skin improvement in Amsterdam: where to start | SkinTech",
+  "name": "Skin improvement in Amsterdam: where do you start?",
+  "desc": "From skin scan to care plan: what a skin clinic can do for you, and when it is better to see your GP.",
   "route": "journal",
   "lang": "en",
   "article": "huidverbetering-amsterdam"

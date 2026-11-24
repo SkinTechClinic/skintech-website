@@ -1,8 +1,6 @@
 ARTICLE_CONTENT = {
 // ============================================================
 // ARTICLE 1: LASER HAIR REMOVAL GUIDE
-// SEO targets: laserontharing amsterdam, laser ontharing, gentlemax pro plus
-// Competitor: diode laser
 // ============================================================
 'laser-guide': {
 bodyNl: `
@@ -164,161 +162,234 @@ bodyEn: `
 },
 
 // ============================================================
-// ARTICLE 2: SKIN TYPES (enhanced with more depth)
+// ARTICLE 2: SKIN TYPES
 // ============================================================
 'skin-types': {
 bodyNl: `
-<p>De reactie van je huid op laser- en lichtbehandelingen wordt fundamenteel bepaald door je huidtype. De Fitzpatrick-schaal — ontwikkeld door dermatoloog Thomas B. Fitzpatrick in 1975 — classificeert huid in zes typen op basis van melaninegehalte en UV-respons. Bij SkinTech Laser Clinic in Amsterdam wordt deze classificatie, aangevuld met een huidanalyse, straks het vertrekpunt van elk behandelplan.</p>
+<p>Verbrand je snel in de zon, of word je juist makkelijk bruin? Het antwoord zegt iets over je huidtype. Dermatologen gebruiken daarvoor de Fitzpatrick-schaal, en bij laserontharing is het een van de eerste dingen waar we naar kijken. Zo werkt de schaal, en dit is wat ze wel en niet zegt.</p>
 
-<h3>De Fitzpatrick-classificatie in detail</h3>
-<p><strong>Type I</strong> — Zeer lichte huid, sproeten, rood/blond haar. Verbrandt altijd, bruint nooit. Keltisch type. Melanine-index: laag. Extreem gevoelig voor UV-schade en fotoveroudering.<br/>
-<strong>Type II</strong> — Licht, verbrandt makkelijk, bruint minimaal. Noord-Europees. Hoog risico op zonschade maar goede kandidaat voor Alexandrite-laser.<br/>
-<strong>Type III</strong> — Licht tot medium, verbrandt soms, bruint geleidelijk. Midden-Europees. Het meest voorkomende type in Nederland. Geschikt voor zowel Alexandrite als Nd:YAG.<br/>
-<strong>Type IV</strong> — Olijfkleurig tot lichtbruin, verbrandt zelden. Mediterraan, Aziatisch. Hogere epidermale melanineconcentratie vereist voorzichtigere laserinstellingen.<br/>
-<strong>Type V</strong> — Donkerbruin, verbrandt zeer zelden. Midden-Oosters, Latijns-Amerikaans, Zuid-Aziatisch. Nd:YAG-laser aanbevolen vanwege veiligheid.<br/>
-<strong>Type VI</strong> — Donkerbruin tot zwart, verbrandt nooit. Afrikaans, Afro-Caribisch. Exclusief Nd:YAG met aangepaste parameters.</p>
-<p>(<a href="https://doi.org/10.1111/ijd.12004" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Sachdeva, 2009, <em>Indian Journal of Dermatology</em></a>; oorspronkelijk: Fitzpatrick, 1975)</p>
+<h3>Waar de schaal vandaan komt</h3>
 
-<h3>Waarom huidtype I–III en IV–VI anders behandeld moeten worden</h3>
-<p>Het werkingsprincipe van laserontharing berust op het contrast tussen het melanine in de haarfollikel (target chromofoor) en het melanine in de omliggende epidermis (competing chromofoor). Bij lichtere huidtypen is dit contrast groot: de laser "ziet" de donkere follikel duidelijk tegen de lichte huid. Bij donkere huid concurreert het epidermale melanine met het follikulaire melanine om de laserenergie, wat het risico op epidermale schade verhoogt.</p>
-<p>Battle en Hobbs (2004) documenteerden dat het gebruik van de Alexandrite-laser (755 nm) bij Fitzpatrick V–VI leidde tot significant hogere percentages hyperpigmentatie en blaarvorming vergeleken met de Nd:YAG (1064 nm). De langere golflengte van de Nd:YAG wordt minder geabsorbeerd door oppervlakkig melanine en penetreert dieper, waardoor de follikel selectiever wordt bereikt (<a href="https://doi.org/10.1111/j.1529-8019.2004.04015.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Battle & Hobbs, 2004, <em>Dermatologic Therapy</em></a>).</p>
+<p>De Amerikaanse dermatoloog Thomas Fitzpatrick bedacht de indeling in 1975. Hij zocht een manier om bij lichttherapie de juiste dosis uv-licht te kiezen, want mensen die er hetzelfde uitzagen, verdroegen niet altijd dezelfde dosis. Eerst waren er vier typen, bedoeld voor een lichte huid. Later is de schaal uitgebreid tot zes.</p>
 
-<h3>De diodelaser versus Alexandrite en Nd:YAG per huidtype</h3>
-<p>De 800–810 nm diodelaser wordt vaak gepresenteerd als een "universele" oplossing voor alle huidtypen. Dit is misleidend. Hoewel de diodelaser een middenpositie inneemt qua golflengte, biedt deze noch de superieure melanine-absorptie van de Alexandrite bij lichte huid, noch de veiligheidsmarges van de Nd:YAG bij donkere huid. Een duaal-platform zoals de GentleMax Pro Plus — dat beide uitersten combineert — biedt objectief meer behandelveiligheid en -effectiviteit over het volledige Fitzpatrick-spectrum.</p>
-<p>Ross et al. (1999) toonden aan dat duaal-golflengte systemen een significant hogere patiënttevredenheid opleveren dan single-wavelength apparaten, met name bij cliënten met gemengde huidtypes of bij behandeling van meerdere zones (<a href="https://doi.org/10.1016/S0733-8635(05)70090-9" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Ross et al., 1999, <em>Dermatologic Clinics</em></a>).</p>
+<h3>De zes huidtypen</h3>
 
-<h3>Hoe SkinTech je huidtype gaat beoordelen</h3>
-<p>Bij SkinTech willen we verder gaan dan een visuele Fitzpatrick-beoordeling. Zodra we open zijn, begint elk traject met een gratis huidanalyse met de Sylton Observ 520x — een professioneel huidscannersysteem dat de huid in zes lichtmodi analyseert. Daarmee kijken we niet alleen naar het pigmentniveau, maar ook naar vochtigheid, vasculaire patronen, poriëstructuur en eventuele subklinische pigmentonregelmatigheden die met het blote oog niet zichtbaar zijn.</p>
-<p>Op basis van deze objectieve data — gecombineerd met de klinische beoordeling van de specialist — worden de laserparameters straks per sessie individueel ingesteld: golflengte (755 of 1064 nm), fluence (J/cm²), pulseduur en koeling. Dit voorkomt zowel onder- als overbehandeling.</p>
+<ul>
+<li><strong>Type I.</strong> Verbrandt altijd en wordt niet bruin. Vaak een zeer lichte huid, sproeten en rood of lichtblond haar.</li>
+<li><strong>Type II.</strong> Verbrandt snel en wordt langzaam bruin. Lichte huid.</li>
+<li><strong>Type III.</strong> Verbrandt soms en wordt daarna bruin. Licht getinte huid.</li>
+<li><strong>Type IV.</strong> Verbrandt bijna nooit en wordt makkelijk bruin. Lichtbruine huid.</li>
+<li><strong>Type V.</strong> Verbrandt zelden en wordt donkerbruin. Bruine huid.</li>
+<li><strong>Type VI.</strong> Verbrandt vrijwel nooit. Donkerbruine tot zwarte huid.</li>
+</ul>
 
-<h3>Amsterdam: een diverse stad, diverse huidtypen</h3>
-<p>Amsterdam is een van de meest multiculturele steden ter wereld. De inwoners van de stad beslaan het volledige Fitzpatrick-spectrum, van I tot VI. Het is precies deze diversiteit die een duaal-golflengte systeem niet slechts een luxe maakt, maar een klinische noodzaak. Een kliniek die uitsluitend met een diodelaser of Alexandrite werkt, kan simpelweg niet alle huidtypen veilig en effectief behandelen.</p>
+<p>De indeling gaat over hoe je huid op zonlicht reageert, en dat hangt samen met de hoeveelheid pigment (melanine) in je huid. Je huidtype ligt vast vanaf je geboorte, schrijft de dermatologische kennisbank DermNet.</p>
 
-<h3 style="margin-top:48px; font-size:18px; color:var(--bronze-deep);">Wetenschappelijke referenties</h3>
-<ol style="font-size:13px; color:var(--muted); line-height:2;">
-<li>Fitzpatrick, T.B. (1975). Soleil et peau. <em>J. de Médecine Esthétique</em>, 2, 33–34.</li>
-<li>Sachdeva, S. (2009). Fitzpatrick skin typing: applications in dermatology. <em>Indian J. Dermatol. Venereol. Leprol.</em>, 75(1), 93–96. <a href="https://doi.org/10.1111/ijd.12004" target="_blank" rel="noopener" style="color:var(--bronze-deep);">DOI</a></li>
-<li>Battle, E.F. & Hobbs, L.M. (2004). Laser-assisted hair removal for darker skin types. <em>Dermatologic Therapy</em>, 17(2), 177–183. <a href="https://doi.org/10.1111/j.1529-8019.2004.04015.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">DOI</a></li>
-<li>Alster, T.S. & Bryan, H. (2009). Laser treatment of dark skin. <em>Dermatologic Surgery</em>, 35(1), 11–20. <a href="https://doi.org/10.1111/j.1524-4725.2009.01181.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">DOI</a></li>
-<li>Ross, E.V. et al. (1999). Theoretical considerations in laser hair removal. <em>Dermatologic Clinics</em>, 17(2), 333–355. <a href="https://doi.org/10.1016/S0733-8635(05)70090-9" target="_blank" rel="noopener" style="color:var(--bronze-deep);">DOI</a></li>
-</ol>
+<h3>Een hulpmiddel, geen etiket</h3>
+
+<p>Je type wordt meestal bepaald met een paar vragen over verbranden en bruin worden. Dat maakt de schaal subjectief. De Nederlandse Vereniging voor Dermatologie en Venereologie (NVDV) noemt het huidtype "slechts een grove indicatie" van hoe snel iemand verbrandt, met veel overlap tussen de typen.</p>
+
+<p>De schaal meet ook geen huidskleur of afkomst. Een overzicht van de Amerikaanse vereniging van oogartsen (AAO) wijst erop dat er vooral bij de donkerdere typen vaak verkeerd wordt ingedeeld, en dat de schaal oorspronkelijk voor een lichte huid is gemaakt. Twee mensen met dezelfde huidskleur kunnen dus een ander type hebben.</p>
+
+<h3>Waarom het bij laserontharing telt</h3>
+
+<p>Een ontharingslaser werkt op pigment. Het licht moet terechtkomen in het pigment van de haar, maar een donkere huid heeft ook veel pigment in de bovenste huidlaag. Daarom helpt het huidtype bij de keuze van golflengte, energie, pulsduur en koeling. Een donkere huid krijgt na een beschadiging bovendien makkelijker pigmentvlekken, schrijft DermNet. Voor de donkerste huidtypen wordt aangeraden eerst een proefplekje te behandelen.</p>
+
+<p>De GentleMax Pro Plus, het apparaat waarmee wij gaan werken, heeft twee lasers: een alexandrietlaser (755 nm) en een Nd:YAG-laser (1064 nm). In de Amerikaanse toelating is het apparaat bedoeld voor alle huidtypen, van I tot en met VI, ook een gebruinde huid. Lasers met een lange golflengte, zoals de Nd:YAG, gelden als de beste keuze bij een donkere huid. Meer daarover lees je in ons artikel over <a href="/journal/laser-donkere-huid">laserontharing bij een donkere huid</a>.</p>
+
+<h3>Zo kijken wij straks naar jouw huid</h3>
+
+<p>SkinTech opent in het tweede kwartaal van 2027 in Amsterdam. Bij een lasertraject horen bij ons straks een consult en een patchtest: een proefbehandeling op een klein stukje huid. We vragen hoe je huid op de zon reageert, kijken naar je huid en je haar, en stellen de laser bij elke sessie opnieuw in.</p>
+
+<p>Een kleurtje van de zon telt ook mee. Kom niet met een gebruinde huid naar een behandeling, en bescherm de behandelde huid daarna goed tegen de zon. De NVDV raadt aan dat tot twaalf weken na de behandeling te doen.</p>
+
+<h3>En de zon zelf?</h3>
+
+<p>Je huidtype zegt ook iets over zonbescherming: een lichte huid heeft de meeste bescherming nodig. De NVDV noemt schaduw en kleding als eerste stap. Voor vrije tijd en vakantie adviseert de vereniging een zonnebrandcrème met factor 30, dik gesmeerd en om de paar uur opnieuw.</p>
+
+<p>Tot de opening kun je je op de <a href="/contact">wachtlijst</a> zetten.</p>
+
+<h3>Bronnen</h3>
+
+<ul>
+<li>DermNet, <a href="https://dermnetnz.org/topics/skin-phototype" target="_blank" rel="noopener">Fitzpatrick skin phototype</a> (Amanda Oakley, dermatoloog).</li>
+<li>Fitzpatrick TB. The validity and practicality of sun-reactive skin types I through VI. Archives of Dermatology 1988;124(6):869-871.</li>
+<li>American Academy of Ophthalmology, EyeWiki, <a href="https://eyewiki.aao.org/The_Fitzpatrick_Scale" target="_blank" rel="noopener">The Fitzpatrick Scale</a>.</li>
+<li>Nederlandse Vereniging voor Dermatologie en Venereologie (NVDV), <a href="https://www.nvdv.nl/wp-content/uploads/Standpunt-zonbescherming.pdf" target="_blank" rel="noopener">Standpunt Zonbescherming</a>, 10 maart 2019 (pdf).</li>
+<li>NVDV, patiëntenfolder <a href="https://nvdv.nl/folders/laserbehandeling-met-een-ontharingslaser" target="_blank" rel="noopener">Laserbehandeling met een ontharingslaser</a>.</li>
+<li>U.S. Food and Drug Administration (FDA), toelating K201111 voor de Candela GentleMax Pro Plus, 26 mei 2020, <a href="https://www.accessdata.fda.gov/cdrh_docs/pdf20/K201111.pdf" target="_blank" rel="noopener">samenvatting (pdf)</a>.</li>
+<li>Evaluation of long-pulsed 1064 nm Nd:YAG laser-assisted hair removal vs multiple treatment sessions and different hair types in Indian patients. Journal of Cutaneous and Aesthetic Surgery, 2008. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2840900/" target="_blank" rel="noopener">PubMed Central PMC2840900</a></li>
+</ul>
+
+<p><em>Dit artikel geeft algemene informatie en vervangt geen persoonlijk advies. Herschreven en bronnen gecontroleerd in november 2026.</em></p>
 `,
 bodyEn: `
-<p>Your skin's response to laser and light treatments is fundamentally determined by your skin type. The Fitzpatrick scale — developed by dermatologist Thomas B. Fitzpatrick in 1975 — classifies skin into six types based on melanin content and UV response. At SkinTech Laser Clinic in Amsterdam, this classification, supplemented with a skin analysis, will be the starting point of every treatment plan.</p>
+<p>Do you burn quickly in the sun, or do you tan easily? The answer says something about your skin type. Dermatologists use the Fitzpatrick scale for this, and in laser hair removal it is one of the first things we look at. This is how the scale works, and what it does and does not tell you.</p>
 
-<h3>The Fitzpatrick classification in detail</h3>
-<p><strong>Type I</strong> — Very fair, freckles, red/blonde hair. Always burns, never tans. Celtic type. Very sensitive to UV damage and photoaging.<br/>
-<strong>Type II</strong> — Fair, burns easily, tans minimally. Northern European. High risk of sun damage but excellent candidate for Alexandrite laser.<br/>
-<strong>Type III</strong> — Light to medium, sometimes burns, tans gradually. Central European. The most common type in the Netherlands. Suitable for both Alexandrite and Nd:YAG.<br/>
-<strong>Type IV</strong> — Olive to light brown, rarely burns. Mediterranean, Asian. Higher epidermal melanin concentration requires more conservative laser settings.<br/>
-<strong>Type V</strong> — Dark brown, very rarely burns. Middle Eastern, Latin American, South Asian. Nd:YAG laser recommended for safety.<br/>
-<strong>Type VI</strong> — Dark brown to black, never burns. African, Afro-Caribbean. Exclusively Nd:YAG with adapted parameters.</p>
+<h3>Where the scale comes from</h3>
 
-<h3>Why skin types I–III and IV–VI require different approaches</h3>
-<p>The working principle relies on contrast between melanin in the hair follicle (target chromophore) and melanin in the surrounding epidermis (competing chromophore). In lighter skin, this contrast is high. In darker skin, epidermal melanin competes with follicular melanin for laser energy, increasing the risk of epidermal damage.</p>
-<p>Battle and Hobbs (2004) documented that using the Alexandrite laser at Fitzpatrick V–VI led to significantly higher rates of hyperpigmentation and blistering compared to the Nd:YAG (<a href="https://doi.org/10.1111/j.1529-8019.2004.04015.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Battle & Hobbs, 2004</a>).</p>
+<p>The American dermatologist Thomas Fitzpatrick devised the classification in 1975. He was looking for a way to choose the right dose of UV light in light therapy, because people who looked alike did not always tolerate the same dose. At first there were four types, meant for light skin. The scale was later extended to six.</p>
 
-<h3>Diode laser versus Alexandrite and Nd:YAG per skin type</h3>
-<p>The 800–810 nm diode laser is often presented as a "universal" solution. This is misleading. While the diode occupies a middle position in wavelength, it offers neither the superior melanin absorption of the Alexandrite in fair skin, nor the safety margins of the Nd:YAG in dark skin. A dual platform like the GentleMax Pro Plus — combining both extremes — objectively provides more treatment safety and efficacy across the full Fitzpatrick spectrum.</p>
+<h3>The six skin types</h3>
 
-<h3>How SkinTech will assess your skin type</h3>
-<p>At SkinTech, we want to go beyond visual Fitzpatrick assessment. Once we are open, every plan will start with a free skin analysis with the Sylton Observ 520x — a professional scanner that analyses skin across six light modes. This will let us assess not only pigment level, but also hydration, vascular patterns, pore structure and subclinical pigment irregularities invisible to the naked eye.</p>
+<ul>
+<li><strong>Type I.</strong> Always burns and does not tan. Often very fair skin, freckles and red or light blond hair.</li>
+<li><strong>Type II.</strong> Burns quickly and tans slowly. Fair skin.</li>
+<li><strong>Type III.</strong> Sometimes burns, then tans. Lightly tinted skin.</li>
+<li><strong>Type IV.</strong> Hardly ever burns and tans easily. Light brown skin.</li>
+<li><strong>Type V.</strong> Rarely burns and tans dark brown. Brown skin.</li>
+<li><strong>Type VI.</strong> Almost never burns. Dark brown to black skin.</li>
+</ul>
 
-<h3>Amsterdam: a diverse city, diverse skin types</h3>
-<p>Amsterdam is one of the world's most multicultural cities. The people who live here span the full Fitzpatrick spectrum. It is precisely this diversity that makes a dual-wavelength system not merely a luxury, but a clinical necessity. A clinic working exclusively with a diode or Alexandrite laser simply cannot treat all skin types safely and effectively.</p>
+<p>The classification is about how your skin responds to sunlight, and that is linked to the amount of pigment (melanin) in your skin. Your skin type is fixed from birth, according to the dermatology reference DermNet.</p>
 
-<h3 style="margin-top:48px; font-size:18px; color:var(--bronze-deep);">Scientific references</h3>
-<ol style="font-size:13px; color:var(--muted); line-height:2;">
-<li>Fitzpatrick, T.B. (1975). Soleil et peau. <em>J. de Médecine Esthétique</em>, 2, 33–34.</li>
-<li>Sachdeva, S. (2009). Fitzpatrick skin typing. <em>Indian J. Dermatol.</em>, 75(1), 93–96. <a href="https://doi.org/10.1111/ijd.12004" target="_blank" rel="noopener" style="color:var(--bronze-deep);">DOI</a></li>
-<li>Battle, E.F. & Hobbs, L.M. (2004). Laser hair removal for darker skin. <em>Dermatologic Therapy</em>, 17(2), 177–183. <a href="https://doi.org/10.1111/j.1529-8019.2004.04015.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">DOI</a></li>
-<li>Ross, E.V. et al. (1999). Theoretical considerations in laser hair removal. <em>Dermatologic Clinics</em>, 17(2), 333–355. <a href="https://doi.org/10.1016/S0733-8635(05)70090-9" target="_blank" rel="noopener" style="color:var(--bronze-deep);">DOI</a></li>
-</ol>
+<h3>A tool, not a label</h3>
+
+<p>Your type is usually worked out with a few questions about burning and tanning. That makes the scale subjective. The Dutch Society for Dermatology and Venereology (NVDV) calls skin type only a rough indication of how quickly someone burns, with a lot of overlap between the types.</p>
+
+<p>The scale does not measure skin colour or origin either. An overview by the American Academy of Ophthalmology (AAO) points out that people are often put in the wrong type, mostly among the darker types, and that the scale was originally made for light skin. So two people with the same skin colour can have a different type.</p>
+
+<h3>Why it matters in laser hair removal</h3>
+
+<p>A hair removal laser acts on pigment. The light has to end up in the pigment of the hair, but dark skin also has a lot of pigment in its top layer. That is why skin type helps in choosing the wavelength, energy, pulse duration and cooling. Dark skin also develops pigment marks more easily after an injury, DermNet writes. For the darkest skin types, treating a test spot first is advised.</p>
+
+<p>The GentleMax Pro Plus, the device we are going to work with, has two lasers: an alexandrite laser (755 nm) and an Nd:YAG laser (1064 nm). In its American clearance the device is intended for all skin types, from I to VI, including tanned skin. Lasers with a long wavelength, such as the Nd:YAG, are considered the best choice for dark skin. You can read more in our article on <a href="/en/journal/laser-donkere-huid">laser hair removal for dark skin</a>.</p>
+
+<h3>How we will look at your skin</h3>
+
+<p>SkinTech opens in Amsterdam in the second quarter of 2027. A laser course with us will include a consultation and a patch test: a trial treatment on a small patch of skin. We ask how your skin responds to the sun, look at your skin and your hair, and set the laser again at every session.</p>
+
+<p>A tan counts too. Do not come to a treatment with tanned skin, and protect the treated skin well against the sun afterwards. The NVDV advises doing that for up to twelve weeks after the treatment.</p>
+
+<h3>And the sun itself?</h3>
+
+<p>Your skin type also says something about sun protection: fair skin needs the most. The NVDV names shade and clothing as the first step. For leisure and holidays the society advises a sunscreen with factor 30, applied thickly and again every few hours.</p>
+
+<p>Until we open, you can join the <a href="/en/contact">waiting list</a>.</p>
+
+<h3>Sources</h3>
+
+<ul>
+<li>DermNet, <a href="https://dermnetnz.org/topics/skin-phototype" target="_blank" rel="noopener">Fitzpatrick skin phototype</a> (Amanda Oakley, dermatologist).</li>
+<li>Fitzpatrick TB. The validity and practicality of sun-reactive skin types I through VI. Archives of Dermatology 1988;124(6):869-871.</li>
+<li>American Academy of Ophthalmology, EyeWiki, <a href="https://eyewiki.aao.org/The_Fitzpatrick_Scale" target="_blank" rel="noopener">The Fitzpatrick Scale</a>.</li>
+<li>Dutch Society for Dermatology and Venereology (NVDV), position paper on sun protection, <a href="https://www.nvdv.nl/wp-content/uploads/Standpunt-zonbescherming.pdf" target="_blank" rel="noopener">Standpunt Zonbescherming</a>, 10 March 2019 (pdf, in Dutch).</li>
+<li>NVDV, patient leaflet <a href="https://nvdv.nl/folders/laserbehandeling-met-een-ontharingslaser" target="_blank" rel="noopener">Laserbehandeling met een ontharingslaser</a> (in Dutch).</li>
+<li>U.S. Food and Drug Administration (FDA), clearance K201111 for the Candela GentleMax Pro Plus, 26 May 2020, <a href="https://www.accessdata.fda.gov/cdrh_docs/pdf20/K201111.pdf" target="_blank" rel="noopener">summary (pdf)</a>.</li>
+<li>Evaluation of long-pulsed 1064 nm Nd:YAG laser-assisted hair removal vs multiple treatment sessions and different hair types in Indian patients. Journal of Cutaneous and Aesthetic Surgery, 2008. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2840900/" target="_blank" rel="noopener">PubMed Central PMC2840900</a></li>
+</ul>
+
+<p><em>This article gives general information and does not replace personal advice. Rewritten and sources checked in November 2026.</em></p>
 `
 },
 
 // ============================================================
-// ARTICLE 3: GLACĒ GLOW — CORRECTED: Candela Glacē hydrafacial
-// Competitor: HydraFacial
+// ARTICLE 3: GLACĒ GLOW
 // ============================================================
 'glace-glow': {
 bodyNl: `
-<p>De Glacē Glow Facial die SkinTech gaat aanbieden, is gebaseerd op de Candela Glacē — een geavanceerd gezichtsbehandelingssysteem dat reiniging, extractie, hydratatie en antioxidantinfusie combineert in één doorlopende behandeling. In dit artikel leggen we uit hoe de technologie werkt, vergelijken we het met de bekende HydraFacial, en onderbouwen we waarom SkinTech voor de Glacē heeft gekozen.</p>
+<p>De Glacē Glow Facial wordt een van de twee gezichtsbehandelingen op ons menu. Ze is gebouwd rond de Glacē van Candela, een apparaat voor hydrodermabrasie. Hieronder lees je wat het apparaat doet, wat de fabrikant erover zegt en wat nog niet bekend is.</p>
 
-<h3>Wat is de Candela Glacē?</h3>
-<p>De Candela Glacē is een multi-step gezichtsbehandelingssysteem van Candela (Syneron-Candela), dezelfde fabrikant als de GentleMax Pro Plus laser. Het systeem werkt met een gesloten-circuit vortex-technologie die in vier fasen de huid reinigt en voedt:</p>
-<p><strong>Fase 1 — Reiniging en peeling:</strong> Een milde zuurtip (glycolzuur + salicylzuur) wordt samen met vortex-zuigkracht over de huid geleid. Dit verwijdert dode huidcellen, overtollig sebum en vervuiling. De combinatie van chemische en mechanische exfoliatie zorgt voor een grondiger resultaat dan handmatige reiniging alleen (<a href="https://doi.org/10.2147/CCID.S24490" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Kornhauser et al., 2010, <em>CCID</em></a>).</p>
-<p><strong>Fase 2 — Extractie:</strong> Een vacuümtip verwijdert mee-eters en comedonen uit de poriën zonder handmatige druk, wat het risico op beschadiging en littekenvorming vermindert.</p>
-<p><strong>Fase 3 — Hydratatie en infusie:</strong> Een cocktail van hyaluronzuur, peptiden en antioxidanten wordt via vortex-druk diep in de huid gebracht. Hyaluronzuur bindt tot 1000x het eigen gewicht aan water, wat de huid direct voller en gladder maakt (<a href="https://doi.org/10.4161/derm.21923" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Papakonstantinou et al., 2012, <em>Dermato-Endocrinology</em></a>).</p>
-<p><strong>Fase 4 — Bescherming:</strong> Een afsluitend serum met niacinamide en antioxidanten versterkt de huidbarrière en beschermt tegen oxidatieve stress. Niacinamide verhoogt de ceramideproductie, wat de barrièrefunctie meetbaar verbetert (<a href="https://doi.org/10.1111/j.1524-4725.2005.31732.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Bissett et al., 2005, <em>Dermatologic Surgery</em></a>).</p>
+<h3>Wat is de Glacē?</h3>
 
-<h3>Candela Glacē versus HydraFacial: een objectieve vergelijking</h3>
-<p>De HydraFacial (Edge Systems/BeautyHealth) is het bekendste merk in de categorie van geautomatiseerde gezichtsbehandelingen. Beide systemen werken volgens vergelijkbare principes — vortex-reiniging, extractie en serum-infusie — maar er zijn belangrijke verschillen:</p>
+<p>De Glacē is een systeem voor gezichtsbehandelingen van Candela, het bedrijf dat ook onze ontharingslaser maakt. Candela bracht het in maart 2025 op de markt. De naam spreek je uit als "glassie" en verwijst naar glass skin, een begrip uit de Koreaanse huidverzorging voor een gladde, stralende huid.</p>
 
-<table style="width:100%; border-collapse:collapse; font-size:14px; margin:24px 0;">
-<tr style="border-bottom:2px solid var(--line);"><td style="padding:12px 0; font-weight:500;"></td><td style="padding:12px 16px; font-weight:500;">Candela Glacē</td><td style="padding:12px 16px; font-weight:500;">HydraFacial</td></tr>
-<tr style="border-bottom:1px solid var(--line);"><td style="padding:12px 0; color:var(--muted);">Fabrikant</td><td style="padding:12px 16px;">Candela (Syneron-Candela)</td><td style="padding:12px 16px;">BeautyHealth (Edge Systems)</td></tr>
-<tr style="border-bottom:1px solid var(--line);"><td style="padding:12px 0; color:var(--muted);">Medische achtergrond</td><td style="padding:12px 16px;">Medisch laserfabrikant (30+ jaar)</td><td style="padding:12px 16px;">Beauty/wellness-segment</td></tr>
-<tr style="border-bottom:1px solid var(--line);"><td style="padding:12px 0; color:var(--muted);">Serumformulering</td><td style="padding:12px 16px;">Klinisch-grade, afgestemd per huidtype</td><td style="padding:12px 16px;">Gestandaardiseerde boosters</td></tr>
-<tr style="border-bottom:1px solid var(--line);"><td style="padding:12px 0; color:var(--muted);">Zuigkrachtcontrole</td><td style="padding:12px 16px;">Variabel, specialist-gestuurd</td><td style="padding:12px 16px;">Preset niveaus</td></tr>
-<tr style="border-bottom:1px solid var(--line);"><td style="padding:12px 0; color:var(--muted);">Combinatie met laser</td><td style="padding:12px 16px;">Naadloos (zelfde Candela-ecosysteem)</td><td style="padding:12px 16px;">Niet geïntegreerd</td></tr>
-<tr><td style="padding:12px 0; color:var(--muted);">Positionering</td><td style="padding:12px 16px;">Medisch-esthetisch</td><td style="padding:12px 16px;">Beauty/spa</td></tr>
-</table>
+<p>Volgens Candela combineert de behandeling drie dingen: hydrodermabrasie, een cupping-massage in twee standen en ledlicht.</p>
 
-<p>Het fundamentele verschil: de HydraFacial is ontworpen als een gestandaardiseerde spa-behandeling, beschikbaar in salons en warenhuizen. De Candela Glacē is ontworpen als een klinische behandeling die naadloos integreert met het bredere Candela-platform. Bij SkinTech combineren we de Glacē straks met de Sylton Observ huidscanner, voor een objectieve analyse vooraf.</p>
+<h3>De stappen, volgens de fabrikant</h3>
 
-<h3>De wetenschap achter de glow</h3>
-<p>De directe verbetering in huidtextuur en uitstraling na een Glacē-behandeling is het resultaat van meerdere gelijktijdige mechanismen: verwijdering van het stratum corneum (de buitenste laag dode cellen), mechanische stimulatie van de microcirculatie door de vortex-zuigkracht, en directe hydratatie van de epidermis. Klinisch vertaalt zich dit in een meetbare verhoging van de huidhydratatie (tot 600% toename in corneometrie-waarden direct na behandeling) en een zichtbare vermindering van fijne lijntjes en poriëgrootte.</p>
-<p>Het effect houdt gemiddeld 7–14 dagen aan bij een enkele sessie. Bij maandelijkse herhaling treedt een cumulatief effect op: structurele verbetering van de huidtextuur, poriëgrootte en vochtbalans door consistente exfoliatie en voedingsstoftoevoer.</p>
+<ul>
+<li><strong>Reinigen en exfoliëren.</strong> Een opzetstuk met een diamantlaagje, bedoeld voor eenmalig gebruik, gaat over de huid en haalt dode huidcellen weg. Tegelijk spoelt een eerste serum de huid schoon.</li>
+<li><strong>Voeden.</strong> Daarna volgt een tweede serum, dat de huid voedt. Candela spreekt van serums van natuurlijke oorsprong, gekozen op wat je huid nodig heeft.</li>
+<li><strong>Cupping-massage.</strong> Twee zuignapjes masseren beide kanten van het gezicht tegelijk. Volgens Candela ondersteunt de ene stand de lymfeafvoer en geeft de andere het gezicht een strakker aanzien. De fabrikant zet daar zelf bij dat dit effect tijdelijk is.</li>
+<li><strong>Afsluiten.</strong> De behandeling eindigt met een kalmerende fase met warmte, koeling en ledlicht.</li>
+</ul>
 
-<h3>Voor wie is de Glacē Glow Facial?</h3>
-<p>De Glacē is geschikt voor vrijwel alle huidtypen en -condities. Bijzonder effectief bij: doffe, vermoeide huid, dehydratie, fijne lijntjes, grove poriën, voorbereiding op een evenement (wedding glow), en als onderhoudsbehandeling tussen intensievere protocollen.</p>
-<p>Geen downtime. Geen roodheid. U kunt direct na de behandeling make-up aanbrengen en uw dagelijkse activiteiten hervatten.</p>
+<p>Een behandeling duurt volgens Candela 30 tot 60 minuten, afhankelijk van het protocol. Bij ons staat er straks 45 tot 60 minuten voor. Wij sluiten koel af: naast de Glacē gebruiken we de Cryo 7, een apparaat van Zimmer dat de huid met koude lucht koelt.</p>
 
-<h3 style="margin-top:48px; font-size:18px; color:var(--bronze-deep);">Wetenschappelijke referenties</h3>
-<ol style="font-size:13px; color:var(--muted); line-height:2;">
-<li>Kornhauser, A. et al. (2010). Applications of hydroxy acids. <em>CCID</em>, 3, 135–142. <a href="https://doi.org/10.2147/CCID.S24490" target="_blank" rel="noopener" style="color:var(--bronze-deep);">DOI</a></li>
-<li>Papakonstantinou, E. et al. (2012). Hyaluronic acid: a key molecule in skin aging. <em>Dermato-Endocrinology</em>, 4(3), 253–258. <a href="https://doi.org/10.4161/derm.21923" target="_blank" rel="noopener" style="color:var(--bronze-deep);">DOI</a></li>
-<li>Bissett, D.L. et al. (2005). Niacinamide: a B vitamin that improves aging facial skin appearance. <em>Dermatologic Surgery</em>, 31(s1), 860–866. <a href="https://doi.org/10.1111/j.1524-4725.2005.31732.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">DOI</a></li>
-</ol>
+<h3>Wat je ervan mag verwachten</h3>
+
+<p>Candela noemt de behandeling geschikt voor veel huidtypen en schrijft dat er weinig tot geen hersteltijd is. Het effect, een schonere en zachtere huid, zie je volgens de fabrikant direct. Om het vast te houden raadt Candela regelmatige behandelingen aan, bijvoorbeeld elke twee tot vier weken.</p>
+
+<p>De fabrikant zegt er twee dingen bij die wij belangrijk vinden. De behandeling is niet bedoeld om huidziekten of medische aandoeningen te behandelen. En het resultaat verschilt per persoon. Het is dus verzorging: reinigen, exfoliëren en hydrateren.</p>
+
+<h3>Wat nog niet bekend is</h3>
+
+<p>De Glacē is nieuw. Candela noemt cijfers over tevredenheid, maar die komen uit eigen gegevens die niet zijn gepubliceerd, zonder aantallen deelnemers of onderzoeksopzet. Wij nemen ze daarom niet over. Onafhankelijk gepubliceerd onderzoek naar de Glacē zelf zijn wij niet tegengekomen.</p>
+
+<p>Over hydrodermabrasie als techniek is wel iets gepubliceerd, maar het onderzoek is kleinschalig. Een bekend voorbeeld is een studie uit 2008 met twintig deelnemers en een ander apparaat.</p>
+
+<h3>Voor wie, en voor wie niet</h3>
+
+<p>Een Glacē Glow Facial past bij wie een doffe of vochtarme huid wil opfrissen, bijvoorbeeld in aanloop naar een bijzondere dag of bij de wisseling van het seizoen.</p>
+
+<p>Heb je een huidaandoening, zoals acne, eczeem of rosacea, of gebruik je medicijnen voor je huid? Bespreek dat dan eerst met je huisarts of dermatoloog. Twijfel je tussen deze behandeling en onze andere facial, lees dan <a href="/journal/deep-vs-glace">Deep Cleansing of Glacē Glow</a>.</p>
+
+<p>SkinTech opent in het tweede kwartaal van 2027 in Amsterdam. Tot die tijd kun je je op de <a href="/contact">wachtlijst</a> zetten.</p>
+
+<h3>Bronnen</h3>
+
+<ul>
+<li>Candela, productpagina <a href="https://candelamedical.com/products/glace-hydrodermabrasion/" target="_blank" rel="noopener">Glacē</a>.</li>
+<li>Candela, informatie voor cliënten over de <a href="https://candelamedical.com/patient/brands/glace-hydrodermabrasion/" target="_blank" rel="noopener">Glacē-behandeling</a>.</li>
+<li>Candela, persbericht van 7 maart 2025, <a href="https://candelamedical.com/press-releases/candela-announces-launch-of-the-glace-treatment-at-aad-meeting/" target="_blank" rel="noopener">Candela Announces Launch of the Glacē Treatment</a>.</li>
+<li>Zimmer MedizinSysteme, <a href="https://www.zimmer.de/en/products/physical-therapy/cryotherapy/cryo-7/" target="_blank" rel="noopener">Cryo 7</a>.</li>
+<li>Freedman BM. Hydradermabrasion: an innovative modality for nonablative facial rejuvenation. Journal of Cosmetic Dermatology 2008;7(4):275-280. <a href="https://doi.org/10.1111/j.1473-2165.2008.00406.x" target="_blank" rel="noopener">doi:10.1111/j.1473-2165.2008.00406.x</a></li>
+</ul>
+
+<p><em>Dit artikel geeft algemene informatie en vervangt geen persoonlijk advies. Herschreven en bronnen gecontroleerd in november 2026.</em></p>
 `,
 bodyEn: `
-<p>The Glacē Glow Facial that SkinTech will offer is based on the Candela Glacē — an advanced facial treatment system combining cleansing, extraction, hydration and antioxidant infusion in one continuous treatment. In this article, we explain how the technology works, compare it with the well-known HydraFacial, and explain why SkinTech chose the Glacē.</p>
+<p>The Glacē Glow Facial will be one of the two facial treatments on our menu. It is built around the Glacē by Candela, a device for hydrodermabrasion. Below you can read what the device does, what the manufacturer says about it and what is not yet known.</p>
 
-<h3>What is the Candela Glacē?</h3>
-<p>The Candela Glacē is a multi-step facial system from Candela (Syneron-Candela), the same manufacturer as the GentleMax Pro Plus laser. The system uses closed-circuit vortex technology across four phases:</p>
-<p><strong>Phase 1 — Cleansing and peeling:</strong> A mild acid tip (glycolic + salicylic acid) combined with vortex suction removes dead cells, excess sebum and impurities (<a href="https://doi.org/10.2147/CCID.S24490" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Kornhauser et al., 2010</a>).</p>
-<p><strong>Phase 2 — Extraction:</strong> A vacuum tip removes blackheads and comedones without manual pressure, reducing the risk of damage and scarring.</p>
-<p><strong>Phase 3 — Hydration and infusion:</strong> A cocktail of hyaluronic acid, peptides and antioxidants is delivered deep into the skin via vortex pressure. Hyaluronic acid binds up to 1000x its own weight in water (<a href="https://doi.org/10.4161/derm.21923" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Papakonstantinou et al., 2012</a>).</p>
-<p><strong>Phase 4 — Protection:</strong> A finishing serum with niacinamide and antioxidants strengthens the skin barrier (<a href="https://doi.org/10.1111/j.1524-4725.2005.31732.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Bissett et al., 2005</a>).</p>
+<h3>What is the Glacē?</h3>
 
-<h3>Candela Glacē versus HydraFacial: an objective comparison</h3>
-<p>The HydraFacial (BeautyHealth) is the best-known brand in automated facials. Both work on similar principles, but with key differences:</p>
+<p>The Glacē is a system for facial treatments from Candela, the company that also makes our hair removal laser. Candela launched it in March 2025. The name is pronounced "glassy" and refers to glass skin, a term from Korean skincare for smooth, radiant skin.</p>
 
-<table style="width:100%; border-collapse:collapse; font-size:14px; margin:24px 0;">
-<tr style="border-bottom:2px solid var(--line);"><td style="padding:12px 0; font-weight:500;"></td><td style="padding:12px 16px; font-weight:500;">Candela Glacē</td><td style="padding:12px 16px; font-weight:500;">HydraFacial</td></tr>
-<tr style="border-bottom:1px solid var(--line);"><td style="padding:12px 0; color:var(--muted);">Manufacturer</td><td style="padding:12px 16px;">Candela (Syneron-Candela)</td><td style="padding:12px 16px;">BeautyHealth (Edge Systems)</td></tr>
-<tr style="border-bottom:1px solid var(--line);"><td style="padding:12px 0; color:var(--muted);">Medical pedigree</td><td style="padding:12px 16px;">Medical laser manufacturer (30+ years)</td><td style="padding:12px 16px;">Beauty/wellness segment</td></tr>
-<tr style="border-bottom:1px solid var(--line);"><td style="padding:12px 0; color:var(--muted);">Serum formulation</td><td style="padding:12px 16px;">Clinical-grade, tailored per skin type</td><td style="padding:12px 16px;">Standardised boosters</td></tr>
-<tr style="border-bottom:1px solid var(--line);"><td style="padding:12px 0; color:var(--muted);">Integration with laser</td><td style="padding:12px 16px;">Seamless (same Candela ecosystem)</td><td style="padding:12px 16px;">Not integrated</td></tr>
-<tr><td style="padding:12px 0; color:var(--muted);">Positioning</td><td style="padding:12px 16px;">Medical-aesthetic</td><td style="padding:12px 16px;">Beauty/spa</td></tr>
-</table>
+<p>According to Candela the treatment combines three things: hydrodermabrasion, a cupping massage with two modes and LED light.</p>
 
-<p>The fundamental difference: the HydraFacial is designed as a standardised spa treatment available in salons and department stores. The Candela Glacē is designed as a clinical treatment that integrates seamlessly with the broader Candela platform. At SkinTech, we will combine the Glacē with the Sylton Observ skin scanner, for an objective analysis beforehand.</p>
+<h3>The steps, according to the manufacturer</h3>
 
-<h3>The science behind the glow</h3>
-<p>The immediate improvement in skin texture and radiance results from simultaneous mechanisms: removal of the stratum corneum, mechanical stimulation of microcirculation via vortex suction, and direct epidermal hydration. Clinically, this translates to measurable increases in skin hydration (up to 600% increase in corneometry values immediately post-treatment) and visible reduction in fine lines and pore size.</p>
-<p>The effect lasts an average of 7–14 days from a single session. With monthly repetition, a cumulative effect occurs: structural improvement in texture, pore size and moisture balance.</p>
+<ul>
+<li><strong>Cleansing and exfoliating.</strong> A tip with a diamond coating, meant for single use, moves over the skin and removes dead skin cells. At the same time a first serum rinses the skin clean.</li>
+<li><strong>Nourishing.</strong> A second serum follows, which nourishes the skin. Candela speaks of naturally derived serums, chosen for what your skin needs.</li>
+<li><strong>Cupping massage.</strong> Two cups massage both sides of the face at once. According to Candela one mode supports lymphatic drainage and the other gives the face a more sculpted look. The manufacturer itself adds that this effect is temporary.</li>
+<li><strong>Finishing.</strong> The treatment ends with a calming phase with warmth, cooling and LED light.</li>
+</ul>
 
-<h3>Who is the Glacē Glow Facial for?</h3>
-<p>Suitable for virtually all skin types. Particularly effective for: dull or tired skin, dehydration, fine lines, enlarged pores, pre-event preparation (wedding glow), and as maintenance between more intensive protocols. No downtime. No redness. You can apply makeup and resume activities immediately.</p>
+<p>A treatment takes 30 to 60 minutes according to Candela, depending on the protocol. We will allow 45 to 60 minutes for it. We finish cool: alongside the Glacē we use the Cryo 7, a device by Zimmer that cools the skin with cold air.</p>
 
-<h3 style="margin-top:48px; font-size:18px; color:var(--bronze-deep);">Scientific references</h3>
-<ol style="font-size:13px; color:var(--muted); line-height:2;">
-<li>Kornhauser, A. et al. (2010). Applications of hydroxy acids. <em>CCID</em>, 3, 135–142. <a href="https://doi.org/10.2147/CCID.S24490" target="_blank" rel="noopener" style="color:var(--bronze-deep);">DOI</a></li>
-<li>Papakonstantinou, E. et al. (2012). Hyaluronic acid in skin aging. <em>Dermato-Endocrinology</em>, 4(3), 253–258. <a href="https://doi.org/10.4161/derm.21923" target="_blank" rel="noopener" style="color:var(--bronze-deep);">DOI</a></li>
-<li>Bissett, D.L. et al. (2005). Niacinamide improves aging skin. <em>Dermatologic Surgery</em>, 31(s1), 860–866. <a href="https://doi.org/10.1111/j.1524-4725.2005.31732.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">DOI</a></li>
-</ol>
+<h3>What you can expect</h3>
+
+<p>Candela describes the treatment as suitable for many skin types and writes that there is little to no downtime. According to the manufacturer you see the effect, cleaner and softer skin, straight away. To keep it, Candela recommends regular treatments, for example every two to four weeks.</p>
+
+<p>The manufacturer adds two things that matter to us. The treatment is not intended to treat skin diseases or medical conditions. And results vary from person to person. So this is care: cleansing, exfoliating and hydrating.</p>
+
+<h3>What is not yet known</h3>
+
+<p>The Glacē is new. Candela gives satisfaction figures, but they come from its own unpublished data, without numbers of participants or a study design. That is why we do not repeat them. We have not come across independent published research on the Glacē itself.</p>
+
+<p>Something has been published on hydrodermabrasion as a technique, but the research is small in scale. A well-known example is a 2008 study with twenty participants and a different device.</p>
+
+<h3>Who it is for, and who it is not for</h3>
+
+<p>A Glacē Glow Facial suits anyone who wants to refresh dull or dehydrated skin, for example ahead of a special day or at the change of season.</p>
+
+<p>Do you have a skin condition such as acne, eczema or rosacea, or do you use medication for your skin? Then discuss it with your GP or dermatologist first. If you are unsure whether to choose this treatment or our other facial, read <a href="/en/journal/deep-vs-glace">Deep Cleansing or Glacē Glow</a>.</p>
+
+<p>SkinTech opens in Amsterdam in the second quarter of 2027. Until then you can join the <a href="/en/contact">waiting list</a>.</p>
+
+<h3>Sources</h3>
+
+<ul>
+<li>Candela, product page <a href="https://candelamedical.com/products/glace-hydrodermabrasion/" target="_blank" rel="noopener">Glacē</a>.</li>
+<li>Candela, information for clients about the <a href="https://candelamedical.com/patient/brands/glace-hydrodermabrasion/" target="_blank" rel="noopener">Glacē treatment</a>.</li>
+<li>Candela, press release of 7 March 2025, <a href="https://candelamedical.com/press-releases/candela-announces-launch-of-the-glace-treatment-at-aad-meeting/" target="_blank" rel="noopener">Candela Announces Launch of the Glacē Treatment</a>.</li>
+<li>Zimmer MedizinSysteme, <a href="https://www.zimmer.de/en/products/physical-therapy/cryotherapy/cryo-7/" target="_blank" rel="noopener">Cryo 7</a>.</li>
+<li>Freedman BM. Hydradermabrasion: an innovative modality for nonablative facial rejuvenation. Journal of Cosmetic Dermatology 2008;7(4):275-280. <a href="https://doi.org/10.1111/j.1473-2165.2008.00406.x" target="_blank" rel="noopener">doi:10.1111/j.1473-2165.2008.00406.x</a></li>
+</ul>
+
+<p><em>This article gives general information and does not replace personal advice. Rewritten and sources checked in November 2026.</em></p>
 `
 },
 
@@ -429,363 +500,213 @@ bodyEn: `
   },
 
   'deep-vs-glace': {
-    bodyNl: `<h3>Deep Cleansing Facial versus Glacē Glow Facial: Welke behandeling voor u?</h3>
+    bodyNl: `
+<p>Op ons behandelmenu staan straks twee gezichtsbehandelingen: de Deep Cleansing Facial en de Glacē Glow Facial. De ene is handwerk en draait om grondig reinigen. De andere draait om een apparaat en om hydratatie. Dit zijn de verschillen.</p>
 
-<p>Beide behandelingen verwijderen dode cellen en verontreinigingen, maar via verschillende technologieën en behandelprotocollen. SkinTech Laser Clinic gaat beide behandelingen aanbieden, afgestemd op wat jouw huid nodig heeft.</p>
+<h3>Deep Cleansing Facial: grondig reinigen, met de hand</h3>
 
-<h3>Deep Cleansing Facial: Klassieke handmatige behandeling</h3>
+<p>De Deep Cleansing Facial duurt zestig minuten. De behandeling bestaat uit een dubbele reiniging, een huidanalyse, extracties (het met de hand leegmaken van verstopte poriën), een masker en een afsluitende massage. Wat we precies doen, hangt af van hoe je huid er die dag bij ligt. Je krijgt een persoonlijk verzorgingsadvies voor thuis mee.</p>
 
-<p>Deep Cleansing Facials gebruiken traditionele, handmatig uitgevoerde technologie. Na voorbereiding met milde reiniger wordt de huid gestoomd (gewoonlijk 5-10 minuten) om poriën te openen en talgafstoffe los te maken. Een enzymatische peel wordt aangebracht, meestal gebaseerd op papaya of bromelaïne, voor veilige biochemische exfoliatie. De estheticus voert vervolgens handmatige comedone-extractie uit met steriele instrumenten, waarbij zwarte punten en verstopte poriën voorzichtig worden verwijderd. Ten slotte worden nourishing maskers aangebracht.</p>
+<p>De behandeling is bedoeld voor een verstopte, vette, doffe of snel reagerende huid. Omdat poriën met de hand worden leeggemaakt, kan je huid daarna even rood zijn. Plan de behandeling daarom liever niet op de dag van een feest.</p>
 
-<p>Voordeel: grondig, persoonlijk, en effectief voor ernstige acne met vastgebonden comedonen. Nadeel: tot 24-48 uur erythema mogelijk, voelt oncomfortabel gedurende extractie, en risico op beschadiging van gevoelige kapillairen.</p>
+<h3>Glacē Glow Facial: reinigen en hydrateren met een apparaat</h3>
 
-<h3>Glacē Glow Facial: Vortex-technologie innovatie</h3>
+<p>De Glacē Glow Facial is gebouwd rond de Glacē van Candela. Volgens de fabrikant combineert de behandeling hydrodermabrasie (exfoliëren met een opzetstuk terwijl serums over de huid stromen), een cupping-massage en ledlicht. Bij ons staat er 45 tot 60 minuten voor. We sluiten koel af met de Cryo 7, een apparaat dat de huid met koude lucht koelt.</p>
 
-<p>Glacē Glow Facial gebruikt het Candela Glacē-systeem, een geavanceerde hydrafaciale-stijl vortex-reinigingssysteem. Dit is NIET cryotherapie of koeling—het is een medisch-klinische vacuümtechnologie die zonder handmatige druk reinigt.</p>
+<p>Candela schrijft dat er weinig tot geen hersteltijd is en dat de behandeling niet bedoeld is om huidaandoeningen te behandelen. Hoe de Glacē stap voor stap werkt, lees je in <a href="/journal/glace-glow">ons artikel over de Glacē Glow Facial</a>.</p>
 
-<p><strong>Glacē werkingsprincipe:</strong> Gespecialiseerde tips creëren een Vortex Fusion-technologie waarbij zuigkracht en spiraalvorming samenwerken. Het proces volgt vier stappen:</p>
+<h3>De verschillen op een rij</h3>
 
-<p><strong>1. Cleanse:</strong> Milde reiniger verwijdert oppervlaktevuil en cosmetica.</p>
+<ul>
+<li><strong>Kern.</strong> Deep Cleansing: reiniging met de hand, met extracties. Glacē Glow: hydrodermabrasie met een apparaat.</li>
+<li><strong>Duur.</strong> Deep Cleansing: 60 minuten. Glacē Glow: 45 tot 60 minuten.</li>
+<li><strong>Vooral voor.</strong> Deep Cleansing: een verstopte, vette of doffe huid. Glacē Glow: een doffe of vochtarme huid, of een bijzondere dag.</li>
+<li><strong>Daarna.</strong> Deep Cleansing: je huid kan even rood zijn. Glacē Glow: volgens de fabrikant weinig tot geen hersteltijd.</li>
+<li><strong>Ritme.</strong> Deep Cleansing: bijvoorbeeld maandelijks. Glacē Glow: per seizoen of voor een gelegenheid.</li>
+</ul>
 
-<p><strong>2. Exfoliate:</strong> Een niet-invasieve vortex-tip werkt met fijne abrasieve middelen zonder huid af te schaven. Dit opent poriën en verwijdert dode cellen voorzichtig.</p>
+<h3>Hoe kies je?</h3>
 
-<p><strong>3. Extract:</strong> Gepatenteerde vortex-zuiging zuigt impuriteiten, talgafstoffe, en vuil uit zonder handmatige druk of beschadiging.</p>
+<ul>
+<li>Heb je vooral last van verstopte poriën en mee-eters? Dan ligt de Deep Cleansing Facial voor de hand.</li>
+<li>Wil je vooral een frissere, beter gehydrateerde huid, of heb je iets te vieren? Dan past de Glacē Glow Facial.</li>
+<li>Wil je allebei? Op het menu staat ook een combinatie van de twee: de SkinTech Signature Glow.</li>
+<li>Weet je het niet? Begin met de gratis huidscan. Dan kijken we samen wat je huid nodig heeft.</li>
+</ul>
 
-<p><strong>4. Infuse:</strong> Terwijl de zuigkracht aanwezig blijft, vochtinbrengende serums (hyaluronzuur, peptiden, antioxidanten) dringen diep in porien in. Dit is veel effectiever dan oppervlakkige aanbrenging.</p>
+<p>De prijzen van alle behandelingen vind je op de pagina <a href="/services">Behandelingen</a>.</p>
 
-<p>Voordeel: geen downtime, onmiddellijke zichtbaarheid (gloed), en langdurige hydratatie. Serum-selectie is aanpasbaar op uw huidtype.</p>
+<h3>Wanneer je eerst naar de huisarts gaat</h3>
 
-<h3>Glacē versus HydraFacial: Medische versus consumententechnologie</h3>
+<p>Een facial is verzorging en geen behandeling van een huidziekte. Heb je ontstoken acne, eczeem, rosacea of een andere huidaandoening, of gebruik je medicijnen die je huid gevoeliger maken? Overleg dan eerst met je huisarts of dermatoloog.</p>
 
-<p>Beide gebruiken vortex-technologie, maar verschillen aanzienlijk. HydraFacial is populair in spas en beautycentra, met eigendomstips en serumlijnen. Glacē is het medisch-klinische equivalent van Candela, ontworpen voor dermatologen en professionele klineken. Glacē biedt aangepaste serum-selectie, preciezer controle over zuigsterkte, en integratie met andere medische behandelingen. HydraFacial voelt oppervlakkiger en minder effectief voor diepe porienreinheid.</p>
+<p>SkinTech opent in het tweede kwartaal van 2027 in Amsterdam. Tot die tijd kun je je op de <a href="/contact">wachtlijst</a> zetten.</p>
 
-<h3>Vergelijking van alle drie behandelingstypen</h3>
+<h3>Bronnen</h3>
 
-<table style="width:100%; border-collapse:collapse; margin:1.5rem 0;">
-  <thead>
-    <tr style="background-color:#f5f5f5;">
-      <th style="border:1px solid #ddd; padding:12px; text-align:left;">Aspect</th>
-      <th style="border:1px solid #ddd; padding:12px; text-align:left;">Deep Cleansing</th>
-      <th style="border:1px solid #ddd; padding:12px; text-align:left;">Glacē Glow</th>
-      <th style="border:1px solid #ddd; padding:12px; text-align:left;">HydraFacial</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="border:1px solid #ddd; padding:12px;">Methode</td>
-      <td style="border:1px solid #ddd; padding:12px;">Handmatige extractie + peel</td>
-      <td style="border:1px solid #ddd; padding:12px;">Vortex-zuiging (medisch-klinisch)</td>
-      <td style="border:1px solid #ddd; padding:12px;">Vortex-zuiging (consument)</td>
-    </tr>
-    <tr style="background-color:#fafafa;">
-      <td style="border:1px solid #ddd; padding:12px;">Duur</td>
-      <td style="border:1px solid #ddd; padding:12px;">45-60 minuten</td>
-      <td style="border:1px solid #ddd; padding:12px;">30-40 minuten</td>
-      <td style="border:1px solid #ddd; padding:12px;">30-40 minuten</td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #ddd; padding:12px;">Downtime</td>
-      <td style="border:1px solid #ddd; padding:12px;">24-48 uur roodheid</td>
-      <td style="border:1px solid #ddd; padding:12px;">Geen</td>
-      <td style="border:1px solid #ddd; padding:12px;">Geen</td>
-    </tr>
-    <tr style="background-color:#fafafa;">
-      <td style="border:1px solid #ddd; padding:12px;">Beste voor</td>
-      <td style="border:1px solid #ddd; padding:12px;">Diepe comedonen, acne</td>
-      <td style="border:1px solid #ddd; padding:12px;">Glow, hydratatie, dofheid</td>
-      <td style="border:1px solid #ddd; padding:12px;">Onderhoud, beginner-vriendelijk</td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #ddd; padding:12px;">Pijnniveau</td>
-      <td style="border:1px solid #ddd; padding:12px;">Matig (extractie oncomfortabel)</td>
-      <td style="border:1px solid #ddd; padding:12px;">Geen tot mild (entspannend)</td>
-      <td style="border:1px solid #ddd; padding:12px;">Geen</td>
-    </tr>
-    <tr style="background-color:#fafafa;">
-      <td style="border:1px solid #ddd; padding:12px;">Resultaten zichtbaarheid</td>
-      <td style="border:1px solid #ddd; padding:12px;">Dag 2-3</td>
-      <td style="border:1px solid #ddd; padding:12px;">Onmiddellijk</td>
-      <td style="border:1px solid #ddd; padding:12px;">Mild onmiddellijk</td>
-    </tr>
-  </tbody>
-</table>
+<ul>
+<li>Candela, productpagina <a href="https://candelamedical.com/products/glace-hydrodermabrasion/" target="_blank" rel="noopener">Glacē</a>.</li>
+<li>Candela, informatie voor cliënten over de <a href="https://candelamedical.com/patient/brands/glace-hydrodermabrasion/" target="_blank" rel="noopener">Glacē-behandeling</a>.</li>
+<li>Zimmer MedizinSysteme, <a href="https://www.zimmer.de/en/products/physical-therapy/cryotherapy/cryo-7/" target="_blank" rel="noopener">Cryo 7</a>.</li>
+<li>De beschrijving van onze eigen behandelingen komt van ons <a href="/services">behandelmenu</a>.</li>
+</ul>
 
-<h3>Wanneer u welke behandeling kiest</h3>
+<p><em>Dit artikel geeft algemene informatie en vervangt geen persoonlijk advies. Herschreven en bronnen gecontroleerd in november 2026.</em></p>
+`,
 
-<p><strong>Deep Cleansing:</strong> Kies dit wanneer u ernstige acne, diepe zwarte punten, of verstopte poriën hebt. Dit is ook ideaal voor eenmalige grondige reinigingen voordat u overstapt op onderhoudbehandelingen.</p>
+    bodyEn: `
+<p>Our treatment menu will have two facial treatments: the Deep Cleansing Facial and the Glacē Glow Facial. One is done by hand and is about thorough cleansing. The other is built around a device and is about hydration. These are the differences.</p>
 
-<p><strong>Glacē Glow:</strong> Kies dit voor hydratatie, doffe huid, pre-event gloed (bruiloft, feest), of als u gevoelige huid hebt die handmatige extractie niet aankan. Dit is ook perfect voor onderhoud na Deep Cleansing.</p>
+<h3>Deep Cleansing Facial: thorough cleansing, by hand</h3>
 
-<p><strong>Combineren:</strong> De twee behandelingen zijn te combineren, bijvoorbeeld een Deep Cleansing elke 8-12 weken met tussendoor Glacē-onderhoud elke 2-4 weken. Zo wordt de huid grondig gereinigd en gehydrateerd zonder haar te overbelasten.</p>
+<p>The Deep Cleansing Facial takes sixty minutes. The treatment consists of a double cleanse, a skin analysis, extractions (clearing blocked pores by hand), a mask and a closing massage. What exactly we do depends on the state of your skin that day. You go home with personal care advice.</p>
 
-<h3>Huidtype aanbevelingen</h3>
+<p>The treatment is meant for congested, oily, dull or reactive skin. Because pores are cleared by hand, your skin can be red for a while afterwards. So it is better not to plan it on the day of a party.</p>
 
-<p>Voor acnegevoelige, combination-huid: Deep Cleansing (1x per 8-12 weken) + Glacē (1x per 4 weken). Voor droge, gevoelige, gedehydreerde huid: uitsluitend Glacē (1x per 3-4 weken). Voor rijpere huid met pigmentatiekwesties: Glacē met antioxidant-serums.</p>
+<h3>Glacē Glow Facial: cleansing and hydrating with a device</h3>
 
-<h3>Wetenschappelijke basis</h3>
+<p>The Glacē Glow Facial is built around the Glacē by Candela. According to the manufacturer the treatment combines hydrodermabrasion (exfoliating with a tip while serums flow over the skin), a cupping massage and LED light. We allow 45 to 60 minutes for it. We finish cool with the Cryo 7, a device that cools the skin with cold air.</p>
 
-<p>Chemische peels gebruiken enzymatische dissociatie, ondersteund door <a href="https://doi.org/10.1111/j.1524-4725.2008.34254.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Fernandes & Signorini, 2008, Dermatologic Surgery</a>. Hydradermabrasie—vergelijkbaar met vortex-technologie—is wetenschappelijk gevalideerd door <a href="https://doi.org/10.1111/j.1524-4725.2009.01250.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Freedman, 2009, Dermatologic Surgery</a> voor effectieve en veilige huidverjongering. Microdermabrasie-effecten op collageen-remodellering zijn gedocumenteerd door <a href="https://doi.org/10.1038/jid.2009.359" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Karimipour et al., 2010, Journal of Investigative Dermatology</a>.</p>
+<p>Candela writes that there is little to no downtime and that the treatment is not intended to treat skin conditions. How the Glacē works step by step is explained in <a href="/en/journal/glace-glow">our article on the Glacē Glow Facial</a>.</p>
 
-<p>Beide behandelingen zijn veilig, effectief, en complementair. Uw keuze hangt af van huidcondities, gewenste resultaten, en downtime-tolerantie. Bij SkinTech Laser Clinic Amsterdam denken we graag met je mee zodra we open zijn.</p>`,
+<h3>The differences side by side</h3>
 
-    bodyEn: `<h3>Deep Cleansing Facial versus Glacē Glow Facial: Which Treatment Is Right for You?</h3>
+<ul>
+<li><strong>Core.</strong> Deep Cleansing: cleansing by hand, with extractions. Glacē Glow: hydrodermabrasion with a device.</li>
+<li><strong>Duration.</strong> Deep Cleansing: 60 minutes. Glacē Glow: 45 to 60 minutes.</li>
+<li><strong>Mainly for.</strong> Deep Cleansing: congested, oily or dull skin. Glacē Glow: dull or dehydrated skin, or a special day.</li>
+<li><strong>Afterwards.</strong> Deep Cleansing: your skin can be red for a while. Glacē Glow: little to no downtime, according to the manufacturer.</li>
+<li><strong>Rhythm.</strong> Deep Cleansing: monthly, for example. Glacē Glow: each season or for an occasion.</li>
+</ul>
 
-<p>Both treatments remove dead cells and impurities, but utilize different technologies and protocols. SkinTech Laser Clinic will offer both, tailored to what your skin needs.</p>
+<h3>How do you choose?</h3>
 
-<h3>Deep Cleansing Facial: Traditional Manual Approach</h3>
+<ul>
+<li>Is your main concern blocked pores and blackheads? Then the Deep Cleansing Facial is the obvious choice.</li>
+<li>Do you mainly want fresher, better hydrated skin, or do you have something to celebrate? Then the Glacē Glow Facial fits.</li>
+<li>Want both? The menu also has a combination of the two: the SkinTech Signature Glow.</li>
+<li>Not sure? Start with the free skin scan. Then we look together at what your skin needs.</li>
+</ul>
 
-<p>Deep Cleansing Facials employ time-tested, manually executed techniques. After gentle cleansing, the skin undergoes steaming (typically 5-10 minutes) to open pores and soften sebaceous matter. An enzymatic peel—usually papaya or bromelain-based—is applied for safe biochemical exfoliation. The esthetician then performs manual comedone extraction using sterile instruments, carefully removing blackheads and impacted follicles. Nourishing masks conclude the treatment.</p>
+<p>You will find the prices of all treatments on the <a href="/en/services">Treatments</a> page.</p>
 
-<p>Advantages: thorough, personalized, and effective for severe acne with embedded comedones. Disadvantages: potential erythema lasting 24-48 hours, discomfort during extraction, and risk of capillary damage in sensitive skin.</p>
+<h3>When to see your GP first</h3>
 
-<h3>Glacē Glow Facial: Vortex Technology Innovation</h3>
+<p>A facial is care, not treatment of a skin disease. Do you have inflamed acne, eczema, rosacea or another skin condition, or do you use medication that makes your skin more sensitive? Then talk to your GP or dermatologist first.</p>
 
-<p>Glacē Glow Facial employs the Candela Glacē system, an advanced hydrafacial-style vortex cleansing apparatus. This is NOT cryotherapy or cooling—it is a medical-grade vacuum technology that extracts without manual pressure.</p>
+<p>SkinTech opens in Amsterdam in the second quarter of 2027. Until then you can join the <a href="/en/contact">waiting list</a>.</p>
 
-<p><strong>Glacē mechanism:</strong> Specialized tips create Vortex Fusion technology where suction force and spiral motion work synergistically. The process follows four sequential steps:</p>
+<h3>Sources</h3>
 
-<p><strong>1. Cleanse:</strong> Gentle cleanser removes surface debris and cosmetics.</p>
+<ul>
+<li>Candela, product page <a href="https://candelamedical.com/products/glace-hydrodermabrasion/" target="_blank" rel="noopener">Glacē</a>.</li>
+<li>Candela, information for clients about the <a href="https://candelamedical.com/patient/brands/glace-hydrodermabrasion/" target="_blank" rel="noopener">Glacē treatment</a>.</li>
+<li>Zimmer MedizinSysteme, <a href="https://www.zimmer.de/en/products/physical-therapy/cryotherapy/cryo-7/" target="_blank" rel="noopener">Cryo 7</a>.</li>
+<li>The description of our own treatments comes from our <a href="/en/services">treatment menu</a>.</li>
+</ul>
 
-<p><strong>2. Exfoliate:</strong> Non-invasive vortex tip employs fine abrasive media without abrading skin. This opens pores and removes dead cells safely.</p>
-
-<p><strong>3. Extract:</strong> Patented vortex suction withdraws impurities, sebaceous matter, and debris without manual pressure or damage.</p>
-
-<p><strong>4. Infuse:</strong> While suction remains active, hydrating serums (hyaluronic acid, peptides, antioxidants) penetrate deeply into pores. This is far more effective than superficial application.</p>
-
-<p>Advantages: zero downtime, immediate visible glow, and sustained hydration. Serum selection is customizable to your skin type and concerns.</p>
-
-<h3>Glacē versus HydraFacial: Medical-Grade versus Consumer Technology</h3>
-
-<p>Both utilize vortex technology but differ significantly. HydraFacial is popular in spas and beauty centers, featuring proprietary tips and serum lines. Glacē is Candela's medical-grade equivalent, designed for dermatologists and professional clinics. Glacē offers customizable serum selection, precise suction control, and seamless integration with other medical treatments. HydraFacial feels more superficial and delivers less effectiveness for deep pore impaction.</p>
-
-<h3>Comprehensive Treatment Comparison</h3>
-
-<table style="width:100%; border-collapse:collapse; margin:1.5rem 0;">
-  <thead>
-    <tr style="background-color:#f5f5f5;">
-      <th style="border:1px solid #ddd; padding:12px; text-align:left;">Aspect</th>
-      <th style="border:1px solid #ddd; padding:12px; text-align:left;">Deep Cleansing</th>
-      <th style="border:1px solid #ddd; padding:12px; text-align:left;">Glacē Glow</th>
-      <th style="border:1px solid #ddd; padding:12px; text-align:left;">HydraFacial</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="border:1px solid #ddd; padding:12px;">Method</td>
-      <td style="border:1px solid #ddd; padding:12px;">Manual extraction + peel</td>
-      <td style="border:1px solid #ddd; padding:12px;">Vortex suction (medical-grade)</td>
-      <td style="border:1px solid #ddd; padding:12px;">Vortex suction (consumer)</td>
-    </tr>
-    <tr style="background-color:#fafafa;">
-      <td style="border:1px solid #ddd; padding:12px;">Duration</td>
-      <td style="border:1px solid #ddd; padding:12px;">45-60 minutes</td>
-      <td style="border:1px solid #ddd; padding:12px;">30-40 minutes</td>
-      <td style="border:1px solid #ddd; padding:12px;">30-40 minutes</td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #ddd; padding:12px;">Downtime</td>
-      <td style="border:1px solid #ddd; padding:12px;">24-48 hours erythema</td>
-      <td style="border:1px solid #ddd; padding:12px;">None</td>
-      <td style="border:1px solid #ddd; padding:12px;">None</td>
-    </tr>
-    <tr style="background-color:#fafafa;">
-      <td style="border:1px solid #ddd; padding:12px;">Best For</td>
-      <td style="border:1px solid #ddd; padding:12px;">Deep comedones, active acne</td>
-      <td style="border:1px solid #ddd; padding:12px;">Glow, hydration, dullness</td>
-      <td style="border:1px solid #ddd; padding:12px;">Maintenance, beginner-friendly</td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #ddd; padding:12px;">Pain Level</td>
-      <td style="border:1px solid #ddd; padding:12px;">Moderate (extraction discomfort)</td>
-      <td style="border:1px solid #ddd; padding:12px;">None to mild (therapeutic)</td>
-      <td style="border:1px solid #ddd; padding:12px;">None</td>
-    </tr>
-    <tr style="background-color:#fafafa;">
-      <td style="border:1px solid #ddd; padding:12px;">Result Visibility</td>
-      <td style="border:1px solid #ddd; padding:12px;">Days 2-3</td>
-      <td style="border:1px solid #ddd; padding:12px;">Immediate</td>
-      <td style="border:1px solid #ddd; padding:12px;">Mild immediate</td>
-    </tr>
-  </tbody>
-</table>
-
-<h3>Treatment Selection Guidelines</h3>
-
-<p><strong>Deep Cleansing:</strong> Select this when experiencing severe acne, deep blackheads, or significantly impacted pores. Ideal for one-time thorough cleansing before transitioning to maintenance treatments.</p>
-
-<p><strong>Glacē Glow:</strong> Choose this for hydration, dull complexions, pre-event glow enhancement (weddings, celebrations), or when sensitive skin cannot tolerate manual extraction. Perfect for maintenance post-Deep Cleansing.</p>
-
-<p><strong>Combining the two:</strong> The treatments can be combined, for example Deep Cleansing every 8-12 weeks with Glacē maintenance every 2-4 weeks in between. That way the skin is thoroughly cleansed and hydrated without being overloaded.</p>
-
-<h3>Skin Type Recommendations</h3>
-
-<p>For acne-prone, combination skin: Deep Cleansing (every 8-12 weeks) + Glacē (every 4 weeks). For dry, sensitive, dehydrated skin: Glacē exclusively (every 3-4 weeks). For mature skin with pigmentation concerns: Glacē with antioxidant serums.</p>
-
-<h3>Scientific Evidence</h3>
-
-<p>Chemical peels employ enzymatic dissociation, supported by <a href="https://doi.org/10.1111/j.1524-4725.2008.34254.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Fernandes & Signorini, 2008, Dermatologic Surgery</a>. Hydradermabrasion—analogous to vortex technology—is scientifically validated by <a href="https://doi.org/10.1111/j.1524-4725.2009.01250.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Freedman, 2009, Dermatologic Surgery</a> for effective and safe skin rejuvenation. Microdermabrasion's effects on collagen remodeling are documented by <a href="https://doi.org/10.1038/jid.2009.359" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Karimipour et al., 2010, Journal of Investigative Dermatology</a>.</p>
-
-<p>Both treatments are safe, effective, and complementary. Your choice depends on skin conditions, desired outcomes, and downtime tolerance. At SkinTech Laser Clinic Amsterdam we will be glad to advise you once we open.</p>`
+<p><em>This article gives general information and does not replace personal advice. Rewritten and sources checked in November 2026.</em></p>
+`
   },
 
 'sylton-scan': {
     bodyNl: `
-<h3>De Sylton Observ 520x Huidscanner — Je Huid in Focus</h3>
+<p>Elk traject bij SkinTech begint straks met een gratis huidscan. Daarvoor gebruiken we de Observ 520x van Sylton, een camerasysteem dat je gezicht in verschillende soorten licht fotografeert. Dit is wat zo'n scan laat zien, en wat niet.</p>
 
-<p>Modern huidonderzoek vereist meer dan het blote oog. De Sylton Observ 520x is een geavanceerd diagnostisch instrument dat uw huid van binnenuit analyseert, wat diepe inzichten biedt over structuur, pigmentatie, vochtigheid en onzichtbare schade. Bij SkinTech wordt deze scanner straks onderdeel van de intake en van de vervolgafspraken, zodat we veranderingen in de huid nauwkeurig kunnen volgen.</p>
+<h3>Wat is de Observ 520x?</h3>
 
-<h4>Hoe het Observ 520x werkt: Zes lichtmodi</h4>
+<p>De Observ 520x is een systeem voor huidanalyse van het Nederlandse bedrijf Sylton. Je legt je kin op een steun en het apparaat maakt een reeks foto's van je gezicht, elk in een ander soort licht. Volgens Sylton duurt dat gemiddeld tien seconden. De beelden verschijnen op een iPad.</p>
 
-<p>Het kernprincipe van de Observ 520x is dat verschillende golflengten van licht verschillende lagen van de huid penetreren en verschillende structuren zichtbaar maken. De scanner beschikt over zes gespecialiseerde lichtkwaliteiten:</p>
+<p>De kinsteun zet je hoofd steeds in dezelfde stand: recht van voren, schuin en van opzij. Daardoor zijn foto's van verschillende momenten goed met elkaar te vergelijken.</p>
 
-<p><strong>1. Daglichttoestand (Daytime)</strong> — Standaardzichtbare licht dat het huidoppervlak in natuurlijke kleuren weergeeft. Ideaal voor het beoordelen van de algehele huidtextuur, roodheid en onregelmatigheden.</p>
+<h3>De lichtstanden</h3>
 
-<p><strong>2. Kruispolarisatie (Cross-Polarized)</strong> — Dit licht dringt dieper in de opperhuid door en maakt oppervlakkige pigmentatie, fijne lijntjes en textuurveranderingen zichtbaar. Door de polarisatie van oppervlakkig gereflecteerd licht te blokkeren, reduceert dit mode reflectie die details zou maskeren.</p>
+<p>Sylton beschrijft tien lichtstanden. Welke daarvan beschikbaar zijn, hangt af van het pakket bij het apparaat. Dit laten ze volgens de fabrikant zien:</p>
 
-<p><strong>3. Parallelle Polarisatie (Parallel-Polarized)</strong> — In tegenstelling tot kruispolarisatie behoudt dit licht parallelle fasen en penetreert dieper in de dermis. Dit onthult bloedvaten, pigmentatie in diepere lagen en onderliggende vasculaire patronen.</p>
+<ul>
+<li><strong>Daglicht.</strong> De huid zoals je die bij gewoon licht ziet. Dit is het vertrekpunt.</li>
+<li><strong>Oppervlaktetextuur.</strong> Fijne lijntjes en de gladheid van de huid.</li>
+<li><strong>Pigmentatie.</strong> Verschillen in huidtint, ongelijkmatig pigment en sporen van de zon.</li>
+<li><strong>Roodheid.</strong> Plekken waar de huid rood is.</li>
+<li><strong>Parallel gepolariseerd licht.</strong> Versterkt de weerkaatsing op het huidoppervlak, zodat textuur en glans beter te zien zijn.</li>
+<li><strong>Kruisgepolariseerd licht.</strong> Haalt de glans weg, zodat je iets dieper in de huid kijkt.</li>
+<li><strong>True UV.</strong> Pigment dat onder het oppervlak ligt.</li>
+<li><strong>Nagebootst Wood-licht.</strong> Een beeld van waar de huid vetter of juist droger is.</li>
+<li><strong>Twee 360-standen.</strong> Licht uit een instelbare richting, in kleur of in grijstinten, maakt reliëf en contouren zichtbaar.</li>
+</ul>
 
-<p><strong>4. Ultraviolet (UV)</strong> — UV-licht (365 nm) reageert met fotochemische schade in de huid. Dit maakt zichtbaar waar UV-schade is opgeslagen voordat deze als zichtbare pigmentvlekken verschijnt — essentieel voor vroegtijdige detectie van fotoschade.</p>
+<h3>Wat een scan wel en niet is</h3>
 
-<p><strong>5. Wood's Lamp (Wood's Lamp Mode)</strong> — Op 365 nm, dit licht doet fluorescerende bacteriën (Propionibacterium acnes) oranje/geel opgloeien. Een cruciaal hulpmiddel voor acnediagnose en het bepalen van bacteriële belasting.</p>
+<p>Een scan laat zien. Hij stelt geen diagnose. Wat je op de beelden ziet, bespreken we samen, en het zegt iets over verzorging en over welke behandeling bij je huid past. Maak je je zorgen over een plekje of een moedervlek? Ga daarmee naar je huisarts. Een huidscan is daar niet voor bedoeld.</p>
 
-<p><strong>6. Gesimuleerde Daglicht (Simulated Daylight)</strong> — Een kalibreerde standaardverlichting die constante beoordelingen over meerdere sessies mogelijk maakt, met eliminatie van omgevingslichtingsvariabelen.</p>
+<p>Onderzoek naar het apparaat is er nog weinig. In een studie uit 2024 in het tijdschrift Scientific Reports, onder zestig volwassenen in een ziekenhuis in Taiwan, hingen de metingen van pigment en roodheid samen met die van twee gangbare meetinstrumenten. Voor pigment hingen ze ook samen met het oordeel van dermatologen. Die samenhang was matig, er is één keer gemeten en een van de vier auteurs is verbonden aan Sylton.</p>
 
-<h4>Klinische Toepassingen</h4>
+<h3>Wat je eraan hebt</h3>
 
-<p>Bij SkinTech gaan we bij elke nieuwe cliënt eerst een basismeting doen. Die laat zien hoe de huid ervoor staat voordat een behandeling begint — zichtbare en onzichtbare schade, vasculaire activiteit, pigmentatie op verschillende niveaus, en bacteriële belasting. Na een reeks behandelingen herhalen we de meting en leggen we de beelden naast de basismeting. Zo wordt voortgang objectief zichtbaar.</p>
+<p>De scan is een beginpunt. Samen met het gesprek helpt hij ons om een verzorgings- of behandelplan te maken. Hij is ook een nulmeting: kom je later terug, dan leggen we de nieuwe beelden naast de oude.</p>
 
-<p>De Observ 520x is ook een educatief hulpmiddel. Wie zijn huid voor het eerst onder verschillende lichtmodi ziet, begrijpt vaak beter welke schade bij gewoon licht onzichtbaar blijft. Dat helpt om realistische verwachtingen te hebben van een behandeling.</p>
+<p>De huidscan met consult is gratis en vrijblijvend en duurt ongeveer 45 minuten. Je krijgt een geschreven verzorgingsplan mee.</p>
 
-<h4>Vergelijking: Observ 520x vs Canfield VISIA</h4>
+<p>SkinTech opent in het tweede kwartaal van 2027 in Amsterdam. Tot die tijd kun je je op de <a href="/contact">wachtlijst</a> zetten.</p>
 
-<p>De Canfield VISIA is een ander wijd gebruikt diagnosesysteem, maar het werkt anders. De VISIA maakt standardized fotografische afbeeldingen onder gecontroleerde omstandigheden en voegt RBX-technologie (reflectance confocal microscopy-inspired subsurface imaging) toe. Dit biedt reproduceerbare foto's voor vergelijking en een genormaliseerde scoringsmethodologie — iets dat waardevol is voor klinische proeven en longitudinale studies.</p>
+<h3>Bronnen</h3>
 
-<p>De Observ 520x daarentegen biedt real-time observatie met meervoudige lichtkwaliteiten terwijl de klinicus de huid onderzoekt. In plaats van foto's te analyseren, ziet u de huid direct, wat dynamisch onderzoek mogelijk maakt: huid indrukken, uitrekken en manipuleren terwijl u observeert. Dit is intuïtiever voor patiënten (zij zien wat u ziet) en vereist geen gestandaardiseerde ruimte of precies gekalibreerde verlichting.</p>
+<ul>
+<li>Sylton, productpagina <a href="https://sylton.com/products/observ-520/" target="_blank" rel="noopener">Observ 520x</a>.</li>
+<li>Huang YW, Arkesteijn W, Lai YJ, Ng CY. A comparative study of an advanced skin imaging system in diagnosing facial pigmentary and inflammatory conditions. Scientific Reports 2024;14:14673. <a href="https://doi.org/10.1038/s41598-024-63274-7" target="_blank" rel="noopener">doi:10.1038/s41598-024-63274-7</a></li>
+<li>De beschrijving van onze eigen huidscan komt van ons <a href="/services">behandelmenu</a>.</li>
+</ul>
 
-<table style="width: 100%; border-collapse: collapse; margin: 2rem 0;">
-<tr style="background-color: var(--bronze-light); font-weight: bold;">
-<th style="padding: 12px; text-align: left; border: 1px solid var(--bronze-medium);">Kenmerk</th>
-<th style="padding: 12px; text-align: left; border: 1px solid var(--bronze-medium);">Observ 520x</th>
-<th style="padding: 12px; text-align: left; border: 1px solid var(--bronze-medium);">Canfield VISIA</th>
-</tr>
-<tr>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Technologie</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Real-time multi-wavelength observatie</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Gestandaardiseerde fotografie + RBX analyse</td>
-</tr>
-<tr style="background-color: var(--offwhite);">
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Lichtmodi</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">6 modi (daglichtt, UV, Wood's lamp, etc)</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">3 fotografie-modi (zichtbaar, UV, rood)</td>
-</tr>
-<tr>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Assessment Type</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Live/dynamisch</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Foto-gebaseerd/statisch</td>
-</tr>
-<tr style="background-color: var(--offwhite);">
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Patiëntbetrokkenheid</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Hoog (patiënt ziet real-time bevindingen)</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Gematigd (analyse achteraf)</td>
-</tr>
-<tr>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Omgeving</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Flexibel, geen strakke setup vereist</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Gestandaardiseerde kamer/kalibrering vereist</td>
-</tr>
-<tr style="background-color: var(--offwhite);">
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Voordeel</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Intuïtief, educatief, dynamische evaluatie</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Genormaliseerd, goed voor onderzoeken</td>
-</tr>
-</table>
-
-<h4>Wetenschappelijke Basis</h4>
-
-<p>De beginselen van multi-wavelength huidevaluatie zijn goed vastgesteld. <a href="https://doi.org/10.1111/j.1600-0781.2006.00210.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Stamatas et al., 2006, Photodermatology, Photoimmunology & Photomedicine</a> hebben aangetoond dat in vivo huidafbeelding met verschillende golflengten betrouwbare inzichten biedt in huidelastische eigenschappen, melanineverspreiding en vasculaire patronen. <a href="https://doi.org/10.1111/srt.12812" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Bae et al., 2020, Skin Research and Technology</a> vergelijken diverse huidanalysehulpmiddelen en concluderen dat multi-modaalaftasting superieure diagnostische informatie biedt vergeleken met enkelvoudige-weeglengte systemen.</p>
-
-<p><a href="https://doi.org/10.1016/j.burns.2010.09.001" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Bloemen et al., 2011, Burns</a> demonstreerden dat digitale fotografie en real-time observatie verschillende informatiewaarden hebben — direct observatie is beter voor dynamische evaluatie, terwijl gestandaardiseerde fotografie reproduceerbare vergelijking toelaat. Dit ondersteunt waarom we beide benaderingen waarderen.</p>
-
-<p>Bij SkinTech wordt de Observ 520x de eerste stap van elk traject. De beelden laten zien hoe je huid ervoor staat en maken het mogelijk om veranderingen later objectief te vergelijken.</p>
+<p><em>Dit artikel geeft algemene informatie en vervangt geen persoonlijk advies. Herschreven en bronnen gecontroleerd in november 2026.</em></p>
 `,
     bodyEn: `
-<h3>The Sylton Observ 520x Skin Scanner — Your Skin in Focus</h3>
+<p>Every course at SkinTech will start with a free skin scan. For that we use the Observ 520x by Sylton, a camera system that photographs your face in different kinds of light. This is what such a scan shows, and what it does not.</p>
 
-<p>Modern dermatological assessment requires more than visual inspection. The Sylton Observ 520x is an advanced diagnostic imaging system that reveals your skin's internal architecture, exposing structural details, pigmentation patterns, hydration status, and invisible photodamage. At SkinTech, this scanner will be part of the intake and of follow-up visits, so that changes in the skin can be followed precisely.</p>
+<h3>What is the Observ 520x?</h3>
 
-<h4>How the Observ 520x Works: Six Light Modes</h4>
+<p>The Observ 520x is a skin analysis system from the Dutch company Sylton. You rest your chin on a support and the device takes a series of photos of your face, each in a different kind of light. According to Sylton that takes ten seconds on average. The images appear on an iPad.</p>
 
-<p>The core principle behind the Observ 520x is that different wavelengths of light penetrate different skin layers and reveal different structures. The device offers six specialized light modes, each serving a distinct diagnostic purpose.</p>
+<p>The chin rest puts your head in the same position every time: straight on, at an angle and in profile. That makes photos from different moments easy to compare.</p>
 
-<p><strong>1. Daytime Mode</strong> — Standard visible light that displays the skin surface in natural color. Ideal for assessing overall texture, erythema, and surface irregularities.</p>
+<h3>The light modes</h3>
 
-<p><strong>2. Cross-Polarized Light</strong> — This mode penetrates the epidermis while blocking surface reflections, revealing superficial pigmentation, fine lines, and textural changes that standard lighting misses.</p>
+<p>Sylton describes ten light modes. Which of them are available depends on the package that comes with the device. According to the manufacturer this is what they show:</p>
 
-<p><strong>3. Parallel-Polarized Light</strong> — Maintains light phase coherence and penetrates deeper into the dermis, exposing deeper pigmentation, vascular patterns, and subsurface erythema invisible under normal illumination.</p>
+<ul>
+<li><strong>Daylight.</strong> The skin as you see it in normal light. This is the starting point.</li>
+<li><strong>Surface texture.</strong> Fine lines and the smoothness of the skin.</li>
+<li><strong>Pigmentation.</strong> Differences in skin tone, uneven pigment and traces of the sun.</li>
+<li><strong>Redness.</strong> Areas where the skin is red.</li>
+<li><strong>Parallel polarised light.</strong> Strengthens the reflection on the skin surface, so texture and glow are easier to see.</li>
+<li><strong>Cross polarised light.</strong> Takes away the shine, so you look a little deeper into the skin.</li>
+<li><strong>True UV.</strong> Pigment that lies under the surface.</li>
+<li><strong>Simulated Wood's light.</strong> A picture of where the skin is oilier or drier.</li>
+<li><strong>Two 360 modes.</strong> Light from an adjustable direction, in colour or in greyscale, brings out relief and contours.</li>
+</ul>
 
-<p><strong>4. Ultraviolet (UV) Mode</strong> — Operating at 365 nm wavelength, UV light reveals photodamage accumulation in the skin before it manifests as visible hyperpigmentation. This is crucial for detecting incipient sun damage and patient education about accumulated UV exposure.</p>
+<h3>What a scan is and is not</h3>
 
-<p><strong>5. Wood's Lamp Mode</strong> — At 365 nm with specific filtering, this mode causes fluorescent bacteria (Propionibacterium acnes) to glow orange-yellow, providing a non-invasive method to assess bacterial load and acne severity.</p>
+<p>A scan shows. It does not diagnose. We go through the images together, and they say something about care and about which treatment suits your skin. Are you worried about a spot or a mole? See your GP about it. A skin scan is not meant for that.</p>
 
-<p><strong>6. Simulated Daylight</strong> — A calibrated standardized illumination enabling consistent assessments across multiple sessions, eliminating environmental lighting variables that could confound longitudinal comparisons.</p>
+<p>There is still little research on the device. In a 2024 study in the journal Scientific Reports, among sixty adults at a hospital in Taiwan, its measurements of pigment and redness correlated with those of two established instruments. For pigment they also correlated with the assessment of dermatologists. That correlation was moderate, measurements were taken once, and one of the four authors is affiliated with Sylton.</p>
 
-<h4>Clinical Applications</h4>
+<h3>What it gives you</h3>
 
-<p>At SkinTech, we will start with baseline Observ 520x images for every new client. They record the condition of the skin before any treatment — visible and subsurface damage, vascular activity, pigmentation depth, and bacterial burden. After a series of treatments we will repeat the imaging and compare it with the baseline, so that progress can be seen objectively.</p>
+<p>The scan is a starting point. Together with the conversation it helps us draw up a care or treatment plan. It is also a baseline: if you come back later, we put the new images next to the old ones.</p>
 
-<p>The device also serves an educational function. Seeing your skin under several light modes for the first time often gives a better idea of the damage that stays invisible in normal light. That helps to set realistic expectations of what a treatment can do.</p>
+<p>The skin scan with consultation is free and without obligation and takes about 45 minutes. You go home with a written care plan.</p>
 
-<h4>Comparison: Observ 520x vs. Canfield VISIA System</h4>
+<p>SkinTech opens in Amsterdam in the second quarter of 2027. Until then you can join the <a href="/en/contact">waiting list</a>.</p>
 
-<p>The Canfield VISIA is another widely adopted diagnostic imaging platform, but it operates on a different principle. VISIA captures standardized photographs under controlled lighting conditions and adds RBX subsurface analysis. This yields reproducible images for database comparison and a normalized scoring system — valuable for clinical trials and longitudinal research.</p>
+<h3>Sources</h3>
 
-<p>The Observ 520x, by contrast, provides real-time observation with multiple light wavelengths as the clinician examines the skin. Rather than analyzing static photographs, you observe living skin directly, permitting dynamic assessment: pressing, stretching, and manipulating the skin while viewing subsurface changes. This is more intuitive for patients (they see what you see) and requires no standardized room or precisely calibrated lighting setup.</p>
+<ul>
+<li>Sylton, product page <a href="https://sylton.com/products/observ-520/" target="_blank" rel="noopener">Observ 520x</a>.</li>
+<li>Huang YW, Arkesteijn W, Lai YJ, Ng CY. A comparative study of an advanced skin imaging system in diagnosing facial pigmentary and inflammatory conditions. Scientific Reports 2024;14:14673. <a href="https://doi.org/10.1038/s41598-024-63274-7" target="_blank" rel="noopener">doi:10.1038/s41598-024-63274-7</a></li>
+<li>The description of our own skin scan comes from our <a href="/en/services">treatment menu</a>.</li>
+</ul>
 
-<table style="width: 100%; border-collapse: collapse; margin: 2rem 0;">
-<tr style="background-color: var(--bronze-light); font-weight: bold;">
-<th style="padding: 12px; text-align: left; border: 1px solid var(--bronze-medium);">Feature</th>
-<th style="padding: 12px; text-align: left; border: 1px solid var(--bronze-medium);">Observ 520x</th>
-<th style="padding: 12px; text-align: left; border: 1px solid var(--bronze-medium);">Canfield VISIA</th>
-</tr>
-<tr>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Technology</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Real-time multi-wavelength observation</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Standardized photography + RBX analysis</td>
-</tr>
-<tr style="background-color: var(--offwhite);">
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Light Modes</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">6 modes (daylight, UV, Wood's lamp, etc.)</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">3 photography modes (visible, UV, red)</td>
-</tr>
-<tr>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Assessment Type</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Live/dynamic</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Photo-based/static</td>
-</tr>
-<tr style="background-color: var(--offwhite);">
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Patient Engagement</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">High (real-time visualization)</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Moderate (post-analysis)</td>
-</tr>
-<tr>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Environment</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Flexible, minimal setup required</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Standardized room/calibration required</td>
-</tr>
-<tr style="background-color: var(--offwhite);">
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Best For</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Clinical assessment, patient education</td>
-<td style="padding: 12px; border: 1px solid var(--bronze-light);">Clinical trials, research protocols</td>
-</tr>
-</table>
-
-<h4>Scientific Foundation</h4>
-
-<p>The principles underlying multi-wavelength skin imaging are well-established in dermatological literature. <a href="https://doi.org/10.1111/j.1600-0781.2006.00210.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Stamatas et al., 2006, Photodermatology, Photoimmunology & Photomedicine</a> demonstrated that in vivo skin imaging with multiple wavelengths yields reliable data on skin mechanical properties, melanin distribution, and vascular architecture. <a href="https://doi.org/10.1111/srt.12812" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Bae et al., 2020, Skin Research and Technology</a> reviewed multiple skin analysis devices and concluded that multi-modal imaging captures superior diagnostic information compared to single-wavelength systems.</p>
-
-<p><a href="https://doi.org/10.1016/j.burns.2010.09.001" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Bloemen et al., 2011, Burns</a> demonstrated that digital photography and real-time clinical observation provide complementary information: direct observation excels for dynamic assessment, while standardized photography ensures reproducible comparison. This supports our choice of the Observ 520x as the primary assessment tool.</p>
-
-<p>At SkinTech, the Observ 520x will be the first step of every plan. The images show the condition of your skin and make it possible to compare changes objectively later on.</p>
+<p><em>This article gives general information and does not replace personal advice. Rewritten and sources checked in November 2026.</em></p>
 `
   },
 
@@ -979,292 +900,106 @@ bodyEn: `
 
   'huidverbetering-amsterdam': {
     bodyNl: `
-<h3>Huidverbetering in Amsterdam: uw complete gids voor professionele huidverzorging</h3>
+<p>Een egalere, rustigere of gladdere huid: huidverbetering is een breed begrip. Wat kan een huidkliniek daarin voor je doen, wat doe je zelf, en wanneer ga je beter naar de huisarts? Een overzicht, met wat SkinTech straks in Amsterdam gaat aanbieden.</p>
 
-<p>In Amsterdam wonen mensen met meer dan 170 nationaliteiten. Dat maakt de stad bijzonder als het om huidverzorging gaat: zeer diverse huidtypes, een wisselvallig klimaat en de invloed van het stadsleven. Producten voor thuis spelen een rol, maar een professionele behandeling kan dieper gaan dan thuis mogelijk is. SkinTech Laser Clinic Amsterdam opent in het tweede kwartaal van 2027 en richt zich op laserontharing, gezichtsbehandelingen en huidanalyse.</p>
+<h3>Begin bij wat je huid nodig heeft</h3>
 
-<h3>Professionele huidverbetering versus thuishuidverzorging: wat is het verschil?</h3>
+<p>Geen huid is hetzelfde. Daarom begint een traject bij ons straks met een gratis huidscan en een gesprek. De scan laat je huid in verschillende soorten licht zien. In het gesprek gaat het om wat jij wilt bereiken en wat je nu al doet. Je krijgt een geschreven verzorgingsplan mee.</p>
 
-<p>Thuisproducten kunnen huiddrogen verlichten en voorkomen, maar ze kunnen diep in de dermis—de onderliggende laag—niet doordringen waar collageen, elasting en pigmentatie werkelijk worden bepaald. Professionele behandelingen gebruiken klinische apparatuur die licht, temperatuur, of mechanische energie kan leveren op niveaus die thuis eenvoudig niet mogelijk zijn.</p>
+<p>Hoe de scan werkt en wat hij wel en niet laat zien, lees je in <a href="/journal/sylton-scan">ons artikel over de Observ 520x</a>.</p>
 
-<p>Bij SkinTech begint elk traject straks met een huidscan met de Observ 520x, een systeem voor huidanalyse dat de huid in verschillende lichtstanden laat zien. Dat maakt zichtbaar wat je met het blote oog niet ziet, zoals beginnende pigmentatie, textuurveranderingen en een vochtarme huid. Op basis daarvan maken we een persoonlijk behandelplan.</p>
+<h3>Wat een huidkliniek kan doen</h3>
 
-<h3>Veelvoorkomende huidproblemen in de stad</h3>
+<p>SkinTech richt zich op drie dingen:</p>
 
-<p><strong>Acnelittekens:</strong> Veel Amsterdammers worstelen met puistjes in hun jeugd. Modern laserwerk kan gefractionaleerde lichttherapie gebruiken om littekens opnieuw uit te lijnen.</p>
-
-<p><strong>Pigmentatieproblemen:</strong> Melasma (donkere bruine vlekken), zonnepigmentatie en andere hyperpigmentatie zijn wijd verbreid, vooral onder mensen met hogere UV-blootstelling of genetische gevoeligheid. <a href="https://doi.org/10.1016/j.jdermsci.2016.09.015" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Krutmann et al., 2017</a> documenteerden dat stedelijke vervuiling microontsteking veroorzaakt die pigmentatieproblemen verergert.</p>
-
-<p><strong>Textuurveranderingen:</strong> Ruwheid, vergrote poriën en fijne lijnen resulteren uit collageen-afbraak. Dit kan worden behandeld met combinatietherapieën.</p>
-
-<p><strong>Dofheid en dehydratatie:</strong> Amsterdam's kouder, vochtigheid-wisselend klimaat doet het epidermale waterverlies toenemen, wat een doffe, slap uitstraling veroorzaakt.</p>
-
-<p><strong>Rosacea:</strong> Gezichtsvergieking, erethemateus (rood) huidstelsel en soms puistjes. Dit reageert goed op doelgerichte laserbehandeling.</p>
-
-<h3>Zo gaat SkinTech te werk: drie stappen</h3>
-
-<p><strong>Stap 1: huidscan</strong> — We bekijken je huid met de Observ 520x in verschillende lichtstanden. Zo wordt zichtbaar wat je met het blote oog niet ziet.</p>
-
-<p><strong>Stap 2: persoonlijk behandelplan</strong> — Op basis van de scan en van wat jij wilt bereiken, stellen we een plan voor. Soms is dat één behandeling, soms een reeks.</p>
-
-<p><strong>Stap 3: behandelen en volgen</strong> — Waar het past, combineren we behandelingen over opeenvolgende weken. Met een nieuwe scan volgen we hoe je huid reageert.</p>
-
-<h3>Behandelingen in het kort</h3>
-
-<p><strong>Candela Glacē Facial</strong></p>
-
-<p>De Glacē Glow Facial combineert volgens de fabrikant hydrodermabrasie, een cupping-massage en ledlicht. De behandeling is gericht op een gezuiverde en gehydrateerde huid en wordt de lichtste behandeling op ons menu.</p>
-
-<p><strong>Diepte reiniging</strong></p>
-
-<p>Voor mensen met verstopte poriën, talgrichels (blackheads/whiteheads) of acne-gevoelige huid. Dit kan als standalone of als voorbereiding op lasertherapie worden gebruikt.</p>
-
-<p><strong>Combinatiebehandelingen: Glacē + Laser</strong></p>
-
-<p>Voor meer agressieve huidverbetering: eerst een Glacē-sessie (voorbereiding en ontsteking-verlaging), gevolgd door lasertherapie voor pigmentatie, littekens, of vasculaire letsels. Dit maximaliseet resultaten en minimaliseert hersteltijd.</p>
-
-<h3>Waarom Amsterdam speciaal huidzorgbehoeften heeft</h3>
-
-<p>Amsterdam is niet typisch Nederland. Het is een megastad met:</p>
-
-<ul style="margin:15px 0;padding-left:20px;">
-<li><strong>Extreme diversiteit:</strong> Grote Surinaamse, Turkse, Marokkaanse, Indonesische, Chinese, en West-Afrikaanse gemeenschappen bedeuten zeer divers Fitzpatrick-spectrum (type I tot VI).</li>
-<li><strong>Stedelijke vervuiling:</strong> Amsterdam heeft lichte luchtvervuiling uit verkeer en industrie. <a href="https://doi.org/10.1016/j.jdermsci.2016.09.015" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Krutmann et al., 2017</a> toonden aan dat fijnstof en stikstofoxide verergering microontsteking in de huid veroorzaken, wat roodheid en pigmentatieproblemen verergert.</li>
-<li><strong>Klimaat:</strong> De winters zijn koud en vochtig (maar niet extreem zonnig). Dit zorgt voor ruw, droog gezicht door wind- en vochtigverlies, maar minder ernstige UV-schade dan zuidelijke landen.</li>
-<li><strong>Maatschappelijke verwachtingen:</strong> Amsterdam waardeert echte beauty, maar ook ondergrondse genezing. Veel Amsterdammers willen "grooming" meer dan "cosmetic surgery."</li>
+<ul>
+<li><strong>Laserontharing</strong> met de GentleMax Pro Plus, voor langdurige haarreductie. Lees <a href="/journal/laser-guide">wat je moet weten voor je eerste sessie</a>.</li>
+<li><strong>Deep Cleansing Facial.</strong> Een grondige reiniging met de hand, voor een verstopte, vette of doffe huid.</li>
+<li><strong>Glacē Glow Facial.</strong> Hydrodermabrasie met de Glacē van Candela, voor een doffe of vochtarme huid.</li>
 </ul>
 
-<h3>Seizoensgebonden huidverzorgingsstrategie voor Amsterdam</h3>
+<p>Welke facial bij je past, lees je in <a href="/journal/deep-vs-glace">Deep Cleansing of Glacē Glow</a>. Het zijn verzorgende, cosmetische behandelingen. Huidziekten behandelen wij niet.</p>
 
-<table style="width:100%;border-collapse:collapse;margin:20px 0;">
-<tr style="background-color:#f5f5f5;">
-<th style="border:1px solid #ddd;padding:10px;text-align:left;">Seizoen</th>
-<th style="border:1px solid #ddd;padding:10px;text-align:left;">Primaire huiduitdaging</th>
-<th style="border:1px solid #ddd;padding:10px;text-align:left;">Mogelijke aanpak</th>
-</tr>
-<tr>
-<td style="border:1px solid #ddd;padding:10px;">Winter (dec–feb)</td>
-<td style="border:1px solid #ddd;padding:10px;">Droogte, ruwheid, wind-schade</td>
-<td style="border:1px solid #ddd;padding:10px;">Glacē voor hydratatie; thuis retinoid (nacht)</td>
-</tr>
-<tr style="background-color:#f9f9f9;">
-<td style="border:1px solid #ddd;padding:10px;">Lente (mrt–mei)</td>
-<td style="border:1px solid #ddd;padding:10px;">Herstel, verhoogde UV</td>
-<td style="border:1px solid #ddd;padding:10px;">Combinatie Glacē + licht laser voor pigmentatie</td>
-</tr>
-<tr>
-<td style="border:1px solid #ddd;padding:10px;">Zomer (jun–aug)</td>
-<td style="border:1px solid #ddd;padding:10px;">Zonneschade, pigmentatie, dehydratatie</td>
-<td style="border:1px solid #ddd;padding:10px;">Dagelijks SPF 30+; minimale professionele behandeling</td>
-</tr>
-<tr style="background-color:#f9f9f9;">
-<td style="border:1px solid #ddd;padding:10px;">Herfst (sep–nov)</td>
-<td style="border:1px solid #ddd;padding:10px;">Vernieuwing, voorbereiding voor winter</td>
-<td style="border:1px solid #ddd;padding:10px;">Meer agressieve lasertherapie; collageen-induction</td>
-</tr>
-</table>
+<h3>Elke huid, elk huidtype</h3>
 
-<h3>Huidaandoening → aanbevolen behandeling</h3>
+<p>In Amsterdam wonen mensen met alle huidtypen, van zeer licht tot zeer donker. Dat is voor ons een reden om te werken met een laser die volgens de Amerikaanse toelating voor alle huidtypen bedoeld is, en om bij een lasertraject eerst een proefplekje te behandelen.</p>
 
-<table style="width:100%;border-collapse:collapse;margin:20px 0;">
-<tr style="background-color:#f5f5f5;">
-<th style="border:1px solid #ddd;padding:10px;text-align:left;">Huidaandoening</th>
-<th style="border:1px solid #ddd;padding:10px;text-align:left;">Primaire behandeling</th>
-<th style="border:1px solid #ddd;padding:10px;text-align:left;">Aanvullende optie</th>
-</tr>
-<tr>
-<td style="border:1px solid #ddd;padding:10px;">Acnelittekens</td>
-<td style="border:1px solid #ddd;padding:10px;">Gefractionaleerde laser</td>
-<td style="border:1px solid #ddd;padding:10px;">Microneedling; chemische peel</td>
-</tr>
-<tr style="background-color:#f9f9f9;">
-<td style="border:1px solid #ddd;padding:10px;">Melasma/pigmentatie</td>
-<td style="border:1px solid #ddd;padding:10px;">Nd:YAG pigment-laser</td>
-<td style="border:1px solid #ddd;padding:10px;">Topicale hydroquinon; dagelijks SPF</td>
-</tr>
-<tr>
-<td style="border:1px solid #ddd;padding:10px;">Fijne lijnen/rimpels</td>
-<td style="border:1px solid #ddd;padding:10px;">Glacē of microfocused ultrasound</td>
-<td style="border:1px solid #ddd;padding:10px;">Retinoid serum (thuisverzorging)</td>
-</tr>
-<tr style="background-color:#f9f9f9;">
-<td style="border:1px solid #ddd;padding:10px;">Vergrote poriën</td>
-<td style="border:1px solid #ddd;padding:10px;">Glacē + radiofrequentie</td>
-<td style="border:1px solid #ddd;padding:10px;">Niacinamide serum (thuis)</td>
-</tr>
-<tr>
-<td style="border:1px solid #ddd;padding:10px;">Rosacea/erythema</td>
-<td style="border:1px solid #ddd;padding:10px;">Vascular laser (groene of gele laser)</td>
-<td style="border:1px solid #ddd;padding:10px;">Topische anti-inflammatoire</td>
-</tr>
-<tr style="background-color:#f9f9f9;">
-<td style="border:1px solid #ddd;padding:10px;">Dofheid/dehydratatie</td>
-<td style="border:1px solid #ddd;padding:10px;">Candela Glacē</td>
-<td style="border:1px solid #ddd;padding:10px;">Hyaluronzuur serum (thuis)</td>
-</tr>
-</table>
+<p>Meer daarover lees je in <a href="/journal/skin-types">Huidtype I t/m VI</a> en in <a href="/journal/laser-donkere-huid">Laserontharing bij een donkere huid</a>.</p>
 
-<h3>Wat SkinTech anders wil doen dan een schoonheidssalon</h3>
+<h3>Wat je zelf doet</h3>
 
-<p>SkinTech kiest voor apparatuur die ook in dermatologische klinieken wordt gebruikt: de Candela Glacē, de Candela GentleMax Pro Plus met een Nd:YAG-laser en de Observ 520x voor huidanalyse.</p>
+<p>Wat je thuis doet, telt elke dag mee. Begin bij de zon. De Nederlandse Vereniging voor Dermatologie en Venereologie (NVDV) noemt schaduw en kleding als eerste bescherming. Voor vrije tijd en vakantie adviseert de vereniging een zonnebrandcrème met factor 30, dik gesmeerd en om de paar uur opnieuw.</p>
 
-<h3>Retinoids en huidveroudering: integratieve benadering</h3>
+<p>Voor de rest van je verzorging bestaat geen advies dat voor iedereen klopt. Daarom krijg je bij de huidscan een persoonlijk verzorgingsplan.</p>
 
-<p><a href="https://doi.org/10.1111/j.1365-2230.2006.02238.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Mukherjee et al., 2006</a> toonden aan dat retinoids een van de meest bewezen anti-aging-ingrediënten zijn—ze stimuleren collageen-synthese en verminderen fijne lijnen.</p>
+<h3>Wanneer je naar de huisarts gaat</h3>
 
-<h3>Amsterdam's internationale gemeenschappen: uw huid, uw taal</h3>
+<p>Heb je een huidaandoening, zoals acne, eczeem of rosacea, of een plekje waar je je zorgen over maakt? Ga dan naar je huisarts. Die kan je zo nodig doorverwijzen naar een dermatoloog. Een huidkliniek is er voor verzorging en ontharing, niet voor een diagnose of een medische behandeling.</p>
 
-<p>SkinTech wil er zijn voor alle Amsterdammers, ook voor wie zich afvraagt of een standaardbehandeling wel bij zijn of haar huidtype past. De Nd:YAG-laser in de GentleMax Pro Plus is volgens de fabrikant geschikt voor de donkerdere huidtypes, en onze website en communicatie zijn er in het Nederlands en het Engels.</p>
+<h3>Wanneer kun je terecht?</h3>
 
-<h3>Je volgende stap: de wachtlijst</h3>
+<p>SkinTech Laser Clinic opent in het tweede kwartaal van 2027 in Amsterdam. Tot die tijd kun je je op de <a href="/contact">wachtlijst</a> zetten. De behandelingen en prijzen staan op de pagina <a href="/services">Behandelingen</a>.</p>
 
-<p>Of het nu gaat om ongewenste haargroei, een doffe huid of verstopte poriën: een goed plan begint met kijken. SkinTech Laser Clinic Amsterdam opent in het tweede kwartaal van 2027 met een gratis huidscan en een persoonlijk consult. Zet je op de wachtlijst, dan hoor je het als eerste.</p>
+<h3>Bronnen</h3>
 
-<p>Amsterdam verdient huidzorg met goede apparatuur en kennis van diverse huidtypes. Daar bouwen wij aan.</p>
-    `,
+<ul>
+<li>Nederlandse Vereniging voor Dermatologie en Venereologie (NVDV), <a href="https://www.nvdv.nl/wp-content/uploads/Standpunt-zonbescherming.pdf" target="_blank" rel="noopener">Standpunt Zonbescherming</a>, 10 maart 2019 (pdf).</li>
+<li>U.S. Food and Drug Administration (FDA), toelating K201111 voor de Candela GentleMax Pro Plus, 26 mei 2020, <a href="https://www.accessdata.fda.gov/cdrh_docs/pdf20/K201111.pdf" target="_blank" rel="noopener">samenvatting (pdf)</a>.</li>
+<li>De beschrijving van onze eigen behandelingen komt van ons <a href="/services">behandelmenu</a>.</li>
+</ul>
+
+<p><em>Dit artikel geeft algemene informatie en vervangt geen persoonlijk advies. Herschreven en bronnen gecontroleerd in november 2026.</em></p>
+`,
     bodyEn: `
-<h3>Skin Improvement in Amsterdam: Your Complete Guide to Professional Skincare</h3>
+<p>More even, calmer or smoother skin: skin improvement is a broad term. What can a skin clinic do for you, what do you do yourself, and when is it better to see your GP? An overview, with what SkinTech is going to offer in Amsterdam.</p>
 
-<p>People of more than 170 nationalities live in Amsterdam. That makes the city special when it comes to skincare: highly diverse skin types, a changeable climate and the effects of city life. Products for home use play a role, but a professional treatment can go deeper than is possible at home. SkinTech Laser Clinic Amsterdam opens in the second quarter of 2027 and focuses on laser hair removal, facial treatments and skin analysis.</p>
+<h3>Start with what your skin needs</h3>
 
-<h3>Professional Skin Improvement vs. At-Home Skincare: What's the Difference?</h3>
+<p>No two skins are the same. That is why a course with us will start with a free skin scan and a conversation. The scan shows your skin in different kinds of light. The conversation is about what you want to achieve and what you already do. You go home with a written care plan.</p>
 
-<p>At-home products can hydrate skin and prevent dryness, but they cannot penetrate deep into the dermis—the underlying layer where collagen, elastin, and pigmentation are truly determined. Professional treatments use clinical equipment that can deliver light, heat, or mechanical energy at levels simply not possible at home.</p>
+<p>How the scan works, and what it does and does not show, is explained in <a href="/en/journal/sylton-scan">our article on the Observ 520x</a>.</p>
 
-<p>At SkinTech, every plan will start with a skin scan with the Observ 520x, a skin analysis system that shows the skin in different light modes. It makes visible what the naked eye cannot see, such as early pigmentation, texture changes and dehydrated skin. On that basis we make a personal treatment plan.</p>
+<h3>What a skin clinic can do</h3>
 
-<h3>Common Skin Concerns in the City</h3>
+<p>SkinTech focuses on three things:</p>
 
-<p><strong>Acne scarring:</strong> Many Amsterdammers struggled with acne in their youth. Modern laser work can use fractional light therapy to remodel scars.</p>
-
-<p><strong>Pigmentation issues:</strong> Melasma (dark brown patches), sun pigmentation, and other hyperpigmentation are widespread, especially among people with higher UV exposure or genetic susceptibility. <a href="https://doi.org/10.1016/j.jdermsci.2016.09.015" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Krutmann et al., 2017</a> documented that urban pollution triggers micro-inflammation that worsens pigmentation problems.</p>
-
-<p><strong>Texture changes:</strong> Roughness, enlarged pores, and fine lines result from collagen breakdown. This can be addressed with combination therapies.</p>
-
-<p><strong>Dullness and dehydration:</strong> Amsterdam's cooler, humidity-fluctuating climate increases epidermal water loss, causing a dull, slack appearance.</p>
-
-<p><strong>Rosacea:</strong> Facial flushing, erythematous (red) skin, and sometimes pustules. This responds well to targeted laser treatment.</p>
-
-<h3>How SkinTech Will Work: Three Steps</h3>
-
-<p><strong>Step 1: skin scan</strong> — We will look at your skin with the Observ 520x in different light modes. This shows what the naked eye cannot see.</p>
-
-<p><strong>Step 2: personal treatment plan</strong> — Based on the scan and on what you want to achieve, we will propose a plan. Sometimes that is one treatment, sometimes a series.</p>
-
-<p><strong>Step 3: treat and follow up</strong> — Where it fits, we will combine treatments across successive weeks. A new scan will show how your skin responds.</p>
-
-<h3>Treatments in Brief</h3>
-
-<p><strong>Candela Glacē Facial</strong></p>
-
-<p>According to the manufacturer, the Glacē Glow Facial combines hydrodermabrasion, a cupping massage and LED light. The treatment is aimed at purified, hydrated skin and will be the lightest treatment on our menu.</p>
-
-<p><strong>Deep Cleansing</strong></p>
-
-<p>For people with congested pores, sebaceous filaments (blackheads/whiteheads), or acne-prone skin. This can be used as standalone or as preparation for laser therapy.</p>
-
-<p><strong>Combination Treatments: Glacē + Laser</strong></p>
-
-<p>For more aggressive skin improvement: first a Glacē session (preparation and inflammation reduction), followed by laser therapy for pigmentation, scars, or vascular lesions. This maximizes results and minimizes recovery time.</p>
-
-<h3>Why Amsterdam Has Specific Skincare Needs</h3>
-
-<p>Amsterdam is not typical Netherlands. It's a megacity with:</p>
-
-<ul style="margin:15px 0;padding-left:20px;">
-<li><strong>Extreme diversity:</strong> Large Surinamese, Turkish, Moroccan, Indonesian, Chinese, and West African communities mean highly diverse Fitzpatrick spectrum (types I–VI).</li>
-<li><strong>Urban pollution:</strong> Amsterdam has light air pollution from traffic and industry. <a href="https://doi.org/10.1016/j.jdermsci.2016.09.015" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Krutmann et al., 2017</a> showed that particulate matter and nitrogen oxide trigger micro-inflammation in skin, worsening redness and pigmentation problems.</li>
-<li><strong>Climate:</strong> Winters are cold and humid (but not extremely sunny). This causes rough, dry skin from wind and moisture loss, but less severe UV damage than southern countries.</li>
-<li><strong>Cultural values:</strong> Amsterdam values genuine beauty, but also minimal intervention. Many Amsterdammers want "grooming" more than "cosmetic surgery."</li>
+<ul>
+<li><strong>Laser hair removal</strong> with the GentleMax Pro Plus, for long-term hair reduction. Read <a href="/en/journal/laser-guide">what you need to know before your first session</a>.</li>
+<li><strong>Deep Cleansing Facial.</strong> A thorough cleanse by hand, for congested, oily or dull skin.</li>
+<li><strong>Glacē Glow Facial.</strong> Hydrodermabrasion with the Glacē by Candela, for dull or dehydrated skin.</li>
 </ul>
 
-<h3>Seasonal Skincare Strategy for Amsterdam</h3>
+<p>Which facial suits you is explained in <a href="/en/journal/deep-vs-glace">Deep Cleansing or Glacē Glow</a>. These are cosmetic care treatments. We do not treat skin diseases.</p>
 
-<table style="width:100%;border-collapse:collapse;margin:20px 0;">
-<tr style="background-color:#f5f5f5;">
-<th style="border:1px solid #ddd;padding:10px;text-align:left;">Season</th>
-<th style="border:1px solid #ddd;padding:10px;text-align:left;">Primary Skin Challenge</th>
-<th style="border:1px solid #ddd;padding:10px;text-align:left;">Possible Approach</th>
-</tr>
-<tr>
-<td style="border:1px solid #ddd;padding:10px;">Winter (Dec–Feb)</td>
-<td style="border:1px solid #ddd;padding:10px;">Dryness, roughness, wind damage</td>
-<td style="border:1px solid #ddd;padding:10px;">Glacē for hydration; at-home retinoid (night)</td>
-</tr>
-<tr style="background-color:#f9f9f9;">
-<td style="border:1px solid #ddd;padding:10px;">Spring (Mar–May)</td>
-<td style="border:1px solid #ddd;padding:10px;">Recovery, increased UV</td>
-<td style="border:1px solid #ddd;padding:10px;">Combination Glacē + light laser for pigmentation</td>
-</tr>
-<tr>
-<td style="border:1px solid #ddd;padding:10px;">Summer (Jun–Aug)</td>
-<td style="border:1px solid #ddd;padding:10px;">Sun damage, pigmentation, dehydration</td>
-<td style="border:1px solid #ddd;padding:10px;">Daily SPF 30+; minimal professional treatment</td>
-</tr>
-<tr style="background-color:#f9f9f9;">
-<td style="border:1px solid #ddd;padding:10px;">Autumn (Sep–Nov)</td>
-<td style="border:1px solid #ddd;padding:10px;">Renewal, winter preparation</td>
-<td style="border:1px solid #ddd;padding:10px;">More aggressive laser therapy; collagen induction</td>
-</tr>
-</table>
+<h3>Every skin, every skin type</h3>
 
-<h3>Skin Concern → Recommended Treatment</h3>
+<p>People with every skin type live in Amsterdam, from very fair to very dark. For us that is a reason to work with a laser that, according to its American clearance, is intended for all skin types, and to treat a test patch first in a laser course.</p>
 
-<table style="width:100%;border-collapse:collapse;margin:20px 0;">
-<tr style="background-color:#f5f5f5;">
-<th style="border:1px solid #ddd;padding:10px;text-align:left;">Skin Concern</th>
-<th style="border:1px solid #ddd;padding:10px;text-align:left;">Primary Treatment</th>
-<th style="border:1px solid #ddd;padding:10px;text-align:left;">Complementary Option</th>
-</tr>
-<tr>
-<td style="border:1px solid #ddd;padding:10px;">Acne scars</td>
-<td style="border:1px solid #ddd;padding:10px;">Fractional laser</td>
-<td style="border:1px solid #ddd;padding:10px;">Microneedling; chemical peel</td>
-</tr>
-<tr style="background-color:#f9f9f9;">
-<td style="border:1px solid #ddd;padding:10px;">Melasma/pigmentation</td>
-<td style="border:1px solid #ddd;padding:10px;">Nd:YAG pigment laser</td>
-<td style="border:1px solid #ddd;padding:10px;">Topical hydroquinone; daily SPF</td>
-</tr>
-<tr>
-<td style="border:1px solid #ddd;padding:10px;">Fine lines/wrinkles</td>
-<td style="border:1px solid #ddd;padding:10px;">Glacē or microfocused ultrasound</td>
-<td style="border:1px solid #ddd;padding:10px;">Retinoid serum (at-home)</td>
-</tr>
-<tr style="background-color:#f9f9f9;">
-<td style="border:1px solid #ddd;padding:10px;">Enlarged pores</td>
-<td style="border:1px solid #ddd;padding:10px;">Glacē + radiofrequency</td>
-<td style="border:1px solid #ddd;padding:10px;">Niacinamide serum (at-home)</td>
-</tr>
-<tr>
-<td style="border:1px solid #ddd;padding:10px;">Rosacea/erythema</td>
-<td style="border:1px solid #ddd;padding:10px;">Vascular laser (green or yellow laser)</td>
-<td style="border:1px solid #ddd;padding:10px;">Topical anti-inflammatory</td>
-</tr>
-<tr style="background-color:#f9f9f9;">
-<td style="border:1px solid #ddd;padding:10px;">Dullness/dehydration</td>
-<td style="border:1px solid #ddd;padding:10px;">Candela Glacē</td>
-<td style="border:1px solid #ddd;padding:10px;">Hyaluronic acid serum (at-home)</td>
-</tr>
-</table>
+<p>You can read more in <a href="/en/journal/skin-types">Skin type I to VI</a> and in <a href="/en/journal/laser-donkere-huid">Laser hair removal for dark skin</a>.</p>
 
-<h3>What SkinTech Wants to Do Differently from a Beauty Salon</h3>
+<h3>What you do yourself</h3>
 
-<p>SkinTech is choosing equipment that is also used in dermatology clinics: the Candela Glacē, the Candela GentleMax Pro Plus with an Nd:YAG laser, and the Observ 520x for skin analysis.</p>
+<p>What you do at home counts every day. Start with the sun. The Dutch Society for Dermatology and Venereology (NVDV) names shade and clothing as the first protection. For leisure and holidays the society advises a sunscreen with factor 30, applied thickly and again every few hours.</p>
 
-<h3>Retinoids and Skin Aging: An Integrative Approach</h3>
+<p>For the rest of your routine there is no advice that is right for everyone. That is why you get a personal care plan at the skin scan.</p>
 
-<p><a href="https://doi.org/10.1111/j.1365-2230.2006.02238.x" target="_blank" rel="noopener" style="color:var(--bronze-deep);">Mukherjee et al., 2006</a> showed that retinoids are among the most proven anti-aging ingredients—they stimulate collagen synthesis and reduce fine lines.</p>
+<h3>When to see your GP</h3>
 
-<h3>Amsterdam's International Communities: Your Skin, Your Language</h3>
+<p>Do you have a skin condition such as acne, eczema or rosacea, or a spot you are worried about? Then see your GP, who can refer you to a dermatologist if needed. A skin clinic is there for care and hair removal, not for a diagnosis or medical treatment.</p>
 
-<p>SkinTech wants to be there for all Amsterdammers, including anyone wondering whether a standard treatment suits their skin type. According to the manufacturer, the Nd:YAG laser in the GentleMax Pro Plus is suited to darker skin types, and our website and communication are available in Dutch and English.</p>
+<h3>When can you come?</h3>
 
-<h3>Your Next Step: the Waiting List</h3>
+<p>SkinTech Laser Clinic opens in Amsterdam in the second quarter of 2027. Until then you can join the <a href="/en/contact">waiting list</a>. The treatments and prices are on the <a href="/en/services">Treatments</a> page.</p>
 
-<p>Whether it is unwanted hair, dull skin or clogged pores: a good plan starts with looking. SkinTech Laser Clinic Amsterdam opens in the second quarter of 2027 with a free skin scan and a personal consultation. Join the waiting list and you will be the first to hear.</p>
+<h3>Sources</h3>
 
-<p>Amsterdam deserves skincare with good equipment and knowledge of diverse skin types. That is what we are building.</p>
-    `
+<ul>
+<li>Dutch Society for Dermatology and Venereology (NVDV), position paper on sun protection, <a href="https://www.nvdv.nl/wp-content/uploads/Standpunt-zonbescherming.pdf" target="_blank" rel="noopener">Standpunt Zonbescherming</a>, 10 March 2019 (pdf, in Dutch).</li>
+<li>U.S. Food and Drug Administration (FDA), clearance K201111 for the Candela GentleMax Pro Plus, 26 May 2020, <a href="https://www.accessdata.fda.gov/cdrh_docs/pdf20/K201111.pdf" target="_blank" rel="noopener">summary (pdf)</a>.</li>
+<li>The description of our own treatments comes from our <a href="/en/services">treatment menu</a>.</li>
+</ul>
+
+<p><em>This article gives general information and does not replace personal advice. Rewritten and sources checked in November 2026.</em></p>
+`
   }
 }
