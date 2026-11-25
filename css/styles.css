@@ -1125,6 +1125,30 @@ section {
   font-style: italic;
 }
 
+.result-card .credit {
+  padding: 0 28px 22px;
+  margin-top: -10px;
+  font-size: 11px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: rgba(245,239,228,0.5);
+}
+
+.result-imgs.stack {
+  grid-template-columns: 1fr;
+  grid-template-rows: minmax(0, 1fr) minmax(0, 1fr);
+}
+
+.result-imgs.stack .result-img {
+  min-height: 0;
+  overflow: hidden;
+}
+
+.result-imgs.stack .result-img + .result-img {
+  border-left: 0;
+  border-top: 1px solid var(--line-dark);
+}
+
 @media (max-width: 900px) {
   .results-grid {
     grid-template-columns: 1fr;
