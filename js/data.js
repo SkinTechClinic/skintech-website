@@ -150,11 +150,11 @@ const SERVICES = [
   },
   { id:'glace', num:'03', name:'Glacē Glow Facial', italic:'Glow', nav:'Glacē Glow Facial', duration:'45–60 min', sessions:'Seizoensgebonden',
     img:'/assets/service-glace.webp',
-    blurb:'Cryo-geïnfuseerde lichtheid met een verfijnde, lit-from-within afwerking.',
-    desc:'Onze signature cold-therapy-behandeling combineert cryo-modulatie met een voedende infusie. De huid oogt direct fris, gelift en zichtbaar stralend.',
+    blurb:'Hydrodermabrasie met de Glacē: reinigen, exfoliëren en hydrateren in één behandeling.',
+    desc:'Onze Glow Facial is gebouwd rond de Glacē van Candela. Het apparaat exfolieert de huid terwijl serums eroverheen stromen, gevolgd door een cupping-massage en ledlicht. We sluiten koel af met de Cryo 7.',
     forWho:'Voor iedereen die zich voorbereidt op een moment — of gewoon een betere spiegel wenst op een doordeweekse dag.',
-    benefits:['Direct zichtbaar gelift effect','Minder zwelling en roodheid','Helderdere, gelijkmatiger huidtoon','Geen hersteltijd'],
-    expect:'Een koele, bijna ceremoniële behandeling waarbij Glacē en Cryo 7 in stille afwisseling samenwerken.',
+    benefits:['Reinigt en exfolieert de huid','Hydrateert met serums op maat','Cupping-massage en ledlicht','Weinig tot geen hersteltijd, volgens de fabrikant'],
+    expect:'Een rustige behandeling in stappen: reinigen en exfoliëren, serums, een cupping-massage en een koele afsluiting met ledlicht en de Cryo 7.',
     pricing:[
       {label:'Enkele behandeling', value:'€125'},
       {label:'Kuur van 3 behandelingen', value:'€330'},
@@ -166,7 +166,7 @@ const SERVICES = [
   { id:'scan', num:'04', name:'Gratis huidscan & consult', italic:'huidscan', nav:'Gratis huidscan', duration:'45 min', sessions:'Jaarlijks',
     img:'/assets/service-scan.webp',
     blurb:'Een technologie-gedreven lezing van je huid, van oppervlak tot diepere lagen.',
-    desc:'Een diagnostische sessie met onze Sylton Observ 520x, die pigmentatie, hydratatie, textuur en onderliggende kenmerken in kaart brengt. Je verlaat de kliniek met een geschreven verzorgingsplan — geen verkoopgesprek.',
+    desc:'Een sessie met onze Sylton Observ 520x, die je gezicht in verschillende soorten licht fotografeert en pigmentatie, roodheid en textuur zichtbaar maakt. Je verlaat de kliniek met een geschreven verzorgingsplan — geen verkoopgesprek.',
     forWho:'Voor iedereen die een behandeltraject start, of gewoon helderheid wil over wat de huid werkelijk nodig heeft.',
     benefits:['Multi-spectrum beeldvorming','Persoonlijk, geschreven behandelplan','Vrijblijvend consult','Nulmeting voor voortgangscontrole'],
     expect:'Een rustig gesprek, een korte scan en een volwassen advies waar je op kunt bouwen.',
@@ -204,16 +204,16 @@ const TECH = [
     p1:'Klinisch gedoseerde koude vermindert ontsteking, kalmeert een reactieve huid en zorgt voor die onmiddellijk geliftte, ontzwollen finish die onze behandelingen typeert. Inzetbaar naast facials en als losse herstelstap.',
     p2:'Koude is hier geen straf — het is sculpting. De huid voelt wakker en verfijnd, zonder de roodheid die warmtebehandelingen achterlaten.'
   },
-  { id:'glace', name:'Glacē', sub:'Cryo-infusion facial systeem', type:'Signature facial', region:'Gezicht, hals, décolleté', tones:'Alle huidtypes',
-    p1:'De kern van ons Glow-protocol. Glacē combineert koudetherapie met een gerichte infusie van actieve ingrediënten, waardoor werkzame stoffen dieper worden opgenomen terwijl het oppervlak tot rust komt. Het resultaat: de verfijnde, lit-from-within uitstraling die je op de dag zelf direct ziet.',
-    p2:'Geen hersteltijd, direct zichtbaar effect, veilig voor de gevoelige huid.'
+  { id:'glace', name:'Glacē', sub:'Hydrodermabrasie-systeem van Candela', type:'Signature facial', region:'Gezicht, hals, décolleté', tones:'Veel huidtypes',
+    p1:'De kern van onze Glow Facial. Volgens Candela combineert de Glacē hydrodermabrasie met een cupping-massage en ledlicht: een opzetstuk exfolieert de huid terwijl serums eroverheen stromen, waarna een massage en een kalmerende afsluiting volgen.',
+    p2:'Candela noemt de behandeling geschikt voor veel huidtypen, met weinig tot geen hersteltijd. Het is verzorging: de Glacē is niet bedoeld om huidaandoeningen te behandelen.'
   },
   { id:'ionto', name:'IONTO Beauty Tower + Peel Sono', sub:'Professioneel multi-modaliteit station', type:'Facial support', region:'Gezicht', tones:'Alle huidtypes',
     p1:'Ons behandeltorencomplex bundelt vapor, galvanische en hoogfrequente stromen, Peel Sono-ultrasoon en microdermabrasie in één clinical-grade unit. Het vormt de ruggengraat van elke facial die we leveren — van diepe reiniging tot verfijnde afwerking.',
     p2:'Het is, kortweg, het stille werkpaard van de behandelruimte. De huid krijgt er precies wat ze nodig heeft, zonder overbehandeling.'
   },
   { id:'scanner', name:'Sylton Observ 520x', sub:'Multi-spectrum huidanalyse', type:'Consult', region:'Gezicht', tones:'Alle huidtypes',
-    p1:'Onze huidscanner leest pigmentatie, vasculaire patronen, hydratatie en porietoestand uit op meerdere lichtspectra. Het is het startpunt van elk doordacht behandelplan — en een nulmeting waar we op lange termijn steeds naar terugkeren.',
+    p1:'Onze huidscanner fotografeert je gezicht in verschillende soorten licht en maakt pigmentatie, roodheid en textuur zichtbaar. Het is het startpunt van elk doordacht behandelplan — en een nulmeting waar we op lange termijn steeds naar terugkeren.',
     p2:'Jouw huid, gemeten — niet ingeschat.'
   },
 ];
@@ -224,7 +224,7 @@ const FAQS = [
   { q:'Voel ik veel tijdens de behandeling?', a:'De laser voelt voor de meeste mensen als een warme elastische knip, verzacht door de geïntegreerde koeling. Facials zijn kalmerend of verfrissend-koel. Verdoving is in de regel niet nodig, en we pauzeren op elk moment dat jij dat wilt.' },
   { q:'Hoe bereid ik me voor op mijn eerste sessie?', a:'Vermijd directe zon en zelfbruiner twee weken van tevoren, en laat de behandelzone vier weken met rust (niet harsen of epileren). Scheer de zone 24 uur voor je afspraak. Kom met een schone huid — geen crème of deodorant in de zone. Je ontvangt bij je boeking een volledig voorbereidings­advies.' },
   { q:'Hoe ziet de nazorg eruit?', a:'Reken op milde warmte of roodheid gedurende enkele uren. Gebruik de eerste week SPF 50, vermijd sauna, intensief sporten en hete douches de eerste 24 uur, en laat actieve ingrediënten (retinol, zuren) 3 tot 5 dagen achterwege. Drink goed en wees zacht voor de huid — van binnen en van buiten.' },
-  { q:'Wat is het verschil tussen de Deep Cleansing en de Glacē Glow?', a:'De Deep Cleansing Facial is een verhelderende reset, opgebouwd rond extracties en het herstellen van de balans — ideaal wanneer de huid verstopt of reactief aanvoelt. De Glacē Glow is een koudetherapieritueel dat lift, ontzwelt en direct laat stralen. Veel cliënten wisselen beide behandelingen per seizoen af.' },
+  { q:'Wat is het verschil tussen de Deep Cleansing en de Glacē Glow?', a:'De Deep Cleansing Facial is een verhelderende reset, opgebouwd rond extracties en het herstellen van de balans — ideaal wanneer de huid verstopt of reactief aanvoelt. De Glacē Glow is een behandeling met de Glacē van Candela: reinigen, exfoliëren en hydrateren, met een cupping-massage en ledlicht. Je kunt beide behandelingen ook afwisselen, bijvoorbeeld per seizoen.' },
   { q:'Heb ik een consult nodig vóór de behandeling?', a:'Ja — elke nieuwe cliënt begint met een huidscan en consult. Zo kunnen we je huid lezen, je doelen begrijpen en een onderbouwd plan schrijven. De huidscan is altijd gratis en volledig vrijblijvend.' },
   { q:'Wat kost een behandeling?', a:'Onze tarieven liggen in lijn met wat je van een boutique laserkliniek mag verwachten. Exacte prijzen verschillen per zone, huidtype en behandeldoel en bespreken we transparant tijdens de gratis huidscan. Kuren zijn altijd voordeliger dan losse sessies.' },
   { q:'Kan ik al een afspraak maken?', a:'Nog niet. SkinTech Laser Clinic opent naar verwachting in het tweede kwartaal van 2027. Via de wachtlijst op deze site kies je de behandeling waarin je geïnteresseerd bent en laat je je gegevens achter. Zodra de agenda opengaat, krijg je van ons één persoonlijk bericht.' },
@@ -486,11 +486,11 @@ const SERVICES_EN = [
   },
   { id:'glace', num:'03', name:'Glacē Glow Facial', italic:'Glow', nav:'Glacē Glow Facial', duration:'45–60 min', sessions:'Seasonal',
     img:'/assets/service-glace.webp',
-    blurb:'Cryo-infused luminosity with a refined, lit-from-within finish.',
-    desc:'Our signature cold-therapy facial combines cryo modulation with nutrient infusion. Skin looks immediately fresh, lifted and visibly glowing.',
+    blurb:'Hydrodermabrasion with the Glacē: cleansing, exfoliating and hydrating in one treatment.',
+    desc:'Our Glow Facial is built around the Glacē by Candela. The device exfoliates the skin while serums flow over it, followed by a cupping massage and LED light. We finish cool with the Cryo 7.',
     forWho:'Anyone preparing for a moment — or simply wanting a better mirror on an ordinary day.',
-    benefits:['Instantly visible lift','Reduced swelling and redness','Brighter, more even skin tone','Zero downtime'],
-    expect:'A cool, ceremonial experience with the Glacē and Cryo 7 systems working in quiet sequence.',
+    benefits:['Cleanses and exfoliates the skin','Hydrates with serums chosen for your skin','Cupping massage and LED light','Little to no downtime, according to the manufacturer'],
+    expect:'A calm treatment in steps: cleansing and exfoliating, serums, a cupping massage and a cool finish with LED light and the Cryo 7.',
     pricing:[
       {label:'Single treatment', value:'€125'},
       {label:'Course of 3 treatments', value:'€330'},
@@ -502,7 +502,7 @@ const SERVICES_EN = [
   { id:'scan', num:'04', name:'Free Skin Scan & Consultation', italic:'Skin Scan', nav:'Free skin scan', duration:'45 min', sessions:'Annual',
     img:'/assets/service-scan.webp',
     blurb:'A technology-led reading of your skin, from surface to deeper layers.',
-    desc:'A diagnostic session with our Sylton Observ 520x, mapping pigmentation, hydration, texture and underlying concerns. You leave with a written care plan — not a sales pitch.',
+    desc:'A session with our Sylton Observ 520x, which photographs your face in different kinds of light and shows pigmentation, redness and texture. You leave with a written care plan — not a sales pitch.',
     forWho:'Anyone starting a treatment journey or wanting clarity on what their skin actually needs.',
     benefits:['Multi-spectrum imaging','Personal written treatment plan','No-obligation consultation','Baseline for progress tracking'],
     expect:'A calm conversation, a quick scan and a considered recommendation you can build on.',
@@ -540,16 +540,16 @@ const TECH_EN = [
     p1:'Clinically dosed cold reduces inflammation, calms reactive skin and creates the immediately lifted, visibly de-puffed finish that defines our treatments. Used alongside facials and as a standalone recovery step.',
     p2:"Cold isn't punishment here — it's sculpting. Skin feels awake and refined, without the redness that heat-based alternatives leave behind."
   },
-  { id:'glace', name:'Glacē', sub:'Cryo-infusion facial system', type:'Signature facial', region:'Face, neck, décolleté', tones:'All skin types',
-    p1:'The core of our Glow protocol. Glacē combines cold therapy with targeted active infusion, driving ingredients deeper while calming the surface. The result: the refined, lit-from-within appearance you see on the day itself.',
-    p2:'Zero downtime, immediate visible effect, safe for sensitive skin.'
+  { id:'glace', name:'Glacē', sub:'Hydrodermabrasion system by Candela', type:'Signature facial', region:'Face, neck, décolleté', tones:'Many skin types',
+    p1:'The core of our Glow Facial. According to Candela, the Glacē combines hydrodermabrasion with a cupping massage and LED light: a tip exfoliates the skin while serums flow over it, followed by a massage and a calming finish.',
+    p2:'Candela describes the treatment as suitable for many skin types, with little to no downtime. It is care: the Glacē is not intended to treat skin conditions.'
   },
   { id:'ionto', name:'IONTO Beauty Tower + Peel Sono', sub:'Professional multi-modality station', type:'Facial support', region:'Face', tones:'All skin types',
     p1:'Our treatment tower combines vapour, galvanic and high-frequency currents, Peel Sono ultrasound and microdermabrasion in one clinical-grade unit. It forms the backbone of every facial we deliver.',
     p2:'It is, simply put, the quiet workhorse of the treatment room. The skin receives exactly what it needs, without over-treatment.'
   },
   { id:'scanner', name:'Sylton Observ 520x', sub:'Multi-spectrum skin analysis', type:'Consultation', region:'Face', tones:'All skin types',
-    p1:"Our skin scanner reads pigmentation, vascular patterns, hydration and pore status across multiple light spectra. It's the starting point of every considered treatment plan — and a baseline we return to over time.",
+    p1:"Our skin scanner photographs your face in different kinds of light and shows pigmentation, redness and texture. It's the starting point of every considered treatment plan — and a baseline we return to over time.",
     p2:'Your skin, measured — not estimated.'
   },
 ];
@@ -560,7 +560,7 @@ const FAQS_EN = [
   { q:'Will I feel much during treatment?', a:'Laser is typically described as a warm elastic snap, softened by integrated cooling. Facials are calming or refreshingly cool. Numbing cream is not usually needed, and we pause at any point you ask.' },
   { q:'How do I prepare for my first session?', a:"Avoid direct sun and self-tanner for two weeks, do not wax or epilate for four weeks, and shave the zone 24 hours before your appointment. Come with clean skin — no cream or deodorant on the area. You'll receive a full pre-care guide when you book." },
   { q:'What does aftercare look like?', a:'Expect mild warmth or redness for a few hours. Use SPF 50 for the first week, avoid sauna, intense exercise and hot showers for 24 hours, and leave active ingredients (retinol, acids) aside for 3–5 days. Hydrate generously, inside and out.' },
-  { q:"What's the difference between Deep Cleansing and Glacē Glow?", a:'Deep Cleansing is a clarifying reset built around extractions and rebalancing — ideal when skin feels congested or reactive. Glacē Glow is a cold-therapy ritual that lifts, depuffs and brightens on the day. Many clients alternate between the two seasonally.' },
+  { q:"What's the difference between Deep Cleansing and Glacē Glow?", a:'Deep Cleansing is a clarifying reset built around extractions and rebalancing — ideal when skin feels congested or reactive. Glacē Glow is a treatment with the Glacē by Candela: cleansing, exfoliating and hydrating, with a cupping massage and LED light. You can also alternate between the two, for example each season.' },
   { q:'Do I need a consultation before treatment?', a:'Yes — every new client begins with a skin scan and consultation. We read your skin, understand your goals and write a plan. The skin scan is always free and completely no-obligation.' },
   { q:'What does a treatment cost?', a:"Our pricing is in line with what you'd expect from a boutique laser clinic. Exact prices vary by zone, skin type and treatment goal and are discussed transparently during the free skin scan. Courses are always more affordable than individual sessions." },
   { q:'Can I book an appointment yet?', a:'Not yet. SkinTech Laser Clinic is expected to open in the second quarter of 2027. Through the waiting list on this site you choose the treatment you are interested in and leave your details. As soon as booking opens, you will receive one personal message from us.' },
