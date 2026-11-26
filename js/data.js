@@ -202,7 +202,7 @@ const TECH = [
   },
   { id:'cryo7', name:'Cryo 7', sub:'Koude-luchtapparaat van Zimmer', type:'Huidkoeling', region:'Gezicht & lichaam', tones:'',
     p1:'De Cryo 7 van Zimmer MedizinSysteme koelt de huid met koude lucht (tot −30 °C), zonder de huid aan te raken. Zimmer noemt onder meer het gebruik bij dermatologische behandelingen, zoals lasertherapie.',
-    p2:'Bij SkinTech is de Cryo 7 er voor het comfort: als koele afsluiting van een facial, zoals bij de Glacē Glow Facial. De luchtstroom is in negen standen in te stellen.'
+    p2:'Bij SkinTech gebruiken we de Cryo 7 voor het comfort: tijdens laserontharing, zodat de behandeling prettiger aanvoelt, en als koele afsluiting van een facial, zoals bij de Glacē Glow Facial. De luchtstroom is in negen standen in te stellen.'
   },
   { id:'glace', name:'Glacē', sub:'Hydrodermabrasie-systeem van Candela', type:'Signature facial', region:'Gezicht, hals, décolleté', tones:'Veel huidtypes',
     p1:'De kern van onze Glow Facial. Volgens Candela combineert de Glacē hydrodermabrasie met een cupping-massage en ledlicht: een opzetstuk exfolieert de huid terwijl serums eroverheen stromen, waarna een massage en een kalmerende afsluiting volgen.',
@@ -538,7 +538,7 @@ const TECH_EN = [
   },
   { id:'cryo7', name:'Cryo 7', sub:'Cold-air device by Zimmer', type:'Skin cooling', region:'Face & body', tones:'',
     p1:'The Cryo 7 by Zimmer MedizinSysteme cools the skin with cold air (down to −30 °C), without touching the skin. Among its uses, Zimmer lists dermatology procedures such as laser therapy.',
-    p2:'At SkinTech the Cryo 7 is there for comfort: as the cool finish of a facial, as in the Glacē Glow Facial. The air flow can be set in nine levels.'
+    p2:'At SkinTech we use the Cryo 7 for comfort: during laser hair removal, so the treatment feels more pleasant, and as the cool finish of a facial, as in the Glacē Glow Facial. The air flow can be set in nine levels.'
   },
   { id:'glace', name:'Glacē', sub:'Hydrodermabrasion system by Candela', type:'Signature facial', region:'Face, neck, décolleté', tones:'Many skin types',
     p1:'The core of our Glow Facial. According to Candela, the Glacē combines hydrodermabrasion with a cupping massage and LED light: a tip exfoliates the skin while serums flow over it, followed by a massage and a calming finish.',
